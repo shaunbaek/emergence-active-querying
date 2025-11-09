@@ -6,7 +6,7 @@
     "target_type": "Towel",
     "goal_text": "Navigate to the Towel."
   },
-  "episode_time_sec": 6.896764500001154,
+  "episode_time_sec": 8.705427541000972,
   "steps": [
     {
       "step": 0,
@@ -21,14 +21,14 @@
       "repair_helpful": null,
       "action": "MoveAhead",
       "agent_position": {
-        "x": -2.0,
+        "x": -1.75,
         "y": 0.9016419649124146,
-        "z": -2.25
+        "z": -2.75
       },
       "target_visible": true,
-      "target_distance": 1.8331416845321655,
+      "target_distance": 2.2223541736602783,
       "memory_snapshot": [
-        "Previously saw Towel at distance 1.83 m near position x=-2.00, z=-2.25."
+        "Previously saw Towel at distance 2.22 m near position x=-1.75, z=-2.75."
       ],
       "message": "",
       "conversation_log": null
@@ -46,15 +46,15 @@
       "repair_helpful": null,
       "action": "MoveAhead",
       "agent_position": {
-        "x": -2.0,
+        "x": -1.75,
         "y": 0.9016419649124146,
-        "z": -2.0
+        "z": -2.5
       },
       "target_visible": true,
-      "target_distance": 1.6164493560791016,
+      "target_distance": 1.9852855205535889,
       "memory_snapshot": [
-        "Previously saw Towel at distance 1.83 m near position x=-2.00, z=-2.25.",
-        "Previously saw Towel at distance 1.62 m near position x=-2.00, z=-2.00."
+        "Previously saw Towel at distance 2.22 m near position x=-1.75, z=-2.75.",
+        "Previously saw Towel at distance 1.99 m near position x=-1.75, z=-2.50."
       ],
       "message": "",
       "conversation_log": null
@@ -72,16 +72,16 @@
       "repair_helpful": null,
       "action": "MoveAhead",
       "agent_position": {
-        "x": -2.0,
+        "x": -1.75,
         "y": 0.9016419649124146,
-        "z": -1.75
+        "z": -2.25
       },
       "target_visible": true,
-      "target_distance": 1.410818338394165,
+      "target_distance": 1.7518157958984375,
       "memory_snapshot": [
-        "Previously saw Towel at distance 1.83 m near position x=-2.00, z=-2.25.",
-        "Previously saw Towel at distance 1.62 m near position x=-2.00, z=-2.00.",
-        "Previously saw Towel at distance 1.41 m near position x=-2.00, z=-1.75."
+        "Previously saw Towel at distance 2.22 m near position x=-1.75, z=-2.75.",
+        "Previously saw Towel at distance 1.99 m near position x=-1.75, z=-2.50.",
+        "Previously saw Towel at distance 1.75 m near position x=-1.75, z=-2.25."
       ],
       "message": "",
       "conversation_log": null
@@ -99,17 +99,17 @@
       "repair_helpful": null,
       "action": "MoveAhead",
       "agent_position": {
-        "x": -2.0,
+        "x": -1.75,
         "y": 0.9016419649124146,
-        "z": -1.5
+        "z": -2.0
       },
       "target_visible": true,
-      "target_distance": 1.221846342086792,
+      "target_distance": 1.523600459098816,
       "memory_snapshot": [
-        "Previously saw Towel at distance 1.83 m near position x=-2.00, z=-2.25.",
-        "Previously saw Towel at distance 1.62 m near position x=-2.00, z=-2.00.",
-        "Previously saw Towel at distance 1.41 m near position x=-2.00, z=-1.75.",
-        "Previously saw Towel at distance 1.22 m near position x=-2.00, z=-1.50."
+        "Previously saw Towel at distance 2.22 m near position x=-1.75, z=-2.75.",
+        "Previously saw Towel at distance 1.99 m near position x=-1.75, z=-2.50.",
+        "Previously saw Towel at distance 1.75 m near position x=-1.75, z=-2.25.",
+        "Previously saw Towel at distance 1.52 m near position x=-1.75, z=-2.00."
       ],
       "message": "",
       "conversation_log": null
@@ -127,18 +127,18 @@
       "repair_helpful": null,
       "action": "MoveAhead",
       "agent_position": {
-        "x": -2.0,
+        "x": -1.75,
         "y": 0.9016419649124146,
-        "z": -1.25
+        "z": -1.75
       },
       "target_visible": true,
-      "target_distance": 1.0584934949874878,
+      "target_distance": 1.3034026622772217,
       "memory_snapshot": [
-        "Previously saw Towel at distance 1.83 m near position x=-2.00, z=-2.25.",
-        "Previously saw Towel at distance 1.62 m near position x=-2.00, z=-2.00.",
-        "Previously saw Towel at distance 1.41 m near position x=-2.00, z=-1.75.",
-        "Previously saw Towel at distance 1.22 m near position x=-2.00, z=-1.50.",
-        "Previously saw Towel at distance 1.06 m near position x=-2.00, z=-1.25."
+        "Previously saw Towel at distance 2.22 m near position x=-1.75, z=-2.75.",
+        "Previously saw Towel at distance 1.99 m near position x=-1.75, z=-2.50.",
+        "Previously saw Towel at distance 1.75 m near position x=-1.75, z=-2.25.",
+        "Previously saw Towel at distance 1.52 m near position x=-1.75, z=-2.00.",
+        "Previously saw Towel at distance 1.30 m near position x=-1.75, z=-1.75."
       ],
       "message": "",
       "conversation_log": null
@@ -154,21 +154,52 @@
       "role": "solo",
       "is_repair": false,
       "repair_helpful": null,
-      "action": "Done",
+      "action": "MoveAhead",
       "agent_position": {
-        "x": -2.0,
+        "x": -1.75,
         "y": 0.9016419649124146,
-        "z": -1.0
+        "z": -1.5
       },
       "target_visible": true,
-      "target_distance": 0.9342957139015198,
+      "target_distance": 1.0960649251937866,
       "memory_snapshot": [
-        "Previously saw Towel at distance 1.83 m near position x=-2.00, z=-2.25.",
-        "Previously saw Towel at distance 1.62 m near position x=-2.00, z=-2.00.",
-        "Previously saw Towel at distance 1.41 m near position x=-2.00, z=-1.75.",
-        "Previously saw Towel at distance 1.22 m near position x=-2.00, z=-1.50.",
-        "Previously saw Towel at distance 1.06 m near position x=-2.00, z=-1.25.",
-        "Previously saw Towel at distance 0.93 m near position x=-2.00, z=-1.00."
+        "Previously saw Towel at distance 2.22 m near position x=-1.75, z=-2.75.",
+        "Previously saw Towel at distance 1.99 m near position x=-1.75, z=-2.50.",
+        "Previously saw Towel at distance 1.75 m near position x=-1.75, z=-2.25.",
+        "Previously saw Towel at distance 1.52 m near position x=-1.75, z=-2.00.",
+        "Previously saw Towel at distance 1.30 m near position x=-1.75, z=-1.75.",
+        "Previously saw Towel at distance 1.10 m near position x=-1.75, z=-1.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 6,
+      "task_id": 2,
+      "scene": "FloorPlan418",
+      "room_type": "bathroom",
+      "target_type": "Towel",
+      "goal_text": "Navigate to the Towel.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "Done",
+      "agent_position": {
+        "x": -1.75,
+        "y": 0.9016419649124146,
+        "z": -1.25
+      },
+      "target_visible": true,
+      "target_distance": 0.9104166030883789,
+      "memory_snapshot": [
+        "Previously saw Towel at distance 2.22 m near position x=-1.75, z=-2.75.",
+        "Previously saw Towel at distance 1.99 m near position x=-1.75, z=-2.50.",
+        "Previously saw Towel at distance 1.75 m near position x=-1.75, z=-2.25.",
+        "Previously saw Towel at distance 1.52 m near position x=-1.75, z=-2.00.",
+        "Previously saw Towel at distance 1.30 m near position x=-1.75, z=-1.75.",
+        "Previously saw Towel at distance 1.10 m near position x=-1.75, z=-1.50.",
+        "Previously saw Towel at distance 0.91 m near position x=-1.75, z=-1.25."
       ],
       "message": "",
       "conversation_log": null

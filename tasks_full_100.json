@@ -1,0 +1,702 @@
+[
+  {
+    "task_id": 1,
+    "scene": "FloorPlan217",
+    "room_type": "living_room",
+    "target_type": "Sofa",
+    "goal_text": "Navigate to the Sofa."
+  },
+  {
+    "task_id": 2,
+    "scene": "FloorPlan418",
+    "room_type": "bathroom",
+    "target_type": "Towel",
+    "goal_text": "Navigate to the Towel."
+  },
+  {
+    "task_id": 3,
+    "scene": "FloorPlan5",
+    "room_type": "kitchen",
+    "target_type": "Apple",
+    "goal_text": "Navigate to the Apple."
+  },
+  {
+    "task_id": 4,
+    "scene": "FloorPlan407",
+    "room_type": "bathroom",
+    "target_type": "SprayBottle",
+    "goal_text": "Navigate to the SprayBottle."
+  },
+  {
+    "task_id": 5,
+    "scene": "FloorPlan424",
+    "room_type": "bathroom",
+    "target_type": "Plunger",
+    "goal_text": "Navigate to the Plunger."
+  },
+  {
+    "task_id": 6,
+    "scene": "FloorPlan220",
+    "room_type": "living_room",
+    "target_type": "Sofa",
+    "goal_text": "Navigate to the Sofa."
+  },
+  {
+    "task_id": 7,
+    "scene": "FloorPlan218",
+    "room_type": "living_room",
+    "target_type": "Television",
+    "goal_text": "Navigate to the Television."
+  },
+  {
+    "task_id": 8,
+    "scene": "FloorPlan21",
+    "room_type": "kitchen",
+    "target_type": "PepperShaker",
+    "goal_text": "Navigate to the PepperShaker."
+  },
+  {
+    "task_id": 9,
+    "scene": "FloorPlan219",
+    "room_type": "living_room",
+    "target_type": "Sofa",
+    "goal_text": "Navigate to the Sofa."
+  },
+  {
+    "task_id": 10,
+    "scene": "FloorPlan29",
+    "room_type": "kitchen",
+    "target_type": "LightSwitch",
+    "goal_text": "Navigate to the LightSwitch."
+  },
+  {
+    "task_id": 11,
+    "scene": "FloorPlan17",
+    "room_type": "kitchen",
+    "target_type": "Tomato",
+    "goal_text": "Navigate to the Tomato."
+  },
+  {
+    "task_id": 12,
+    "scene": "FloorPlan220",
+    "room_type": "living_room",
+    "target_type": "Pencil",
+    "goal_text": "Navigate to the Pencil."
+  },
+  {
+    "task_id": 13,
+    "scene": "FloorPlan226",
+    "room_type": "living_room",
+    "target_type": "HousePlant",
+    "goal_text": "Navigate to the HousePlant."
+  },
+  {
+    "task_id": 14,
+    "scene": "FloorPlan418",
+    "room_type": "bathroom",
+    "target_type": "SoapBar",
+    "goal_text": "Navigate to the SoapBar."
+  },
+  {
+    "task_id": 15,
+    "scene": "FloorPlan205",
+    "room_type": "living_room",
+    "target_type": "Laptop",
+    "goal_text": "Navigate to the Laptop."
+  },
+  {
+    "task_id": 16,
+    "scene": "FloorPlan16",
+    "room_type": "kitchen",
+    "target_type": "Toaster",
+    "goal_text": "Navigate to the Toaster."
+  },
+  {
+    "task_id": 17,
+    "scene": "FloorPlan423",
+    "room_type": "bathroom",
+    "target_type": "HandTowel",
+    "goal_text": "Navigate to the HandTowel."
+  },
+  {
+    "task_id": 18,
+    "scene": "FloorPlan18",
+    "room_type": "kitchen",
+    "target_type": "Refrigerator",
+    "goal_text": "Navigate to the Refrigerator."
+  },
+  {
+    "task_id": 19,
+    "scene": "FloorPlan302",
+    "room_type": "bedroom",
+    "target_type": "AlarmClock",
+    "goal_text": "Navigate to the AlarmClock."
+  },
+  {
+    "task_id": 20,
+    "scene": "FloorPlan4",
+    "room_type": "kitchen",
+    "target_type": "Tomato",
+    "goal_text": "Navigate to the Tomato."
+  },
+  {
+    "task_id": 21,
+    "scene": "FloorPlan306",
+    "room_type": "bedroom",
+    "target_type": "Book",
+    "goal_text": "Navigate to the Book."
+  },
+  {
+    "task_id": 22,
+    "scene": "FloorPlan13",
+    "room_type": "kitchen",
+    "target_type": "LightSwitch",
+    "goal_text": "Navigate to the LightSwitch."
+  },
+  {
+    "task_id": 23,
+    "scene": "FloorPlan2",
+    "room_type": "kitchen",
+    "target_type": "Apple",
+    "goal_text": "Navigate to the Apple."
+  },
+  {
+    "task_id": 24,
+    "scene": "FloorPlan5",
+    "room_type": "kitchen",
+    "target_type": "Pot",
+    "goal_text": "Navigate to the Pot."
+  },
+  {
+    "task_id": 25,
+    "scene": "FloorPlan206",
+    "room_type": "living_room",
+    "target_type": "Television",
+    "goal_text": "Navigate to the Television."
+  },
+  {
+    "task_id": 26,
+    "scene": "FloorPlan422",
+    "room_type": "bathroom",
+    "target_type": "TowelHolder",
+    "goal_text": "Navigate to the TowelHolder."
+  },
+  {
+    "task_id": 27,
+    "scene": "FloorPlan411",
+    "room_type": "bathroom",
+    "target_type": "Plunger",
+    "goal_text": "Navigate to the Plunger."
+  },
+  {
+    "task_id": 28,
+    "scene": "FloorPlan329",
+    "room_type": "bedroom",
+    "target_type": "Mirror",
+    "goal_text": "Navigate to the Mirror."
+  },
+  {
+    "task_id": 29,
+    "scene": "FloorPlan207",
+    "room_type": "living_room",
+    "target_type": "Box",
+    "goal_text": "Navigate to the Box."
+  },
+  {
+    "task_id": 30,
+    "scene": "FloorPlan14",
+    "room_type": "kitchen",
+    "target_type": "Egg",
+    "goal_text": "Navigate to the Egg."
+  },
+  {
+    "task_id": 31,
+    "scene": "FloorPlan20",
+    "room_type": "kitchen",
+    "target_type": "PepperShaker",
+    "goal_text": "Navigate to the PepperShaker."
+  },
+  {
+    "task_id": 32,
+    "scene": "FloorPlan315",
+    "room_type": "bedroom",
+    "target_type": "Pillow",
+    "goal_text": "Navigate to the Pillow."
+  },
+  {
+    "task_id": 33,
+    "scene": "FloorPlan321",
+    "room_type": "bedroom",
+    "target_type": "Book",
+    "goal_text": "Navigate to the Book."
+  },
+  {
+    "task_id": 34,
+    "scene": "FloorPlan215",
+    "room_type": "living_room",
+    "target_type": "HousePlant",
+    "goal_text": "Navigate to the HousePlant."
+  },
+  {
+    "task_id": 35,
+    "scene": "FloorPlan418",
+    "room_type": "bathroom",
+    "target_type": "Toilet",
+    "goal_text": "Navigate to the Toilet."
+  },
+  {
+    "task_id": 36,
+    "scene": "FloorPlan13",
+    "room_type": "kitchen",
+    "target_type": "Cup",
+    "goal_text": "Navigate to the Cup."
+  },
+  {
+    "task_id": 37,
+    "scene": "FloorPlan306",
+    "room_type": "bedroom",
+    "target_type": "AlarmClock",
+    "goal_text": "Navigate to the AlarmClock."
+  },
+  {
+    "task_id": 38,
+    "scene": "FloorPlan418",
+    "room_type": "bathroom",
+    "target_type": "HandTowel",
+    "goal_text": "Navigate to the HandTowel."
+  },
+  {
+    "task_id": 39,
+    "scene": "FloorPlan30",
+    "room_type": "kitchen",
+    "target_type": "Microwave",
+    "goal_text": "Navigate to the Microwave."
+  },
+  {
+    "task_id": 40,
+    "scene": "FloorPlan212",
+    "room_type": "living_room",
+    "target_type": "RemoteControl",
+    "goal_text": "Navigate to the RemoteControl."
+  },
+  {
+    "task_id": 41,
+    "scene": "FloorPlan408",
+    "room_type": "bathroom",
+    "target_type": "Cloth",
+    "goal_text": "Navigate to the Cloth."
+  },
+  {
+    "task_id": 42,
+    "scene": "FloorPlan420",
+    "room_type": "bathroom",
+    "target_type": "Candle",
+    "goal_text": "Navigate to the Candle."
+  },
+  {
+    "task_id": 43,
+    "scene": "FloorPlan204",
+    "room_type": "living_room",
+    "target_type": "LightSwitch",
+    "goal_text": "Navigate to the LightSwitch."
+  },
+  {
+    "task_id": 44,
+    "scene": "FloorPlan21",
+    "room_type": "kitchen",
+    "target_type": "Refrigerator",
+    "goal_text": "Navigate to the Refrigerator."
+  },
+  {
+    "task_id": 45,
+    "scene": "FloorPlan13",
+    "room_type": "kitchen",
+    "target_type": "PepperShaker",
+    "goal_text": "Navigate to the PepperShaker."
+  },
+  {
+    "task_id": 46,
+    "scene": "FloorPlan412",
+    "room_type": "bathroom",
+    "target_type": "Towel",
+    "goal_text": "Navigate to the Towel."
+  },
+  {
+    "task_id": 47,
+    "scene": "FloorPlan226",
+    "room_type": "living_room",
+    "target_type": "RemoteControl",
+    "goal_text": "Navigate to the RemoteControl."
+  },
+  {
+    "task_id": 48,
+    "scene": "FloorPlan416",
+    "room_type": "bathroom",
+    "target_type": "ToiletPaper",
+    "goal_text": "Navigate to the ToiletPaper."
+  },
+  {
+    "task_id": 49,
+    "scene": "FloorPlan2",
+    "room_type": "kitchen",
+    "target_type": "Microwave",
+    "goal_text": "Navigate to the Microwave."
+  },
+  {
+    "task_id": 50,
+    "scene": "FloorPlan326",
+    "room_type": "bedroom",
+    "target_type": "Bed",
+    "goal_text": "Navigate to the Bed."
+  },
+  {
+    "task_id": 51,
+    "scene": "FloorPlan26",
+    "room_type": "kitchen",
+    "target_type": "Knife",
+    "goal_text": "Navigate to the Knife."
+  },
+  {
+    "task_id": 52,
+    "scene": "FloorPlan8",
+    "room_type": "kitchen",
+    "target_type": "CoffeeMachine",
+    "goal_text": "Navigate to the CoffeeMachine."
+  },
+  {
+    "task_id": 53,
+    "scene": "FloorPlan10",
+    "room_type": "kitchen",
+    "target_type": "Knife",
+    "goal_text": "Navigate to the Knife."
+  },
+  {
+    "task_id": 54,
+    "scene": "FloorPlan27",
+    "room_type": "kitchen",
+    "target_type": "Refrigerator",
+    "goal_text": "Navigate to the Refrigerator."
+  },
+  {
+    "task_id": 55,
+    "scene": "FloorPlan326",
+    "room_type": "bedroom",
+    "target_type": "AlarmClock",
+    "goal_text": "Navigate to the AlarmClock."
+  },
+  {
+    "task_id": 56,
+    "scene": "FloorPlan327",
+    "room_type": "bedroom",
+    "target_type": "Mirror",
+    "goal_text": "Navigate to the Mirror."
+  },
+  {
+    "task_id": 57,
+    "scene": "FloorPlan11",
+    "room_type": "kitchen",
+    "target_type": "CounterTop",
+    "goal_text": "Navigate to the CounterTop."
+  },
+  {
+    "task_id": 58,
+    "scene": "FloorPlan203",
+    "room_type": "living_room",
+    "target_type": "HousePlant",
+    "goal_text": "Navigate to the HousePlant."
+  },
+  {
+    "task_id": 59,
+    "scene": "FloorPlan205",
+    "room_type": "living_room",
+    "target_type": "LightSwitch",
+    "goal_text": "Navigate to the LightSwitch."
+  },
+  {
+    "task_id": 60,
+    "scene": "FloorPlan414",
+    "room_type": "bathroom",
+    "target_type": "SprayBottle",
+    "goal_text": "Navigate to the SprayBottle."
+  },
+  {
+    "task_id": 61,
+    "scene": "FloorPlan19",
+    "room_type": "kitchen",
+    "target_type": "Microwave",
+    "goal_text": "Navigate to the Microwave."
+  },
+  {
+    "task_id": 62,
+    "scene": "FloorPlan7",
+    "room_type": "kitchen",
+    "target_type": "Knife",
+    "goal_text": "Navigate to the Knife."
+  },
+  {
+    "task_id": 63,
+    "scene": "FloorPlan328",
+    "room_type": "bedroom",
+    "target_type": "Window",
+    "goal_text": "Navigate to the Window."
+  },
+  {
+    "task_id": 64,
+    "scene": "FloorPlan330",
+    "room_type": "bedroom",
+    "target_type": "CellPhone",
+    "goal_text": "Navigate to the CellPhone."
+  },
+  {
+    "task_id": 65,
+    "scene": "FloorPlan2",
+    "room_type": "kitchen",
+    "target_type": "LightSwitch",
+    "goal_text": "Navigate to the LightSwitch."
+  },
+  {
+    "task_id": 66,
+    "scene": "FloorPlan217",
+    "room_type": "living_room",
+    "target_type": "Pencil",
+    "goal_text": "Navigate to the Pencil."
+  },
+  {
+    "task_id": 67,
+    "scene": "FloorPlan304",
+    "room_type": "bedroom",
+    "target_type": "Mirror",
+    "goal_text": "Navigate to the Mirror."
+  },
+  {
+    "task_id": 68,
+    "scene": "FloorPlan425",
+    "room_type": "bathroom",
+    "target_type": "HandTowel",
+    "goal_text": "Navigate to the HandTowel."
+  },
+  {
+    "task_id": 69,
+    "scene": "FloorPlan22",
+    "room_type": "kitchen",
+    "target_type": "CoffeeMachine",
+    "goal_text": "Navigate to the CoffeeMachine."
+  },
+  {
+    "task_id": 70,
+    "scene": "FloorPlan28",
+    "room_type": "kitchen",
+    "target_type": "Egg",
+    "goal_text": "Navigate to the Egg."
+  },
+  {
+    "task_id": 71,
+    "scene": "FloorPlan229",
+    "room_type": "living_room",
+    "target_type": "Television",
+    "goal_text": "Navigate to the Television."
+  },
+  {
+    "task_id": 72,
+    "scene": "FloorPlan406",
+    "room_type": "bathroom",
+    "target_type": "Candle",
+    "goal_text": "Navigate to the Candle."
+  },
+  {
+    "task_id": 73,
+    "scene": "FloorPlan413",
+    "room_type": "bathroom",
+    "target_type": "HandTowel",
+    "goal_text": "Navigate to the HandTowel."
+  },
+  {
+    "task_id": 74,
+    "scene": "FloorPlan13",
+    "room_type": "kitchen",
+    "target_type": "StoveBurner",
+    "goal_text": "Navigate to the StoveBurner."
+  },
+  {
+    "task_id": 75,
+    "scene": "FloorPlan302",
+    "room_type": "bedroom",
+    "target_type": "Bed",
+    "goal_text": "Navigate to the Bed."
+  },
+  {
+    "task_id": 76,
+    "scene": "FloorPlan407",
+    "room_type": "bathroom",
+    "target_type": "Towel",
+    "goal_text": "Navigate to the Towel."
+  },
+  {
+    "task_id": 77,
+    "scene": "FloorPlan27",
+    "room_type": "kitchen",
+    "target_type": "Microwave",
+    "goal_text": "Navigate to the Microwave."
+  },
+  {
+    "task_id": 78,
+    "scene": "FloorPlan8",
+    "room_type": "kitchen",
+    "target_type": "PepperShaker",
+    "goal_text": "Navigate to the PepperShaker."
+  },
+  {
+    "task_id": 79,
+    "scene": "FloorPlan409",
+    "room_type": "bathroom",
+    "target_type": "SprayBottle",
+    "goal_text": "Navigate to the SprayBottle."
+  },
+  {
+    "task_id": 80,
+    "scene": "FloorPlan314",
+    "room_type": "bedroom",
+    "target_type": "Bed",
+    "goal_text": "Navigate to the Bed."
+  },
+  {
+    "task_id": 81,
+    "scene": "FloorPlan22",
+    "room_type": "kitchen",
+    "target_type": "PepperShaker",
+    "goal_text": "Navigate to the PepperShaker."
+  },
+  {
+    "task_id": 82,
+    "scene": "FloorPlan212",
+    "room_type": "living_room",
+    "target_type": "Painting",
+    "goal_text": "Navigate to the Painting."
+  },
+  {
+    "task_id": 83,
+    "scene": "FloorPlan213",
+    "room_type": "living_room",
+    "target_type": "LightSwitch",
+    "goal_text": "Navigate to the LightSwitch."
+  },
+  {
+    "task_id": 84,
+    "scene": "FloorPlan27",
+    "room_type": "kitchen",
+    "target_type": "Pot",
+    "goal_text": "Navigate to the Pot."
+  },
+  {
+    "task_id": 85,
+    "scene": "FloorPlan28",
+    "room_type": "kitchen",
+    "target_type": "PepperShaker",
+    "goal_text": "Navigate to the PepperShaker."
+  },
+  {
+    "task_id": 86,
+    "scene": "FloorPlan202",
+    "room_type": "living_room",
+    "target_type": "LightSwitch",
+    "goal_text": "Navigate to the LightSwitch."
+  },
+  {
+    "task_id": 87,
+    "scene": "FloorPlan229",
+    "room_type": "living_room",
+    "target_type": "Pencil",
+    "goal_text": "Navigate to the Pencil."
+  },
+  {
+    "task_id": 88,
+    "scene": "FloorPlan25",
+    "room_type": "kitchen",
+    "target_type": "StoveBurner",
+    "goal_text": "Navigate to the StoveBurner."
+  },
+  {
+    "task_id": 89,
+    "scene": "FloorPlan310",
+    "room_type": "bedroom",
+    "target_type": "Bed",
+    "goal_text": "Navigate to the Bed."
+  },
+  {
+    "task_id": 90,
+    "scene": "FloorPlan3",
+    "room_type": "kitchen",
+    "target_type": "Microwave",
+    "goal_text": "Navigate to the Microwave."
+  },
+  {
+    "task_id": 91,
+    "scene": "FloorPlan318",
+    "room_type": "bedroom",
+    "target_type": "CellPhone",
+    "goal_text": "Navigate to the CellPhone."
+  },
+  {
+    "task_id": 92,
+    "scene": "FloorPlan23",
+    "room_type": "kitchen",
+    "target_type": "Knife",
+    "goal_text": "Navigate to the Knife."
+  },
+  {
+    "task_id": 93,
+    "scene": "FloorPlan1",
+    "room_type": "kitchen",
+    "target_type": "CoffeeMachine",
+    "goal_text": "Navigate to the CoffeeMachine."
+  },
+  {
+    "task_id": 94,
+    "scene": "FloorPlan323",
+    "room_type": "bedroom",
+    "target_type": "DeskLamp",
+    "goal_text": "Navigate to the DeskLamp."
+  },
+  {
+    "task_id": 95,
+    "scene": "FloorPlan227",
+    "room_type": "living_room",
+    "target_type": "RemoteControl",
+    "goal_text": "Navigate to the RemoteControl."
+  },
+  {
+    "task_id": 96,
+    "scene": "FloorPlan417",
+    "room_type": "bathroom",
+    "target_type": "SprayBottle",
+    "goal_text": "Navigate to the SprayBottle."
+  },
+  {
+    "task_id": 97,
+    "scene": "FloorPlan22",
+    "room_type": "kitchen",
+    "target_type": "CounterTop",
+    "goal_text": "Navigate to the CounterTop."
+  },
+  {
+    "task_id": 98,
+    "scene": "FloorPlan405",
+    "room_type": "bathroom",
+    "target_type": "TowelHolder",
+    "goal_text": "Navigate to the TowelHolder."
+  },
+  {
+    "task_id": 99,
+    "scene": "FloorPlan308",
+    "room_type": "bedroom",
+    "target_type": "Book",
+    "goal_text": "Navigate to the Book."
+  },
+  {
+    "task_id": 100,
+    "scene": "FloorPlan322",
+    "room_type": "bedroom",
+    "target_type": "CellPhone",
+    "goal_text": "Navigate to the CellPhone."
+  }
+]

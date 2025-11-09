@@ -6,7 +6,7 @@
     "target_type": "Apple",
     "goal_text": "Navigate to the Apple."
   },
-  "episode_time_sec": 12.335518292000415,
+  "episode_time_sec": 13.90928966699903,
   "steps": [
     {
       "step": 0,
@@ -23,10 +23,10 @@
       "agent_position": {
         "x": 0.0,
         "y": 0.9009991884231567,
-        "z": -0.75
+        "z": 1.25
       },
       "target_visible": false,
-      "target_distance": 1.8392925262451172,
+      "target_distance": 2.6437509059906006,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -42,14 +42,14 @@
       "role": "solo",
       "is_repair": false,
       "repair_helpful": null,
-      "action": "RotateLeft",
+      "action": "RotateRight",
       "agent_position": {
         "x": 0.0,
         "y": 0.9009991884231567,
-        "z": -0.75
+        "z": 1.25
       },
       "target_visible": false,
-      "target_distance": 1.839708685874939,
+      "target_distance": 2.6440398693084717,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -69,10 +69,10 @@
       "agent_position": {
         "x": 0.0,
         "y": 0.9009991884231567,
-        "z": -0.75
+        "z": 1.25
       },
       "target_visible": false,
-      "target_distance": 1.839708685874939,
+      "target_distance": 2.6440398693084717,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -88,14 +88,14 @@
       "role": "solo",
       "is_repair": false,
       "repair_helpful": null,
-      "action": "RotateLeft",
+      "action": "RotateRight",
       "agent_position": {
         "x": 0.0,
         "y": 0.9009991884231567,
-        "z": -0.75
+        "z": 1.25
       },
       "target_visible": false,
-      "target_distance": 1.839708685874939,
+      "target_distance": 2.6440398693084717,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -115,10 +115,10 @@
       "agent_position": {
         "x": 0.0,
         "y": 0.9009991884231567,
-        "z": -0.75
+        "z": 1.25
       },
       "target_visible": false,
-      "target_distance": 1.839708685874939,
+      "target_distance": 2.6440398693084717,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -134,14 +134,14 @@
       "role": "solo",
       "is_repair": false,
       "repair_helpful": null,
-      "action": "RotateLeft",
+      "action": "RotateRight",
       "agent_position": {
         "x": 0.0,
         "y": 0.9009991884231567,
-        "z": -0.75
+        "z": 1.25
       },
       "target_visible": false,
-      "target_distance": 1.839708685874939,
+      "target_distance": 2.6440398693084717,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -161,10 +161,10 @@
       "agent_position": {
         "x": 0.0,
         "y": 0.9009991884231567,
-        "z": -0.75
+        "z": 1.25
       },
       "target_visible": false,
-      "target_distance": 1.839708685874939,
+      "target_distance": 2.6440398693084717,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -180,14 +180,14 @@
       "role": "solo",
       "is_repair": false,
       "repair_helpful": null,
-      "action": "RotateLeft",
+      "action": "RotateRight",
       "agent_position": {
         "x": 0.0,
         "y": 0.9009991884231567,
-        "z": -0.75
+        "z": 1.25
       },
       "target_visible": false,
-      "target_distance": 1.839708685874939,
+      "target_distance": 2.6440398693084717,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -207,10 +207,10 @@
       "agent_position": {
         "x": 0.0,
         "y": 0.9009991884231567,
-        "z": -0.75
+        "z": 1.25
       },
       "target_visible": false,
-      "target_distance": 1.839708685874939,
+      "target_distance": 2.6440398693084717,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -226,14 +226,14 @@
       "role": "solo",
       "is_repair": false,
       "repair_helpful": null,
-      "action": "RotateLeft",
+      "action": "RotateRight",
       "agent_position": {
         "x": 0.0,
         "y": 0.9009991884231567,
-        "z": -0.75
+        "z": 1.25
       },
       "target_visible": false,
-      "target_distance": 1.839708685874939,
+      "target_distance": 2.6440398693084717,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -253,10 +253,10 @@
       "agent_position": {
         "x": 0.0,
         "y": 0.9009991884231567,
-        "z": -0.75
+        "z": 1.25
       },
       "target_visible": false,
-      "target_distance": 1.839708685874939,
+      "target_distance": 2.6440398693084717,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -272,14 +272,14 @@
       "role": "solo",
       "is_repair": false,
       "repair_helpful": null,
-      "action": "RotateLeft",
+      "action": "RotateRight",
       "agent_position": {
         "x": 0.0,
         "y": 0.9009991884231567,
-        "z": -0.75
+        "z": 1.25
       },
       "target_visible": false,
-      "target_distance": 1.839708685874939,
+      "target_distance": 2.6440398693084717,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -299,10 +299,10 @@
       "agent_position": {
         "x": 0.0,
         "y": 0.9009991884231567,
-        "z": -0.75
+        "z": 1.25
       },
       "target_visible": false,
-      "target_distance": 1.839708685874939,
+      "target_distance": 2.6440398693084717,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -318,14 +318,14 @@
       "role": "solo",
       "is_repair": false,
       "repair_helpful": null,
-      "action": "RotateLeft",
+      "action": "RotateRight",
       "agent_position": {
         "x": 0.0,
         "y": 0.9009991884231567,
-        "z": -0.75
+        "z": 1.25
       },
       "target_visible": false,
-      "target_distance": 1.839708685874939,
+      "target_distance": 2.6440398693084717,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -345,10 +345,10 @@
       "agent_position": {
         "x": 0.0,
         "y": 0.9009991884231567,
-        "z": -0.75
+        "z": 1.25
       },
       "target_visible": false,
-      "target_distance": 1.839708685874939,
+      "target_distance": 2.6440398693084717,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -364,14 +364,14 @@
       "role": "solo",
       "is_repair": false,
       "repair_helpful": null,
-      "action": "RotateLeft",
+      "action": "RotateRight",
       "agent_position": {
         "x": 0.0,
         "y": 0.9009991884231567,
-        "z": -0.75
+        "z": 1.25
       },
       "target_visible": false,
-      "target_distance": 1.839708685874939,
+      "target_distance": 2.6440398693084717,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -391,10 +391,10 @@
       "agent_position": {
         "x": 0.0,
         "y": 0.9009991884231567,
-        "z": -0.75
+        "z": 1.25
       },
       "target_visible": false,
-      "target_distance": 1.839708685874939,
+      "target_distance": 2.6440398693084717,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -410,14 +410,14 @@
       "role": "solo",
       "is_repair": false,
       "repair_helpful": null,
-      "action": "RotateLeft",
+      "action": "RotateRight",
       "agent_position": {
         "x": 0.0,
         "y": 0.9009991884231567,
-        "z": -0.75
+        "z": 1.25
       },
       "target_visible": false,
-      "target_distance": 1.839708685874939,
+      "target_distance": 2.6440398693084717,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -437,10 +437,10 @@
       "agent_position": {
         "x": 0.0,
         "y": 0.9009991884231567,
-        "z": -0.75
+        "z": 1.25
       },
       "target_visible": false,
-      "target_distance": 1.839708685874939,
+      "target_distance": 2.6440398693084717,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -456,14 +456,14 @@
       "role": "solo",
       "is_repair": false,
       "repair_helpful": null,
-      "action": "RotateLeft",
+      "action": "RotateRight",
       "agent_position": {
         "x": 0.0,
         "y": 0.9009991884231567,
-        "z": -0.75
+        "z": 1.25
       },
       "target_visible": false,
-      "target_distance": 1.839708685874939,
+      "target_distance": 2.6440398693084717,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -483,10 +483,10 @@
       "agent_position": {
         "x": 0.0,
         "y": 0.9009991884231567,
-        "z": -0.75
+        "z": 1.25
       },
       "target_visible": false,
-      "target_distance": 1.839708685874939,
+      "target_distance": 2.6440398693084717,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -502,14 +502,14 @@
       "role": "solo",
       "is_repair": false,
       "repair_helpful": null,
-      "action": "RotateLeft",
+      "action": "RotateRight",
       "agent_position": {
         "x": 0.0,
         "y": 0.9009991884231567,
-        "z": -0.75
+        "z": 1.25
       },
       "target_visible": false,
-      "target_distance": 1.839708685874939,
+      "target_distance": 2.6440398693084717,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -529,10 +529,10 @@
       "agent_position": {
         "x": 0.0,
         "y": 0.9009991884231567,
-        "z": -0.75
+        "z": 1.25
       },
       "target_visible": false,
-      "target_distance": 1.839708685874939,
+      "target_distance": 2.6440398693084717,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -548,14 +548,14 @@
       "role": "solo",
       "is_repair": false,
       "repair_helpful": null,
-      "action": "RotateLeft",
+      "action": "RotateRight",
       "agent_position": {
         "x": 0.0,
         "y": 0.9009991884231567,
-        "z": -0.75
+        "z": 1.25
       },
       "target_visible": false,
-      "target_distance": 1.839708685874939,
+      "target_distance": 2.6440398693084717,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -575,10 +575,10 @@
       "agent_position": {
         "x": 0.0,
         "y": 0.9009991884231567,
-        "z": -0.75
+        "z": 1.25
       },
       "target_visible": false,
-      "target_distance": 1.839708685874939,
+      "target_distance": 2.6440398693084717,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -594,14 +594,14 @@
       "role": "solo",
       "is_repair": false,
       "repair_helpful": null,
-      "action": "RotateLeft",
+      "action": "RotateRight",
       "agent_position": {
         "x": 0.0,
         "y": 0.9009991884231567,
-        "z": -0.75
+        "z": 1.25
       },
       "target_visible": false,
-      "target_distance": 1.839708685874939,
+      "target_distance": 2.6440398693084717,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -621,10 +621,10 @@
       "agent_position": {
         "x": 0.0,
         "y": 0.9009991884231567,
-        "z": -0.75
+        "z": 1.25
       },
       "target_visible": false,
-      "target_distance": 1.839708685874939,
+      "target_distance": 2.6440398693084717,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -640,14 +640,14 @@
       "role": "solo",
       "is_repair": false,
       "repair_helpful": null,
-      "action": "RotateLeft",
+      "action": "RotateRight",
       "agent_position": {
         "x": 0.0,
         "y": 0.9009991884231567,
-        "z": -0.75
+        "z": 1.25
       },
       "target_visible": false,
-      "target_distance": 1.839708685874939,
+      "target_distance": 2.6440398693084717,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -667,10 +667,10 @@
       "agent_position": {
         "x": 0.0,
         "y": 0.9009991884231567,
-        "z": -0.75
+        "z": 1.25
       },
       "target_visible": false,
-      "target_distance": 1.839708685874939,
+      "target_distance": 2.6440398693084717,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -686,14 +686,14 @@
       "role": "solo",
       "is_repair": false,
       "repair_helpful": null,
-      "action": "RotateLeft",
+      "action": "RotateRight",
       "agent_position": {
         "x": 0.0,
         "y": 0.9009991884231567,
-        "z": -0.75
+        "z": 1.25
       },
       "target_visible": false,
-      "target_distance": 1.839708685874939,
+      "target_distance": 2.6440398693084717,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
