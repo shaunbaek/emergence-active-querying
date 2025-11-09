@@ -576,7 +576,7 @@ import os
 
 def run_tasks_for_policy(
     policy: str,
-    max_steps: int = 15,
+    max_steps: int = 30,
     use_memory: bool = True,
     tasks: List[Dict[str, Any]] | None = None,
     resume: bool = False,
@@ -651,7 +651,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--max_steps",
         type=int,
-        default=50,
+        default=30,
         help="Maximum steps per episode.",
     )
     parser.add_argument(
