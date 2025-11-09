@@ -1,0 +1,336 @@
+{
+  "task_meta": {
+    "task_id": 1,
+    "scene": "FloorPlan217",
+    "room_type": "living_room",
+    "target_type": "Sofa",
+    "goal_text": "Navigate to the Sofa."
+  },
+  "episode_time_sec": 22.293840958038345,
+  "steps": [
+    {
+      "step": 0,
+      "task_id": 1,
+      "scene": "FloorPlan217",
+      "room_type": "living_room",
+      "target_type": "Sofa",
+      "goal_text": "Navigate to the Sofa.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -3.25,
+        "y": 0.9011412858963013,
+        "z": 2.25
+      },
+      "target_visible": true,
+      "target_distance": 1.9574638605117798,
+      "memory_snapshot": [
+        "Previously saw Sofa at coarse distance near position x=-3.25, z=2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 1,
+      "task_id": 1,
+      "scene": "FloorPlan217",
+      "room_type": "living_room",
+      "target_type": "Sofa",
+      "goal_text": "Navigate to the Sofa.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -3.0,
+        "y": 0.9011412858963013,
+        "z": 2.25
+      },
+      "target_visible": true,
+      "target_distance": 1.8712719678878784,
+      "memory_snapshot": [
+        "Previously saw Sofa at coarse distance near position x=-3.25, z=2.25.",
+        "Previously saw Sofa at coarse distance near position x=-3.00, z=2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 2,
+      "task_id": 1,
+      "scene": "FloorPlan217",
+      "room_type": "living_room",
+      "target_type": "Sofa",
+      "goal_text": "Navigate to the Sofa.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -2.75,
+        "y": 0.9011412858963013,
+        "z": 2.25
+      },
+      "target_visible": true,
+      "target_distance": 1.8156684637069702,
+      "memory_snapshot": [
+        "Previously saw Sofa at coarse distance near position x=-3.25, z=2.25.",
+        "Previously saw Sofa at coarse distance near position x=-3.00, z=2.25.",
+        "Previously saw Sofa at coarse distance near position x=-2.75, z=2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 3,
+      "task_id": 1,
+      "scene": "FloorPlan217",
+      "room_type": "living_room",
+      "target_type": "Sofa",
+      "goal_text": "Navigate to the Sofa.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -2.5,
+        "y": 0.9011412858963013,
+        "z": 2.25
+      },
+      "target_visible": true,
+      "target_distance": 1.7935007810592651,
+      "memory_snapshot": [
+        "Previously saw Sofa at coarse distance near position x=-3.25, z=2.25.",
+        "Previously saw Sofa at coarse distance near position x=-3.00, z=2.25.",
+        "Previously saw Sofa at coarse distance near position x=-2.75, z=2.25.",
+        "Previously saw Sofa at coarse distance near position x=-2.50, z=2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 4,
+      "task_id": 1,
+      "scene": "FloorPlan217",
+      "room_type": "living_room",
+      "target_type": "Sofa",
+      "goal_text": "Navigate to the Sofa.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -2.25,
+        "y": 0.9011412858963013,
+        "z": 2.25
+      },
+      "target_visible": true,
+      "target_distance": 1.8060007095336914,
+      "memory_snapshot": [
+        "Previously saw Sofa at coarse distance near position x=-3.25, z=2.25.",
+        "Previously saw Sofa at coarse distance near position x=-3.00, z=2.25.",
+        "Previously saw Sofa at coarse distance near position x=-2.75, z=2.25.",
+        "Previously saw Sofa at coarse distance near position x=-2.50, z=2.25.",
+        "Previously saw Sofa at coarse distance near position x=-2.25, z=2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 5,
+      "task_id": 1,
+      "scene": "FloorPlan217",
+      "room_type": "living_room",
+      "target_type": "Sofa",
+      "goal_text": "Navigate to the Sofa.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.9011412858963013,
+        "z": 2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.852466344833374,
+      "memory_snapshot": [
+        "Previously saw Sofa at coarse distance near position x=-3.25, z=2.25.",
+        "Previously saw Sofa at coarse distance near position x=-3.00, z=2.25.",
+        "Previously saw Sofa at coarse distance near position x=-2.75, z=2.25.",
+        "Previously saw Sofa at coarse distance near position x=-2.50, z=2.25.",
+        "Previously saw Sofa at coarse distance near position x=-2.25, z=2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 6,
+      "task_id": 1,
+      "scene": "FloorPlan217",
+      "room_type": "living_room",
+      "target_type": "Sofa",
+      "goal_text": "Navigate to the Sofa.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.9011412858963013,
+        "z": 2.25
+      },
+      "target_visible": true,
+      "target_distance": 1.852466344833374,
+      "memory_snapshot": [
+        "Previously saw Sofa at coarse distance near position x=-3.25, z=2.25.",
+        "Previously saw Sofa at coarse distance near position x=-3.00, z=2.25.",
+        "Previously saw Sofa at coarse distance near position x=-2.75, z=2.25.",
+        "Previously saw Sofa at coarse distance near position x=-2.50, z=2.25.",
+        "Previously saw Sofa at coarse distance near position x=-2.25, z=2.25.",
+        "Previously saw Sofa at coarse distance near position x=-2.00, z=2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 7,
+      "task_id": 1,
+      "scene": "FloorPlan217",
+      "room_type": "living_room",
+      "target_type": "Sofa",
+      "goal_text": "Navigate to the Sofa.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.9011412858963013,
+        "z": 2.0
+      },
+      "target_visible": true,
+      "target_distance": 1.649130940437317,
+      "memory_snapshot": [
+        "Previously saw Sofa at coarse distance near position x=-3.25, z=2.25.",
+        "Previously saw Sofa at coarse distance near position x=-3.00, z=2.25.",
+        "Previously saw Sofa at coarse distance near position x=-2.75, z=2.25.",
+        "Previously saw Sofa at coarse distance near position x=-2.50, z=2.25.",
+        "Previously saw Sofa at coarse distance near position x=-2.25, z=2.25.",
+        "Previously saw Sofa at coarse distance near position x=-2.00, z=2.25.",
+        "Previously saw Sofa at coarse distance near position x=-2.00, z=2.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 8,
+      "task_id": 1,
+      "scene": "FloorPlan217",
+      "room_type": "living_room",
+      "target_type": "Sofa",
+      "goal_text": "Navigate to the Sofa.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.9011412858963013,
+        "z": 1.75
+      },
+      "target_visible": true,
+      "target_distance": 1.4603540897369385,
+      "memory_snapshot": [
+        "Previously saw Sofa at coarse distance near position x=-3.25, z=2.25.",
+        "Previously saw Sofa at coarse distance near position x=-3.00, z=2.25.",
+        "Previously saw Sofa at coarse distance near position x=-2.75, z=2.25.",
+        "Previously saw Sofa at coarse distance near position x=-2.50, z=2.25.",
+        "Previously saw Sofa at coarse distance near position x=-2.25, z=2.25.",
+        "Previously saw Sofa at coarse distance near position x=-2.00, z=2.25.",
+        "Previously saw Sofa at coarse distance near position x=-2.00, z=2.00.",
+        "Previously saw Sofa at coarse distance near position x=-2.00, z=1.75."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 9,
+      "task_id": 1,
+      "scene": "FloorPlan217",
+      "room_type": "living_room",
+      "target_type": "Sofa",
+      "goal_text": "Navigate to the Sofa.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.9011412858963013,
+        "z": 1.5
+      },
+      "target_visible": true,
+      "target_distance": 1.2925306558609009,
+      "memory_snapshot": [
+        "Previously saw Sofa at coarse distance near position x=-3.25, z=2.25.",
+        "Previously saw Sofa at coarse distance near position x=-3.00, z=2.25.",
+        "Previously saw Sofa at coarse distance near position x=-2.75, z=2.25.",
+        "Previously saw Sofa at coarse distance near position x=-2.50, z=2.25.",
+        "Previously saw Sofa at coarse distance near position x=-2.25, z=2.25.",
+        "Previously saw Sofa at coarse distance near position x=-2.00, z=2.25.",
+        "Previously saw Sofa at coarse distance near position x=-2.00, z=2.00.",
+        "Previously saw Sofa at coarse distance near position x=-2.00, z=1.75.",
+        "Previously saw Sofa at coarse distance near position x=-2.00, z=1.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 10,
+      "task_id": 1,
+      "scene": "FloorPlan217",
+      "room_type": "living_room",
+      "target_type": "Sofa",
+      "goal_text": "Navigate to the Sofa.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "Done",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.9011412858963013,
+        "z": 1.25
+      },
+      "target_visible": true,
+      "target_distance": 1.2108289003372192,
+      "memory_snapshot": [
+        "Previously saw Sofa at coarse distance near position x=-3.25, z=2.25.",
+        "Previously saw Sofa at coarse distance near position x=-3.00, z=2.25.",
+        "Previously saw Sofa at coarse distance near position x=-2.75, z=2.25.",
+        "Previously saw Sofa at coarse distance near position x=-2.50, z=2.25.",
+        "Previously saw Sofa at coarse distance near position x=-2.25, z=2.25.",
+        "Previously saw Sofa at coarse distance near position x=-2.00, z=2.25.",
+        "Previously saw Sofa at coarse distance near position x=-2.00, z=2.00.",
+        "Previously saw Sofa at coarse distance near position x=-2.00, z=1.75.",
+        "Previously saw Sofa at coarse distance near position x=-2.00, z=1.50.",
+        "Previously saw Sofa at coarse distance near position x=-2.00, z=1.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    }
+  ]
+}

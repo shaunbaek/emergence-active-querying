@@ -1,0 +1,90 @@
+{
+  "task_meta": {
+    "task_id": 30,
+    "scene": "FloorPlan14",
+    "room_type": "kitchen",
+    "target_type": "Egg",
+    "goal_text": "Navigate to the Egg."
+  },
+  "episode_time_sec": 9.052521749865264,
+  "steps": [
+    {
+      "step": 0,
+      "task_id": 30,
+      "scene": "FloorPlan14",
+      "room_type": "kitchen",
+      "target_type": "Egg",
+      "goal_text": "Navigate to the Egg.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": 0.0,
+        "y": 0.9009991884231567,
+        "z": 0.0
+      },
+      "target_visible": true,
+      "target_distance": 1.1727893352508545,
+      "memory_snapshot": [
+        "Previously saw Egg at coarse distance near position x=0.00, z=0.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 1,
+      "task_id": 30,
+      "scene": "FloorPlan14",
+      "room_type": "kitchen",
+      "target_type": "Egg",
+      "goal_text": "Navigate to the Egg.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": 0.0,
+        "y": 0.9009991884231567,
+        "z": 0.0
+      },
+      "target_visible": true,
+      "target_distance": 1.172789454460144,
+      "memory_snapshot": [
+        "Previously saw Egg at coarse distance near position x=0.00, z=0.00.",
+        "Previously saw Egg at coarse distance near position x=0.00, z=0.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 2,
+      "task_id": 30,
+      "scene": "FloorPlan14",
+      "room_type": "kitchen",
+      "target_type": "Egg",
+      "goal_text": "Navigate to the Egg.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "Done",
+      "agent_position": {
+        "x": 0.0,
+        "y": 0.9009991884231567,
+        "z": 0.0
+      },
+      "target_visible": true,
+      "target_distance": 1.1727900505065918,
+      "memory_snapshot": [
+        "Previously saw Egg at coarse distance near position x=0.00, z=0.00.",
+        "Previously saw Egg at coarse distance near position x=0.00, z=0.00.",
+        "Previously saw Egg at coarse distance near position x=0.00, z=0.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    }
+  ]
+}

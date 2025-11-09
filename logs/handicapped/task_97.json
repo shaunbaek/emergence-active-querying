@@ -1,0 +1,58 @@
+{
+  "task_meta": {
+    "task_id": 97,
+    "scene": "FloorPlan22",
+    "room_type": "kitchen",
+    "target_type": "CounterTop",
+    "goal_text": "Navigate to the CounterTop."
+  },
+  "episode_time_sec": 2.4878506660461426,
+  "steps": [
+    {
+      "step": 0,
+      "task_id": 97,
+      "scene": "FloorPlan22",
+      "room_type": "kitchen",
+      "target_type": "CounterTop",
+      "goal_text": "Navigate to the CounterTop.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -1.5,
+        "y": 0.9009991884231567,
+        "z": 0.0
+      },
+      "target_visible": false,
+      "target_distance": 2.546844482421875,
+      "memory_snapshot": [],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 1,
+      "task_id": 97,
+      "scene": "FloorPlan22",
+      "room_type": "kitchen",
+      "target_type": "CounterTop",
+      "goal_text": "Navigate to the CounterTop.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "Done",
+      "agent_position": {
+        "x": -1.75,
+        "y": 0.9009991884231567,
+        "z": 7.301568984985352e-07
+      },
+      "target_visible": false,
+      "target_distance": 2.7844955921173096,
+      "memory_snapshot": [],
+      "message": "",
+      "conversation_log": null
+    }
+  ]
+}

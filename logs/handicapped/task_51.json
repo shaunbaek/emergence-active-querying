@@ -1,0 +1,81 @@
+{
+  "task_meta": {
+    "task_id": 51,
+    "scene": "FloorPlan26",
+    "room_type": "kitchen",
+    "target_type": "Knife",
+    "goal_text": "Navigate to the Knife."
+  },
+  "episode_time_sec": 4.722171624889597,
+  "steps": [
+    {
+      "step": 0,
+      "task_id": 51,
+      "scene": "FloorPlan26",
+      "room_type": "kitchen",
+      "target_type": "Knife",
+      "goal_text": "Navigate to the Knife.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -1.0,
+        "y": 0.9015909433364868,
+        "z": 1.5
+      },
+      "target_visible": false,
+      "target_distance": 1.8532910346984863,
+      "memory_snapshot": [],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 1,
+      "task_id": 51,
+      "scene": "FloorPlan26",
+      "room_type": "kitchen",
+      "target_type": "Knife",
+      "goal_text": "Navigate to the Knife.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -1.0,
+        "y": 0.9015909433364868,
+        "z": 1.5
+      },
+      "target_visible": false,
+      "target_distance": 1.853293538093567,
+      "memory_snapshot": [],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 2,
+      "task_id": 51,
+      "scene": "FloorPlan26",
+      "room_type": "kitchen",
+      "target_type": "Knife",
+      "goal_text": "Navigate to the Knife.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "Done",
+      "agent_position": {
+        "x": -1.0,
+        "y": 0.9015909433364868,
+        "z": 1.5
+      },
+      "target_visible": false,
+      "target_distance": 1.853293538093567,
+      "memory_snapshot": [],
+      "message": "",
+      "conversation_log": null
+    }
+  ]
+}

@@ -1,0 +1,851 @@
+{
+  "task_meta": {
+    "task_id": 40,
+    "scene": "FloorPlan212",
+    "room_type": "living_room",
+    "target_type": "RemoteControl",
+    "goal_text": "Navigate to the RemoteControl."
+  },
+  "episode_time_sec": 67.6824883329682,
+  "steps": [
+    {
+      "step": 0,
+      "task_id": 40,
+      "scene": "FloorPlan212",
+      "room_type": "living_room",
+      "target_type": "RemoteControl",
+      "goal_text": "Navigate to the RemoteControl.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 0.75,
+        "y": 0.9009991884231567,
+        "z": 0.0
+      },
+      "target_visible": false,
+      "target_distance": 2.1467535495758057,
+      "memory_snapshot": [],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 1,
+      "task_id": 40,
+      "scene": "FloorPlan212",
+      "room_type": "living_room",
+      "target_type": "RemoteControl",
+      "goal_text": "Navigate to the RemoteControl.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 0.75,
+        "y": 0.9009991884231567,
+        "z": 0.0
+      },
+      "target_visible": true,
+      "target_distance": 2.146751642227173,
+      "memory_snapshot": [
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 2,
+      "task_id": 40,
+      "scene": "FloorPlan212",
+      "room_type": "living_room",
+      "target_type": "RemoteControl",
+      "goal_text": "Navigate to the RemoteControl.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 0.75,
+        "y": 0.9009991884231567,
+        "z": 0.0
+      },
+      "target_visible": false,
+      "target_distance": 2.146751642227173,
+      "memory_snapshot": [
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 3,
+      "task_id": 40,
+      "scene": "FloorPlan212",
+      "room_type": "living_room",
+      "target_type": "RemoteControl",
+      "goal_text": "Navigate to the RemoteControl.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 0.75,
+        "y": 0.9009991884231567,
+        "z": 0.0
+      },
+      "target_visible": false,
+      "target_distance": 2.146751642227173,
+      "memory_snapshot": [
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 4,
+      "task_id": 40,
+      "scene": "FloorPlan212",
+      "room_type": "living_room",
+      "target_type": "RemoteControl",
+      "goal_text": "Navigate to the RemoteControl.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 0.75,
+        "y": 0.9009991884231567,
+        "z": 0.0
+      },
+      "target_visible": false,
+      "target_distance": 2.146751642227173,
+      "memory_snapshot": [
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 5,
+      "task_id": 40,
+      "scene": "FloorPlan212",
+      "room_type": "living_room",
+      "target_type": "RemoteControl",
+      "goal_text": "Navigate to the RemoteControl.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 0.75,
+        "y": 0.9009991884231567,
+        "z": 0.0
+      },
+      "target_visible": true,
+      "target_distance": 2.146751642227173,
+      "memory_snapshot": [
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 6,
+      "task_id": 40,
+      "scene": "FloorPlan212",
+      "room_type": "living_room",
+      "target_type": "RemoteControl",
+      "goal_text": "Navigate to the RemoteControl.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 0.75,
+        "y": 0.9009991884231567,
+        "z": 0.0
+      },
+      "target_visible": false,
+      "target_distance": 2.146751642227173,
+      "memory_snapshot": [
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 7,
+      "task_id": 40,
+      "scene": "FloorPlan212",
+      "room_type": "living_room",
+      "target_type": "RemoteControl",
+      "goal_text": "Navigate to the RemoteControl.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 0.75,
+        "y": 0.9009991884231567,
+        "z": 0.0
+      },
+      "target_visible": false,
+      "target_distance": 2.146751642227173,
+      "memory_snapshot": [
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 8,
+      "task_id": 40,
+      "scene": "FloorPlan212",
+      "room_type": "living_room",
+      "target_type": "RemoteControl",
+      "goal_text": "Navigate to the RemoteControl.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 0.75,
+        "y": 0.9009991884231567,
+        "z": 0.0
+      },
+      "target_visible": false,
+      "target_distance": 2.146751642227173,
+      "memory_snapshot": [
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 9,
+      "task_id": 40,
+      "scene": "FloorPlan212",
+      "room_type": "living_room",
+      "target_type": "RemoteControl",
+      "goal_text": "Navigate to the RemoteControl.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 0.75,
+        "y": 0.9009991884231567,
+        "z": 0.0
+      },
+      "target_visible": true,
+      "target_distance": 2.146751642227173,
+      "memory_snapshot": [
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 10,
+      "task_id": 40,
+      "scene": "FloorPlan212",
+      "room_type": "living_room",
+      "target_type": "RemoteControl",
+      "goal_text": "Navigate to the RemoteControl.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 0.75,
+        "y": 0.9009991884231567,
+        "z": 0.0
+      },
+      "target_visible": false,
+      "target_distance": 2.146751642227173,
+      "memory_snapshot": [
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 11,
+      "task_id": 40,
+      "scene": "FloorPlan212",
+      "room_type": "living_room",
+      "target_type": "RemoteControl",
+      "goal_text": "Navigate to the RemoteControl.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 0.75,
+        "y": 0.9009991884231567,
+        "z": 0.0
+      },
+      "target_visible": false,
+      "target_distance": 2.146751642227173,
+      "memory_snapshot": [
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 12,
+      "task_id": 40,
+      "scene": "FloorPlan212",
+      "room_type": "living_room",
+      "target_type": "RemoteControl",
+      "goal_text": "Navigate to the RemoteControl.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 0.75,
+        "y": 0.9009991884231567,
+        "z": 0.0
+      },
+      "target_visible": false,
+      "target_distance": 2.146751642227173,
+      "memory_snapshot": [
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 13,
+      "task_id": 40,
+      "scene": "FloorPlan212",
+      "room_type": "living_room",
+      "target_type": "RemoteControl",
+      "goal_text": "Navigate to the RemoteControl.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 0.75,
+        "y": 0.9009991884231567,
+        "z": 0.0
+      },
+      "target_visible": true,
+      "target_distance": 2.146751642227173,
+      "memory_snapshot": [
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 14,
+      "task_id": 40,
+      "scene": "FloorPlan212",
+      "room_type": "living_room",
+      "target_type": "RemoteControl",
+      "goal_text": "Navigate to the RemoteControl.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 0.75,
+        "y": 0.9009991884231567,
+        "z": 0.0
+      },
+      "target_visible": false,
+      "target_distance": 2.146751642227173,
+      "memory_snapshot": [
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 15,
+      "task_id": 40,
+      "scene": "FloorPlan212",
+      "room_type": "living_room",
+      "target_type": "RemoteControl",
+      "goal_text": "Navigate to the RemoteControl.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 0.75,
+        "y": 0.9009991884231567,
+        "z": 0.0
+      },
+      "target_visible": false,
+      "target_distance": 2.146751642227173,
+      "memory_snapshot": [
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 16,
+      "task_id": 40,
+      "scene": "FloorPlan212",
+      "room_type": "living_room",
+      "target_type": "RemoteControl",
+      "goal_text": "Navigate to the RemoteControl.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 0.75,
+        "y": 0.9009991884231567,
+        "z": 0.0
+      },
+      "target_visible": false,
+      "target_distance": 2.146751642227173,
+      "memory_snapshot": [
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 17,
+      "task_id": 40,
+      "scene": "FloorPlan212",
+      "room_type": "living_room",
+      "target_type": "RemoteControl",
+      "goal_text": "Navigate to the RemoteControl.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 0.75,
+        "y": 0.9009991884231567,
+        "z": 0.0
+      },
+      "target_visible": true,
+      "target_distance": 2.146751642227173,
+      "memory_snapshot": [
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 18,
+      "task_id": 40,
+      "scene": "FloorPlan212",
+      "room_type": "living_room",
+      "target_type": "RemoteControl",
+      "goal_text": "Navigate to the RemoteControl.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 0.75,
+        "y": 0.9009991884231567,
+        "z": 0.0
+      },
+      "target_visible": false,
+      "target_distance": 2.146751642227173,
+      "memory_snapshot": [
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 19,
+      "task_id": 40,
+      "scene": "FloorPlan212",
+      "room_type": "living_room",
+      "target_type": "RemoteControl",
+      "goal_text": "Navigate to the RemoteControl.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 0.75,
+        "y": 0.9009991884231567,
+        "z": 0.0
+      },
+      "target_visible": false,
+      "target_distance": 2.146751642227173,
+      "memory_snapshot": [
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 20,
+      "task_id": 40,
+      "scene": "FloorPlan212",
+      "room_type": "living_room",
+      "target_type": "RemoteControl",
+      "goal_text": "Navigate to the RemoteControl.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 0.75,
+        "y": 0.9009991884231567,
+        "z": 0.0
+      },
+      "target_visible": false,
+      "target_distance": 2.146751642227173,
+      "memory_snapshot": [
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 21,
+      "task_id": 40,
+      "scene": "FloorPlan212",
+      "room_type": "living_room",
+      "target_type": "RemoteControl",
+      "goal_text": "Navigate to the RemoteControl.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 0.75,
+        "y": 0.9009991884231567,
+        "z": 0.0
+      },
+      "target_visible": true,
+      "target_distance": 2.146751642227173,
+      "memory_snapshot": [
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 22,
+      "task_id": 40,
+      "scene": "FloorPlan212",
+      "room_type": "living_room",
+      "target_type": "RemoteControl",
+      "goal_text": "Navigate to the RemoteControl.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 0.75,
+        "y": 0.9009991884231567,
+        "z": 0.0
+      },
+      "target_visible": false,
+      "target_distance": 2.146751642227173,
+      "memory_snapshot": [
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 23,
+      "task_id": 40,
+      "scene": "FloorPlan212",
+      "room_type": "living_room",
+      "target_type": "RemoteControl",
+      "goal_text": "Navigate to the RemoteControl.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 0.75,
+        "y": 0.9009991884231567,
+        "z": 0.0
+      },
+      "target_visible": false,
+      "target_distance": 2.146751642227173,
+      "memory_snapshot": [
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 24,
+      "task_id": 40,
+      "scene": "FloorPlan212",
+      "room_type": "living_room",
+      "target_type": "RemoteControl",
+      "goal_text": "Navigate to the RemoteControl.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 0.75,
+        "y": 0.9009991884231567,
+        "z": 0.0
+      },
+      "target_visible": false,
+      "target_distance": 2.146751642227173,
+      "memory_snapshot": [
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 25,
+      "task_id": 40,
+      "scene": "FloorPlan212",
+      "room_type": "living_room",
+      "target_type": "RemoteControl",
+      "goal_text": "Navigate to the RemoteControl.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 0.75,
+        "y": 0.9009991884231567,
+        "z": 0.0
+      },
+      "target_visible": true,
+      "target_distance": 2.146751642227173,
+      "memory_snapshot": [
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 26,
+      "task_id": 40,
+      "scene": "FloorPlan212",
+      "room_type": "living_room",
+      "target_type": "RemoteControl",
+      "goal_text": "Navigate to the RemoteControl.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 0.75,
+        "y": 0.9009991884231567,
+        "z": 0.0
+      },
+      "target_visible": false,
+      "target_distance": 2.146751642227173,
+      "memory_snapshot": [
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 27,
+      "task_id": 40,
+      "scene": "FloorPlan212",
+      "room_type": "living_room",
+      "target_type": "RemoteControl",
+      "goal_text": "Navigate to the RemoteControl.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 0.75,
+        "y": 0.9009991884231567,
+        "z": 0.0
+      },
+      "target_visible": false,
+      "target_distance": 2.146751642227173,
+      "memory_snapshot": [
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 28,
+      "task_id": 40,
+      "scene": "FloorPlan212",
+      "room_type": "living_room",
+      "target_type": "RemoteControl",
+      "goal_text": "Navigate to the RemoteControl.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 0.75,
+        "y": 0.9009991884231567,
+        "z": 0.0
+      },
+      "target_visible": false,
+      "target_distance": 2.146751642227173,
+      "memory_snapshot": [
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 29,
+      "task_id": 40,
+      "scene": "FloorPlan212",
+      "room_type": "living_room",
+      "target_type": "RemoteControl",
+      "goal_text": "Navigate to the RemoteControl.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 0.75,
+        "y": 0.9009991884231567,
+        "z": 0.0
+      },
+      "target_visible": true,
+      "target_distance": 2.146751642227173,
+      "memory_snapshot": [
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00.",
+        "Previously saw RemoteControl at coarse distance near position x=0.75, z=0.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    }
+  ]
+}

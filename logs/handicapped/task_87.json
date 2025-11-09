@@ -1,0 +1,333 @@
+{
+  "task_meta": {
+    "task_id": 87,
+    "scene": "FloorPlan229",
+    "room_type": "living_room",
+    "target_type": "Pencil",
+    "goal_text": "Navigate to the Pencil."
+  },
+  "episode_time_sec": 22.28048395807855,
+  "steps": [
+    {
+      "step": 0,
+      "task_id": 87,
+      "scene": "FloorPlan229",
+      "room_type": "living_room",
+      "target_type": "Pencil",
+      "goal_text": "Navigate to the Pencil.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -1.0,
+        "y": 0.9220515489578247,
+        "z": 2.0
+      },
+      "target_visible": false,
+      "target_distance": 1.9693759679794312,
+      "memory_snapshot": [],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 1,
+      "task_id": 87,
+      "scene": "FloorPlan229",
+      "room_type": "living_room",
+      "target_type": "Pencil",
+      "goal_text": "Navigate to the Pencil.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -1.0,
+        "y": 0.9220515489578247,
+        "z": 2.0
+      },
+      "target_visible": false,
+      "target_distance": 1.969402551651001,
+      "memory_snapshot": [],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 2,
+      "task_id": 87,
+      "scene": "FloorPlan229",
+      "room_type": "living_room",
+      "target_type": "Pencil",
+      "goal_text": "Navigate to the Pencil.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -1.0,
+        "y": 0.9220515489578247,
+        "z": 2.0
+      },
+      "target_visible": false,
+      "target_distance": 2.0190188884735107,
+      "memory_snapshot": [],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 3,
+      "task_id": 87,
+      "scene": "FloorPlan229",
+      "room_type": "living_room",
+      "target_type": "Pencil",
+      "goal_text": "Navigate to the Pencil.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -1.0,
+        "y": 0.9220515489578247,
+        "z": 2.0
+      },
+      "target_visible": true,
+      "target_distance": 1.9922505617141724,
+      "memory_snapshot": [
+        "Previously saw Pencil at coarse distance near position x=-1.00, z=2.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 4,
+      "task_id": 87,
+      "scene": "FloorPlan229",
+      "room_type": "living_room",
+      "target_type": "Pencil",
+      "goal_text": "Navigate to the Pencil.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -1.0,
+        "y": 0.9220515489578247,
+        "z": 1.75
+      },
+      "target_visible": true,
+      "target_distance": 1.7607167959213257,
+      "memory_snapshot": [
+        "Previously saw Pencil at coarse distance near position x=-1.00, z=2.00.",
+        "Previously saw Pencil at coarse distance near position x=-1.00, z=1.75."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 5,
+      "task_id": 87,
+      "scene": "FloorPlan229",
+      "room_type": "living_room",
+      "target_type": "Pencil",
+      "goal_text": "Navigate to the Pencil.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -1.0,
+        "y": 0.9220515489578247,
+        "z": 1.5
+      },
+      "target_visible": true,
+      "target_distance": 1.5349868535995483,
+      "memory_snapshot": [
+        "Previously saw Pencil at coarse distance near position x=-1.00, z=2.00.",
+        "Previously saw Pencil at coarse distance near position x=-1.00, z=1.75.",
+        "Previously saw Pencil at coarse distance near position x=-1.00, z=1.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 6,
+      "task_id": 87,
+      "scene": "FloorPlan229",
+      "room_type": "living_room",
+      "target_type": "Pencil",
+      "goal_text": "Navigate to the Pencil.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -1.0,
+        "y": 0.9220515489578247,
+        "z": 1.25
+      },
+      "target_visible": true,
+      "target_distance": 1.31804621219635,
+      "memory_snapshot": [
+        "Previously saw Pencil at coarse distance near position x=-1.00, z=2.00.",
+        "Previously saw Pencil at coarse distance near position x=-1.00, z=1.75.",
+        "Previously saw Pencil at coarse distance near position x=-1.00, z=1.50.",
+        "Previously saw Pencil at coarse distance near position x=-1.00, z=1.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 7,
+      "task_id": 87,
+      "scene": "FloorPlan229",
+      "room_type": "living_room",
+      "target_type": "Pencil",
+      "goal_text": "Navigate to the Pencil.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -1.0,
+        "y": 0.9220515489578247,
+        "z": 1.0
+      },
+      "target_visible": true,
+      "target_distance": 1.1150368452072144,
+      "memory_snapshot": [
+        "Previously saw Pencil at coarse distance near position x=-1.00, z=2.00.",
+        "Previously saw Pencil at coarse distance near position x=-1.00, z=1.75.",
+        "Previously saw Pencil at coarse distance near position x=-1.00, z=1.50.",
+        "Previously saw Pencil at coarse distance near position x=-1.00, z=1.25.",
+        "Previously saw Pencil at coarse distance near position x=-1.00, z=1.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 8,
+      "task_id": 87,
+      "scene": "FloorPlan229",
+      "room_type": "living_room",
+      "target_type": "Pencil",
+      "goal_text": "Navigate to the Pencil.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -1.0,
+        "y": 0.9220515489578247,
+        "z": 0.75
+      },
+      "target_visible": false,
+      "target_distance": 0.9917539954185486,
+      "memory_snapshot": [
+        "Previously saw Pencil at coarse distance near position x=-1.00, z=2.00.",
+        "Previously saw Pencil at coarse distance near position x=-1.00, z=1.75.",
+        "Previously saw Pencil at coarse distance near position x=-1.00, z=1.50.",
+        "Previously saw Pencil at coarse distance near position x=-1.00, z=1.25.",
+        "Previously saw Pencil at coarse distance near position x=-1.00, z=1.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 9,
+      "task_id": 87,
+      "scene": "FloorPlan229",
+      "room_type": "living_room",
+      "target_type": "Pencil",
+      "goal_text": "Navigate to the Pencil.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -1.0,
+        "y": 0.9220515489578247,
+        "z": 0.75
+      },
+      "target_visible": false,
+      "target_distance": 1.0680965185165405,
+      "memory_snapshot": [
+        "Previously saw Pencil at coarse distance near position x=-1.00, z=2.00.",
+        "Previously saw Pencil at coarse distance near position x=-1.00, z=1.75.",
+        "Previously saw Pencil at coarse distance near position x=-1.00, z=1.50.",
+        "Previously saw Pencil at coarse distance near position x=-1.00, z=1.25.",
+        "Previously saw Pencil at coarse distance near position x=-1.00, z=1.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 10,
+      "task_id": 87,
+      "scene": "FloorPlan229",
+      "room_type": "living_room",
+      "target_type": "Pencil",
+      "goal_text": "Navigate to the Pencil.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -1.0,
+        "y": 0.9220515489578247,
+        "z": 0.75
+      },
+      "target_visible": false,
+      "target_distance": 1.1393611431121826,
+      "memory_snapshot": [
+        "Previously saw Pencil at coarse distance near position x=-1.00, z=2.00.",
+        "Previously saw Pencil at coarse distance near position x=-1.00, z=1.75.",
+        "Previously saw Pencil at coarse distance near position x=-1.00, z=1.50.",
+        "Previously saw Pencil at coarse distance near position x=-1.00, z=1.25.",
+        "Previously saw Pencil at coarse distance near position x=-1.00, z=1.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 11,
+      "task_id": 87,
+      "scene": "FloorPlan229",
+      "room_type": "living_room",
+      "target_type": "Pencil",
+      "goal_text": "Navigate to the Pencil.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "Done",
+      "agent_position": {
+        "x": -1.0,
+        "y": 0.9220515489578247,
+        "z": 0.75
+      },
+      "target_visible": true,
+      "target_distance": 1.1647610664367676,
+      "memory_snapshot": [
+        "Previously saw Pencil at coarse distance near position x=-1.00, z=2.00.",
+        "Previously saw Pencil at coarse distance near position x=-1.00, z=1.75.",
+        "Previously saw Pencil at coarse distance near position x=-1.00, z=1.50.",
+        "Previously saw Pencil at coarse distance near position x=-1.00, z=1.25.",
+        "Previously saw Pencil at coarse distance near position x=-1.00, z=1.00.",
+        "Previously saw Pencil at coarse distance near position x=-1.00, z=0.75."
+      ],
+      "message": "",
+      "conversation_log": null
+    }
+  ]
+}

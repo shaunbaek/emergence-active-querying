@@ -1,0 +1,113 @@
+{
+  "task_meta": {
+    "task_id": 14,
+    "scene": "FloorPlan418",
+    "room_type": "bathroom",
+    "target_type": "SoapBar",
+    "goal_text": "Navigate to the SoapBar."
+  },
+  "episode_time_sec": 7.736074000131339,
+  "steps": [
+    {
+      "step": 0,
+      "task_id": 14,
+      "scene": "FloorPlan418",
+      "room_type": "bathroom",
+      "target_type": "SoapBar",
+      "goal_text": "Navigate to the SoapBar.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -2.25,
+        "y": 0.9016419649124146,
+        "z": -1.0
+      },
+      "target_visible": false,
+      "target_distance": 1.7979861497879028,
+      "memory_snapshot": [],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 1,
+      "task_id": 14,
+      "scene": "FloorPlan418",
+      "room_type": "bathroom",
+      "target_type": "SoapBar",
+      "goal_text": "Navigate to the SoapBar.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -2.25,
+        "y": 0.9016419649124146,
+        "z": -1.0
+      },
+      "target_visible": true,
+      "target_distance": 1.7979862689971924,
+      "memory_snapshot": [
+        "Previously saw SoapBar at coarse distance near position x=-2.25, z=-1.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 2,
+      "task_id": 14,
+      "scene": "FloorPlan418",
+      "room_type": "bathroom",
+      "target_type": "SoapBar",
+      "goal_text": "Navigate to the SoapBar.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -2.25,
+        "y": 0.9016419649124146,
+        "z": -1.25
+      },
+      "target_visible": true,
+      "target_distance": 1.563342809677124,
+      "memory_snapshot": [
+        "Previously saw SoapBar at coarse distance near position x=-2.25, z=-1.00.",
+        "Previously saw SoapBar at coarse distance near position x=-2.25, z=-1.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 3,
+      "task_id": 14,
+      "scene": "FloorPlan418",
+      "room_type": "bathroom",
+      "target_type": "SoapBar",
+      "goal_text": "Navigate to the SoapBar.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "Done",
+      "agent_position": {
+        "x": -2.25,
+        "y": 0.9016419649124146,
+        "z": -1.5
+      },
+      "target_visible": true,
+      "target_distance": 1.3342888355255127,
+      "memory_snapshot": [
+        "Previously saw SoapBar at coarse distance near position x=-2.25, z=-1.00.",
+        "Previously saw SoapBar at coarse distance near position x=-2.25, z=-1.25.",
+        "Previously saw SoapBar at coarse distance near position x=-2.25, z=-1.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    }
+  ]
+}

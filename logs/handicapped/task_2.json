@@ -1,0 +1,37 @@
+{
+  "task_meta": {
+    "task_id": 2,
+    "scene": "FloorPlan418",
+    "room_type": "bathroom",
+    "target_type": "Towel",
+    "goal_text": "Navigate to the Towel."
+  },
+  "episode_time_sec": 1.1436870419420302,
+  "steps": [
+    {
+      "step": 0,
+      "task_id": 2,
+      "scene": "FloorPlan418",
+      "room_type": "bathroom",
+      "target_type": "Towel",
+      "goal_text": "Navigate to the Towel.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "Done",
+      "agent_position": {
+        "x": -2.25,
+        "y": 0.9016419649124146,
+        "z": -1.0
+      },
+      "target_visible": true,
+      "target_distance": 1.1355432271957397,
+      "memory_snapshot": [
+        "Previously saw Towel at coarse distance near position x=-2.25, z=-1.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "task_meta": {
+    "task_id": 13,
+    "scene": "FloorPlan226",
+    "room_type": "living_room",
+    "target_type": "HousePlant",
+    "goal_text": "Navigate to the HousePlant."
+  },
+  "episode_time_sec": 1.5757970830891281,
+  "steps": [
+    {
+      "step": 0,
+      "task_id": 13,
+      "scene": "FloorPlan226",
+      "room_type": "living_room",
+      "target_type": "HousePlant",
+      "goal_text": "Navigate to the HousePlant.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -0.75,
+        "y": 0.9009991884231567,
+        "z": 0.5
+      },
+      "target_visible": false,
+      "target_distance": 0.9416006803512573,
+      "memory_snapshot": [],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 1,
+      "task_id": 13,
+      "scene": "FloorPlan226",
+      "room_type": "living_room",
+      "target_type": "HousePlant",
+      "goal_text": "Navigate to the HousePlant.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "Done",
+      "agent_position": {
+        "x": -0.75,
+        "y": 0.9009991884231567,
+        "z": 0.5
+      },
+      "target_visible": true,
+      "target_distance": 0.9416161179542542,
+      "memory_snapshot": [
+        "Previously saw HousePlant at coarse distance near position x=-0.75, z=0.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    }
+  ]
+}

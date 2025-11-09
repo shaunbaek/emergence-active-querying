@@ -1,0 +1,317 @@
+{
+  "task_meta": {
+    "task_id": 65,
+    "scene": "FloorPlan2",
+    "room_type": "kitchen",
+    "target_type": "LightSwitch",
+    "goal_text": "Navigate to the LightSwitch."
+  },
+  "episode_time_sec": 31.818587874993682,
+  "steps": [
+    {
+      "step": 0,
+      "task_id": 65,
+      "scene": "FloorPlan2",
+      "room_type": "kitchen",
+      "target_type": "LightSwitch",
+      "goal_text": "Navigate to the LightSwitch.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -1.0,
+        "y": 0.9009992480278015,
+        "z": 2.0
+      },
+      "target_visible": false,
+      "target_distance": 1.9385088682174683,
+      "memory_snapshot": [],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 1,
+      "task_id": 65,
+      "scene": "FloorPlan2",
+      "room_type": "kitchen",
+      "target_type": "LightSwitch",
+      "goal_text": "Navigate to the LightSwitch.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -1.0,
+        "y": 0.9009992480278015,
+        "z": 2.0
+      },
+      "target_visible": false,
+      "target_distance": 1.9385088682174683,
+      "memory_snapshot": [],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 2,
+      "task_id": 65,
+      "scene": "FloorPlan2",
+      "room_type": "kitchen",
+      "target_type": "LightSwitch",
+      "goal_text": "Navigate to the LightSwitch.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -1.0,
+        "y": 0.9009992480278015,
+        "z": 2.0
+      },
+      "target_visible": true,
+      "target_distance": 1.9385088682174683,
+      "memory_snapshot": [
+        "Previously saw LightSwitch at coarse distance near position x=-1.00, z=2.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 3,
+      "task_id": 65,
+      "scene": "FloorPlan2",
+      "room_type": "kitchen",
+      "target_type": "LightSwitch",
+      "goal_text": "Navigate to the LightSwitch.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -1.0,
+        "y": 0.9009992480278015,
+        "z": 2.25
+      },
+      "target_visible": true,
+      "target_distance": 1.7234606742858887,
+      "memory_snapshot": [
+        "Previously saw LightSwitch at coarse distance near position x=-1.00, z=2.00.",
+        "Previously saw LightSwitch at coarse distance near position x=-1.00, z=2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 4,
+      "task_id": 65,
+      "scene": "FloorPlan2",
+      "room_type": "kitchen",
+      "target_type": "LightSwitch",
+      "goal_text": "Navigate to the LightSwitch.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -1.0,
+        "y": 0.9009992480278015,
+        "z": 2.5
+      },
+      "target_visible": true,
+      "target_distance": 1.5191500186920166,
+      "memory_snapshot": [
+        "Previously saw LightSwitch at coarse distance near position x=-1.00, z=2.00.",
+        "Previously saw LightSwitch at coarse distance near position x=-1.00, z=2.25.",
+        "Previously saw LightSwitch at coarse distance near position x=-1.00, z=2.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 5,
+      "task_id": 65,
+      "scene": "FloorPlan2",
+      "room_type": "kitchen",
+      "target_type": "LightSwitch",
+      "goal_text": "Navigate to the LightSwitch.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -1.0,
+        "y": 0.9009992480278015,
+        "z": 2.75
+      },
+      "target_visible": true,
+      "target_distance": 1.3305325508117676,
+      "memory_snapshot": [
+        "Previously saw LightSwitch at coarse distance near position x=-1.00, z=2.00.",
+        "Previously saw LightSwitch at coarse distance near position x=-1.00, z=2.25.",
+        "Previously saw LightSwitch at coarse distance near position x=-1.00, z=2.50.",
+        "Previously saw LightSwitch at coarse distance near position x=-1.00, z=2.75."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 6,
+      "task_id": 65,
+      "scene": "FloorPlan2",
+      "room_type": "kitchen",
+      "target_type": "LightSwitch",
+      "goal_text": "Navigate to the LightSwitch.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -1.0,
+        "y": 0.9009992480278015,
+        "z": 3.0
+      },
+      "target_visible": true,
+      "target_distance": 1.1652538776397705,
+      "memory_snapshot": [
+        "Previously saw LightSwitch at coarse distance near position x=-1.00, z=2.00.",
+        "Previously saw LightSwitch at coarse distance near position x=-1.00, z=2.25.",
+        "Previously saw LightSwitch at coarse distance near position x=-1.00, z=2.50.",
+        "Previously saw LightSwitch at coarse distance near position x=-1.00, z=2.75.",
+        "Previously saw LightSwitch at coarse distance near position x=-1.00, z=3.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 7,
+      "task_id": 65,
+      "scene": "FloorPlan2",
+      "room_type": "kitchen",
+      "target_type": "LightSwitch",
+      "goal_text": "Navigate to the LightSwitch.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -1.0,
+        "y": 0.9009992480278015,
+        "z": 3.0
+      },
+      "target_visible": true,
+      "target_distance": 1.1652538776397705,
+      "memory_snapshot": [
+        "Previously saw LightSwitch at coarse distance near position x=-1.00, z=2.00.",
+        "Previously saw LightSwitch at coarse distance near position x=-1.00, z=2.25.",
+        "Previously saw LightSwitch at coarse distance near position x=-1.00, z=2.50.",
+        "Previously saw LightSwitch at coarse distance near position x=-1.00, z=2.75.",
+        "Previously saw LightSwitch at coarse distance near position x=-1.00, z=3.00.",
+        "Previously saw LightSwitch at coarse distance near position x=-1.00, z=3.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 8,
+      "task_id": 65,
+      "scene": "FloorPlan2",
+      "room_type": "kitchen",
+      "target_type": "LightSwitch",
+      "goal_text": "Navigate to the LightSwitch.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": -1.0,
+        "y": 0.9009992480278015,
+        "z": 3.0
+      },
+      "target_visible": true,
+      "target_distance": 1.1652538776397705,
+      "memory_snapshot": [
+        "Previously saw LightSwitch at coarse distance near position x=-1.00, z=2.00.",
+        "Previously saw LightSwitch at coarse distance near position x=-1.00, z=2.25.",
+        "Previously saw LightSwitch at coarse distance near position x=-1.00, z=2.50.",
+        "Previously saw LightSwitch at coarse distance near position x=-1.00, z=2.75.",
+        "Previously saw LightSwitch at coarse distance near position x=-1.00, z=3.00.",
+        "Previously saw LightSwitch at coarse distance near position x=-1.00, z=3.00.",
+        "Previously saw LightSwitch at coarse distance near position x=-1.00, z=3.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 9,
+      "task_id": 65,
+      "scene": "FloorPlan2",
+      "room_type": "kitchen",
+      "target_type": "LightSwitch",
+      "goal_text": "Navigate to the LightSwitch.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -1.0,
+        "y": 0.9009992480278015,
+        "z": 3.0
+      },
+      "target_visible": false,
+      "target_distance": 1.1652538776397705,
+      "memory_snapshot": [
+        "Previously saw LightSwitch at coarse distance near position x=-1.00, z=2.00.",
+        "Previously saw LightSwitch at coarse distance near position x=-1.00, z=2.25.",
+        "Previously saw LightSwitch at coarse distance near position x=-1.00, z=2.50.",
+        "Previously saw LightSwitch at coarse distance near position x=-1.00, z=2.75.",
+        "Previously saw LightSwitch at coarse distance near position x=-1.00, z=3.00.",
+        "Previously saw LightSwitch at coarse distance near position x=-1.00, z=3.00.",
+        "Previously saw LightSwitch at coarse distance near position x=-1.00, z=3.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 10,
+      "task_id": 65,
+      "scene": "FloorPlan2",
+      "room_type": "kitchen",
+      "target_type": "LightSwitch",
+      "goal_text": "Navigate to the LightSwitch.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "Done",
+      "agent_position": {
+        "x": -1.0,
+        "y": 0.9009992480278015,
+        "z": 3.0
+      },
+      "target_visible": true,
+      "target_distance": 1.1652538776397705,
+      "memory_snapshot": [
+        "Previously saw LightSwitch at coarse distance near position x=-1.00, z=2.00.",
+        "Previously saw LightSwitch at coarse distance near position x=-1.00, z=2.25.",
+        "Previously saw LightSwitch at coarse distance near position x=-1.00, z=2.50.",
+        "Previously saw LightSwitch at coarse distance near position x=-1.00, z=2.75.",
+        "Previously saw LightSwitch at coarse distance near position x=-1.00, z=3.00.",
+        "Previously saw LightSwitch at coarse distance near position x=-1.00, z=3.00.",
+        "Previously saw LightSwitch at coarse distance near position x=-1.00, z=3.00.",
+        "Previously saw LightSwitch at coarse distance near position x=-1.00, z=3.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    }
+  ]
+}

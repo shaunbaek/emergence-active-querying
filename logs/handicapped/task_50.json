@@ -1,0 +1,161 @@
+{
+  "task_meta": {
+    "task_id": 50,
+    "scene": "FloorPlan326",
+    "room_type": "bedroom",
+    "target_type": "Bed",
+    "goal_text": "Navigate to the Bed."
+  },
+  "episode_time_sec": 14.06205466715619,
+  "steps": [
+    {
+      "step": 0,
+      "task_id": 50,
+      "scene": "FloorPlan326",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Navigate to the Bed.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 0.25,
+        "y": 0.8994580507278442,
+        "z": 0.0
+      },
+      "target_visible": false,
+      "target_distance": 2.907869577407837,
+      "memory_snapshot": [],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 1,
+      "task_id": 50,
+      "scene": "FloorPlan326",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Navigate to the Bed.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": 0.25,
+        "y": 0.8994580507278442,
+        "z": 0.0
+      },
+      "target_visible": true,
+      "target_distance": 2.9115962982177734,
+      "memory_snapshot": [
+        "Previously saw Bed at coarse distance near position x=0.25, z=0.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 2,
+      "task_id": 50,
+      "scene": "FloorPlan326",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Navigate to the Bed.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": 0.25,
+        "y": 0.8994580507278442,
+        "z": -0.25
+      },
+      "target_visible": false,
+      "target_distance": 2.871480703353882,
+      "memory_snapshot": [
+        "Previously saw Bed at coarse distance near position x=0.25, z=0.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 3,
+      "task_id": 50,
+      "scene": "FloorPlan326",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Navigate to the Bed.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": 0.25,
+        "y": 0.8994580507278442,
+        "z": -0.5
+      },
+      "target_visible": false,
+      "target_distance": 2.8544178009033203,
+      "memory_snapshot": [
+        "Previously saw Bed at coarse distance near position x=0.25, z=0.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 4,
+      "task_id": 50,
+      "scene": "FloorPlan326",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Navigate to the Bed.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 0.25,
+        "y": 0.8994580507278442,
+        "z": -0.75
+      },
+      "target_visible": false,
+      "target_distance": 2.8587610721588135,
+      "memory_snapshot": [
+        "Previously saw Bed at coarse distance near position x=0.25, z=0.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 5,
+      "task_id": 50,
+      "scene": "FloorPlan326",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Navigate to the Bed.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "Done",
+      "agent_position": {
+        "x": 0.25,
+        "y": 0.8994580507278442,
+        "z": -0.75
+      },
+      "target_visible": true,
+      "target_distance": 2.855107307434082,
+      "memory_snapshot": [
+        "Previously saw Bed at coarse distance near position x=0.25, z=0.00.",
+        "Previously saw Bed at coarse distance near position x=0.25, z=-0.75."
+      ],
+      "message": "",
+      "conversation_log": null
+    }
+  ]
+}

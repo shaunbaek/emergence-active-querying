@@ -1,0 +1,37 @@
+{
+  "task_meta": {
+    "task_id": 15,
+    "scene": "FloorPlan205",
+    "room_type": "living_room",
+    "target_type": "Laptop",
+    "goal_text": "Navigate to the Laptop."
+  },
+  "episode_time_sec": 3.9578820827882737,
+  "steps": [
+    {
+      "step": 0,
+      "task_id": 15,
+      "scene": "FloorPlan205",
+      "room_type": "living_room",
+      "target_type": "Laptop",
+      "goal_text": "Navigate to the Laptop.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "Done",
+      "agent_position": {
+        "x": -3.0,
+        "y": 0.9011250734329224,
+        "z": 2.0
+      },
+      "target_visible": true,
+      "target_distance": 1.4214731454849243,
+      "memory_snapshot": [
+        "Previously saw Laptop at coarse distance near position x=-3.00, z=2.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    }
+  ]
+}

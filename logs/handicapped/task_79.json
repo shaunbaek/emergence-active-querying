@@ -1,0 +1,63 @@
+{
+  "task_meta": {
+    "task_id": 79,
+    "scene": "FloorPlan409",
+    "room_type": "bathroom",
+    "target_type": "SprayBottle",
+    "goal_text": "Navigate to the SprayBottle."
+  },
+  "episode_time_sec": 3.664739042054862,
+  "steps": [
+    {
+      "step": 0,
+      "task_id": 79,
+      "scene": "FloorPlan409",
+      "room_type": "bathroom",
+      "target_type": "SprayBottle",
+      "goal_text": "Navigate to the SprayBottle.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -0.75,
+        "y": 0.9011651277542114,
+        "z": 2.0
+      },
+      "target_visible": true,
+      "target_distance": 1.1453125476837158,
+      "memory_snapshot": [
+        "Previously saw SprayBottle at coarse distance near position x=-0.75, z=2.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 1,
+      "task_id": 79,
+      "scene": "FloorPlan409",
+      "room_type": "bathroom",
+      "target_type": "SprayBottle",
+      "goal_text": "Navigate to the SprayBottle.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "Done",
+      "agent_position": {
+        "x": -0.75,
+        "y": 0.9011651277542114,
+        "z": 2.0
+      },
+      "target_visible": true,
+      "target_distance": 1.1453183889389038,
+      "memory_snapshot": [
+        "Previously saw SprayBottle at coarse distance near position x=-0.75, z=2.00.",
+        "Previously saw SprayBottle at coarse distance near position x=-0.75, z=2.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    }
+  ]
+}

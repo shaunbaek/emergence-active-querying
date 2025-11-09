@@ -1,0 +1,139 @@
+{
+  "task_meta": {
+    "task_id": 17,
+    "scene": "FloorPlan423",
+    "room_type": "bathroom",
+    "target_type": "HandTowel",
+    "goal_text": "Navigate to the HandTowel."
+  },
+  "episode_time_sec": 7.571192584000528,
+  "steps": [
+    {
+      "step": 0,
+      "task_id": 17,
+      "scene": "FloorPlan423",
+      "room_type": "bathroom",
+      "target_type": "HandTowel",
+      "goal_text": "Navigate to the HandTowel.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.9019852876663208,
+        "z": 1.5
+      },
+      "target_visible": false,
+      "target_distance": 1.7494996786117554,
+      "memory_snapshot": [],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 1,
+      "task_id": 17,
+      "scene": "FloorPlan423",
+      "room_type": "bathroom",
+      "target_type": "HandTowel",
+      "goal_text": "Navigate to the HandTowel.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.9019852876663208,
+        "z": 1.5
+      },
+      "target_visible": true,
+      "target_distance": 1.7494996786117554,
+      "memory_snapshot": [
+        "Previously saw HandTowel at coarse distance near position x=-2.00, z=1.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 2,
+      "task_id": 17,
+      "scene": "FloorPlan423",
+      "room_type": "bathroom",
+      "target_type": "HandTowel",
+      "goal_text": "Navigate to the HandTowel.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.9019852876663208,
+        "z": 1.25
+      },
+      "target_visible": true,
+      "target_distance": 1.594913363456726,
+      "memory_snapshot": [
+        "Previously saw HandTowel at coarse distance near position x=-2.00, z=1.50.",
+        "Previously saw HandTowel at coarse distance near position x=-2.00, z=1.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 3,
+      "task_id": 17,
+      "scene": "FloorPlan423",
+      "room_type": "bathroom",
+      "target_type": "HandTowel",
+      "goal_text": "Navigate to the HandTowel.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.9019852876663208,
+        "z": 1.0
+      },
+      "target_visible": false,
+      "target_distance": 1.4668840169906616,
+      "memory_snapshot": [
+        "Previously saw HandTowel at coarse distance near position x=-2.00, z=1.50.",
+        "Previously saw HandTowel at coarse distance near position x=-2.00, z=1.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 4,
+      "task_id": 17,
+      "scene": "FloorPlan423",
+      "room_type": "bathroom",
+      "target_type": "HandTowel",
+      "goal_text": "Navigate to the HandTowel.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "Done",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.9019852876663208,
+        "z": 1.0
+      },
+      "target_visible": true,
+      "target_distance": 1.4668840169906616,
+      "memory_snapshot": [
+        "Previously saw HandTowel at coarse distance near position x=-2.00, z=1.50.",
+        "Previously saw HandTowel at coarse distance near position x=-2.00, z=1.25.",
+        "Previously saw HandTowel at coarse distance near position x=-2.00, z=1.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    }
+  ]
+}

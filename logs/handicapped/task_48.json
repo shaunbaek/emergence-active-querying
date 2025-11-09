@@ -1,0 +1,85 @@
+{
+  "task_meta": {
+    "task_id": 48,
+    "scene": "FloorPlan416",
+    "room_type": "bathroom",
+    "target_type": "ToiletPaper",
+    "goal_text": "Navigate to the ToiletPaper."
+  },
+  "episode_time_sec": 4.6122621251270175,
+  "steps": [
+    {
+      "step": 0,
+      "task_id": 48,
+      "scene": "FloorPlan416",
+      "room_type": "bathroom",
+      "target_type": "ToiletPaper",
+      "goal_text": "Navigate to the ToiletPaper.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -0.5,
+        "y": 0.9019347429275513,
+        "z": 1.75
+      },
+      "target_visible": false,
+      "target_distance": 2.0222713947296143,
+      "memory_snapshot": [],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 1,
+      "task_id": 48,
+      "scene": "FloorPlan416",
+      "room_type": "bathroom",
+      "target_type": "ToiletPaper",
+      "goal_text": "Navigate to the ToiletPaper.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -0.5,
+        "y": 0.9019347429275513,
+        "z": 1.75
+      },
+      "target_visible": true,
+      "target_distance": 2.0222713947296143,
+      "memory_snapshot": [
+        "Previously saw ToiletPaper at coarse distance near position x=-0.50, z=1.75."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 2,
+      "task_id": 48,
+      "scene": "FloorPlan416",
+      "room_type": "bathroom",
+      "target_type": "ToiletPaper",
+      "goal_text": "Navigate to the ToiletPaper.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "Done",
+      "agent_position": {
+        "x": -0.5,
+        "y": 0.9019347429275513,
+        "z": 1.75
+      },
+      "target_visible": false,
+      "target_distance": 2.0222713947296143,
+      "memory_snapshot": [
+        "Previously saw ToiletPaper at coarse distance near position x=-0.50, z=1.75."
+      ],
+      "message": "",
+      "conversation_log": null
+    }
+  ]
+}

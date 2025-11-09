@@ -1,0 +1,86 @@
+{
+  "task_meta": {
+    "task_id": 61,
+    "scene": "FloorPlan19",
+    "room_type": "kitchen",
+    "target_type": "Microwave",
+    "goal_text": "Navigate to the Microwave."
+  },
+  "episode_time_sec": 5.681053916923702,
+  "steps": [
+    {
+      "step": 0,
+      "task_id": 61,
+      "scene": "FloorPlan19",
+      "room_type": "kitchen",
+      "target_type": "Microwave",
+      "goal_text": "Navigate to the Microwave.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -1.25,
+        "y": 0.9023619890213013,
+        "z": -2.0
+      },
+      "target_visible": false,
+      "target_distance": 1.5542534589767456,
+      "memory_snapshot": [],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 1,
+      "task_id": 61,
+      "scene": "FloorPlan19",
+      "room_type": "kitchen",
+      "target_type": "Microwave",
+      "goal_text": "Navigate to the Microwave.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -1.25,
+        "y": 0.9023619890213013,
+        "z": -2.0
+      },
+      "target_visible": true,
+      "target_distance": 1.554260015487671,
+      "memory_snapshot": [
+        "Previously saw Microwave at coarse distance near position x=-1.25, z=-2.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 2,
+      "task_id": 61,
+      "scene": "FloorPlan19",
+      "room_type": "kitchen",
+      "target_type": "Microwave",
+      "goal_text": "Navigate to the Microwave.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "Done",
+      "agent_position": {
+        "x": -1.25,
+        "y": 0.9023619890213013,
+        "z": -1.75
+      },
+      "target_visible": true,
+      "target_distance": 1.39004647731781,
+      "memory_snapshot": [
+        "Previously saw Microwave at coarse distance near position x=-1.25, z=-2.00.",
+        "Previously saw Microwave at coarse distance near position x=-1.25, z=-1.75."
+      ],
+      "message": "",
+      "conversation_log": null
+    }
+  ]
+}

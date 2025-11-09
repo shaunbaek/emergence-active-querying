@@ -1,0 +1,164 @@
+{
+  "task_meta": {
+    "task_id": 78,
+    "scene": "FloorPlan8",
+    "room_type": "kitchen",
+    "target_type": "PepperShaker",
+    "goal_text": "Navigate to the PepperShaker."
+  },
+  "episode_time_sec": 9.518237415933982,
+  "steps": [
+    {
+      "step": 0,
+      "task_id": 78,
+      "scene": "FloorPlan8",
+      "room_type": "kitchen",
+      "target_type": "PepperShaker",
+      "goal_text": "Navigate to the PepperShaker.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -1.0,
+        "y": 0.9009991884231567,
+        "z": 0.0
+      },
+      "target_visible": false,
+      "target_distance": 1.9723721742630005,
+      "memory_snapshot": [],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 1,
+      "task_id": 78,
+      "scene": "FloorPlan8",
+      "room_type": "kitchen",
+      "target_type": "PepperShaker",
+      "goal_text": "Navigate to the PepperShaker.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -1.0,
+        "y": 0.9009991884231567,
+        "z": 0.0
+      },
+      "target_visible": false,
+      "target_distance": 1.9723721742630005,
+      "memory_snapshot": [],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 2,
+      "task_id": 78,
+      "scene": "FloorPlan8",
+      "room_type": "kitchen",
+      "target_type": "PepperShaker",
+      "goal_text": "Navigate to the PepperShaker.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -1.0,
+        "y": 0.9009991884231567,
+        "z": 0.0
+      },
+      "target_visible": true,
+      "target_distance": 1.9723721742630005,
+      "memory_snapshot": [
+        "Previously saw PepperShaker at coarse distance near position x=-1.00, z=0.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 3,
+      "task_id": 78,
+      "scene": "FloorPlan8",
+      "room_type": "kitchen",
+      "target_type": "PepperShaker",
+      "goal_text": "Navigate to the PepperShaker.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -1.0,
+        "y": 0.9009991884231567,
+        "z": -0.25
+      },
+      "target_visible": true,
+      "target_distance": 1.7409926652908325,
+      "memory_snapshot": [
+        "Previously saw PepperShaker at coarse distance near position x=-1.00, z=0.00.",
+        "Previously saw PepperShaker at coarse distance near position x=-1.00, z=-0.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 4,
+      "task_id": 78,
+      "scene": "FloorPlan8",
+      "room_type": "kitchen",
+      "target_type": "PepperShaker",
+      "goal_text": "Navigate to the PepperShaker.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -1.0,
+        "y": 0.9009991884231567,
+        "z": -0.5
+      },
+      "target_visible": true,
+      "target_distance": 1.5155391693115234,
+      "memory_snapshot": [
+        "Previously saw PepperShaker at coarse distance near position x=-1.00, z=0.00.",
+        "Previously saw PepperShaker at coarse distance near position x=-1.00, z=-0.25.",
+        "Previously saw PepperShaker at coarse distance near position x=-1.00, z=-0.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 5,
+      "task_id": 78,
+      "scene": "FloorPlan8",
+      "room_type": "kitchen",
+      "target_type": "PepperShaker",
+      "goal_text": "Navigate to the PepperShaker.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "Done",
+      "agent_position": {
+        "x": -1.0,
+        "y": 0.9009991884231567,
+        "z": -0.75
+      },
+      "target_visible": true,
+      "target_distance": 1.299100637435913,
+      "memory_snapshot": [
+        "Previously saw PepperShaker at coarse distance near position x=-1.00, z=0.00.",
+        "Previously saw PepperShaker at coarse distance near position x=-1.00, z=-0.25.",
+        "Previously saw PepperShaker at coarse distance near position x=-1.00, z=-0.50.",
+        "Previously saw PepperShaker at coarse distance near position x=-1.00, z=-0.75."
+      ],
+      "message": "",
+      "conversation_log": null
+    }
+  ]
+}

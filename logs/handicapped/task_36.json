@@ -1,0 +1,216 @@
+{
+  "task_meta": {
+    "task_id": 36,
+    "scene": "FloorPlan13",
+    "room_type": "kitchen",
+    "target_type": "Cup",
+    "goal_text": "Navigate to the Cup."
+  },
+  "episode_time_sec": 9.796690459130332,
+  "steps": [
+    {
+      "step": 0,
+      "task_id": 36,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "Cup",
+      "goal_text": "Navigate to the Cup.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.8995019197463989,
+        "z": 3.75
+      },
+      "target_visible": false,
+      "target_distance": 1.8276258707046509,
+      "memory_snapshot": [],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 1,
+      "task_id": 36,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "Cup",
+      "goal_text": "Navigate to the Cup.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.8995019197463989,
+        "z": 3.75
+      },
+      "target_visible": false,
+      "target_distance": 1.827622413635254,
+      "memory_snapshot": [],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 2,
+      "task_id": 36,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "Cup",
+      "goal_text": "Navigate to the Cup.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.8995019197463989,
+        "z": 3.75
+      },
+      "target_visible": false,
+      "target_distance": 1.827622413635254,
+      "memory_snapshot": [],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 3,
+      "task_id": 36,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "Cup",
+      "goal_text": "Navigate to the Cup.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.8995019197463989,
+        "z": 3.75
+      },
+      "target_visible": true,
+      "target_distance": 1.827622413635254,
+      "memory_snapshot": [
+        "Previously saw Cup at coarse distance near position x=-2.00, z=3.75."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 4,
+      "task_id": 36,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "Cup",
+      "goal_text": "Navigate to the Cup.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.8995019197463989,
+        "z": 3.5
+      },
+      "target_visible": true,
+      "target_distance": 1.581475019454956,
+      "memory_snapshot": [
+        "Previously saw Cup at coarse distance near position x=-2.00, z=3.75.",
+        "Previously saw Cup at coarse distance near position x=-2.00, z=3.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 5,
+      "task_id": 36,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "Cup",
+      "goal_text": "Navigate to the Cup.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.8995019197463989,
+        "z": 3.25
+      },
+      "target_visible": true,
+      "target_distance": 1.3367582559585571,
+      "memory_snapshot": [
+        "Previously saw Cup at coarse distance near position x=-2.00, z=3.75.",
+        "Previously saw Cup at coarse distance near position x=-2.00, z=3.50.",
+        "Previously saw Cup at coarse distance near position x=-2.00, z=3.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 6,
+      "task_id": 36,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "Cup",
+      "goal_text": "Navigate to the Cup.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.8995019197463989,
+        "z": 3.0
+      },
+      "target_visible": true,
+      "target_distance": 1.0944323539733887,
+      "memory_snapshot": [
+        "Previously saw Cup at coarse distance near position x=-2.00, z=3.75.",
+        "Previously saw Cup at coarse distance near position x=-2.00, z=3.50.",
+        "Previously saw Cup at coarse distance near position x=-2.00, z=3.25.",
+        "Previously saw Cup at coarse distance near position x=-2.00, z=3.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 7,
+      "task_id": 36,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "Cup",
+      "goal_text": "Navigate to the Cup.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "Done",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.8995019197463989,
+        "z": 2.75
+      },
+      "target_visible": true,
+      "target_distance": 0.8565289974212646,
+      "memory_snapshot": [
+        "Previously saw Cup at coarse distance near position x=-2.00, z=3.75.",
+        "Previously saw Cup at coarse distance near position x=-2.00, z=3.50.",
+        "Previously saw Cup at coarse distance near position x=-2.00, z=3.25.",
+        "Previously saw Cup at coarse distance near position x=-2.00, z=3.00.",
+        "Previously saw Cup at coarse distance near position x=-2.00, z=2.75."
+      ],
+      "message": "",
+      "conversation_log": null
+    }
+  ]
+}

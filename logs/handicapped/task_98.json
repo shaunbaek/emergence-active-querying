@@ -1,0 +1,87 @@
+{
+  "task_meta": {
+    "task_id": 98,
+    "scene": "FloorPlan405",
+    "room_type": "bathroom",
+    "target_type": "TowelHolder",
+    "goal_text": "Navigate to the TowelHolder."
+  },
+  "episode_time_sec": 7.938435208052397,
+  "steps": [
+    {
+      "step": 0,
+      "task_id": 98,
+      "scene": "FloorPlan405",
+      "room_type": "bathroom",
+      "target_type": "TowelHolder",
+      "goal_text": "Navigate to the TowelHolder.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.9048510789871216,
+        "z": 0.0
+      },
+      "target_visible": true,
+      "target_distance": 2.0041232109069824,
+      "memory_snapshot": [
+        "Previously saw TowelHolder at coarse distance near position x=-2.00, z=0.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 1,
+      "task_id": 98,
+      "scene": "FloorPlan405",
+      "room_type": "bathroom",
+      "target_type": "TowelHolder",
+      "goal_text": "Navigate to the TowelHolder.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.9048510789871216,
+        "z": 0.0
+      },
+      "target_visible": false,
+      "target_distance": 2.0041232109069824,
+      "memory_snapshot": [
+        "Previously saw TowelHolder at coarse distance near position x=-2.00, z=0.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 2,
+      "task_id": 98,
+      "scene": "FloorPlan405",
+      "room_type": "bathroom",
+      "target_type": "TowelHolder",
+      "goal_text": "Navigate to the TowelHolder.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "Done",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.9048510789871216,
+        "z": 0.0
+      },
+      "target_visible": false,
+      "target_distance": 2.0041232109069824,
+      "memory_snapshot": [
+        "Previously saw TowelHolder at coarse distance near position x=-2.00, z=0.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    }
+  ]
+}

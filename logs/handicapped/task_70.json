@@ -1,0 +1,106 @@
+{
+  "task_meta": {
+    "task_id": 70,
+    "scene": "FloorPlan28",
+    "room_type": "kitchen",
+    "target_type": "Egg",
+    "goal_text": "Navigate to the Egg."
+  },
+  "episode_time_sec": 2.899837000062689,
+  "steps": [
+    {
+      "step": 0,
+      "task_id": 70,
+      "scene": "FloorPlan28",
+      "room_type": "kitchen",
+      "target_type": "Egg",
+      "goal_text": "Navigate to the Egg.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -1.5,
+        "y": 0.9009982347488403,
+        "z": -1.5
+      },
+      "target_visible": false,
+      "target_distance": 0.9654417634010315,
+      "memory_snapshot": [],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 1,
+      "task_id": 70,
+      "scene": "FloorPlan28",
+      "room_type": "kitchen",
+      "target_type": "Egg",
+      "goal_text": "Navigate to the Egg.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -1.5,
+        "y": 0.9009982347488403,
+        "z": -1.5
+      },
+      "target_visible": false,
+      "target_distance": 0.9654393196105957,
+      "memory_snapshot": [],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 2,
+      "task_id": 70,
+      "scene": "FloorPlan28",
+      "room_type": "kitchen",
+      "target_type": "Egg",
+      "goal_text": "Navigate to the Egg.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -1.5,
+        "y": 0.9009982347488403,
+        "z": -1.5
+      },
+      "target_visible": false,
+      "target_distance": 0.9654393196105957,
+      "memory_snapshot": [],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 3,
+      "task_id": 70,
+      "scene": "FloorPlan28",
+      "room_type": "kitchen",
+      "target_type": "Egg",
+      "goal_text": "Navigate to the Egg.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "Done",
+      "agent_position": {
+        "x": -1.5,
+        "y": 0.9009982347488403,
+        "z": -1.5
+      },
+      "target_visible": true,
+      "target_distance": 0.9654393196105957,
+      "memory_snapshot": [
+        "Previously saw Egg at coarse distance near position x=-1.50, z=-1.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    }
+  ]
+}

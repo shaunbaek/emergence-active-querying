@@ -1,0 +1,187 @@
+{
+  "task_meta": {
+    "task_id": 74,
+    "scene": "FloorPlan13",
+    "room_type": "kitchen",
+    "target_type": "StoveBurner",
+    "goal_text": "Navigate to the StoveBurner."
+  },
+  "episode_time_sec": 9.22744654188864,
+  "steps": [
+    {
+      "step": 0,
+      "task_id": 74,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "StoveBurner",
+      "goal_text": "Navigate to the StoveBurner.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.8995019197463989,
+        "z": 3.75
+      },
+      "target_visible": false,
+      "target_distance": 1.9677125215530396,
+      "memory_snapshot": [],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 1,
+      "task_id": 74,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "StoveBurner",
+      "goal_text": "Navigate to the StoveBurner.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.8995019197463989,
+        "z": 3.75
+      },
+      "target_visible": false,
+      "target_distance": 1.9677125215530396,
+      "memory_snapshot": [],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 2,
+      "task_id": 74,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "StoveBurner",
+      "goal_text": "Navigate to the StoveBurner.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.8995019197463989,
+        "z": 3.75
+      },
+      "target_visible": false,
+      "target_distance": 1.9677125215530396,
+      "memory_snapshot": [],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 3,
+      "task_id": 74,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "StoveBurner",
+      "goal_text": "Navigate to the StoveBurner.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.8995019197463989,
+        "z": 3.75
+      },
+      "target_visible": true,
+      "target_distance": 1.9677125215530396,
+      "memory_snapshot": [
+        "Previously saw StoveBurner at coarse distance near position x=-2.00, z=3.75."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 4,
+      "task_id": 74,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "StoveBurner",
+      "goal_text": "Navigate to the StoveBurner.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.8995019197463989,
+        "z": 3.5
+      },
+      "target_visible": true,
+      "target_distance": 1.7509547472000122,
+      "memory_snapshot": [
+        "Previously saw StoveBurner at coarse distance near position x=-2.00, z=3.75.",
+        "Previously saw StoveBurner at coarse distance near position x=-2.00, z=3.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 5,
+      "task_id": 74,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "StoveBurner",
+      "goal_text": "Navigate to the StoveBurner.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.8995019197463989,
+        "z": 3.25
+      },
+      "target_visible": true,
+      "target_distance": 1.5442774295806885,
+      "memory_snapshot": [
+        "Previously saw StoveBurner at coarse distance near position x=-2.00, z=3.75.",
+        "Previously saw StoveBurner at coarse distance near position x=-2.00, z=3.50.",
+        "Previously saw StoveBurner at coarse distance near position x=-2.00, z=3.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 6,
+      "task_id": 74,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "StoveBurner",
+      "goal_text": "Navigate to the StoveBurner.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "Done",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.8995019197463989,
+        "z": 3.0
+      },
+      "target_visible": true,
+      "target_distance": 1.3523101806640625,
+      "memory_snapshot": [
+        "Previously saw StoveBurner at coarse distance near position x=-2.00, z=3.75.",
+        "Previously saw StoveBurner at coarse distance near position x=-2.00, z=3.50.",
+        "Previously saw StoveBurner at coarse distance near position x=-2.00, z=3.25.",
+        "Previously saw StoveBurner at coarse distance near position x=-2.00, z=3.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    }
+  ]
+}

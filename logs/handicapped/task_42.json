@@ -1,0 +1,177 @@
+{
+  "task_meta": {
+    "task_id": 42,
+    "scene": "FloorPlan420",
+    "room_type": "bathroom",
+    "target_type": "Candle",
+    "goal_text": "Navigate to the Candle."
+  },
+  "episode_time_sec": 15.237342291977257,
+  "steps": [
+    {
+      "step": 0,
+      "task_id": 42,
+      "scene": "FloorPlan420",
+      "room_type": "bathroom",
+      "target_type": "Candle",
+      "goal_text": "Navigate to the Candle.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -1.75,
+        "y": 0.9014922380447388,
+        "z": -1.25
+      },
+      "target_visible": true,
+      "target_distance": 1.8324501514434814,
+      "memory_snapshot": [
+        "Previously saw Candle at coarse distance near position x=-1.75, z=-1.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 1,
+      "task_id": 42,
+      "scene": "FloorPlan420",
+      "room_type": "bathroom",
+      "target_type": "Candle",
+      "goal_text": "Navigate to the Candle.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -1.5,
+        "y": 0.9014922380447388,
+        "z": -1.25
+      },
+      "target_visible": true,
+      "target_distance": 1.615382194519043,
+      "memory_snapshot": [
+        "Previously saw Candle at coarse distance near position x=-1.75, z=-1.25.",
+        "Previously saw Candle at coarse distance near position x=-1.50, z=-1.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 2,
+      "task_id": 42,
+      "scene": "FloorPlan420",
+      "room_type": "bathroom",
+      "target_type": "Candle",
+      "goal_text": "Navigate to the Candle.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -1.25,
+        "y": 0.9014922380447388,
+        "z": -1.25
+      },
+      "target_visible": true,
+      "target_distance": 1.409515619277954,
+      "memory_snapshot": [
+        "Previously saw Candle at coarse distance near position x=-1.75, z=-1.25.",
+        "Previously saw Candle at coarse distance near position x=-1.50, z=-1.25.",
+        "Previously saw Candle at coarse distance near position x=-1.25, z=-1.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 3,
+      "task_id": 42,
+      "scene": "FloorPlan420",
+      "room_type": "bathroom",
+      "target_type": "Candle",
+      "goal_text": "Navigate to the Candle.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -1.0,
+        "y": 0.9014922380447388,
+        "z": -1.25
+      },
+      "target_visible": true,
+      "target_distance": 1.2202470302581787,
+      "memory_snapshot": [
+        "Previously saw Candle at coarse distance near position x=-1.75, z=-1.25.",
+        "Previously saw Candle at coarse distance near position x=-1.50, z=-1.25.",
+        "Previously saw Candle at coarse distance near position x=-1.25, z=-1.25.",
+        "Previously saw Candle at coarse distance near position x=-1.00, z=-1.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 4,
+      "task_id": 42,
+      "scene": "FloorPlan420",
+      "room_type": "bathroom",
+      "target_type": "Candle",
+      "goal_text": "Navigate to the Candle.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -1.0,
+        "y": 0.9014922380447388,
+        "z": -1.25
+      },
+      "target_visible": true,
+      "target_distance": 1.2202470302581787,
+      "memory_snapshot": [
+        "Previously saw Candle at coarse distance near position x=-1.75, z=-1.25.",
+        "Previously saw Candle at coarse distance near position x=-1.50, z=-1.25.",
+        "Previously saw Candle at coarse distance near position x=-1.25, z=-1.25.",
+        "Previously saw Candle at coarse distance near position x=-1.00, z=-1.25.",
+        "Previously saw Candle at coarse distance near position x=-1.00, z=-1.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 5,
+      "task_id": 42,
+      "scene": "FloorPlan420",
+      "room_type": "bathroom",
+      "target_type": "Candle",
+      "goal_text": "Navigate to the Candle.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "Done",
+      "agent_position": {
+        "x": -1.0,
+        "y": 0.9014922380447388,
+        "z": -1.25
+      },
+      "target_visible": true,
+      "target_distance": 1.2202470302581787,
+      "memory_snapshot": [
+        "Previously saw Candle at coarse distance near position x=-1.75, z=-1.25.",
+        "Previously saw Candle at coarse distance near position x=-1.50, z=-1.25.",
+        "Previously saw Candle at coarse distance near position x=-1.25, z=-1.25.",
+        "Previously saw Candle at coarse distance near position x=-1.00, z=-1.25.",
+        "Previously saw Candle at coarse distance near position x=-1.00, z=-1.25.",
+        "Previously saw Candle at coarse distance near position x=-1.00, z=-1.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    }
+  ]
+}

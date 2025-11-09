@@ -1,0 +1,60 @@
+{
+  "task_meta": {
+    "task_id": 84,
+    "scene": "FloorPlan27",
+    "room_type": "kitchen",
+    "target_type": "Pot",
+    "goal_text": "Navigate to the Pot."
+  },
+  "episode_time_sec": 1.8392903751228005,
+  "steps": [
+    {
+      "step": 0,
+      "task_id": 84,
+      "scene": "FloorPlan27",
+      "room_type": "kitchen",
+      "target_type": "Pot",
+      "goal_text": "Navigate to the Pot.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 1.0,
+        "y": 0.9010001420974731,
+        "z": 1.0
+      },
+      "target_visible": false,
+      "target_distance": 0.9890249371528625,
+      "memory_snapshot": [],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 1,
+      "task_id": 84,
+      "scene": "FloorPlan27",
+      "room_type": "kitchen",
+      "target_type": "Pot",
+      "goal_text": "Navigate to the Pot.",
+      "policy": "handicapped",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "Done",
+      "agent_position": {
+        "x": 1.0,
+        "y": 0.9010001420974731,
+        "z": 1.0
+      },
+      "target_visible": true,
+      "target_distance": 0.9890284538269043,
+      "memory_snapshot": [
+        "Previously saw Pot at coarse distance near position x=1.00, z=1.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    }
+  ]
+}
