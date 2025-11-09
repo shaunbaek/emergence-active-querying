@@ -1,0 +1,60 @@
+{
+  "task_meta": {
+    "task_id": 29,
+    "scene": "FloorPlan207",
+    "room_type": "living_room",
+    "target_type": "Box",
+    "goal_text": "Navigate to the Box."
+  },
+  "episode_time_sec": 2.0217966670006717,
+  "steps": [
+    {
+      "step": 0,
+      "task_id": 29,
+      "scene": "FloorPlan207",
+      "room_type": "living_room",
+      "target_type": "Box",
+      "goal_text": "Navigate to the Box.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -0.75,
+        "y": 0.9009992480278015,
+        "z": 0.5
+      },
+      "target_visible": false,
+      "target_distance": 0.8772485256195068,
+      "memory_snapshot": [],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 1,
+      "task_id": 29,
+      "scene": "FloorPlan207",
+      "room_type": "living_room",
+      "target_type": "Box",
+      "goal_text": "Navigate to the Box.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "Done",
+      "agent_position": {
+        "x": -0.75,
+        "y": 0.9009992480278015,
+        "z": 0.5
+      },
+      "target_visible": true,
+      "target_distance": 0.8774106502532959,
+      "memory_snapshot": [
+        "Previously saw Box at distance 0.88 m near position x=-0.75, z=0.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    }
+  ]
+}

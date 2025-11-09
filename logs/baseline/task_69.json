@@ -1,0 +1,88 @@
+{
+  "task_meta": {
+    "task_id": 69,
+    "scene": "FloorPlan22",
+    "room_type": "kitchen",
+    "target_type": "CoffeeMachine",
+    "goal_text": "Navigate to the CoffeeMachine."
+  },
+  "episode_time_sec": 4.256693207998978,
+  "steps": [
+    {
+      "step": 0,
+      "task_id": 69,
+      "scene": "FloorPlan22",
+      "room_type": "kitchen",
+      "target_type": "CoffeeMachine",
+      "goal_text": "Navigate to the CoffeeMachine.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": 0.25,
+        "y": 0.9009991884231567,
+        "z": -0.25
+      },
+      "target_visible": true,
+      "target_distance": 1.0581128597259521,
+      "memory_snapshot": [
+        "Previously saw CoffeeMachine at distance 1.06 m near position x=0.25, z=-0.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 1,
+      "task_id": 69,
+      "scene": "FloorPlan22",
+      "room_type": "kitchen",
+      "target_type": "CoffeeMachine",
+      "goal_text": "Navigate to the CoffeeMachine.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 0.25,
+        "y": 0.9009991884231567,
+        "z": 0.0
+      },
+      "target_visible": false,
+      "target_distance": 0.9492151141166687,
+      "memory_snapshot": [
+        "Previously saw CoffeeMachine at distance 1.06 m near position x=0.25, z=-0.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 2,
+      "task_id": 69,
+      "scene": "FloorPlan22",
+      "room_type": "kitchen",
+      "target_type": "CoffeeMachine",
+      "goal_text": "Navigate to the CoffeeMachine.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "Done",
+      "agent_position": {
+        "x": 0.25,
+        "y": 0.9009991884231567,
+        "z": 0.0
+      },
+      "target_visible": true,
+      "target_distance": 0.9492150545120239,
+      "memory_snapshot": [
+        "Previously saw CoffeeMachine at distance 1.06 m near position x=0.25, z=-0.25.",
+        "Previously saw CoffeeMachine at distance 0.95 m near position x=0.25, z=0.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    }
+  ]
+}

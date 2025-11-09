@@ -1,0 +1,819 @@
+{
+  "task_meta": {
+    "task_id": 64,
+    "scene": "FloorPlan330",
+    "room_type": "bedroom",
+    "target_type": "CellPhone",
+    "goal_text": "Navigate to the CellPhone."
+  },
+  "episode_time_sec": 43.487840875000984,
+  "steps": [
+    {
+      "step": 0,
+      "task_id": 64,
+      "scene": "FloorPlan330",
+      "room_type": "bedroom",
+      "target_type": "CellPhone",
+      "goal_text": "Navigate to the CellPhone.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -0.75,
+        "y": 0.9009991884231567,
+        "z": -2.0
+      },
+      "target_visible": true,
+      "target_distance": 1.4687731266021729,
+      "memory_snapshot": [
+        "Previously saw CellPhone at distance 1.47 m near position x=-0.75, z=-2.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 1,
+      "task_id": 64,
+      "scene": "FloorPlan330",
+      "room_type": "bedroom",
+      "target_type": "CellPhone",
+      "goal_text": "Navigate to the CellPhone.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -0.75,
+        "y": 0.9009991884231567,
+        "z": -1.75
+      },
+      "target_visible": true,
+      "target_distance": 1.260201096534729,
+      "memory_snapshot": [
+        "Previously saw CellPhone at distance 1.47 m near position x=-0.75, z=-2.00.",
+        "Previously saw CellPhone at distance 1.26 m near position x=-0.75, z=-1.75."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 2,
+      "task_id": 64,
+      "scene": "FloorPlan330",
+      "room_type": "bedroom",
+      "target_type": "CellPhone",
+      "goal_text": "Navigate to the CellPhone.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -0.75,
+        "y": 0.9009991884231567,
+        "z": -1.5
+      },
+      "target_visible": true,
+      "target_distance": 1.069551944732666,
+      "memory_snapshot": [
+        "Previously saw CellPhone at distance 1.47 m near position x=-0.75, z=-2.00.",
+        "Previously saw CellPhone at distance 1.26 m near position x=-0.75, z=-1.75.",
+        "Previously saw CellPhone at distance 1.07 m near position x=-0.75, z=-1.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 3,
+      "task_id": 64,
+      "scene": "FloorPlan330",
+      "room_type": "bedroom",
+      "target_type": "CellPhone",
+      "goal_text": "Navigate to the CellPhone.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -0.75,
+        "y": 0.9009991884231567,
+        "z": -1.25
+      },
+      "target_visible": false,
+      "target_distance": 0.9081600308418274,
+      "memory_snapshot": [
+        "Previously saw CellPhone at distance 1.47 m near position x=-0.75, z=-2.00.",
+        "Previously saw CellPhone at distance 1.26 m near position x=-0.75, z=-1.75.",
+        "Previously saw CellPhone at distance 1.07 m near position x=-0.75, z=-1.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 4,
+      "task_id": 64,
+      "scene": "FloorPlan330",
+      "room_type": "bedroom",
+      "target_type": "CellPhone",
+      "goal_text": "Navigate to the CellPhone.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": -0.75,
+        "y": 0.9009991884231567,
+        "z": -1.25
+      },
+      "target_visible": false,
+      "target_distance": 0.9081516265869141,
+      "memory_snapshot": [
+        "Previously saw CellPhone at distance 1.47 m near position x=-0.75, z=-2.00.",
+        "Previously saw CellPhone at distance 1.26 m near position x=-0.75, z=-1.75.",
+        "Previously saw CellPhone at distance 1.07 m near position x=-0.75, z=-1.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 5,
+      "task_id": 64,
+      "scene": "FloorPlan330",
+      "room_type": "bedroom",
+      "target_type": "CellPhone",
+      "goal_text": "Navigate to the CellPhone.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -0.75,
+        "y": 0.9009991884231567,
+        "z": -1.25
+      },
+      "target_visible": false,
+      "target_distance": 0.9081442356109619,
+      "memory_snapshot": [
+        "Previously saw CellPhone at distance 1.47 m near position x=-0.75, z=-2.00.",
+        "Previously saw CellPhone at distance 1.26 m near position x=-0.75, z=-1.75.",
+        "Previously saw CellPhone at distance 1.07 m near position x=-0.75, z=-1.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 6,
+      "task_id": 64,
+      "scene": "FloorPlan330",
+      "room_type": "bedroom",
+      "target_type": "CellPhone",
+      "goal_text": "Navigate to the CellPhone.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": -0.75,
+        "y": 0.9009991884231567,
+        "z": -1.25
+      },
+      "target_visible": false,
+      "target_distance": 0.9081442356109619,
+      "memory_snapshot": [
+        "Previously saw CellPhone at distance 1.47 m near position x=-0.75, z=-2.00.",
+        "Previously saw CellPhone at distance 1.26 m near position x=-0.75, z=-1.75.",
+        "Previously saw CellPhone at distance 1.07 m near position x=-0.75, z=-1.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 7,
+      "task_id": 64,
+      "scene": "FloorPlan330",
+      "room_type": "bedroom",
+      "target_type": "CellPhone",
+      "goal_text": "Navigate to the CellPhone.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -0.75,
+        "y": 0.9009991884231567,
+        "z": -1.25
+      },
+      "target_visible": false,
+      "target_distance": 0.9081442356109619,
+      "memory_snapshot": [
+        "Previously saw CellPhone at distance 1.47 m near position x=-0.75, z=-2.00.",
+        "Previously saw CellPhone at distance 1.26 m near position x=-0.75, z=-1.75.",
+        "Previously saw CellPhone at distance 1.07 m near position x=-0.75, z=-1.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 8,
+      "task_id": 64,
+      "scene": "FloorPlan330",
+      "room_type": "bedroom",
+      "target_type": "CellPhone",
+      "goal_text": "Navigate to the CellPhone.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": -0.75,
+        "y": 0.9009991884231567,
+        "z": -1.25
+      },
+      "target_visible": false,
+      "target_distance": 0.9081442356109619,
+      "memory_snapshot": [
+        "Previously saw CellPhone at distance 1.47 m near position x=-0.75, z=-2.00.",
+        "Previously saw CellPhone at distance 1.26 m near position x=-0.75, z=-1.75.",
+        "Previously saw CellPhone at distance 1.07 m near position x=-0.75, z=-1.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 9,
+      "task_id": 64,
+      "scene": "FloorPlan330",
+      "room_type": "bedroom",
+      "target_type": "CellPhone",
+      "goal_text": "Navigate to the CellPhone.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -0.75,
+        "y": 0.9009991884231567,
+        "z": -1.25
+      },
+      "target_visible": false,
+      "target_distance": 0.9081442356109619,
+      "memory_snapshot": [
+        "Previously saw CellPhone at distance 1.47 m near position x=-0.75, z=-2.00.",
+        "Previously saw CellPhone at distance 1.26 m near position x=-0.75, z=-1.75.",
+        "Previously saw CellPhone at distance 1.07 m near position x=-0.75, z=-1.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 10,
+      "task_id": 64,
+      "scene": "FloorPlan330",
+      "room_type": "bedroom",
+      "target_type": "CellPhone",
+      "goal_text": "Navigate to the CellPhone.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": -0.75,
+        "y": 0.9009991884231567,
+        "z": -1.25
+      },
+      "target_visible": false,
+      "target_distance": 0.9081442356109619,
+      "memory_snapshot": [
+        "Previously saw CellPhone at distance 1.47 m near position x=-0.75, z=-2.00.",
+        "Previously saw CellPhone at distance 1.26 m near position x=-0.75, z=-1.75.",
+        "Previously saw CellPhone at distance 1.07 m near position x=-0.75, z=-1.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 11,
+      "task_id": 64,
+      "scene": "FloorPlan330",
+      "room_type": "bedroom",
+      "target_type": "CellPhone",
+      "goal_text": "Navigate to the CellPhone.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -0.75,
+        "y": 0.9009991884231567,
+        "z": -1.25
+      },
+      "target_visible": false,
+      "target_distance": 0.9081442356109619,
+      "memory_snapshot": [
+        "Previously saw CellPhone at distance 1.47 m near position x=-0.75, z=-2.00.",
+        "Previously saw CellPhone at distance 1.26 m near position x=-0.75, z=-1.75.",
+        "Previously saw CellPhone at distance 1.07 m near position x=-0.75, z=-1.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 12,
+      "task_id": 64,
+      "scene": "FloorPlan330",
+      "room_type": "bedroom",
+      "target_type": "CellPhone",
+      "goal_text": "Navigate to the CellPhone.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": -0.75,
+        "y": 0.9009991884231567,
+        "z": -1.25
+      },
+      "target_visible": false,
+      "target_distance": 0.9081442356109619,
+      "memory_snapshot": [
+        "Previously saw CellPhone at distance 1.47 m near position x=-0.75, z=-2.00.",
+        "Previously saw CellPhone at distance 1.26 m near position x=-0.75, z=-1.75.",
+        "Previously saw CellPhone at distance 1.07 m near position x=-0.75, z=-1.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 13,
+      "task_id": 64,
+      "scene": "FloorPlan330",
+      "room_type": "bedroom",
+      "target_type": "CellPhone",
+      "goal_text": "Navigate to the CellPhone.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -0.75,
+        "y": 0.9009991884231567,
+        "z": -1.25
+      },
+      "target_visible": false,
+      "target_distance": 0.9081442356109619,
+      "memory_snapshot": [
+        "Previously saw CellPhone at distance 1.47 m near position x=-0.75, z=-2.00.",
+        "Previously saw CellPhone at distance 1.26 m near position x=-0.75, z=-1.75.",
+        "Previously saw CellPhone at distance 1.07 m near position x=-0.75, z=-1.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 14,
+      "task_id": 64,
+      "scene": "FloorPlan330",
+      "room_type": "bedroom",
+      "target_type": "CellPhone",
+      "goal_text": "Navigate to the CellPhone.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": -0.75,
+        "y": 0.9009991884231567,
+        "z": -1.25
+      },
+      "target_visible": false,
+      "target_distance": 0.9081442356109619,
+      "memory_snapshot": [
+        "Previously saw CellPhone at distance 1.47 m near position x=-0.75, z=-2.00.",
+        "Previously saw CellPhone at distance 1.26 m near position x=-0.75, z=-1.75.",
+        "Previously saw CellPhone at distance 1.07 m near position x=-0.75, z=-1.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 15,
+      "task_id": 64,
+      "scene": "FloorPlan330",
+      "room_type": "bedroom",
+      "target_type": "CellPhone",
+      "goal_text": "Navigate to the CellPhone.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -0.75,
+        "y": 0.9009991884231567,
+        "z": -1.25
+      },
+      "target_visible": false,
+      "target_distance": 0.9081442356109619,
+      "memory_snapshot": [
+        "Previously saw CellPhone at distance 1.47 m near position x=-0.75, z=-2.00.",
+        "Previously saw CellPhone at distance 1.26 m near position x=-0.75, z=-1.75.",
+        "Previously saw CellPhone at distance 1.07 m near position x=-0.75, z=-1.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 16,
+      "task_id": 64,
+      "scene": "FloorPlan330",
+      "room_type": "bedroom",
+      "target_type": "CellPhone",
+      "goal_text": "Navigate to the CellPhone.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": -0.75,
+        "y": 0.9009991884231567,
+        "z": -1.25
+      },
+      "target_visible": false,
+      "target_distance": 0.9081442356109619,
+      "memory_snapshot": [
+        "Previously saw CellPhone at distance 1.47 m near position x=-0.75, z=-2.00.",
+        "Previously saw CellPhone at distance 1.26 m near position x=-0.75, z=-1.75.",
+        "Previously saw CellPhone at distance 1.07 m near position x=-0.75, z=-1.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 17,
+      "task_id": 64,
+      "scene": "FloorPlan330",
+      "room_type": "bedroom",
+      "target_type": "CellPhone",
+      "goal_text": "Navigate to the CellPhone.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -0.75,
+        "y": 0.9009991884231567,
+        "z": -1.25
+      },
+      "target_visible": false,
+      "target_distance": 0.9081442356109619,
+      "memory_snapshot": [
+        "Previously saw CellPhone at distance 1.47 m near position x=-0.75, z=-2.00.",
+        "Previously saw CellPhone at distance 1.26 m near position x=-0.75, z=-1.75.",
+        "Previously saw CellPhone at distance 1.07 m near position x=-0.75, z=-1.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 18,
+      "task_id": 64,
+      "scene": "FloorPlan330",
+      "room_type": "bedroom",
+      "target_type": "CellPhone",
+      "goal_text": "Navigate to the CellPhone.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": -0.75,
+        "y": 0.9009991884231567,
+        "z": -1.25
+      },
+      "target_visible": false,
+      "target_distance": 0.9081442356109619,
+      "memory_snapshot": [
+        "Previously saw CellPhone at distance 1.47 m near position x=-0.75, z=-2.00.",
+        "Previously saw CellPhone at distance 1.26 m near position x=-0.75, z=-1.75.",
+        "Previously saw CellPhone at distance 1.07 m near position x=-0.75, z=-1.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 19,
+      "task_id": 64,
+      "scene": "FloorPlan330",
+      "room_type": "bedroom",
+      "target_type": "CellPhone",
+      "goal_text": "Navigate to the CellPhone.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -0.75,
+        "y": 0.9009991884231567,
+        "z": -1.25
+      },
+      "target_visible": false,
+      "target_distance": 0.9081442356109619,
+      "memory_snapshot": [
+        "Previously saw CellPhone at distance 1.47 m near position x=-0.75, z=-2.00.",
+        "Previously saw CellPhone at distance 1.26 m near position x=-0.75, z=-1.75.",
+        "Previously saw CellPhone at distance 1.07 m near position x=-0.75, z=-1.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 20,
+      "task_id": 64,
+      "scene": "FloorPlan330",
+      "room_type": "bedroom",
+      "target_type": "CellPhone",
+      "goal_text": "Navigate to the CellPhone.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": -0.75,
+        "y": 0.9009991884231567,
+        "z": -1.25
+      },
+      "target_visible": false,
+      "target_distance": 0.9081442356109619,
+      "memory_snapshot": [
+        "Previously saw CellPhone at distance 1.47 m near position x=-0.75, z=-2.00.",
+        "Previously saw CellPhone at distance 1.26 m near position x=-0.75, z=-1.75.",
+        "Previously saw CellPhone at distance 1.07 m near position x=-0.75, z=-1.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 21,
+      "task_id": 64,
+      "scene": "FloorPlan330",
+      "room_type": "bedroom",
+      "target_type": "CellPhone",
+      "goal_text": "Navigate to the CellPhone.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -0.75,
+        "y": 0.9009991884231567,
+        "z": -1.25
+      },
+      "target_visible": false,
+      "target_distance": 0.9081442356109619,
+      "memory_snapshot": [
+        "Previously saw CellPhone at distance 1.47 m near position x=-0.75, z=-2.00.",
+        "Previously saw CellPhone at distance 1.26 m near position x=-0.75, z=-1.75.",
+        "Previously saw CellPhone at distance 1.07 m near position x=-0.75, z=-1.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 22,
+      "task_id": 64,
+      "scene": "FloorPlan330",
+      "room_type": "bedroom",
+      "target_type": "CellPhone",
+      "goal_text": "Navigate to the CellPhone.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": -0.75,
+        "y": 0.9009991884231567,
+        "z": -1.25
+      },
+      "target_visible": false,
+      "target_distance": 0.9081442356109619,
+      "memory_snapshot": [
+        "Previously saw CellPhone at distance 1.47 m near position x=-0.75, z=-2.00.",
+        "Previously saw CellPhone at distance 1.26 m near position x=-0.75, z=-1.75.",
+        "Previously saw CellPhone at distance 1.07 m near position x=-0.75, z=-1.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 23,
+      "task_id": 64,
+      "scene": "FloorPlan330",
+      "room_type": "bedroom",
+      "target_type": "CellPhone",
+      "goal_text": "Navigate to the CellPhone.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -0.75,
+        "y": 0.9009991884231567,
+        "z": -1.25
+      },
+      "target_visible": false,
+      "target_distance": 0.9081442356109619,
+      "memory_snapshot": [
+        "Previously saw CellPhone at distance 1.47 m near position x=-0.75, z=-2.00.",
+        "Previously saw CellPhone at distance 1.26 m near position x=-0.75, z=-1.75.",
+        "Previously saw CellPhone at distance 1.07 m near position x=-0.75, z=-1.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 24,
+      "task_id": 64,
+      "scene": "FloorPlan330",
+      "room_type": "bedroom",
+      "target_type": "CellPhone",
+      "goal_text": "Navigate to the CellPhone.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": -0.75,
+        "y": 0.9009991884231567,
+        "z": -1.25
+      },
+      "target_visible": false,
+      "target_distance": 0.9081442356109619,
+      "memory_snapshot": [
+        "Previously saw CellPhone at distance 1.47 m near position x=-0.75, z=-2.00.",
+        "Previously saw CellPhone at distance 1.26 m near position x=-0.75, z=-1.75.",
+        "Previously saw CellPhone at distance 1.07 m near position x=-0.75, z=-1.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 25,
+      "task_id": 64,
+      "scene": "FloorPlan330",
+      "room_type": "bedroom",
+      "target_type": "CellPhone",
+      "goal_text": "Navigate to the CellPhone.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -0.75,
+        "y": 0.9009991884231567,
+        "z": -1.25
+      },
+      "target_visible": false,
+      "target_distance": 0.9081442356109619,
+      "memory_snapshot": [
+        "Previously saw CellPhone at distance 1.47 m near position x=-0.75, z=-2.00.",
+        "Previously saw CellPhone at distance 1.26 m near position x=-0.75, z=-1.75.",
+        "Previously saw CellPhone at distance 1.07 m near position x=-0.75, z=-1.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 26,
+      "task_id": 64,
+      "scene": "FloorPlan330",
+      "room_type": "bedroom",
+      "target_type": "CellPhone",
+      "goal_text": "Navigate to the CellPhone.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": -0.75,
+        "y": 0.9009991884231567,
+        "z": -1.25
+      },
+      "target_visible": false,
+      "target_distance": 0.9081442356109619,
+      "memory_snapshot": [
+        "Previously saw CellPhone at distance 1.47 m near position x=-0.75, z=-2.00.",
+        "Previously saw CellPhone at distance 1.26 m near position x=-0.75, z=-1.75.",
+        "Previously saw CellPhone at distance 1.07 m near position x=-0.75, z=-1.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 27,
+      "task_id": 64,
+      "scene": "FloorPlan330",
+      "room_type": "bedroom",
+      "target_type": "CellPhone",
+      "goal_text": "Navigate to the CellPhone.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -0.75,
+        "y": 0.9009991884231567,
+        "z": -1.25
+      },
+      "target_visible": false,
+      "target_distance": 0.9081442356109619,
+      "memory_snapshot": [
+        "Previously saw CellPhone at distance 1.47 m near position x=-0.75, z=-2.00.",
+        "Previously saw CellPhone at distance 1.26 m near position x=-0.75, z=-1.75.",
+        "Previously saw CellPhone at distance 1.07 m near position x=-0.75, z=-1.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 28,
+      "task_id": 64,
+      "scene": "FloorPlan330",
+      "room_type": "bedroom",
+      "target_type": "CellPhone",
+      "goal_text": "Navigate to the CellPhone.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": -0.75,
+        "y": 0.9009991884231567,
+        "z": -1.25
+      },
+      "target_visible": false,
+      "target_distance": 0.9081442356109619,
+      "memory_snapshot": [
+        "Previously saw CellPhone at distance 1.47 m near position x=-0.75, z=-2.00.",
+        "Previously saw CellPhone at distance 1.26 m near position x=-0.75, z=-1.75.",
+        "Previously saw CellPhone at distance 1.07 m near position x=-0.75, z=-1.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 29,
+      "task_id": 64,
+      "scene": "FloorPlan330",
+      "room_type": "bedroom",
+      "target_type": "CellPhone",
+      "goal_text": "Navigate to the CellPhone.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -0.75,
+        "y": 0.9009991884231567,
+        "z": -1.25
+      },
+      "target_visible": false,
+      "target_distance": 0.9081442356109619,
+      "memory_snapshot": [
+        "Previously saw CellPhone at distance 1.47 m near position x=-0.75, z=-2.00.",
+        "Previously saw CellPhone at distance 1.26 m near position x=-0.75, z=-1.75.",
+        "Previously saw CellPhone at distance 1.07 m near position x=-0.75, z=-1.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    }
+  ]
+}

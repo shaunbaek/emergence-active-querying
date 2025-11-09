@@ -1,0 +1,254 @@
+{
+  "task_meta": {
+    "task_id": 57,
+    "scene": "FloorPlan11",
+    "room_type": "kitchen",
+    "target_type": "CounterTop",
+    "goal_text": "Navigate to the CounterTop."
+  },
+  "episode_time_sec": 20.15535600000112,
+  "steps": [
+    {
+      "step": 0,
+      "task_id": 57,
+      "scene": "FloorPlan11",
+      "room_type": "kitchen",
+      "target_type": "CounterTop",
+      "goal_text": "Navigate to the CounterTop.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -2.5,
+        "y": 0.9009991884231567,
+        "z": -1.0
+      },
+      "target_visible": false,
+      "target_distance": 4.518294811248779,
+      "memory_snapshot": [],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 1,
+      "task_id": 57,
+      "scene": "FloorPlan11",
+      "room_type": "kitchen",
+      "target_type": "CounterTop",
+      "goal_text": "Navigate to the CounterTop.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -2.5,
+        "y": 0.9009991884231567,
+        "z": -0.75
+      },
+      "target_visible": false,
+      "target_distance": 4.4439215660095215,
+      "memory_snapshot": [],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 2,
+      "task_id": 57,
+      "scene": "FloorPlan11",
+      "room_type": "kitchen",
+      "target_type": "CounterTop",
+      "goal_text": "Navigate to the CounterTop.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -2.5,
+        "y": 0.9009991884231567,
+        "z": -0.75
+      },
+      "target_visible": true,
+      "target_distance": 4.4439215660095215,
+      "memory_snapshot": [
+        "Previously saw CounterTop at distance 4.44 m near position x=-2.50, z=-0.75."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 3,
+      "task_id": 57,
+      "scene": "FloorPlan11",
+      "room_type": "kitchen",
+      "target_type": "CounterTop",
+      "goal_text": "Navigate to the CounterTop.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -2.25,
+        "y": 0.9009991884231567,
+        "z": -0.75
+      },
+      "target_visible": true,
+      "target_distance": 4.203901290893555,
+      "memory_snapshot": [
+        "Previously saw CounterTop at distance 4.44 m near position x=-2.50, z=-0.75.",
+        "Previously saw CounterTop at distance 4.20 m near position x=-2.25, z=-0.75."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 4,
+      "task_id": 57,
+      "scene": "FloorPlan11",
+      "room_type": "kitchen",
+      "target_type": "CounterTop",
+      "goal_text": "Navigate to the CounterTop.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.9009991884231567,
+        "z": -0.75
+      },
+      "target_visible": true,
+      "target_distance": 3.9651150703430176,
+      "memory_snapshot": [
+        "Previously saw CounterTop at distance 4.44 m near position x=-2.50, z=-0.75.",
+        "Previously saw CounterTop at distance 4.20 m near position x=-2.25, z=-0.75.",
+        "Previously saw CounterTop at distance 3.97 m near position x=-2.00, z=-0.75."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 5,
+      "task_id": 57,
+      "scene": "FloorPlan11",
+      "room_type": "kitchen",
+      "target_type": "CounterTop",
+      "goal_text": "Navigate to the CounterTop.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -1.75,
+        "y": 0.9009991884231567,
+        "z": -0.75
+      },
+      "target_visible": true,
+      "target_distance": 3.7277991771698,
+      "memory_snapshot": [
+        "Previously saw CounterTop at distance 4.44 m near position x=-2.50, z=-0.75.",
+        "Previously saw CounterTop at distance 4.20 m near position x=-2.25, z=-0.75.",
+        "Previously saw CounterTop at distance 3.97 m near position x=-2.00, z=-0.75.",
+        "Previously saw CounterTop at distance 3.73 m near position x=-1.75, z=-0.75."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 6,
+      "task_id": 57,
+      "scene": "FloorPlan11",
+      "room_type": "kitchen",
+      "target_type": "CounterTop",
+      "goal_text": "Navigate to the CounterTop.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -1.5,
+        "y": 0.9009991884231567,
+        "z": -0.75
+      },
+      "target_visible": true,
+      "target_distance": 3.4922537803649902,
+      "memory_snapshot": [
+        "Previously saw CounterTop at distance 4.44 m near position x=-2.50, z=-0.75.",
+        "Previously saw CounterTop at distance 4.20 m near position x=-2.25, z=-0.75.",
+        "Previously saw CounterTop at distance 3.97 m near position x=-2.00, z=-0.75.",
+        "Previously saw CounterTop at distance 3.73 m near position x=-1.75, z=-0.75.",
+        "Previously saw CounterTop at distance 3.49 m near position x=-1.50, z=-0.75."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 7,
+      "task_id": 57,
+      "scene": "FloorPlan11",
+      "room_type": "kitchen",
+      "target_type": "CounterTop",
+      "goal_text": "Navigate to the CounterTop.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -1.25,
+        "y": 0.9009991884231567,
+        "z": -0.75
+      },
+      "target_visible": true,
+      "target_distance": 3.2588629722595215,
+      "memory_snapshot": [
+        "Previously saw CounterTop at distance 4.44 m near position x=-2.50, z=-0.75.",
+        "Previously saw CounterTop at distance 4.20 m near position x=-2.25, z=-0.75.",
+        "Previously saw CounterTop at distance 3.97 m near position x=-2.00, z=-0.75.",
+        "Previously saw CounterTop at distance 3.73 m near position x=-1.75, z=-0.75.",
+        "Previously saw CounterTop at distance 3.49 m near position x=-1.50, z=-0.75.",
+        "Previously saw CounterTop at distance 3.26 m near position x=-1.25, z=-0.75."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 8,
+      "task_id": 57,
+      "scene": "FloorPlan11",
+      "room_type": "kitchen",
+      "target_type": "CounterTop",
+      "goal_text": "Navigate to the CounterTop.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "Done",
+      "agent_position": {
+        "x": -1.0,
+        "y": 0.9009991884231567,
+        "z": -0.75
+      },
+      "target_visible": true,
+      "target_distance": 3.0281243324279785,
+      "memory_snapshot": [
+        "Previously saw CounterTop at distance 4.44 m near position x=-2.50, z=-0.75.",
+        "Previously saw CounterTop at distance 4.20 m near position x=-2.25, z=-0.75.",
+        "Previously saw CounterTop at distance 3.97 m near position x=-2.00, z=-0.75.",
+        "Previously saw CounterTop at distance 3.73 m near position x=-1.75, z=-0.75.",
+        "Previously saw CounterTop at distance 3.49 m near position x=-1.50, z=-0.75.",
+        "Previously saw CounterTop at distance 3.26 m near position x=-1.25, z=-0.75.",
+        "Previously saw CounterTop at distance 3.03 m near position x=-1.00, z=-0.75."
+      ],
+      "message": "",
+      "conversation_log": null
+    }
+  ]
+}

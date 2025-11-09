@@ -1,0 +1,170 @@
+{
+  "task_meta": {
+    "task_id": 67,
+    "scene": "FloorPlan304",
+    "room_type": "bedroom",
+    "target_type": "Mirror",
+    "goal_text": "Navigate to the Mirror."
+  },
+  "episode_time_sec": 16.141320624999935,
+  "steps": [
+    {
+      "step": 0,
+      "task_id": 67,
+      "scene": "FloorPlan304",
+      "room_type": "bedroom",
+      "target_type": "Mirror",
+      "goal_text": "Navigate to the Mirror.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 0.25,
+        "y": 0.9069997072219849,
+        "z": 1.5
+      },
+      "target_visible": false,
+      "target_distance": 1.8047555685043335,
+      "memory_snapshot": [],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 1,
+      "task_id": 67,
+      "scene": "FloorPlan304",
+      "room_type": "bedroom",
+      "target_type": "Mirror",
+      "goal_text": "Navigate to the Mirror.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": 0.25,
+        "y": 0.9069997072219849,
+        "z": 1.5
+      },
+      "target_visible": true,
+      "target_distance": 1.8047555685043335,
+      "memory_snapshot": [
+        "Previously saw Mirror at distance 1.80 m near position x=0.25, z=1.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 2,
+      "task_id": 67,
+      "scene": "FloorPlan304",
+      "room_type": "bedroom",
+      "target_type": "Mirror",
+      "goal_text": "Navigate to the Mirror.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": 0.5,
+        "y": 0.9069997072219849,
+        "z": 1.5
+      },
+      "target_visible": true,
+      "target_distance": 1.5781770944595337,
+      "memory_snapshot": [
+        "Previously saw Mirror at distance 1.80 m near position x=0.25, z=1.50.",
+        "Previously saw Mirror at distance 1.58 m near position x=0.50, z=1.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 3,
+      "task_id": 67,
+      "scene": "FloorPlan304",
+      "room_type": "bedroom",
+      "target_type": "Mirror",
+      "goal_text": "Navigate to the Mirror.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": 0.75,
+        "y": 0.9069997072219849,
+        "z": 1.5
+      },
+      "target_visible": true,
+      "target_distance": 1.3598319292068481,
+      "memory_snapshot": [
+        "Previously saw Mirror at distance 1.80 m near position x=0.25, z=1.50.",
+        "Previously saw Mirror at distance 1.58 m near position x=0.50, z=1.50.",
+        "Previously saw Mirror at distance 1.36 m near position x=0.75, z=1.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 4,
+      "task_id": 67,
+      "scene": "FloorPlan304",
+      "room_type": "bedroom",
+      "target_type": "Mirror",
+      "goal_text": "Navigate to the Mirror.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": 1.0,
+        "y": 0.9069997072219849,
+        "z": 1.5
+      },
+      "target_visible": true,
+      "target_distance": 1.1544015407562256,
+      "memory_snapshot": [
+        "Previously saw Mirror at distance 1.80 m near position x=0.25, z=1.50.",
+        "Previously saw Mirror at distance 1.58 m near position x=0.50, z=1.50.",
+        "Previously saw Mirror at distance 1.36 m near position x=0.75, z=1.50.",
+        "Previously saw Mirror at distance 1.15 m near position x=1.00, z=1.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 5,
+      "task_id": 67,
+      "scene": "FloorPlan304",
+      "room_type": "bedroom",
+      "target_type": "Mirror",
+      "goal_text": "Navigate to the Mirror.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "Done",
+      "agent_position": {
+        "x": 1.25,
+        "y": 0.9069997072219849,
+        "z": 1.5
+      },
+      "target_visible": true,
+      "target_distance": 0.970125138759613,
+      "memory_snapshot": [
+        "Previously saw Mirror at distance 1.80 m near position x=0.25, z=1.50.",
+        "Previously saw Mirror at distance 1.58 m near position x=0.50, z=1.50.",
+        "Previously saw Mirror at distance 1.36 m near position x=0.75, z=1.50.",
+        "Previously saw Mirror at distance 1.15 m near position x=1.00, z=1.50.",
+        "Previously saw Mirror at distance 0.97 m near position x=1.25, z=1.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    }
+  ]
+}

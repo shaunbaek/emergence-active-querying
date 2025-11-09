@@ -1,0 +1,897 @@
+{
+  "task_meta": {
+    "task_id": 77,
+    "scene": "FloorPlan27",
+    "room_type": "kitchen",
+    "target_type": "Microwave",
+    "goal_text": "Navigate to the Microwave."
+  },
+  "episode_time_sec": 22.677775916999963,
+  "steps": [
+    {
+      "step": 0,
+      "task_id": 77,
+      "scene": "FloorPlan27",
+      "room_type": "kitchen",
+      "target_type": "Microwave",
+      "goal_text": "Navigate to the Microwave.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": 1.25,
+        "y": 0.9010001420974731,
+        "z": 0.0
+      },
+      "target_visible": true,
+      "target_distance": 2.5991010665893555,
+      "memory_snapshot": [
+        "Previously saw Microwave at distance 2.60 m near position x=1.25, z=0.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 1,
+      "task_id": 77,
+      "scene": "FloorPlan27",
+      "room_type": "kitchen",
+      "target_type": "Microwave",
+      "goal_text": "Navigate to the Microwave.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": 1.25,
+        "y": 0.9010001420974731,
+        "z": 0.25
+      },
+      "target_visible": true,
+      "target_distance": 2.4039928913116455,
+      "memory_snapshot": [
+        "Previously saw Microwave at distance 2.60 m near position x=1.25, z=0.00.",
+        "Previously saw Microwave at distance 2.40 m near position x=1.25, z=0.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 2,
+      "task_id": 77,
+      "scene": "FloorPlan27",
+      "room_type": "kitchen",
+      "target_type": "Microwave",
+      "goal_text": "Navigate to the Microwave.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": 1.25,
+        "y": 0.9010001420974731,
+        "z": 0.5
+      },
+      "target_visible": true,
+      "target_distance": 2.2198221683502197,
+      "memory_snapshot": [
+        "Previously saw Microwave at distance 2.60 m near position x=1.25, z=0.00.",
+        "Previously saw Microwave at distance 2.40 m near position x=1.25, z=0.25.",
+        "Previously saw Microwave at distance 2.22 m near position x=1.25, z=0.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 3,
+      "task_id": 77,
+      "scene": "FloorPlan27",
+      "room_type": "kitchen",
+      "target_type": "Microwave",
+      "goal_text": "Navigate to the Microwave.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": 1.25,
+        "y": 0.9010001420974731,
+        "z": 0.75
+      },
+      "target_visible": true,
+      "target_distance": 2.0496432781219482,
+      "memory_snapshot": [
+        "Previously saw Microwave at distance 2.60 m near position x=1.25, z=0.00.",
+        "Previously saw Microwave at distance 2.40 m near position x=1.25, z=0.25.",
+        "Previously saw Microwave at distance 2.22 m near position x=1.25, z=0.50.",
+        "Previously saw Microwave at distance 2.05 m near position x=1.25, z=0.75."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 4,
+      "task_id": 77,
+      "scene": "FloorPlan27",
+      "room_type": "kitchen",
+      "target_type": "Microwave",
+      "goal_text": "Navigate to the Microwave.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": 1.25,
+        "y": 0.9010001420974731,
+        "z": 1.0
+      },
+      "target_visible": true,
+      "target_distance": 1.8972257375717163,
+      "memory_snapshot": [
+        "Previously saw Microwave at distance 2.60 m near position x=1.25, z=0.00.",
+        "Previously saw Microwave at distance 2.40 m near position x=1.25, z=0.25.",
+        "Previously saw Microwave at distance 2.22 m near position x=1.25, z=0.50.",
+        "Previously saw Microwave at distance 2.05 m near position x=1.25, z=0.75.",
+        "Previously saw Microwave at distance 1.90 m near position x=1.25, z=1.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 5,
+      "task_id": 77,
+      "scene": "FloorPlan27",
+      "room_type": "kitchen",
+      "target_type": "Microwave",
+      "goal_text": "Navigate to the Microwave.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": 1.25,
+        "y": 0.9010001420974731,
+        "z": 1.25
+      },
+      "target_visible": true,
+      "target_distance": 1.7671709060668945,
+      "memory_snapshot": [
+        "Previously saw Microwave at distance 2.60 m near position x=1.25, z=0.00.",
+        "Previously saw Microwave at distance 2.40 m near position x=1.25, z=0.25.",
+        "Previously saw Microwave at distance 2.22 m near position x=1.25, z=0.50.",
+        "Previously saw Microwave at distance 2.05 m near position x=1.25, z=0.75.",
+        "Previously saw Microwave at distance 1.90 m near position x=1.25, z=1.00.",
+        "Previously saw Microwave at distance 1.77 m near position x=1.25, z=1.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 6,
+      "task_id": 77,
+      "scene": "FloorPlan27",
+      "room_type": "kitchen",
+      "target_type": "Microwave",
+      "goal_text": "Navigate to the Microwave.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 1.25,
+        "y": 0.9010001420974731,
+        "z": 1.5
+      },
+      "target_visible": false,
+      "target_distance": 1.6647282838821411,
+      "memory_snapshot": [
+        "Previously saw Microwave at distance 2.60 m near position x=1.25, z=0.00.",
+        "Previously saw Microwave at distance 2.40 m near position x=1.25, z=0.25.",
+        "Previously saw Microwave at distance 2.22 m near position x=1.25, z=0.50.",
+        "Previously saw Microwave at distance 2.05 m near position x=1.25, z=0.75.",
+        "Previously saw Microwave at distance 1.90 m near position x=1.25, z=1.00.",
+        "Previously saw Microwave at distance 1.77 m near position x=1.25, z=1.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 7,
+      "task_id": 77,
+      "scene": "FloorPlan27",
+      "room_type": "kitchen",
+      "target_type": "Microwave",
+      "goal_text": "Navigate to the Microwave.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 1.25,
+        "y": 0.9010001420974731,
+        "z": 1.5
+      },
+      "target_visible": false,
+      "target_distance": 1.6647282838821411,
+      "memory_snapshot": [
+        "Previously saw Microwave at distance 2.60 m near position x=1.25, z=0.00.",
+        "Previously saw Microwave at distance 2.40 m near position x=1.25, z=0.25.",
+        "Previously saw Microwave at distance 2.22 m near position x=1.25, z=0.50.",
+        "Previously saw Microwave at distance 2.05 m near position x=1.25, z=0.75.",
+        "Previously saw Microwave at distance 1.90 m near position x=1.25, z=1.00.",
+        "Previously saw Microwave at distance 1.77 m near position x=1.25, z=1.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 8,
+      "task_id": 77,
+      "scene": "FloorPlan27",
+      "room_type": "kitchen",
+      "target_type": "Microwave",
+      "goal_text": "Navigate to the Microwave.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 1.25,
+        "y": 0.9010001420974731,
+        "z": 1.5
+      },
+      "target_visible": false,
+      "target_distance": 1.6647282838821411,
+      "memory_snapshot": [
+        "Previously saw Microwave at distance 2.60 m near position x=1.25, z=0.00.",
+        "Previously saw Microwave at distance 2.40 m near position x=1.25, z=0.25.",
+        "Previously saw Microwave at distance 2.22 m near position x=1.25, z=0.50.",
+        "Previously saw Microwave at distance 2.05 m near position x=1.25, z=0.75.",
+        "Previously saw Microwave at distance 1.90 m near position x=1.25, z=1.00.",
+        "Previously saw Microwave at distance 1.77 m near position x=1.25, z=1.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 9,
+      "task_id": 77,
+      "scene": "FloorPlan27",
+      "room_type": "kitchen",
+      "target_type": "Microwave",
+      "goal_text": "Navigate to the Microwave.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 1.25,
+        "y": 0.9010001420974731,
+        "z": 1.5
+      },
+      "target_visible": false,
+      "target_distance": 1.6647282838821411,
+      "memory_snapshot": [
+        "Previously saw Microwave at distance 2.60 m near position x=1.25, z=0.00.",
+        "Previously saw Microwave at distance 2.40 m near position x=1.25, z=0.25.",
+        "Previously saw Microwave at distance 2.22 m near position x=1.25, z=0.50.",
+        "Previously saw Microwave at distance 2.05 m near position x=1.25, z=0.75.",
+        "Previously saw Microwave at distance 1.90 m near position x=1.25, z=1.00.",
+        "Previously saw Microwave at distance 1.77 m near position x=1.25, z=1.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 10,
+      "task_id": 77,
+      "scene": "FloorPlan27",
+      "room_type": "kitchen",
+      "target_type": "Microwave",
+      "goal_text": "Navigate to the Microwave.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 1.25,
+        "y": 0.9010001420974731,
+        "z": 1.5
+      },
+      "target_visible": false,
+      "target_distance": 1.6647282838821411,
+      "memory_snapshot": [
+        "Previously saw Microwave at distance 2.60 m near position x=1.25, z=0.00.",
+        "Previously saw Microwave at distance 2.40 m near position x=1.25, z=0.25.",
+        "Previously saw Microwave at distance 2.22 m near position x=1.25, z=0.50.",
+        "Previously saw Microwave at distance 2.05 m near position x=1.25, z=0.75.",
+        "Previously saw Microwave at distance 1.90 m near position x=1.25, z=1.00.",
+        "Previously saw Microwave at distance 1.77 m near position x=1.25, z=1.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 11,
+      "task_id": 77,
+      "scene": "FloorPlan27",
+      "room_type": "kitchen",
+      "target_type": "Microwave",
+      "goal_text": "Navigate to the Microwave.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 1.25,
+        "y": 0.9010001420974731,
+        "z": 1.5
+      },
+      "target_visible": false,
+      "target_distance": 1.6647282838821411,
+      "memory_snapshot": [
+        "Previously saw Microwave at distance 2.60 m near position x=1.25, z=0.00.",
+        "Previously saw Microwave at distance 2.40 m near position x=1.25, z=0.25.",
+        "Previously saw Microwave at distance 2.22 m near position x=1.25, z=0.50.",
+        "Previously saw Microwave at distance 2.05 m near position x=1.25, z=0.75.",
+        "Previously saw Microwave at distance 1.90 m near position x=1.25, z=1.00.",
+        "Previously saw Microwave at distance 1.77 m near position x=1.25, z=1.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 12,
+      "task_id": 77,
+      "scene": "FloorPlan27",
+      "room_type": "kitchen",
+      "target_type": "Microwave",
+      "goal_text": "Navigate to the Microwave.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 1.25,
+        "y": 0.9010001420974731,
+        "z": 1.5
+      },
+      "target_visible": false,
+      "target_distance": 1.6647282838821411,
+      "memory_snapshot": [
+        "Previously saw Microwave at distance 2.60 m near position x=1.25, z=0.00.",
+        "Previously saw Microwave at distance 2.40 m near position x=1.25, z=0.25.",
+        "Previously saw Microwave at distance 2.22 m near position x=1.25, z=0.50.",
+        "Previously saw Microwave at distance 2.05 m near position x=1.25, z=0.75.",
+        "Previously saw Microwave at distance 1.90 m near position x=1.25, z=1.00.",
+        "Previously saw Microwave at distance 1.77 m near position x=1.25, z=1.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 13,
+      "task_id": 77,
+      "scene": "FloorPlan27",
+      "room_type": "kitchen",
+      "target_type": "Microwave",
+      "goal_text": "Navigate to the Microwave.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 1.25,
+        "y": 0.9010001420974731,
+        "z": 1.5
+      },
+      "target_visible": false,
+      "target_distance": 1.6647282838821411,
+      "memory_snapshot": [
+        "Previously saw Microwave at distance 2.60 m near position x=1.25, z=0.00.",
+        "Previously saw Microwave at distance 2.40 m near position x=1.25, z=0.25.",
+        "Previously saw Microwave at distance 2.22 m near position x=1.25, z=0.50.",
+        "Previously saw Microwave at distance 2.05 m near position x=1.25, z=0.75.",
+        "Previously saw Microwave at distance 1.90 m near position x=1.25, z=1.00.",
+        "Previously saw Microwave at distance 1.77 m near position x=1.25, z=1.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 14,
+      "task_id": 77,
+      "scene": "FloorPlan27",
+      "room_type": "kitchen",
+      "target_type": "Microwave",
+      "goal_text": "Navigate to the Microwave.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 1.25,
+        "y": 0.9010001420974731,
+        "z": 1.5
+      },
+      "target_visible": false,
+      "target_distance": 1.6647282838821411,
+      "memory_snapshot": [
+        "Previously saw Microwave at distance 2.60 m near position x=1.25, z=0.00.",
+        "Previously saw Microwave at distance 2.40 m near position x=1.25, z=0.25.",
+        "Previously saw Microwave at distance 2.22 m near position x=1.25, z=0.50.",
+        "Previously saw Microwave at distance 2.05 m near position x=1.25, z=0.75.",
+        "Previously saw Microwave at distance 1.90 m near position x=1.25, z=1.00.",
+        "Previously saw Microwave at distance 1.77 m near position x=1.25, z=1.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 15,
+      "task_id": 77,
+      "scene": "FloorPlan27",
+      "room_type": "kitchen",
+      "target_type": "Microwave",
+      "goal_text": "Navigate to the Microwave.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 1.25,
+        "y": 0.9010001420974731,
+        "z": 1.5
+      },
+      "target_visible": false,
+      "target_distance": 1.6647282838821411,
+      "memory_snapshot": [
+        "Previously saw Microwave at distance 2.60 m near position x=1.25, z=0.00.",
+        "Previously saw Microwave at distance 2.40 m near position x=1.25, z=0.25.",
+        "Previously saw Microwave at distance 2.22 m near position x=1.25, z=0.50.",
+        "Previously saw Microwave at distance 2.05 m near position x=1.25, z=0.75.",
+        "Previously saw Microwave at distance 1.90 m near position x=1.25, z=1.00.",
+        "Previously saw Microwave at distance 1.77 m near position x=1.25, z=1.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 16,
+      "task_id": 77,
+      "scene": "FloorPlan27",
+      "room_type": "kitchen",
+      "target_type": "Microwave",
+      "goal_text": "Navigate to the Microwave.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 1.25,
+        "y": 0.9010001420974731,
+        "z": 1.5
+      },
+      "target_visible": false,
+      "target_distance": 1.6647282838821411,
+      "memory_snapshot": [
+        "Previously saw Microwave at distance 2.60 m near position x=1.25, z=0.00.",
+        "Previously saw Microwave at distance 2.40 m near position x=1.25, z=0.25.",
+        "Previously saw Microwave at distance 2.22 m near position x=1.25, z=0.50.",
+        "Previously saw Microwave at distance 2.05 m near position x=1.25, z=0.75.",
+        "Previously saw Microwave at distance 1.90 m near position x=1.25, z=1.00.",
+        "Previously saw Microwave at distance 1.77 m near position x=1.25, z=1.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 17,
+      "task_id": 77,
+      "scene": "FloorPlan27",
+      "room_type": "kitchen",
+      "target_type": "Microwave",
+      "goal_text": "Navigate to the Microwave.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 1.25,
+        "y": 0.9010001420974731,
+        "z": 1.5
+      },
+      "target_visible": false,
+      "target_distance": 1.6647282838821411,
+      "memory_snapshot": [
+        "Previously saw Microwave at distance 2.60 m near position x=1.25, z=0.00.",
+        "Previously saw Microwave at distance 2.40 m near position x=1.25, z=0.25.",
+        "Previously saw Microwave at distance 2.22 m near position x=1.25, z=0.50.",
+        "Previously saw Microwave at distance 2.05 m near position x=1.25, z=0.75.",
+        "Previously saw Microwave at distance 1.90 m near position x=1.25, z=1.00.",
+        "Previously saw Microwave at distance 1.77 m near position x=1.25, z=1.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 18,
+      "task_id": 77,
+      "scene": "FloorPlan27",
+      "room_type": "kitchen",
+      "target_type": "Microwave",
+      "goal_text": "Navigate to the Microwave.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 1.25,
+        "y": 0.9010001420974731,
+        "z": 1.5
+      },
+      "target_visible": false,
+      "target_distance": 1.6647282838821411,
+      "memory_snapshot": [
+        "Previously saw Microwave at distance 2.60 m near position x=1.25, z=0.00.",
+        "Previously saw Microwave at distance 2.40 m near position x=1.25, z=0.25.",
+        "Previously saw Microwave at distance 2.22 m near position x=1.25, z=0.50.",
+        "Previously saw Microwave at distance 2.05 m near position x=1.25, z=0.75.",
+        "Previously saw Microwave at distance 1.90 m near position x=1.25, z=1.00.",
+        "Previously saw Microwave at distance 1.77 m near position x=1.25, z=1.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 19,
+      "task_id": 77,
+      "scene": "FloorPlan27",
+      "room_type": "kitchen",
+      "target_type": "Microwave",
+      "goal_text": "Navigate to the Microwave.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 1.25,
+        "y": 0.9010001420974731,
+        "z": 1.5
+      },
+      "target_visible": false,
+      "target_distance": 1.6647282838821411,
+      "memory_snapshot": [
+        "Previously saw Microwave at distance 2.60 m near position x=1.25, z=0.00.",
+        "Previously saw Microwave at distance 2.40 m near position x=1.25, z=0.25.",
+        "Previously saw Microwave at distance 2.22 m near position x=1.25, z=0.50.",
+        "Previously saw Microwave at distance 2.05 m near position x=1.25, z=0.75.",
+        "Previously saw Microwave at distance 1.90 m near position x=1.25, z=1.00.",
+        "Previously saw Microwave at distance 1.77 m near position x=1.25, z=1.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 20,
+      "task_id": 77,
+      "scene": "FloorPlan27",
+      "room_type": "kitchen",
+      "target_type": "Microwave",
+      "goal_text": "Navigate to the Microwave.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 1.25,
+        "y": 0.9010001420974731,
+        "z": 1.5
+      },
+      "target_visible": false,
+      "target_distance": 1.6647282838821411,
+      "memory_snapshot": [
+        "Previously saw Microwave at distance 2.60 m near position x=1.25, z=0.00.",
+        "Previously saw Microwave at distance 2.40 m near position x=1.25, z=0.25.",
+        "Previously saw Microwave at distance 2.22 m near position x=1.25, z=0.50.",
+        "Previously saw Microwave at distance 2.05 m near position x=1.25, z=0.75.",
+        "Previously saw Microwave at distance 1.90 m near position x=1.25, z=1.00.",
+        "Previously saw Microwave at distance 1.77 m near position x=1.25, z=1.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 21,
+      "task_id": 77,
+      "scene": "FloorPlan27",
+      "room_type": "kitchen",
+      "target_type": "Microwave",
+      "goal_text": "Navigate to the Microwave.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 1.25,
+        "y": 0.9010001420974731,
+        "z": 1.5
+      },
+      "target_visible": false,
+      "target_distance": 1.6647282838821411,
+      "memory_snapshot": [
+        "Previously saw Microwave at distance 2.60 m near position x=1.25, z=0.00.",
+        "Previously saw Microwave at distance 2.40 m near position x=1.25, z=0.25.",
+        "Previously saw Microwave at distance 2.22 m near position x=1.25, z=0.50.",
+        "Previously saw Microwave at distance 2.05 m near position x=1.25, z=0.75.",
+        "Previously saw Microwave at distance 1.90 m near position x=1.25, z=1.00.",
+        "Previously saw Microwave at distance 1.77 m near position x=1.25, z=1.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 22,
+      "task_id": 77,
+      "scene": "FloorPlan27",
+      "room_type": "kitchen",
+      "target_type": "Microwave",
+      "goal_text": "Navigate to the Microwave.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 1.25,
+        "y": 0.9010001420974731,
+        "z": 1.5
+      },
+      "target_visible": false,
+      "target_distance": 1.6647282838821411,
+      "memory_snapshot": [
+        "Previously saw Microwave at distance 2.60 m near position x=1.25, z=0.00.",
+        "Previously saw Microwave at distance 2.40 m near position x=1.25, z=0.25.",
+        "Previously saw Microwave at distance 2.22 m near position x=1.25, z=0.50.",
+        "Previously saw Microwave at distance 2.05 m near position x=1.25, z=0.75.",
+        "Previously saw Microwave at distance 1.90 m near position x=1.25, z=1.00.",
+        "Previously saw Microwave at distance 1.77 m near position x=1.25, z=1.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 23,
+      "task_id": 77,
+      "scene": "FloorPlan27",
+      "room_type": "kitchen",
+      "target_type": "Microwave",
+      "goal_text": "Navigate to the Microwave.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 1.25,
+        "y": 0.9010001420974731,
+        "z": 1.5
+      },
+      "target_visible": false,
+      "target_distance": 1.6647282838821411,
+      "memory_snapshot": [
+        "Previously saw Microwave at distance 2.60 m near position x=1.25, z=0.00.",
+        "Previously saw Microwave at distance 2.40 m near position x=1.25, z=0.25.",
+        "Previously saw Microwave at distance 2.22 m near position x=1.25, z=0.50.",
+        "Previously saw Microwave at distance 2.05 m near position x=1.25, z=0.75.",
+        "Previously saw Microwave at distance 1.90 m near position x=1.25, z=1.00.",
+        "Previously saw Microwave at distance 1.77 m near position x=1.25, z=1.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 24,
+      "task_id": 77,
+      "scene": "FloorPlan27",
+      "room_type": "kitchen",
+      "target_type": "Microwave",
+      "goal_text": "Navigate to the Microwave.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 1.25,
+        "y": 0.9010001420974731,
+        "z": 1.5
+      },
+      "target_visible": false,
+      "target_distance": 1.6647282838821411,
+      "memory_snapshot": [
+        "Previously saw Microwave at distance 2.60 m near position x=1.25, z=0.00.",
+        "Previously saw Microwave at distance 2.40 m near position x=1.25, z=0.25.",
+        "Previously saw Microwave at distance 2.22 m near position x=1.25, z=0.50.",
+        "Previously saw Microwave at distance 2.05 m near position x=1.25, z=0.75.",
+        "Previously saw Microwave at distance 1.90 m near position x=1.25, z=1.00.",
+        "Previously saw Microwave at distance 1.77 m near position x=1.25, z=1.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 25,
+      "task_id": 77,
+      "scene": "FloorPlan27",
+      "room_type": "kitchen",
+      "target_type": "Microwave",
+      "goal_text": "Navigate to the Microwave.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 1.25,
+        "y": 0.9010001420974731,
+        "z": 1.5
+      },
+      "target_visible": false,
+      "target_distance": 1.6647282838821411,
+      "memory_snapshot": [
+        "Previously saw Microwave at distance 2.60 m near position x=1.25, z=0.00.",
+        "Previously saw Microwave at distance 2.40 m near position x=1.25, z=0.25.",
+        "Previously saw Microwave at distance 2.22 m near position x=1.25, z=0.50.",
+        "Previously saw Microwave at distance 2.05 m near position x=1.25, z=0.75.",
+        "Previously saw Microwave at distance 1.90 m near position x=1.25, z=1.00.",
+        "Previously saw Microwave at distance 1.77 m near position x=1.25, z=1.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 26,
+      "task_id": 77,
+      "scene": "FloorPlan27",
+      "room_type": "kitchen",
+      "target_type": "Microwave",
+      "goal_text": "Navigate to the Microwave.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 1.25,
+        "y": 0.9010001420974731,
+        "z": 1.5
+      },
+      "target_visible": false,
+      "target_distance": 1.6647282838821411,
+      "memory_snapshot": [
+        "Previously saw Microwave at distance 2.60 m near position x=1.25, z=0.00.",
+        "Previously saw Microwave at distance 2.40 m near position x=1.25, z=0.25.",
+        "Previously saw Microwave at distance 2.22 m near position x=1.25, z=0.50.",
+        "Previously saw Microwave at distance 2.05 m near position x=1.25, z=0.75.",
+        "Previously saw Microwave at distance 1.90 m near position x=1.25, z=1.00.",
+        "Previously saw Microwave at distance 1.77 m near position x=1.25, z=1.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 27,
+      "task_id": 77,
+      "scene": "FloorPlan27",
+      "room_type": "kitchen",
+      "target_type": "Microwave",
+      "goal_text": "Navigate to the Microwave.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 1.25,
+        "y": 0.9010001420974731,
+        "z": 1.5
+      },
+      "target_visible": false,
+      "target_distance": 1.6647282838821411,
+      "memory_snapshot": [
+        "Previously saw Microwave at distance 2.60 m near position x=1.25, z=0.00.",
+        "Previously saw Microwave at distance 2.40 m near position x=1.25, z=0.25.",
+        "Previously saw Microwave at distance 2.22 m near position x=1.25, z=0.50.",
+        "Previously saw Microwave at distance 2.05 m near position x=1.25, z=0.75.",
+        "Previously saw Microwave at distance 1.90 m near position x=1.25, z=1.00.",
+        "Previously saw Microwave at distance 1.77 m near position x=1.25, z=1.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 28,
+      "task_id": 77,
+      "scene": "FloorPlan27",
+      "room_type": "kitchen",
+      "target_type": "Microwave",
+      "goal_text": "Navigate to the Microwave.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 1.25,
+        "y": 0.9010001420974731,
+        "z": 1.5
+      },
+      "target_visible": false,
+      "target_distance": 1.6647282838821411,
+      "memory_snapshot": [
+        "Previously saw Microwave at distance 2.60 m near position x=1.25, z=0.00.",
+        "Previously saw Microwave at distance 2.40 m near position x=1.25, z=0.25.",
+        "Previously saw Microwave at distance 2.22 m near position x=1.25, z=0.50.",
+        "Previously saw Microwave at distance 2.05 m near position x=1.25, z=0.75.",
+        "Previously saw Microwave at distance 1.90 m near position x=1.25, z=1.00.",
+        "Previously saw Microwave at distance 1.77 m near position x=1.25, z=1.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 29,
+      "task_id": 77,
+      "scene": "FloorPlan27",
+      "room_type": "kitchen",
+      "target_type": "Microwave",
+      "goal_text": "Navigate to the Microwave.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 1.25,
+        "y": 0.9010001420974731,
+        "z": 1.5
+      },
+      "target_visible": false,
+      "target_distance": 1.6647282838821411,
+      "memory_snapshot": [
+        "Previously saw Microwave at distance 2.60 m near position x=1.25, z=0.00.",
+        "Previously saw Microwave at distance 2.40 m near position x=1.25, z=0.25.",
+        "Previously saw Microwave at distance 2.22 m near position x=1.25, z=0.50.",
+        "Previously saw Microwave at distance 2.05 m near position x=1.25, z=0.75.",
+        "Previously saw Microwave at distance 1.90 m near position x=1.25, z=1.00.",
+        "Previously saw Microwave at distance 1.77 m near position x=1.25, z=1.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "task_meta": {
+    "task_id": 86,
+    "scene": "FloorPlan202",
+    "room_type": "living_room",
+    "target_type": "LightSwitch",
+    "goal_text": "Navigate to the LightSwitch."
+  },
+  "episode_time_sec": 5.040707916999963,
+  "steps": [
+    {
+      "step": 0,
+      "task_id": 86,
+      "scene": "FloorPlan202",
+      "room_type": "living_room",
+      "target_type": "LightSwitch",
+      "goal_text": "Navigate to the LightSwitch.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": 0.0,
+        "y": 0.9010459184646606,
+        "z": 2.5
+      },
+      "target_visible": true,
+      "target_distance": 1.9216407537460327,
+      "memory_snapshot": [
+        "Previously saw LightSwitch at distance 1.92 m near position x=0.00, z=2.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 1,
+      "task_id": 86,
+      "scene": "FloorPlan202",
+      "room_type": "living_room",
+      "target_type": "LightSwitch",
+      "goal_text": "Navigate to the LightSwitch.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": 0.0,
+        "y": 0.9010459184646606,
+        "z": 2.75
+      },
+      "target_visible": true,
+      "target_distance": 1.682469367980957,
+      "memory_snapshot": [
+        "Previously saw LightSwitch at distance 1.92 m near position x=0.00, z=2.50.",
+        "Previously saw LightSwitch at distance 1.68 m near position x=0.00, z=2.75."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 2,
+      "task_id": 86,
+      "scene": "FloorPlan202",
+      "room_type": "living_room",
+      "target_type": "LightSwitch",
+      "goal_text": "Navigate to the LightSwitch.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": 0.0,
+        "y": 0.9010459184646606,
+        "z": 3.0
+      },
+      "target_visible": true,
+      "target_distance": 1.4469635486602783,
+      "memory_snapshot": [
+        "Previously saw LightSwitch at distance 1.92 m near position x=0.00, z=2.50.",
+        "Previously saw LightSwitch at distance 1.68 m near position x=0.00, z=2.75.",
+        "Previously saw LightSwitch at distance 1.45 m near position x=0.00, z=3.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 3,
+      "task_id": 86,
+      "scene": "FloorPlan202",
+      "room_type": "living_room",
+      "target_type": "LightSwitch",
+      "goal_text": "Navigate to the LightSwitch.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": 0.0,
+        "y": 0.9010459184646606,
+        "z": 3.25
+      },
+      "target_visible": true,
+      "target_distance": 1.2172523736953735,
+      "memory_snapshot": [
+        "Previously saw LightSwitch at distance 1.92 m near position x=0.00, z=2.50.",
+        "Previously saw LightSwitch at distance 1.68 m near position x=0.00, z=2.75.",
+        "Previously saw LightSwitch at distance 1.45 m near position x=0.00, z=3.00.",
+        "Previously saw LightSwitch at distance 1.22 m near position x=0.00, z=3.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 4,
+      "task_id": 86,
+      "scene": "FloorPlan202",
+      "room_type": "living_room",
+      "target_type": "LightSwitch",
+      "goal_text": "Navigate to the LightSwitch.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "Done",
+      "agent_position": {
+        "x": 0.0,
+        "y": 0.9010459184646606,
+        "z": 3.5
+      },
+      "target_visible": true,
+      "target_distance": 0.9973481893539429,
+      "memory_snapshot": [
+        "Previously saw LightSwitch at distance 1.92 m near position x=0.00, z=2.50.",
+        "Previously saw LightSwitch at distance 1.68 m near position x=0.00, z=2.75.",
+        "Previously saw LightSwitch at distance 1.45 m near position x=0.00, z=3.00.",
+        "Previously saw LightSwitch at distance 1.22 m near position x=0.00, z=3.25.",
+        "Previously saw LightSwitch at distance 1.00 m near position x=0.00, z=3.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    }
+  ]
+}

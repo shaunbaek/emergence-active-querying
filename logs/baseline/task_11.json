@@ -1,0 +1,286 @@
+{
+  "task_meta": {
+    "task_id": 11,
+    "scene": "FloorPlan17",
+    "room_type": "kitchen",
+    "target_type": "Tomato",
+    "goal_text": "Navigate to the Tomato."
+  },
+  "episode_time_sec": 13.977442082999914,
+  "steps": [
+    {
+      "step": 0,
+      "task_id": 11,
+      "scene": "FloorPlan17",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Navigate to the Tomato.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 0.0,
+        "y": 0.9089995622634888,
+        "z": 2.0
+      },
+      "target_visible": false,
+      "target_distance": 2.546536684036255,
+      "memory_snapshot": [],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 1,
+      "task_id": 11,
+      "scene": "FloorPlan17",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Navigate to the Tomato.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 0.0,
+        "y": 0.9089995622634888,
+        "z": 2.0
+      },
+      "target_visible": false,
+      "target_distance": 2.5465118885040283,
+      "memory_snapshot": [],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 2,
+      "task_id": 11,
+      "scene": "FloorPlan17",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Navigate to the Tomato.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": 0.0,
+        "y": 0.9089995622634888,
+        "z": 2.0
+      },
+      "target_visible": true,
+      "target_distance": 2.5465118885040283,
+      "memory_snapshot": [
+        "Previously saw Tomato at distance 2.55 m near position x=0.00, z=2.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 3,
+      "task_id": 11,
+      "scene": "FloorPlan17",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Navigate to the Tomato.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": 0.0,
+        "y": 0.9089995622634888,
+        "z": 1.75
+      },
+      "target_visible": true,
+      "target_distance": 2.3022236824035645,
+      "memory_snapshot": [
+        "Previously saw Tomato at distance 2.55 m near position x=0.00, z=2.00.",
+        "Previously saw Tomato at distance 2.30 m near position x=0.00, z=1.75."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 4,
+      "task_id": 11,
+      "scene": "FloorPlan17",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Navigate to the Tomato.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": 0.0,
+        "y": 0.9089995622634888,
+        "z": 1.5
+      },
+      "target_visible": true,
+      "target_distance": 2.059307098388672,
+      "memory_snapshot": [
+        "Previously saw Tomato at distance 2.55 m near position x=0.00, z=2.00.",
+        "Previously saw Tomato at distance 2.30 m near position x=0.00, z=1.75.",
+        "Previously saw Tomato at distance 2.06 m near position x=0.00, z=1.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 5,
+      "task_id": 11,
+      "scene": "FloorPlan17",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Navigate to the Tomato.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": 0.0,
+        "y": 0.9089995622634888,
+        "z": 1.25
+      },
+      "target_visible": true,
+      "target_distance": 1.8183115720748901,
+      "memory_snapshot": [
+        "Previously saw Tomato at distance 2.55 m near position x=0.00, z=2.00.",
+        "Previously saw Tomato at distance 2.30 m near position x=0.00, z=1.75.",
+        "Previously saw Tomato at distance 2.06 m near position x=0.00, z=1.50.",
+        "Previously saw Tomato at distance 1.82 m near position x=0.00, z=1.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 6,
+      "task_id": 11,
+      "scene": "FloorPlan17",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Navigate to the Tomato.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": 0.0,
+        "y": 0.9089995622634888,
+        "z": 1.0
+      },
+      "target_visible": true,
+      "target_distance": 1.580116629600525,
+      "memory_snapshot": [
+        "Previously saw Tomato at distance 2.55 m near position x=0.00, z=2.00.",
+        "Previously saw Tomato at distance 2.30 m near position x=0.00, z=1.75.",
+        "Previously saw Tomato at distance 2.06 m near position x=0.00, z=1.50.",
+        "Previously saw Tomato at distance 1.82 m near position x=0.00, z=1.25.",
+        "Previously saw Tomato at distance 1.58 m near position x=0.00, z=1.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 7,
+      "task_id": 11,
+      "scene": "FloorPlan17",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Navigate to the Tomato.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": 0.0,
+        "y": 0.9089995622634888,
+        "z": 0.75
+      },
+      "target_visible": true,
+      "target_distance": 1.3462095260620117,
+      "memory_snapshot": [
+        "Previously saw Tomato at distance 2.55 m near position x=0.00, z=2.00.",
+        "Previously saw Tomato at distance 2.30 m near position x=0.00, z=1.75.",
+        "Previously saw Tomato at distance 2.06 m near position x=0.00, z=1.50.",
+        "Previously saw Tomato at distance 1.82 m near position x=0.00, z=1.25.",
+        "Previously saw Tomato at distance 1.58 m near position x=0.00, z=1.00.",
+        "Previously saw Tomato at distance 1.35 m near position x=0.00, z=0.75."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 8,
+      "task_id": 11,
+      "scene": "FloorPlan17",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Navigate to the Tomato.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": 0.0,
+        "y": 0.9089995622634888,
+        "z": 0.5
+      },
+      "target_visible": true,
+      "target_distance": 1.1192816495895386,
+      "memory_snapshot": [
+        "Previously saw Tomato at distance 2.55 m near position x=0.00, z=2.00.",
+        "Previously saw Tomato at distance 2.30 m near position x=0.00, z=1.75.",
+        "Previously saw Tomato at distance 2.06 m near position x=0.00, z=1.50.",
+        "Previously saw Tomato at distance 1.82 m near position x=0.00, z=1.25.",
+        "Previously saw Tomato at distance 1.58 m near position x=0.00, z=1.00.",
+        "Previously saw Tomato at distance 1.35 m near position x=0.00, z=0.75.",
+        "Previously saw Tomato at distance 1.12 m near position x=0.00, z=0.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 9,
+      "task_id": 11,
+      "scene": "FloorPlan17",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Navigate to the Tomato.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "Done",
+      "agent_position": {
+        "x": 0.0,
+        "y": 0.9089995622634888,
+        "z": 0.25
+      },
+      "target_visible": true,
+      "target_distance": 0.9046009182929993,
+      "memory_snapshot": [
+        "Previously saw Tomato at distance 2.55 m near position x=0.00, z=2.00.",
+        "Previously saw Tomato at distance 2.30 m near position x=0.00, z=1.75.",
+        "Previously saw Tomato at distance 2.06 m near position x=0.00, z=1.50.",
+        "Previously saw Tomato at distance 1.82 m near position x=0.00, z=1.25.",
+        "Previously saw Tomato at distance 1.58 m near position x=0.00, z=1.00.",
+        "Previously saw Tomato at distance 1.35 m near position x=0.00, z=0.75.",
+        "Previously saw Tomato at distance 1.12 m near position x=0.00, z=0.50.",
+        "Previously saw Tomato at distance 0.90 m near position x=0.00, z=0.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    }
+  ]
+}

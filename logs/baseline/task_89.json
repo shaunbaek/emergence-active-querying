@@ -1,0 +1,942 @@
+{
+  "task_meta": {
+    "task_id": 89,
+    "scene": "FloorPlan310",
+    "room_type": "bedroom",
+    "target_type": "Bed",
+    "goal_text": "Navigate to the Bed."
+  },
+  "episode_time_sec": 117.03301704200021,
+  "steps": [
+    {
+      "step": 0,
+      "task_id": 89,
+      "scene": "FloorPlan310",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Navigate to the Bed.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -0.25,
+        "y": 0.9009992480278015,
+        "z": -1.0
+      },
+      "target_visible": true,
+      "target_distance": 2.0946924686431885,
+      "memory_snapshot": [
+        "Previously saw Bed at distance 2.09 m near position x=-0.25, z=-1.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 1,
+      "task_id": 89,
+      "scene": "FloorPlan310",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Navigate to the Bed.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -0.25,
+        "y": 0.9009992480278015,
+        "z": -0.75
+      },
+      "target_visible": true,
+      "target_distance": 2.0017740726470947,
+      "memory_snapshot": [
+        "Previously saw Bed at distance 2.09 m near position x=-0.25, z=-1.00.",
+        "Previously saw Bed at distance 2.00 m near position x=-0.25, z=-0.75."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 2,
+      "task_id": 89,
+      "scene": "FloorPlan310",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Navigate to the Bed.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -0.25,
+        "y": 0.9009992480278015,
+        "z": -0.5
+      },
+      "target_visible": true,
+      "target_distance": 1.882500410079956,
+      "memory_snapshot": [
+        "Previously saw Bed at distance 2.09 m near position x=-0.25, z=-1.00.",
+        "Previously saw Bed at distance 2.00 m near position x=-0.25, z=-0.75.",
+        "Previously saw Bed at distance 1.88 m near position x=-0.25, z=-0.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 3,
+      "task_id": 89,
+      "scene": "FloorPlan310",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Navigate to the Bed.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -0.25,
+        "y": 0.9009992480278015,
+        "z": -0.25
+      },
+      "target_visible": true,
+      "target_distance": 1.7900596857070923,
+      "memory_snapshot": [
+        "Previously saw Bed at distance 2.09 m near position x=-0.25, z=-1.00.",
+        "Previously saw Bed at distance 2.00 m near position x=-0.25, z=-0.75.",
+        "Previously saw Bed at distance 1.88 m near position x=-0.25, z=-0.50.",
+        "Previously saw Bed at distance 1.79 m near position x=-0.25, z=-0.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 4,
+      "task_id": 89,
+      "scene": "FloorPlan310",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Navigate to the Bed.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -0.25,
+        "y": 0.9009992480278015,
+        "z": 0.0
+      },
+      "target_visible": true,
+      "target_distance": 1.7212108373641968,
+      "memory_snapshot": [
+        "Previously saw Bed at distance 2.09 m near position x=-0.25, z=-1.00.",
+        "Previously saw Bed at distance 2.00 m near position x=-0.25, z=-0.75.",
+        "Previously saw Bed at distance 1.88 m near position x=-0.25, z=-0.50.",
+        "Previously saw Bed at distance 1.79 m near position x=-0.25, z=-0.25.",
+        "Previously saw Bed at distance 1.72 m near position x=-0.25, z=0.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 5,
+      "task_id": 89,
+      "scene": "FloorPlan310",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Navigate to the Bed.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -0.25,
+        "y": 0.9009992480278015,
+        "z": 0.25
+      },
+      "target_visible": false,
+      "target_distance": 1.6962223052978516,
+      "memory_snapshot": [
+        "Previously saw Bed at distance 2.09 m near position x=-0.25, z=-1.00.",
+        "Previously saw Bed at distance 2.00 m near position x=-0.25, z=-0.75.",
+        "Previously saw Bed at distance 1.88 m near position x=-0.25, z=-0.50.",
+        "Previously saw Bed at distance 1.79 m near position x=-0.25, z=-0.25.",
+        "Previously saw Bed at distance 1.72 m near position x=-0.25, z=0.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 6,
+      "task_id": 89,
+      "scene": "FloorPlan310",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Navigate to the Bed.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -0.25,
+        "y": 0.9009992480278015,
+        "z": 0.5
+      },
+      "target_visible": false,
+      "target_distance": 1.706616759300232,
+      "memory_snapshot": [
+        "Previously saw Bed at distance 2.09 m near position x=-0.25, z=-1.00.",
+        "Previously saw Bed at distance 2.00 m near position x=-0.25, z=-0.75.",
+        "Previously saw Bed at distance 1.88 m near position x=-0.25, z=-0.50.",
+        "Previously saw Bed at distance 1.79 m near position x=-0.25, z=-0.25.",
+        "Previously saw Bed at distance 1.72 m near position x=-0.25, z=0.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 7,
+      "task_id": 89,
+      "scene": "FloorPlan310",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Navigate to the Bed.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -0.25,
+        "y": 0.9009992480278015,
+        "z": 0.5
+      },
+      "target_visible": true,
+      "target_distance": 1.707034707069397,
+      "memory_snapshot": [
+        "Previously saw Bed at distance 2.09 m near position x=-0.25, z=-1.00.",
+        "Previously saw Bed at distance 2.00 m near position x=-0.25, z=-0.75.",
+        "Previously saw Bed at distance 1.88 m near position x=-0.25, z=-0.50.",
+        "Previously saw Bed at distance 1.79 m near position x=-0.25, z=-0.25.",
+        "Previously saw Bed at distance 1.72 m near position x=-0.25, z=0.00.",
+        "Previously saw Bed at distance 1.71 m near position x=-0.25, z=0.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 8,
+      "task_id": 89,
+      "scene": "FloorPlan310",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Navigate to the Bed.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -0.25,
+        "y": 0.9009992480278015,
+        "z": 0.5
+      },
+      "target_visible": false,
+      "target_distance": 1.7057826519012451,
+      "memory_snapshot": [
+        "Previously saw Bed at distance 2.09 m near position x=-0.25, z=-1.00.",
+        "Previously saw Bed at distance 2.00 m near position x=-0.25, z=-0.75.",
+        "Previously saw Bed at distance 1.88 m near position x=-0.25, z=-0.50.",
+        "Previously saw Bed at distance 1.79 m near position x=-0.25, z=-0.25.",
+        "Previously saw Bed at distance 1.72 m near position x=-0.25, z=0.00.",
+        "Previously saw Bed at distance 1.71 m near position x=-0.25, z=0.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 9,
+      "task_id": 89,
+      "scene": "FloorPlan310",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Navigate to the Bed.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": -0.25,
+        "y": 0.9009992480278015,
+        "z": 0.5
+      },
+      "target_visible": false,
+      "target_distance": 1.7057826519012451,
+      "memory_snapshot": [
+        "Previously saw Bed at distance 2.09 m near position x=-0.25, z=-1.00.",
+        "Previously saw Bed at distance 2.00 m near position x=-0.25, z=-0.75.",
+        "Previously saw Bed at distance 1.88 m near position x=-0.25, z=-0.50.",
+        "Previously saw Bed at distance 1.79 m near position x=-0.25, z=-0.25.",
+        "Previously saw Bed at distance 1.72 m near position x=-0.25, z=0.00.",
+        "Previously saw Bed at distance 1.71 m near position x=-0.25, z=0.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 10,
+      "task_id": 89,
+      "scene": "FloorPlan310",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Navigate to the Bed.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -0.25,
+        "y": 0.9009992480278015,
+        "z": 0.5
+      },
+      "target_visible": false,
+      "target_distance": 1.7048022747039795,
+      "memory_snapshot": [
+        "Previously saw Bed at distance 2.09 m near position x=-0.25, z=-1.00.",
+        "Previously saw Bed at distance 2.00 m near position x=-0.25, z=-0.75.",
+        "Previously saw Bed at distance 1.88 m near position x=-0.25, z=-0.50.",
+        "Previously saw Bed at distance 1.79 m near position x=-0.25, z=-0.25.",
+        "Previously saw Bed at distance 1.72 m near position x=-0.25, z=0.00.",
+        "Previously saw Bed at distance 1.71 m near position x=-0.25, z=0.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 11,
+      "task_id": 89,
+      "scene": "FloorPlan310",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Navigate to the Bed.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": -0.25,
+        "y": 0.9009992480278015,
+        "z": 0.5
+      },
+      "target_visible": false,
+      "target_distance": 1.7048022747039795,
+      "memory_snapshot": [
+        "Previously saw Bed at distance 2.09 m near position x=-0.25, z=-1.00.",
+        "Previously saw Bed at distance 2.00 m near position x=-0.25, z=-0.75.",
+        "Previously saw Bed at distance 1.88 m near position x=-0.25, z=-0.50.",
+        "Previously saw Bed at distance 1.79 m near position x=-0.25, z=-0.25.",
+        "Previously saw Bed at distance 1.72 m near position x=-0.25, z=0.00.",
+        "Previously saw Bed at distance 1.71 m near position x=-0.25, z=0.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 12,
+      "task_id": 89,
+      "scene": "FloorPlan310",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Navigate to the Bed.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": -0.25,
+        "y": 0.9009992480278015,
+        "z": 0.5
+      },
+      "target_visible": false,
+      "target_distance": 1.7045478820800781,
+      "memory_snapshot": [
+        "Previously saw Bed at distance 2.09 m near position x=-0.25, z=-1.00.",
+        "Previously saw Bed at distance 2.00 m near position x=-0.25, z=-0.75.",
+        "Previously saw Bed at distance 1.88 m near position x=-0.25, z=-0.50.",
+        "Previously saw Bed at distance 1.79 m near position x=-0.25, z=-0.25.",
+        "Previously saw Bed at distance 1.72 m near position x=-0.25, z=0.00.",
+        "Previously saw Bed at distance 1.71 m near position x=-0.25, z=0.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 13,
+      "task_id": 89,
+      "scene": "FloorPlan310",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Navigate to the Bed.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -0.25,
+        "y": 0.9009992480278015,
+        "z": 0.5
+      },
+      "target_visible": true,
+      "target_distance": 1.878730297088623,
+      "memory_snapshot": [
+        "Previously saw Bed at distance 2.09 m near position x=-0.25, z=-1.00.",
+        "Previously saw Bed at distance 2.00 m near position x=-0.25, z=-0.75.",
+        "Previously saw Bed at distance 1.88 m near position x=-0.25, z=-0.50.",
+        "Previously saw Bed at distance 1.79 m near position x=-0.25, z=-0.25.",
+        "Previously saw Bed at distance 1.72 m near position x=-0.25, z=0.00.",
+        "Previously saw Bed at distance 1.71 m near position x=-0.25, z=0.50.",
+        "Previously saw Bed at distance 1.88 m near position x=-0.25, z=0.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 14,
+      "task_id": 89,
+      "scene": "FloorPlan310",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Navigate to the Bed.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 2.9802322387695312e-08,
+        "y": 0.9009992480278015,
+        "z": 0.4999999701976776
+      },
+      "target_visible": true,
+      "target_distance": 1.8838576078414917,
+      "memory_snapshot": [
+        "Previously saw Bed at distance 2.09 m near position x=-0.25, z=-1.00.",
+        "Previously saw Bed at distance 2.00 m near position x=-0.25, z=-0.75.",
+        "Previously saw Bed at distance 1.88 m near position x=-0.25, z=-0.50.",
+        "Previously saw Bed at distance 1.79 m near position x=-0.25, z=-0.25.",
+        "Previously saw Bed at distance 1.72 m near position x=-0.25, z=0.00.",
+        "Previously saw Bed at distance 1.71 m near position x=-0.25, z=0.50.",
+        "Previously saw Bed at distance 1.88 m near position x=-0.25, z=0.50.",
+        "Previously saw Bed at distance 1.88 m near position x=0.00, z=0.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 15,
+      "task_id": 89,
+      "scene": "FloorPlan310",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Navigate to the Bed.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": 2.9802322387695312e-08,
+        "y": 0.9009992480278015,
+        "z": 0.4999999701976776
+      },
+      "target_visible": false,
+      "target_distance": 1.8843421936035156,
+      "memory_snapshot": [
+        "Previously saw Bed at distance 2.09 m near position x=-0.25, z=-1.00.",
+        "Previously saw Bed at distance 2.00 m near position x=-0.25, z=-0.75.",
+        "Previously saw Bed at distance 1.88 m near position x=-0.25, z=-0.50.",
+        "Previously saw Bed at distance 1.79 m near position x=-0.25, z=-0.25.",
+        "Previously saw Bed at distance 1.72 m near position x=-0.25, z=0.00.",
+        "Previously saw Bed at distance 1.71 m near position x=-0.25, z=0.50.",
+        "Previously saw Bed at distance 1.88 m near position x=-0.25, z=0.50.",
+        "Previously saw Bed at distance 1.88 m near position x=0.00, z=0.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 16,
+      "task_id": 89,
+      "scene": "FloorPlan310",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Navigate to the Bed.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 2.9802322387695312e-08,
+        "y": 0.9009992480278015,
+        "z": 0.4999999701976776
+      },
+      "target_visible": true,
+      "target_distance": 1.886899471282959,
+      "memory_snapshot": [
+        "Previously saw Bed at distance 2.09 m near position x=-0.25, z=-1.00.",
+        "Previously saw Bed at distance 2.00 m near position x=-0.25, z=-0.75.",
+        "Previously saw Bed at distance 1.88 m near position x=-0.25, z=-0.50.",
+        "Previously saw Bed at distance 1.79 m near position x=-0.25, z=-0.25.",
+        "Previously saw Bed at distance 1.72 m near position x=-0.25, z=0.00.",
+        "Previously saw Bed at distance 1.71 m near position x=-0.25, z=0.50.",
+        "Previously saw Bed at distance 1.88 m near position x=-0.25, z=0.50.",
+        "Previously saw Bed at distance 1.88 m near position x=0.00, z=0.50.",
+        "Previously saw Bed at distance 1.89 m near position x=0.00, z=0.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 17,
+      "task_id": 89,
+      "scene": "FloorPlan310",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Navigate to the Bed.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 2.9802322387695312e-08,
+        "y": 0.9009992480278015,
+        "z": 0.4999999701976776
+      },
+      "target_visible": false,
+      "target_distance": 1.8844830989837646,
+      "memory_snapshot": [
+        "Previously saw Bed at distance 2.09 m near position x=-0.25, z=-1.00.",
+        "Previously saw Bed at distance 2.00 m near position x=-0.25, z=-0.75.",
+        "Previously saw Bed at distance 1.88 m near position x=-0.25, z=-0.50.",
+        "Previously saw Bed at distance 1.79 m near position x=-0.25, z=-0.25.",
+        "Previously saw Bed at distance 1.72 m near position x=-0.25, z=0.00.",
+        "Previously saw Bed at distance 1.71 m near position x=-0.25, z=0.50.",
+        "Previously saw Bed at distance 1.88 m near position x=-0.25, z=0.50.",
+        "Previously saw Bed at distance 1.88 m near position x=0.00, z=0.50.",
+        "Previously saw Bed at distance 1.89 m near position x=0.00, z=0.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 18,
+      "task_id": 89,
+      "scene": "FloorPlan310",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Navigate to the Bed.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": 2.9802322387695312e-08,
+        "y": 0.9009992480278015,
+        "z": 0.4999999701976776
+      },
+      "target_visible": false,
+      "target_distance": 1.8844830989837646,
+      "memory_snapshot": [
+        "Previously saw Bed at distance 2.09 m near position x=-0.25, z=-1.00.",
+        "Previously saw Bed at distance 2.00 m near position x=-0.25, z=-0.75.",
+        "Previously saw Bed at distance 1.88 m near position x=-0.25, z=-0.50.",
+        "Previously saw Bed at distance 1.79 m near position x=-0.25, z=-0.25.",
+        "Previously saw Bed at distance 1.72 m near position x=-0.25, z=0.00.",
+        "Previously saw Bed at distance 1.71 m near position x=-0.25, z=0.50.",
+        "Previously saw Bed at distance 1.88 m near position x=-0.25, z=0.50.",
+        "Previously saw Bed at distance 1.88 m near position x=0.00, z=0.50.",
+        "Previously saw Bed at distance 1.89 m near position x=0.00, z=0.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 19,
+      "task_id": 89,
+      "scene": "FloorPlan310",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Navigate to the Bed.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 2.9802322387695312e-08,
+        "y": 0.9009992480278015,
+        "z": 0.4999999701976776
+      },
+      "target_visible": false,
+      "target_distance": 1.8844830989837646,
+      "memory_snapshot": [
+        "Previously saw Bed at distance 2.09 m near position x=-0.25, z=-1.00.",
+        "Previously saw Bed at distance 2.00 m near position x=-0.25, z=-0.75.",
+        "Previously saw Bed at distance 1.88 m near position x=-0.25, z=-0.50.",
+        "Previously saw Bed at distance 1.79 m near position x=-0.25, z=-0.25.",
+        "Previously saw Bed at distance 1.72 m near position x=-0.25, z=0.00.",
+        "Previously saw Bed at distance 1.71 m near position x=-0.25, z=0.50.",
+        "Previously saw Bed at distance 1.88 m near position x=-0.25, z=0.50.",
+        "Previously saw Bed at distance 1.88 m near position x=0.00, z=0.50.",
+        "Previously saw Bed at distance 1.89 m near position x=0.00, z=0.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 20,
+      "task_id": 89,
+      "scene": "FloorPlan310",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Navigate to the Bed.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": 2.9802322387695312e-08,
+        "y": 0.9009992480278015,
+        "z": 0.4999999701976776
+      },
+      "target_visible": false,
+      "target_distance": 1.8844830989837646,
+      "memory_snapshot": [
+        "Previously saw Bed at distance 2.09 m near position x=-0.25, z=-1.00.",
+        "Previously saw Bed at distance 2.00 m near position x=-0.25, z=-0.75.",
+        "Previously saw Bed at distance 1.88 m near position x=-0.25, z=-0.50.",
+        "Previously saw Bed at distance 1.79 m near position x=-0.25, z=-0.25.",
+        "Previously saw Bed at distance 1.72 m near position x=-0.25, z=0.00.",
+        "Previously saw Bed at distance 1.71 m near position x=-0.25, z=0.50.",
+        "Previously saw Bed at distance 1.88 m near position x=-0.25, z=0.50.",
+        "Previously saw Bed at distance 1.88 m near position x=0.00, z=0.50.",
+        "Previously saw Bed at distance 1.89 m near position x=0.00, z=0.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 21,
+      "task_id": 89,
+      "scene": "FloorPlan310",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Navigate to the Bed.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 2.9802322387695312e-08,
+        "y": 0.9009992480278015,
+        "z": 0.4999999701976776
+      },
+      "target_visible": false,
+      "target_distance": 1.8844830989837646,
+      "memory_snapshot": [
+        "Previously saw Bed at distance 2.09 m near position x=-0.25, z=-1.00.",
+        "Previously saw Bed at distance 2.00 m near position x=-0.25, z=-0.75.",
+        "Previously saw Bed at distance 1.88 m near position x=-0.25, z=-0.50.",
+        "Previously saw Bed at distance 1.79 m near position x=-0.25, z=-0.25.",
+        "Previously saw Bed at distance 1.72 m near position x=-0.25, z=0.00.",
+        "Previously saw Bed at distance 1.71 m near position x=-0.25, z=0.50.",
+        "Previously saw Bed at distance 1.88 m near position x=-0.25, z=0.50.",
+        "Previously saw Bed at distance 1.88 m near position x=0.00, z=0.50.",
+        "Previously saw Bed at distance 1.89 m near position x=0.00, z=0.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 22,
+      "task_id": 89,
+      "scene": "FloorPlan310",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Navigate to the Bed.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": 2.9802322387695312e-08,
+        "y": 0.9009992480278015,
+        "z": 0.4999999701976776
+      },
+      "target_visible": false,
+      "target_distance": 1.8844830989837646,
+      "memory_snapshot": [
+        "Previously saw Bed at distance 2.09 m near position x=-0.25, z=-1.00.",
+        "Previously saw Bed at distance 2.00 m near position x=-0.25, z=-0.75.",
+        "Previously saw Bed at distance 1.88 m near position x=-0.25, z=-0.50.",
+        "Previously saw Bed at distance 1.79 m near position x=-0.25, z=-0.25.",
+        "Previously saw Bed at distance 1.72 m near position x=-0.25, z=0.00.",
+        "Previously saw Bed at distance 1.71 m near position x=-0.25, z=0.50.",
+        "Previously saw Bed at distance 1.88 m near position x=-0.25, z=0.50.",
+        "Previously saw Bed at distance 1.88 m near position x=0.00, z=0.50.",
+        "Previously saw Bed at distance 1.89 m near position x=0.00, z=0.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 23,
+      "task_id": 89,
+      "scene": "FloorPlan310",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Navigate to the Bed.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 2.9802322387695312e-08,
+        "y": 0.9009992480278015,
+        "z": 0.4999999701976776
+      },
+      "target_visible": false,
+      "target_distance": 1.8844830989837646,
+      "memory_snapshot": [
+        "Previously saw Bed at distance 2.09 m near position x=-0.25, z=-1.00.",
+        "Previously saw Bed at distance 2.00 m near position x=-0.25, z=-0.75.",
+        "Previously saw Bed at distance 1.88 m near position x=-0.25, z=-0.50.",
+        "Previously saw Bed at distance 1.79 m near position x=-0.25, z=-0.25.",
+        "Previously saw Bed at distance 1.72 m near position x=-0.25, z=0.00.",
+        "Previously saw Bed at distance 1.71 m near position x=-0.25, z=0.50.",
+        "Previously saw Bed at distance 1.88 m near position x=-0.25, z=0.50.",
+        "Previously saw Bed at distance 1.88 m near position x=0.00, z=0.50.",
+        "Previously saw Bed at distance 1.89 m near position x=0.00, z=0.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 24,
+      "task_id": 89,
+      "scene": "FloorPlan310",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Navigate to the Bed.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": 2.9802322387695312e-08,
+        "y": 0.9009992480278015,
+        "z": 0.4999999701976776
+      },
+      "target_visible": false,
+      "target_distance": 1.8844830989837646,
+      "memory_snapshot": [
+        "Previously saw Bed at distance 2.09 m near position x=-0.25, z=-1.00.",
+        "Previously saw Bed at distance 2.00 m near position x=-0.25, z=-0.75.",
+        "Previously saw Bed at distance 1.88 m near position x=-0.25, z=-0.50.",
+        "Previously saw Bed at distance 1.79 m near position x=-0.25, z=-0.25.",
+        "Previously saw Bed at distance 1.72 m near position x=-0.25, z=0.00.",
+        "Previously saw Bed at distance 1.71 m near position x=-0.25, z=0.50.",
+        "Previously saw Bed at distance 1.88 m near position x=-0.25, z=0.50.",
+        "Previously saw Bed at distance 1.88 m near position x=0.00, z=0.50.",
+        "Previously saw Bed at distance 1.89 m near position x=0.00, z=0.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 25,
+      "task_id": 89,
+      "scene": "FloorPlan310",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Navigate to the Bed.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 2.9802322387695312e-08,
+        "y": 0.9009992480278015,
+        "z": 0.4999999701976776
+      },
+      "target_visible": false,
+      "target_distance": 1.8844830989837646,
+      "memory_snapshot": [
+        "Previously saw Bed at distance 2.09 m near position x=-0.25, z=-1.00.",
+        "Previously saw Bed at distance 2.00 m near position x=-0.25, z=-0.75.",
+        "Previously saw Bed at distance 1.88 m near position x=-0.25, z=-0.50.",
+        "Previously saw Bed at distance 1.79 m near position x=-0.25, z=-0.25.",
+        "Previously saw Bed at distance 1.72 m near position x=-0.25, z=0.00.",
+        "Previously saw Bed at distance 1.71 m near position x=-0.25, z=0.50.",
+        "Previously saw Bed at distance 1.88 m near position x=-0.25, z=0.50.",
+        "Previously saw Bed at distance 1.88 m near position x=0.00, z=0.50.",
+        "Previously saw Bed at distance 1.89 m near position x=0.00, z=0.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 26,
+      "task_id": 89,
+      "scene": "FloorPlan310",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Navigate to the Bed.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": 2.9802322387695312e-08,
+        "y": 0.9009992480278015,
+        "z": 0.4999999701976776
+      },
+      "target_visible": false,
+      "target_distance": 1.8844830989837646,
+      "memory_snapshot": [
+        "Previously saw Bed at distance 2.09 m near position x=-0.25, z=-1.00.",
+        "Previously saw Bed at distance 2.00 m near position x=-0.25, z=-0.75.",
+        "Previously saw Bed at distance 1.88 m near position x=-0.25, z=-0.50.",
+        "Previously saw Bed at distance 1.79 m near position x=-0.25, z=-0.25.",
+        "Previously saw Bed at distance 1.72 m near position x=-0.25, z=0.00.",
+        "Previously saw Bed at distance 1.71 m near position x=-0.25, z=0.50.",
+        "Previously saw Bed at distance 1.88 m near position x=-0.25, z=0.50.",
+        "Previously saw Bed at distance 1.88 m near position x=0.00, z=0.50.",
+        "Previously saw Bed at distance 1.89 m near position x=0.00, z=0.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 27,
+      "task_id": 89,
+      "scene": "FloorPlan310",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Navigate to the Bed.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 2.9802322387695312e-08,
+        "y": 0.9009992480278015,
+        "z": 0.4999999701976776
+      },
+      "target_visible": false,
+      "target_distance": 1.8844830989837646,
+      "memory_snapshot": [
+        "Previously saw Bed at distance 2.09 m near position x=-0.25, z=-1.00.",
+        "Previously saw Bed at distance 2.00 m near position x=-0.25, z=-0.75.",
+        "Previously saw Bed at distance 1.88 m near position x=-0.25, z=-0.50.",
+        "Previously saw Bed at distance 1.79 m near position x=-0.25, z=-0.25.",
+        "Previously saw Bed at distance 1.72 m near position x=-0.25, z=0.00.",
+        "Previously saw Bed at distance 1.71 m near position x=-0.25, z=0.50.",
+        "Previously saw Bed at distance 1.88 m near position x=-0.25, z=0.50.",
+        "Previously saw Bed at distance 1.88 m near position x=0.00, z=0.50.",
+        "Previously saw Bed at distance 1.89 m near position x=0.00, z=0.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 28,
+      "task_id": 89,
+      "scene": "FloorPlan310",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Navigate to the Bed.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": 2.9802322387695312e-08,
+        "y": 0.9009992480278015,
+        "z": 0.4999999701976776
+      },
+      "target_visible": false,
+      "target_distance": 1.8844830989837646,
+      "memory_snapshot": [
+        "Previously saw Bed at distance 2.09 m near position x=-0.25, z=-1.00.",
+        "Previously saw Bed at distance 2.00 m near position x=-0.25, z=-0.75.",
+        "Previously saw Bed at distance 1.88 m near position x=-0.25, z=-0.50.",
+        "Previously saw Bed at distance 1.79 m near position x=-0.25, z=-0.25.",
+        "Previously saw Bed at distance 1.72 m near position x=-0.25, z=0.00.",
+        "Previously saw Bed at distance 1.71 m near position x=-0.25, z=0.50.",
+        "Previously saw Bed at distance 1.88 m near position x=-0.25, z=0.50.",
+        "Previously saw Bed at distance 1.88 m near position x=0.00, z=0.50.",
+        "Previously saw Bed at distance 1.89 m near position x=0.00, z=0.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 29,
+      "task_id": 89,
+      "scene": "FloorPlan310",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Navigate to the Bed.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": 2.9802322387695312e-08,
+        "y": 0.9009992480278015,
+        "z": 0.4999999701976776
+      },
+      "target_visible": false,
+      "target_distance": 1.8844830989837646,
+      "memory_snapshot": [
+        "Previously saw Bed at distance 2.09 m near position x=-0.25, z=-1.00.",
+        "Previously saw Bed at distance 2.00 m near position x=-0.25, z=-0.75.",
+        "Previously saw Bed at distance 1.88 m near position x=-0.25, z=-0.50.",
+        "Previously saw Bed at distance 1.79 m near position x=-0.25, z=-0.25.",
+        "Previously saw Bed at distance 1.72 m near position x=-0.25, z=0.00.",
+        "Previously saw Bed at distance 1.71 m near position x=-0.25, z=0.50.",
+        "Previously saw Bed at distance 1.88 m near position x=-0.25, z=0.50.",
+        "Previously saw Bed at distance 1.88 m near position x=0.00, z=0.50.",
+        "Previously saw Bed at distance 1.89 m near position x=0.00, z=0.50."
+      ],
+      "message": "",
+      "conversation_log": null
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "task_meta": {
+    "task_id": 70,
+    "scene": "FloorPlan28",
+    "room_type": "kitchen",
+    "target_type": "Egg",
+    "goal_text": "Navigate to the Egg."
+  },
+  "episode_time_sec": 5.733889957999054,
+  "steps": [
+    {
+      "step": 0,
+      "task_id": 70,
+      "scene": "FloorPlan28",
+      "room_type": "kitchen",
+      "target_type": "Egg",
+      "goal_text": "Navigate to the Egg.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -1.5,
+        "y": 0.9009982347488403,
+        "z": -1.75
+      },
+      "target_visible": false,
+      "target_distance": 1.007826566696167,
+      "memory_snapshot": [],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 1,
+      "task_id": 70,
+      "scene": "FloorPlan28",
+      "room_type": "kitchen",
+      "target_type": "Egg",
+      "goal_text": "Navigate to the Egg.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -1.5,
+        "y": 0.9009982347488403,
+        "z": -1.75
+      },
+      "target_visible": true,
+      "target_distance": 1.0078248977661133,
+      "memory_snapshot": [
+        "Previously saw Egg at distance 1.01 m near position x=-1.50, z=-1.75."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 2,
+      "task_id": 70,
+      "scene": "FloorPlan28",
+      "room_type": "kitchen",
+      "target_type": "Egg",
+      "goal_text": "Navigate to the Egg.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "Done",
+      "agent_position": {
+        "x": -1.25,
+        "y": 0.9009982347488403,
+        "z": -1.75
+      },
+      "target_visible": true,
+      "target_distance": 0.7725683450698853,
+      "memory_snapshot": [
+        "Previously saw Egg at distance 1.01 m near position x=-1.50, z=-1.75.",
+        "Previously saw Egg at distance 0.77 m near position x=-1.25, z=-1.75."
+      ],
+      "message": "",
+      "conversation_log": null
+    }
+  ]
+}

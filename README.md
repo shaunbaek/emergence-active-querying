@@ -180,6 +180,30 @@ This script will:
 
 **Note**: Running all experiments takes approximately 3-7.5 hours total.
 
+### Run Partial Tasks for Two-Agent Policy
+
+For testing or running specific subsets of tasks with the two-agent policy, use the partial task runner:
+
+```bash
+# Run tasks 1-20
+python3 run_partial_two_agent.py --start 1 --end 20 --max_steps 30
+
+# Run specific tasks by ID
+python3 run_partial_two_agent.py --tasks 1,5,10,15,20 --max_steps 30
+
+# Resume interrupted run (skip completed tasks)
+python3 run_partial_two_agent.py --start 1 --end 50 --max_steps 30 --resume
+
+# Run last 10 tasks
+python3 run_partial_two_agent.py --start 91 --end 100 --max_steps 30
+```
+
+**Features:**
+- **Range mode**: Use `--start` and `--end` to run a continuous range of tasks
+- **Specific tasks mode**: Use `--tasks` with comma-separated IDs to run specific tasks
+- **Resume support**: Use `--resume` to skip already completed tasks
+- **Progress tracking**: Shows completed/skipped counts and task distribution
+
 ## Troubleshooting
 
 ### Missing Module Errors
