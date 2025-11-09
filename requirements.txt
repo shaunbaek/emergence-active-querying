@@ -1,0 +1,3 @@
+ai2thor
+matplotlib
+google-generativeai

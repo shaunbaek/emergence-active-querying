@@ -30,8 +30,8 @@ Once the virtual environment is activated, upgrade pip and install the required 
 # Upgrade pip to the latest version
 pip install --upgrade pip
 
-# Install project dependencies
-pip install ai2thor matplotlib google-generativeai
+# Install all project dependencies from requirements.txt
+pip install -r requirements.txt
 ```
 
 ### 4. Configure Environment Variables
