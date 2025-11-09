@@ -93,7 +93,7 @@ Basic usage:
 python3 loop.py --policy baseline --taskset custom100 --max_steps 30
 
 # Run handicapped policy on dev tasks
-python3 loop.py --policy handicapped --taskset dev20 --max_steps 30
+python3 loop.py --policy handicapped --taskset custom100 --max_steps 30
 
 # Run two-agent policy on custom 100 tasks
 python3 loop.py --policy two_agent --taskset custom100 --max_steps 30
