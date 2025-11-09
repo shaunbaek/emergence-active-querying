@@ -1,0 +1,815 @@
+{
+  "task_meta": {
+    "task_id": 23,
+    "scene": "FloorPlan23",
+    "room_type": "kitchen",
+    "target_type": "Apple",
+    "goal_text": "Go to the kitchen and look for the Apple on the CounterTop."
+  },
+  "episode_time_sec": 32.30731825000021,
+  "steps": [
+    {
+      "step": 0,
+      "task_id": 23,
+      "scene": "FloorPlan23",
+      "room_type": "kitchen",
+      "target_type": "Apple",
+      "goal_text": "Go to the kitchen and look for the Apple on the CounterTop.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -4.0,
+        "y": 0.9009994864463806,
+        "z": -2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.5080417394638062,
+      "memory_snapshot": [],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 1,
+      "task_id": 23,
+      "scene": "FloorPlan23",
+      "room_type": "kitchen",
+      "target_type": "Apple",
+      "goal_text": "Go to the kitchen and look for the Apple on the CounterTop.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -4.0,
+        "y": 0.9009994864463806,
+        "z": -2.25
+      },
+      "target_visible": true,
+      "target_distance": 1.5080403089523315,
+      "memory_snapshot": [
+        "Previously saw Apple at distance 1.51 m near position x=-4.00, z=-2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 2,
+      "task_id": 23,
+      "scene": "FloorPlan23",
+      "room_type": "kitchen",
+      "target_type": "Apple",
+      "goal_text": "Go to the kitchen and look for the Apple on the CounterTop.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "MoveAhead",
+      "agent_position": {
+        "x": -3.75,
+        "y": 0.9009994864463806,
+        "z": -2.25
+      },
+      "target_visible": true,
+      "target_distance": 1.2918180227279663,
+      "memory_snapshot": [
+        "Previously saw Apple at distance 1.51 m near position x=-4.00, z=-2.25.",
+        "Previously saw Apple at distance 1.29 m near position x=-3.75, z=-2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 3,
+      "task_id": 23,
+      "scene": "FloorPlan23",
+      "room_type": "kitchen",
+      "target_type": "Apple",
+      "goal_text": "Go to the kitchen and look for the Apple on the CounterTop.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -3.75,
+        "y": 0.9009994864463806,
+        "z": -2.25
+      },
+      "target_visible": true,
+      "target_distance": 1.2918180227279663,
+      "memory_snapshot": [
+        "Previously saw Apple at distance 1.51 m near position x=-4.00, z=-2.25.",
+        "Previously saw Apple at distance 1.29 m near position x=-3.75, z=-2.25.",
+        "Previously saw Apple at distance 1.29 m near position x=-3.75, z=-2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 4,
+      "task_id": 23,
+      "scene": "FloorPlan23",
+      "room_type": "kitchen",
+      "target_type": "Apple",
+      "goal_text": "Go to the kitchen and look for the Apple on the CounterTop.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -3.75,
+        "y": 0.9009994864463806,
+        "z": -2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.2918180227279663,
+      "memory_snapshot": [
+        "Previously saw Apple at distance 1.51 m near position x=-4.00, z=-2.25.",
+        "Previously saw Apple at distance 1.29 m near position x=-3.75, z=-2.25.",
+        "Previously saw Apple at distance 1.29 m near position x=-3.75, z=-2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 5,
+      "task_id": 23,
+      "scene": "FloorPlan23",
+      "room_type": "kitchen",
+      "target_type": "Apple",
+      "goal_text": "Go to the kitchen and look for the Apple on the CounterTop.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": -3.75,
+        "y": 0.9009994864463806,
+        "z": -2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.2918180227279663,
+      "memory_snapshot": [
+        "Previously saw Apple at distance 1.51 m near position x=-4.00, z=-2.25.",
+        "Previously saw Apple at distance 1.29 m near position x=-3.75, z=-2.25.",
+        "Previously saw Apple at distance 1.29 m near position x=-3.75, z=-2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 6,
+      "task_id": 23,
+      "scene": "FloorPlan23",
+      "room_type": "kitchen",
+      "target_type": "Apple",
+      "goal_text": "Go to the kitchen and look for the Apple on the CounterTop.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -3.75,
+        "y": 0.9009994864463806,
+        "z": -2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.2918180227279663,
+      "memory_snapshot": [
+        "Previously saw Apple at distance 1.51 m near position x=-4.00, z=-2.25.",
+        "Previously saw Apple at distance 1.29 m near position x=-3.75, z=-2.25.",
+        "Previously saw Apple at distance 1.29 m near position x=-3.75, z=-2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 7,
+      "task_id": 23,
+      "scene": "FloorPlan23",
+      "room_type": "kitchen",
+      "target_type": "Apple",
+      "goal_text": "Go to the kitchen and look for the Apple on the CounterTop.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": -3.75,
+        "y": 0.9009994864463806,
+        "z": -2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.2918180227279663,
+      "memory_snapshot": [
+        "Previously saw Apple at distance 1.51 m near position x=-4.00, z=-2.25.",
+        "Previously saw Apple at distance 1.29 m near position x=-3.75, z=-2.25.",
+        "Previously saw Apple at distance 1.29 m near position x=-3.75, z=-2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 8,
+      "task_id": 23,
+      "scene": "FloorPlan23",
+      "room_type": "kitchen",
+      "target_type": "Apple",
+      "goal_text": "Go to the kitchen and look for the Apple on the CounterTop.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -3.75,
+        "y": 0.9009994864463806,
+        "z": -2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.2918180227279663,
+      "memory_snapshot": [
+        "Previously saw Apple at distance 1.51 m near position x=-4.00, z=-2.25.",
+        "Previously saw Apple at distance 1.29 m near position x=-3.75, z=-2.25.",
+        "Previously saw Apple at distance 1.29 m near position x=-3.75, z=-2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 9,
+      "task_id": 23,
+      "scene": "FloorPlan23",
+      "room_type": "kitchen",
+      "target_type": "Apple",
+      "goal_text": "Go to the kitchen and look for the Apple on the CounterTop.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": -3.75,
+        "y": 0.9009994864463806,
+        "z": -2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.2918180227279663,
+      "memory_snapshot": [
+        "Previously saw Apple at distance 1.51 m near position x=-4.00, z=-2.25.",
+        "Previously saw Apple at distance 1.29 m near position x=-3.75, z=-2.25.",
+        "Previously saw Apple at distance 1.29 m near position x=-3.75, z=-2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 10,
+      "task_id": 23,
+      "scene": "FloorPlan23",
+      "room_type": "kitchen",
+      "target_type": "Apple",
+      "goal_text": "Go to the kitchen and look for the Apple on the CounterTop.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -3.75,
+        "y": 0.9009994864463806,
+        "z": -2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.2918180227279663,
+      "memory_snapshot": [
+        "Previously saw Apple at distance 1.51 m near position x=-4.00, z=-2.25.",
+        "Previously saw Apple at distance 1.29 m near position x=-3.75, z=-2.25.",
+        "Previously saw Apple at distance 1.29 m near position x=-3.75, z=-2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 11,
+      "task_id": 23,
+      "scene": "FloorPlan23",
+      "room_type": "kitchen",
+      "target_type": "Apple",
+      "goal_text": "Go to the kitchen and look for the Apple on the CounterTop.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": -3.75,
+        "y": 0.9009994864463806,
+        "z": -2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.2918180227279663,
+      "memory_snapshot": [
+        "Previously saw Apple at distance 1.51 m near position x=-4.00, z=-2.25.",
+        "Previously saw Apple at distance 1.29 m near position x=-3.75, z=-2.25.",
+        "Previously saw Apple at distance 1.29 m near position x=-3.75, z=-2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 12,
+      "task_id": 23,
+      "scene": "FloorPlan23",
+      "room_type": "kitchen",
+      "target_type": "Apple",
+      "goal_text": "Go to the kitchen and look for the Apple on the CounterTop.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -3.75,
+        "y": 0.9009994864463806,
+        "z": -2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.2918180227279663,
+      "memory_snapshot": [
+        "Previously saw Apple at distance 1.51 m near position x=-4.00, z=-2.25.",
+        "Previously saw Apple at distance 1.29 m near position x=-3.75, z=-2.25.",
+        "Previously saw Apple at distance 1.29 m near position x=-3.75, z=-2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 13,
+      "task_id": 23,
+      "scene": "FloorPlan23",
+      "room_type": "kitchen",
+      "target_type": "Apple",
+      "goal_text": "Go to the kitchen and look for the Apple on the CounterTop.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": -3.75,
+        "y": 0.9009994864463806,
+        "z": -2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.2918180227279663,
+      "memory_snapshot": [
+        "Previously saw Apple at distance 1.51 m near position x=-4.00, z=-2.25.",
+        "Previously saw Apple at distance 1.29 m near position x=-3.75, z=-2.25.",
+        "Previously saw Apple at distance 1.29 m near position x=-3.75, z=-2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 14,
+      "task_id": 23,
+      "scene": "FloorPlan23",
+      "room_type": "kitchen",
+      "target_type": "Apple",
+      "goal_text": "Go to the kitchen and look for the Apple on the CounterTop.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -3.75,
+        "y": 0.9009994864463806,
+        "z": -2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.2918180227279663,
+      "memory_snapshot": [
+        "Previously saw Apple at distance 1.51 m near position x=-4.00, z=-2.25.",
+        "Previously saw Apple at distance 1.29 m near position x=-3.75, z=-2.25.",
+        "Previously saw Apple at distance 1.29 m near position x=-3.75, z=-2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 15,
+      "task_id": 23,
+      "scene": "FloorPlan23",
+      "room_type": "kitchen",
+      "target_type": "Apple",
+      "goal_text": "Go to the kitchen and look for the Apple on the CounterTop.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": -3.75,
+        "y": 0.9009994864463806,
+        "z": -2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.2918180227279663,
+      "memory_snapshot": [
+        "Previously saw Apple at distance 1.51 m near position x=-4.00, z=-2.25.",
+        "Previously saw Apple at distance 1.29 m near position x=-3.75, z=-2.25.",
+        "Previously saw Apple at distance 1.29 m near position x=-3.75, z=-2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 16,
+      "task_id": 23,
+      "scene": "FloorPlan23",
+      "room_type": "kitchen",
+      "target_type": "Apple",
+      "goal_text": "Go to the kitchen and look for the Apple on the CounterTop.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -3.75,
+        "y": 0.9009994864463806,
+        "z": -2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.2918180227279663,
+      "memory_snapshot": [
+        "Previously saw Apple at distance 1.51 m near position x=-4.00, z=-2.25.",
+        "Previously saw Apple at distance 1.29 m near position x=-3.75, z=-2.25.",
+        "Previously saw Apple at distance 1.29 m near position x=-3.75, z=-2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 17,
+      "task_id": 23,
+      "scene": "FloorPlan23",
+      "room_type": "kitchen",
+      "target_type": "Apple",
+      "goal_text": "Go to the kitchen and look for the Apple on the CounterTop.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": -3.75,
+        "y": 0.9009994864463806,
+        "z": -2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.2918180227279663,
+      "memory_snapshot": [
+        "Previously saw Apple at distance 1.51 m near position x=-4.00, z=-2.25.",
+        "Previously saw Apple at distance 1.29 m near position x=-3.75, z=-2.25.",
+        "Previously saw Apple at distance 1.29 m near position x=-3.75, z=-2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 18,
+      "task_id": 23,
+      "scene": "FloorPlan23",
+      "room_type": "kitchen",
+      "target_type": "Apple",
+      "goal_text": "Go to the kitchen and look for the Apple on the CounterTop.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -3.75,
+        "y": 0.9009994864463806,
+        "z": -2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.2918180227279663,
+      "memory_snapshot": [
+        "Previously saw Apple at distance 1.51 m near position x=-4.00, z=-2.25.",
+        "Previously saw Apple at distance 1.29 m near position x=-3.75, z=-2.25.",
+        "Previously saw Apple at distance 1.29 m near position x=-3.75, z=-2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 19,
+      "task_id": 23,
+      "scene": "FloorPlan23",
+      "room_type": "kitchen",
+      "target_type": "Apple",
+      "goal_text": "Go to the kitchen and look for the Apple on the CounterTop.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": -3.75,
+        "y": 0.9009994864463806,
+        "z": -2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.2918180227279663,
+      "memory_snapshot": [
+        "Previously saw Apple at distance 1.51 m near position x=-4.00, z=-2.25.",
+        "Previously saw Apple at distance 1.29 m near position x=-3.75, z=-2.25.",
+        "Previously saw Apple at distance 1.29 m near position x=-3.75, z=-2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 20,
+      "task_id": 23,
+      "scene": "FloorPlan23",
+      "room_type": "kitchen",
+      "target_type": "Apple",
+      "goal_text": "Go to the kitchen and look for the Apple on the CounterTop.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -3.75,
+        "y": 0.9009994864463806,
+        "z": -2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.2918180227279663,
+      "memory_snapshot": [
+        "Previously saw Apple at distance 1.51 m near position x=-4.00, z=-2.25.",
+        "Previously saw Apple at distance 1.29 m near position x=-3.75, z=-2.25.",
+        "Previously saw Apple at distance 1.29 m near position x=-3.75, z=-2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 21,
+      "task_id": 23,
+      "scene": "FloorPlan23",
+      "room_type": "kitchen",
+      "target_type": "Apple",
+      "goal_text": "Go to the kitchen and look for the Apple on the CounterTop.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": -3.75,
+        "y": 0.9009994864463806,
+        "z": -2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.2918180227279663,
+      "memory_snapshot": [
+        "Previously saw Apple at distance 1.51 m near position x=-4.00, z=-2.25.",
+        "Previously saw Apple at distance 1.29 m near position x=-3.75, z=-2.25.",
+        "Previously saw Apple at distance 1.29 m near position x=-3.75, z=-2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 22,
+      "task_id": 23,
+      "scene": "FloorPlan23",
+      "room_type": "kitchen",
+      "target_type": "Apple",
+      "goal_text": "Go to the kitchen and look for the Apple on the CounterTop.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -3.75,
+        "y": 0.9009994864463806,
+        "z": -2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.2918180227279663,
+      "memory_snapshot": [
+        "Previously saw Apple at distance 1.51 m near position x=-4.00, z=-2.25.",
+        "Previously saw Apple at distance 1.29 m near position x=-3.75, z=-2.25.",
+        "Previously saw Apple at distance 1.29 m near position x=-3.75, z=-2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 23,
+      "task_id": 23,
+      "scene": "FloorPlan23",
+      "room_type": "kitchen",
+      "target_type": "Apple",
+      "goal_text": "Go to the kitchen and look for the Apple on the CounterTop.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": -3.75,
+        "y": 0.9009994864463806,
+        "z": -2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.2918180227279663,
+      "memory_snapshot": [
+        "Previously saw Apple at distance 1.51 m near position x=-4.00, z=-2.25.",
+        "Previously saw Apple at distance 1.29 m near position x=-3.75, z=-2.25.",
+        "Previously saw Apple at distance 1.29 m near position x=-3.75, z=-2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 24,
+      "task_id": 23,
+      "scene": "FloorPlan23",
+      "room_type": "kitchen",
+      "target_type": "Apple",
+      "goal_text": "Go to the kitchen and look for the Apple on the CounterTop.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -3.75,
+        "y": 0.9009994864463806,
+        "z": -2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.2918180227279663,
+      "memory_snapshot": [
+        "Previously saw Apple at distance 1.51 m near position x=-4.00, z=-2.25.",
+        "Previously saw Apple at distance 1.29 m near position x=-3.75, z=-2.25.",
+        "Previously saw Apple at distance 1.29 m near position x=-3.75, z=-2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 25,
+      "task_id": 23,
+      "scene": "FloorPlan23",
+      "room_type": "kitchen",
+      "target_type": "Apple",
+      "goal_text": "Go to the kitchen and look for the Apple on the CounterTop.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": -3.75,
+        "y": 0.9009994864463806,
+        "z": -2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.2918180227279663,
+      "memory_snapshot": [
+        "Previously saw Apple at distance 1.51 m near position x=-4.00, z=-2.25.",
+        "Previously saw Apple at distance 1.29 m near position x=-3.75, z=-2.25.",
+        "Previously saw Apple at distance 1.29 m near position x=-3.75, z=-2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 26,
+      "task_id": 23,
+      "scene": "FloorPlan23",
+      "room_type": "kitchen",
+      "target_type": "Apple",
+      "goal_text": "Go to the kitchen and look for the Apple on the CounterTop.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -3.75,
+        "y": 0.9009994864463806,
+        "z": -2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.2918180227279663,
+      "memory_snapshot": [
+        "Previously saw Apple at distance 1.51 m near position x=-4.00, z=-2.25.",
+        "Previously saw Apple at distance 1.29 m near position x=-3.75, z=-2.25.",
+        "Previously saw Apple at distance 1.29 m near position x=-3.75, z=-2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 27,
+      "task_id": 23,
+      "scene": "FloorPlan23",
+      "room_type": "kitchen",
+      "target_type": "Apple",
+      "goal_text": "Go to the kitchen and look for the Apple on the CounterTop.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": -3.75,
+        "y": 0.9009994864463806,
+        "z": -2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.2918180227279663,
+      "memory_snapshot": [
+        "Previously saw Apple at distance 1.51 m near position x=-4.00, z=-2.25.",
+        "Previously saw Apple at distance 1.29 m near position x=-3.75, z=-2.25.",
+        "Previously saw Apple at distance 1.29 m near position x=-3.75, z=-2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 28,
+      "task_id": 23,
+      "scene": "FloorPlan23",
+      "room_type": "kitchen",
+      "target_type": "Apple",
+      "goal_text": "Go to the kitchen and look for the Apple on the CounterTop.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -3.75,
+        "y": 0.9009994864463806,
+        "z": -2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.2918180227279663,
+      "memory_snapshot": [
+        "Previously saw Apple at distance 1.51 m near position x=-4.00, z=-2.25.",
+        "Previously saw Apple at distance 1.29 m near position x=-3.75, z=-2.25.",
+        "Previously saw Apple at distance 1.29 m near position x=-3.75, z=-2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 29,
+      "task_id": 23,
+      "scene": "FloorPlan23",
+      "room_type": "kitchen",
+      "target_type": "Apple",
+      "goal_text": "Go to the kitchen and look for the Apple on the CounterTop.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": -3.75,
+        "y": 0.9009994864463806,
+        "z": -2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.2918180227279663,
+      "memory_snapshot": [
+        "Previously saw Apple at distance 1.51 m near position x=-4.00, z=-2.25.",
+        "Previously saw Apple at distance 1.29 m near position x=-3.75, z=-2.25.",
+        "Previously saw Apple at distance 1.29 m near position x=-3.75, z=-2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    }
+  ]
+}

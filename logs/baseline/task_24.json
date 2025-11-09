@@ -1,0 +1,758 @@
+{
+  "task_meta": {
+    "task_id": 24,
+    "scene": "FloorPlan24",
+    "room_type": "kitchen",
+    "target_type": "Tomato",
+    "goal_text": "Navigate to the kitchen and find the Tomato near the Refrigerator."
+  },
+  "episode_time_sec": 26.129717792000065,
+  "steps": [
+    {
+      "step": 0,
+      "task_id": 24,
+      "scene": "FloorPlan24",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Navigate to the kitchen and find the Tomato near the Refrigerator.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -0.25,
+        "y": 0.9009992480278015,
+        "z": 2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.01869797706604,
+      "memory_snapshot": [],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 1,
+      "task_id": 24,
+      "scene": "FloorPlan24",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Navigate to the kitchen and find the Tomato near the Refrigerator.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -0.25,
+        "y": 0.9009992480278015,
+        "z": 2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.0186982154846191,
+      "memory_snapshot": [],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 2,
+      "task_id": 24,
+      "scene": "FloorPlan24",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Navigate to the kitchen and find the Tomato near the Refrigerator.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -0.25,
+        "y": 0.9009992480278015,
+        "z": 2.25
+      },
+      "target_visible": true,
+      "target_distance": 1.0186982154846191,
+      "memory_snapshot": [
+        "Previously saw Tomato at distance 1.02 m near position x=-0.25, z=2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 3,
+      "task_id": 24,
+      "scene": "FloorPlan24",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Navigate to the kitchen and find the Tomato near the Refrigerator.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -0.25,
+        "y": 0.9009992480278015,
+        "z": 2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.0186982154846191,
+      "memory_snapshot": [
+        "Previously saw Tomato at distance 1.02 m near position x=-0.25, z=2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 4,
+      "task_id": 24,
+      "scene": "FloorPlan24",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Navigate to the kitchen and find the Tomato near the Refrigerator.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": -0.25,
+        "y": 0.9009992480278015,
+        "z": 2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.0186982154846191,
+      "memory_snapshot": [
+        "Previously saw Tomato at distance 1.02 m near position x=-0.25, z=2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 5,
+      "task_id": 24,
+      "scene": "FloorPlan24",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Navigate to the kitchen and find the Tomato near the Refrigerator.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -0.25,
+        "y": 0.9009992480278015,
+        "z": 2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.0186982154846191,
+      "memory_snapshot": [
+        "Previously saw Tomato at distance 1.02 m near position x=-0.25, z=2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 6,
+      "task_id": 24,
+      "scene": "FloorPlan24",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Navigate to the kitchen and find the Tomato near the Refrigerator.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": -0.25,
+        "y": 0.9009992480278015,
+        "z": 2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.0186982154846191,
+      "memory_snapshot": [
+        "Previously saw Tomato at distance 1.02 m near position x=-0.25, z=2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 7,
+      "task_id": 24,
+      "scene": "FloorPlan24",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Navigate to the kitchen and find the Tomato near the Refrigerator.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -0.25,
+        "y": 0.9009992480278015,
+        "z": 2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.0186982154846191,
+      "memory_snapshot": [
+        "Previously saw Tomato at distance 1.02 m near position x=-0.25, z=2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 8,
+      "task_id": 24,
+      "scene": "FloorPlan24",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Navigate to the kitchen and find the Tomato near the Refrigerator.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": -0.25,
+        "y": 0.9009992480278015,
+        "z": 2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.0186982154846191,
+      "memory_snapshot": [
+        "Previously saw Tomato at distance 1.02 m near position x=-0.25, z=2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 9,
+      "task_id": 24,
+      "scene": "FloorPlan24",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Navigate to the kitchen and find the Tomato near the Refrigerator.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -0.25,
+        "y": 0.9009992480278015,
+        "z": 2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.0186982154846191,
+      "memory_snapshot": [
+        "Previously saw Tomato at distance 1.02 m near position x=-0.25, z=2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 10,
+      "task_id": 24,
+      "scene": "FloorPlan24",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Navigate to the kitchen and find the Tomato near the Refrigerator.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": -0.25,
+        "y": 0.9009992480278015,
+        "z": 2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.0186982154846191,
+      "memory_snapshot": [
+        "Previously saw Tomato at distance 1.02 m near position x=-0.25, z=2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 11,
+      "task_id": 24,
+      "scene": "FloorPlan24",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Navigate to the kitchen and find the Tomato near the Refrigerator.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -0.25,
+        "y": 0.9009992480278015,
+        "z": 2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.0186982154846191,
+      "memory_snapshot": [
+        "Previously saw Tomato at distance 1.02 m near position x=-0.25, z=2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 12,
+      "task_id": 24,
+      "scene": "FloorPlan24",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Navigate to the kitchen and find the Tomato near the Refrigerator.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": -0.25,
+        "y": 0.9009992480278015,
+        "z": 2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.0186982154846191,
+      "memory_snapshot": [
+        "Previously saw Tomato at distance 1.02 m near position x=-0.25, z=2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 13,
+      "task_id": 24,
+      "scene": "FloorPlan24",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Navigate to the kitchen and find the Tomato near the Refrigerator.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -0.25,
+        "y": 0.9009992480278015,
+        "z": 2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.0186982154846191,
+      "memory_snapshot": [
+        "Previously saw Tomato at distance 1.02 m near position x=-0.25, z=2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 14,
+      "task_id": 24,
+      "scene": "FloorPlan24",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Navigate to the kitchen and find the Tomato near the Refrigerator.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": -0.25,
+        "y": 0.9009992480278015,
+        "z": 2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.0186982154846191,
+      "memory_snapshot": [
+        "Previously saw Tomato at distance 1.02 m near position x=-0.25, z=2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 15,
+      "task_id": 24,
+      "scene": "FloorPlan24",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Navigate to the kitchen and find the Tomato near the Refrigerator.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -0.25,
+        "y": 0.9009992480278015,
+        "z": 2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.0186982154846191,
+      "memory_snapshot": [
+        "Previously saw Tomato at distance 1.02 m near position x=-0.25, z=2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 16,
+      "task_id": 24,
+      "scene": "FloorPlan24",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Navigate to the kitchen and find the Tomato near the Refrigerator.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": -0.25,
+        "y": 0.9009992480278015,
+        "z": 2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.0186982154846191,
+      "memory_snapshot": [
+        "Previously saw Tomato at distance 1.02 m near position x=-0.25, z=2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 17,
+      "task_id": 24,
+      "scene": "FloorPlan24",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Navigate to the kitchen and find the Tomato near the Refrigerator.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -0.25,
+        "y": 0.9009992480278015,
+        "z": 2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.0186982154846191,
+      "memory_snapshot": [
+        "Previously saw Tomato at distance 1.02 m near position x=-0.25, z=2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 18,
+      "task_id": 24,
+      "scene": "FloorPlan24",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Navigate to the kitchen and find the Tomato near the Refrigerator.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": -0.25,
+        "y": 0.9009992480278015,
+        "z": 2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.0186982154846191,
+      "memory_snapshot": [
+        "Previously saw Tomato at distance 1.02 m near position x=-0.25, z=2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 19,
+      "task_id": 24,
+      "scene": "FloorPlan24",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Navigate to the kitchen and find the Tomato near the Refrigerator.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -0.25,
+        "y": 0.9009992480278015,
+        "z": 2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.0186982154846191,
+      "memory_snapshot": [
+        "Previously saw Tomato at distance 1.02 m near position x=-0.25, z=2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 20,
+      "task_id": 24,
+      "scene": "FloorPlan24",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Navigate to the kitchen and find the Tomato near the Refrigerator.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": -0.25,
+        "y": 0.9009992480278015,
+        "z": 2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.0186982154846191,
+      "memory_snapshot": [
+        "Previously saw Tomato at distance 1.02 m near position x=-0.25, z=2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 21,
+      "task_id": 24,
+      "scene": "FloorPlan24",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Navigate to the kitchen and find the Tomato near the Refrigerator.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -0.25,
+        "y": 0.9009992480278015,
+        "z": 2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.0186982154846191,
+      "memory_snapshot": [
+        "Previously saw Tomato at distance 1.02 m near position x=-0.25, z=2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 22,
+      "task_id": 24,
+      "scene": "FloorPlan24",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Navigate to the kitchen and find the Tomato near the Refrigerator.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": -0.25,
+        "y": 0.9009992480278015,
+        "z": 2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.0186982154846191,
+      "memory_snapshot": [
+        "Previously saw Tomato at distance 1.02 m near position x=-0.25, z=2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 23,
+      "task_id": 24,
+      "scene": "FloorPlan24",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Navigate to the kitchen and find the Tomato near the Refrigerator.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -0.25,
+        "y": 0.9009992480278015,
+        "z": 2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.0186982154846191,
+      "memory_snapshot": [
+        "Previously saw Tomato at distance 1.02 m near position x=-0.25, z=2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 24,
+      "task_id": 24,
+      "scene": "FloorPlan24",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Navigate to the kitchen and find the Tomato near the Refrigerator.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": -0.25,
+        "y": 0.9009992480278015,
+        "z": 2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.0186982154846191,
+      "memory_snapshot": [
+        "Previously saw Tomato at distance 1.02 m near position x=-0.25, z=2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 25,
+      "task_id": 24,
+      "scene": "FloorPlan24",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Navigate to the kitchen and find the Tomato near the Refrigerator.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -0.25,
+        "y": 0.9009992480278015,
+        "z": 2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.0186982154846191,
+      "memory_snapshot": [
+        "Previously saw Tomato at distance 1.02 m near position x=-0.25, z=2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 26,
+      "task_id": 24,
+      "scene": "FloorPlan24",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Navigate to the kitchen and find the Tomato near the Refrigerator.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": -0.25,
+        "y": 0.9009992480278015,
+        "z": 2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.0186982154846191,
+      "memory_snapshot": [
+        "Previously saw Tomato at distance 1.02 m near position x=-0.25, z=2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 27,
+      "task_id": 24,
+      "scene": "FloorPlan24",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Navigate to the kitchen and find the Tomato near the Refrigerator.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -0.25,
+        "y": 0.9009992480278015,
+        "z": 2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.0186982154846191,
+      "memory_snapshot": [
+        "Previously saw Tomato at distance 1.02 m near position x=-0.25, z=2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 28,
+      "task_id": 24,
+      "scene": "FloorPlan24",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Navigate to the kitchen and find the Tomato near the Refrigerator.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": -0.25,
+        "y": 0.9009992480278015,
+        "z": 2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.0186982154846191,
+      "memory_snapshot": [
+        "Previously saw Tomato at distance 1.02 m near position x=-0.25, z=2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 29,
+      "task_id": 24,
+      "scene": "FloorPlan24",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Navigate to the kitchen and find the Tomato near the Refrigerator.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -0.25,
+        "y": 0.9009992480278015,
+        "z": 2.25
+      },
+      "target_visible": false,
+      "target_distance": 1.0186982154846191,
+      "memory_snapshot": [
+        "Previously saw Tomato at distance 1.02 m near position x=-0.25, z=2.25."
+      ],
+      "message": "",
+      "conversation_log": null
+    }
+  ]
+}

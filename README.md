@@ -1,5 +1,7 @@
 # Emergence Spatial
 
+Multi-agent navigation experiments in AI2-THOR environments using LLM-based policies.
+
 ## Setup Instructions
 
 ### 1. Create a Virtual Environment
@@ -34,6 +36,12 @@ pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
+**Required packages:**
+- `ai2thor` - AI2-THOR 3D simulator
+- `matplotlib` - Plotting and visualization
+- `google-generativeai` - Google Gemini API
+- `python-dotenv` - Environment variable management
+
 ### 4. Configure Environment Variables
 
 Create a `.env` file in the project root directory by copying the example file:
@@ -52,15 +60,133 @@ GEMINI_API_KEY=your_actual_api_key_here
 
 ### 5. Running the Project
 
-After completing the setup, you can run the project scripts:
+After completing the setup, you can run navigation experiments with different policies and task sets.
+
+## Running Navigation Experiments
+
+### Task Sets
+
+The project includes several pre-configured task sets:
+
+- **`dev20`** - 20 development tasks for quick testing
+- **`full100`** - 100 randomly sampled tasks across all room types
+- **`custom100`** - 100 specific test cases (25 per room type):
+  - Kitchen (FloorPlan 1-30): 25 tasks
+  - Living Room (FloorPlan 201-230): 25 tasks
+  - Bedroom (FloorPlan 301-330): 25 tasks
+  - Bathroom (FloorPlan 401-430): 25 tasks
+
+### Agent Policies
+
+Three different policies are available:
+
+- **`baseline`** - Single agent with full visibility and rich perception
+- **`handicapped`** - Single agent with limited perception (only sees nearby objects)
+- **`two_agent`** - Leader (full visibility) + Handicapped agent with communication
+
+### Running Experiments
+
+Basic usage:
 
 ```bash
-python loop.py
-# or
-python policy_analysis.py
-# or
-python policy.py
+# Run baseline policy on custom 100 tasks
+python3 loop.py --policy baseline --taskset custom100 --max_steps 30
+
+# Run handicapped policy on dev tasks
+python3 loop.py --policy handicapped --taskset dev20 --max_steps 30
+
+# Run two-agent policy on custom 100 tasks
+python3 loop.py --policy two_agent --taskset custom100 --max_steps 30
+
+# Resume interrupted run (skip already completed tasks)
+# NOTE: You must specify --max_steps when using --resume to maintain consistency
+python3 loop.py --policy baseline --taskset custom100 --max_steps 30 --resume
 ```
+
+### Command-line Arguments
+
+- `--policy` - Choose agent policy: `baseline`, `handicapped`, or `two_agent` (default: `baseline`)
+- `--taskset` - Choose task set: `dev20`, `full100`, or `custom100` (default: `full100`)
+- `--max_steps` - Maximum steps per episode (default: `50`)
+- `--resume` - Skip tasks that already have log files (useful for resuming interrupted runs)
+
+> **Important**: When using `--resume`, always specify `--max_steps` to ensure consistency with your previous run. The default is 50 steps if not specified.
+
+### Results
+
+Episode logs are saved to:
+- `logs/baseline/` - Baseline policy results
+- `logs/handicapped/` - Handicapped policy results
+- `logs/two_agent/` - Two-agent policy results
+
+Each task produces a JSON file named `task_<id>.json` containing:
+- Task metadata (scene, room type, target object, goal)
+- Episode duration
+- Step-by-step trajectory with actions, positions, and distances
+- Agent memory and communication logs (for two-agent policy)
+
+### Generating Task Files
+
+To regenerate the task files:
+
+```bash
+# Generate all standard task sets
+python tasks_utils.py
+
+# Generate custom 100 tasks
+python tasks_custom_100.py
+```
+
+### Run All Experiments at Once
+
+For convenience, use the provided script to run all 100 tasks across all three policies sequentially:
+
+```bash
+# Run all experiments
+./run_all_experiments.sh
+
+# Run with resume support (skip completed tasks)
+./run_all_experiments.sh --resume
+
+# Customize max steps per task
+./run_all_experiments.sh --max-steps 75
+```
+
+This script will:
+1. Check prerequisites (virtual environment, .env file)
+2. Generate task files if needed
+3. Run baseline policy (100 tasks)
+4. Run handicapped policy (100 tasks)
+5. Run two-agent policy (100 tasks)
+6. Report completion status
+
+**Note**: Running all experiments takes approximately 3-7.5 hours total.
+
+## Troubleshooting
+
+### Missing Module Errors
+
+If you encounter `ModuleNotFoundError`, ensure all dependencies are installed:
+
+```bash
+pip install -r requirements.txt
+```
+
+### Missing env.py
+
+The project requires `env.py` which provides the `ThorEnv` wrapper for AI2-THOR. This file should be present in the project root.
+
+### API Key Issues
+
+Verify your Gemini API key is properly configured:
+
+```bash
+cat .env | grep GEMINI_API_KEY
+```
+
+### AI2-THOR Display Issues
+
+If running on a headless server or encountering display issues, AI2-THOR may need additional configuration. Refer to the [AI2-THOR documentation](https://ai2thor.allenai.org/ithor/documentation/) for details.
 
 ## Deactivating the Virtual Environment
 
