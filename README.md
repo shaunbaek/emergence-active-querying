@@ -34,7 +34,23 @@ pip install --upgrade pip
 pip install ai2thor matplotlib google-generativeai
 ```
 
-### 4. Running the Project
+### 4. Configure Environment Variables
+
+Create a `.env` file in the project root directory by copying the example file:
+
+```bash
+cp .env.example .env
+```
+
+Then edit the `.env` file and add your Gemini API key:
+
+```
+GEMINI_API_KEY=your_actual_api_key_here
+```
+
+> **Note:** You can get your Gemini API key from [Google AI Studio](https://makersuite.google.com/app/apikey)
+
+### 5. Running the Project
 
 After completing the setup, you can run the project scripts:
 
