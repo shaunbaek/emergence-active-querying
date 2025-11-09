@@ -25,6 +25,11 @@ from tasks_utils import (
     is_success,
 )
 
+def load_tasks_from_json(path: str) -> List[Dict[str, Any]]:
+    """Load tasks from a JSON file."""
+    with open(path, "r") as f:
+        return json.load(f)
+
 def ensure_dir_for(path: str):
     """Create parent directory for a file path if it doesn't exist."""
     os.makedirs(os.path.dirname(path), exist_ok=True)
@@ -658,8 +663,8 @@ if __name__ == "__main__":
         "--taskset",
         type=str,
         default="full100",
-        choices=["dev20", "full100"],
-        help="Which task set to use: full100 or dev20.",
+        choices=["dev20", "full100", "custom100"],
+        help="Which task set to use: dev20, full100, or custom100.",
     )
     parser.add_argument(
         "--resume",
@@ -672,6 +677,8 @@ if __name__ == "__main__":
         tasks = generate_dev_task_list_20()
     elif args.taskset == "full100":
         tasks = generate_task_list_100()
+    elif args.taskset == "custom100":
+        tasks = load_tasks_from_json("tasks_custom_100.json")
     else:
         raise ValueError(f"Unknown taskset: {args.taskset}")
 
