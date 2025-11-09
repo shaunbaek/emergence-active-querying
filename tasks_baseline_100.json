@@ -1,0 +1,702 @@
+[
+  {
+    "task_id": 1,
+    "scene": "FloorPlan1",
+    "room_type": "kitchen",
+    "target_type": "Refrigerator",
+    "goal_text": "Navigate to the Refrigerator."
+  },
+  {
+    "task_id": 2,
+    "scene": "FloorPlan1",
+    "room_type": "kitchen",
+    "target_type": "Apple",
+    "goal_text": "Navigate to the Apple."
+  },
+  {
+    "task_id": 3,
+    "scene": "FloorPlan1",
+    "room_type": "kitchen",
+    "target_type": "CoffeeMachine",
+    "goal_text": "Navigate to the CoffeeMachine."
+  },
+  {
+    "task_id": 4,
+    "scene": "FloorPlan2",
+    "room_type": "kitchen",
+    "target_type": "Refrigerator",
+    "goal_text": "Navigate to the Refrigerator."
+  },
+  {
+    "task_id": 5,
+    "scene": "FloorPlan2",
+    "room_type": "kitchen",
+    "target_type": "Apple",
+    "goal_text": "Navigate to the Apple."
+  },
+  {
+    "task_id": 6,
+    "scene": "FloorPlan2",
+    "room_type": "kitchen",
+    "target_type": "CoffeeMachine",
+    "goal_text": "Navigate to the CoffeeMachine."
+  },
+  {
+    "task_id": 7,
+    "scene": "FloorPlan201",
+    "room_type": "living_room",
+    "target_type": "Box",
+    "goal_text": "Navigate to the Box."
+  },
+  {
+    "task_id": 8,
+    "scene": "FloorPlan201",
+    "room_type": "living_room",
+    "target_type": "GarbageCan",
+    "goal_text": "Navigate to the GarbageCan."
+  },
+  {
+    "task_id": 9,
+    "scene": "FloorPlan201",
+    "room_type": "living_room",
+    "target_type": "HousePlant",
+    "goal_text": "Navigate to the HousePlant."
+  },
+  {
+    "task_id": 10,
+    "scene": "FloorPlan202",
+    "room_type": "living_room",
+    "target_type": "Box",
+    "goal_text": "Navigate to the Box."
+  },
+  {
+    "task_id": 11,
+    "scene": "FloorPlan202",
+    "room_type": "living_room",
+    "target_type": "GarbageCan",
+    "goal_text": "Navigate to the GarbageCan."
+  },
+  {
+    "task_id": 12,
+    "scene": "FloorPlan202",
+    "room_type": "living_room",
+    "target_type": "HousePlant",
+    "goal_text": "Navigate to the HousePlant."
+  },
+  {
+    "task_id": 13,
+    "scene": "FloorPlan301",
+    "room_type": "bedroom",
+    "target_type": "AlarmClock",
+    "goal_text": "Navigate to the AlarmClock."
+  },
+  {
+    "task_id": 14,
+    "scene": "FloorPlan301",
+    "room_type": "bedroom",
+    "target_type": "Bed",
+    "goal_text": "Navigate to the Bed."
+  },
+  {
+    "task_id": 15,
+    "scene": "FloorPlan302",
+    "room_type": "bedroom",
+    "target_type": "AlarmClock",
+    "goal_text": "Navigate to the AlarmClock."
+  },
+  {
+    "task_id": 16,
+    "scene": "FloorPlan302",
+    "room_type": "bedroom",
+    "target_type": "Bed",
+    "goal_text": "Navigate to the Bed."
+  },
+  {
+    "task_id": 17,
+    "scene": "FloorPlan401",
+    "room_type": "bathroom",
+    "target_type": "Candle",
+    "goal_text": "Navigate to the Candle."
+  },
+  {
+    "task_id": 18,
+    "scene": "FloorPlan401",
+    "room_type": "bathroom",
+    "target_type": "Cloth",
+    "goal_text": "Navigate to the Cloth."
+  },
+  {
+    "task_id": 19,
+    "scene": "FloorPlan402",
+    "room_type": "bathroom",
+    "target_type": "Candle",
+    "goal_text": "Navigate to the Candle."
+  },
+  {
+    "task_id": 20,
+    "scene": "FloorPlan20",
+    "room_type": "kitchen",
+    "target_type": "LightSwitch",
+    "goal_text": "In the kitchen, find the LightSwitch by the door."
+  },
+  {
+    "task_id": 21,
+    "scene": "FloorPlan21",
+    "room_type": "kitchen",
+    "target_type": "PepperShaker",
+    "goal_text": "Find the Pepper Shaker on the CounterTop in the kitchen."
+  },
+  {
+    "task_id": 22,
+    "scene": "FloorPlan22",
+    "room_type": "kitchen",
+    "target_type": "Toaster",
+    "goal_text": "Locate the Toaster on the CounterTop in the kitchen."
+  },
+  {
+    "task_id": 23,
+    "scene": "FloorPlan23",
+    "room_type": "kitchen",
+    "target_type": "Apple",
+    "goal_text": "Go to the kitchen and look for the Apple on the CounterTop."
+  },
+  {
+    "task_id": 24,
+    "scene": "FloorPlan24",
+    "room_type": "kitchen",
+    "target_type": "Tomato",
+    "goal_text": "Navigate to the kitchen and find the Tomato near the Refrigerator."
+  },
+  {
+    "task_id": 25,
+    "scene": "FloorPlan25",
+    "room_type": "kitchen",
+    "target_type": "Cup",
+    "goal_text": "Head to the kitchen and find the Cup next to the CoffeeMachine."
+  },
+  {
+    "task_id": 26,
+    "scene": "FloorPlan201",
+    "room_type": "living_room",
+    "target_type": "Laptop",
+    "goal_text": "Find the Laptop in the living room."
+  },
+  {
+    "task_id": 27,
+    "scene": "FloorPlan202",
+    "room_type": "living_room",
+    "target_type": "Television",
+    "goal_text": "Locate the Television in the living room."
+  },
+  {
+    "task_id": 28,
+    "scene": "FloorPlan203",
+    "room_type": "living_room",
+    "target_type": "RemoteControl",
+    "goal_text": "Navigate to the living room and find the RemoteControl."
+  },
+  {
+    "task_id": 29,
+    "scene": "FloorPlan204",
+    "room_type": "living_room",
+    "target_type": "Sofa",
+    "goal_text": "Search the living room for the Sofa."
+  },
+  {
+    "task_id": 30,
+    "scene": "FloorPlan205",
+    "room_type": "living_room",
+    "target_type": "Painting",
+    "goal_text": "Find the Painting in the living room."
+  },
+  {
+    "task_id": 31,
+    "scene": "FloorPlan206",
+    "room_type": "living_room",
+    "target_type": "HousePlant",
+    "goal_text": "Go to the living room and look for the HousePlant."
+  },
+  {
+    "task_id": 32,
+    "scene": "FloorPlan207",
+    "room_type": "living_room",
+    "target_type": "GarbageCan",
+    "goal_text": "Locate the GarbageCan in the living room."
+  },
+  {
+    "task_id": 33,
+    "scene": "FloorPlan208",
+    "room_type": "living_room",
+    "target_type": "Box",
+    "goal_text": "Find the Box in the living room."
+  },
+  {
+    "task_id": 34,
+    "scene": "FloorPlan209",
+    "room_type": "living_room",
+    "target_type": "Pencil",
+    "goal_text": "Search the living room for the Pencil."
+  },
+  {
+    "task_id": 35,
+    "scene": "FloorPlan210",
+    "room_type": "living_room",
+    "target_type": "LightSwitch",
+    "goal_text": "Find the LightSwitch in the living room."
+  },
+  {
+    "task_id": 36,
+    "scene": "FloorPlan211",
+    "room_type": "living_room",
+    "target_type": "RemoteControl",
+    "goal_text": "Navigate to the living room and find the RemoteControl on the Sofa."
+  },
+  {
+    "task_id": 37,
+    "scene": "FloorPlan212",
+    "room_type": "living_room",
+    "target_type": "Laptop",
+    "goal_text": "Locate the Laptop on the Sofa in the living room."
+  },
+  {
+    "task_id": 38,
+    "scene": "FloorPlan213",
+    "room_type": "living_room",
+    "target_type": "GarbageCan",
+    "goal_text": "Head to the living room and find the GarbageCan next to the Sofa."
+  },
+  {
+    "task_id": 39,
+    "scene": "FloorPlan214",
+    "room_type": "living_room",
+    "target_type": "HousePlant",
+    "goal_text": "Find the HousePlant near the Television in the living room."
+  },
+  {
+    "task_id": 40,
+    "scene": "FloorPlan215",
+    "room_type": "living_room",
+    "target_type": "Box",
+    "goal_text": "Search the living room for the Box under the Painting."
+  },
+  {
+    "task_id": 41,
+    "scene": "FloorPlan216",
+    "room_type": "living_room",
+    "target_type": "Pencil",
+    "goal_text": "Go to the living room and find the Pencil near the RemoteControl."
+  },
+  {
+    "task_id": 42,
+    "scene": "FloorPlan217",
+    "room_type": "living_room",
+    "target_type": "LightSwitch",
+    "goal_text": "Navigate to the living room and look for the LightSwitch by the entrance."
+  },
+  {
+    "task_id": 43,
+    "scene": "FloorPlan218",
+    "room_type": "living_room",
+    "target_type": "Television",
+    "goal_text": "Head to the living room and find the Television above the Sofa."
+  },
+  {
+    "task_id": 44,
+    "scene": "FloorPlan219",
+    "room_type": "living_room",
+    "target_type": "Painting",
+    "goal_text": "Find the Painting above the Sofa in the living room."
+  },
+  {
+    "task_id": 45,
+    "scene": "FloorPlan220",
+    "room_type": "living_room",
+    "target_type": "Box",
+    "goal_text": "Locate the Box beside the GarbageCan in the living room."
+  },
+  {
+    "task_id": 46,
+    "scene": "FloorPlan221",
+    "room_type": "living_room",
+    "target_type": "HousePlant",
+    "goal_text": "Search the living room for the HousePlant next to the Painting."
+  },
+  {
+    "task_id": 47,
+    "scene": "FloorPlan222",
+    "room_type": "living_room",
+    "target_type": "RemoteControl",
+    "goal_text": "Find the RemoteControl near the Television in the living room."
+  },
+  {
+    "task_id": 48,
+    "scene": "FloorPlan223",
+    "room_type": "living_room",
+    "target_type": "GarbageCan",
+    "goal_text": "Go to the living room and locate the GarbageCan by the door."
+  },
+  {
+    "task_id": 49,
+    "scene": "FloorPlan224",
+    "room_type": "living_room",
+    "target_type": "Laptop",
+    "goal_text": "Navigate to the living room and find the Laptop on the Sofa."
+  },
+  {
+    "task_id": 50,
+    "scene": "FloorPlan225",
+    "room_type": "living_room",
+    "target_type": "LightSwitch",
+    "goal_text": "Head to the living room and find the LightSwitch near the Television."
+  },
+  {
+    "task_id": 51,
+    "scene": "FloorPlan301",
+    "room_type": "bedroom",
+    "target_type": "Bed",
+    "goal_text": "Find the Bed in the bedroom."
+  },
+  {
+    "task_id": 52,
+    "scene": "FloorPlan302",
+    "room_type": "bedroom",
+    "target_type": "Pillow",
+    "goal_text": "Locate the Pillow in the bedroom."
+  },
+  {
+    "task_id": 53,
+    "scene": "FloorPlan303",
+    "room_type": "bedroom",
+    "target_type": "AlarmClock",
+    "goal_text": "Navigate to the bedroom and find the AlarmClock."
+  },
+  {
+    "task_id": 54,
+    "scene": "FloorPlan304",
+    "room_type": "bedroom",
+    "target_type": "DeskLamp",
+    "goal_text": "Search the bedroom for the DeskLamp."
+  },
+  {
+    "task_id": 55,
+    "scene": "FloorPlan305",
+    "room_type": "bedroom",
+    "target_type": "Window",
+    "goal_text": "Find the Window in the bedroom."
+  },
+  {
+    "task_id": 56,
+    "scene": "FloorPlan306",
+    "room_type": "bedroom",
+    "target_type": "Mirror",
+    "goal_text": "Go to the bedroom and look for the Mirror."
+  },
+  {
+    "task_id": 57,
+    "scene": "FloorPlan307",
+    "room_type": "bedroom",
+    "target_type": "CreditCard",
+    "goal_text": "Locate the CreditCard in the bedroom."
+  },
+  {
+    "task_id": 58,
+    "scene": "FloorPlan308",
+    "room_type": "bedroom",
+    "target_type": "Book",
+    "goal_text": "Find the Book in the bedroom."
+  },
+  {
+    "task_id": 59,
+    "scene": "FloorPlan309",
+    "room_type": "bedroom",
+    "target_type": "Pen",
+    "goal_text": "Search the bedroom for the Pen."
+  },
+  {
+    "task_id": 60,
+    "scene": "FloorPlan310",
+    "room_type": "bedroom",
+    "target_type": "CellPhone",
+    "goal_text": "Find the CellPhone in the bedroom."
+  },
+  {
+    "task_id": 61,
+    "scene": "FloorPlan311",
+    "room_type": "bedroom",
+    "target_type": "AlarmClock",
+    "goal_text": "Navigate to the bedroom and find the AlarmClock near the Bed."
+  },
+  {
+    "task_id": 62,
+    "scene": "FloorPlan312",
+    "room_type": "bedroom",
+    "target_type": "DeskLamp",
+    "goal_text": "Head to the bedroom and find the DeskLamp near the Bed."
+  },
+  {
+    "task_id": 63,
+    "scene": "FloorPlan313",
+    "room_type": "bedroom",
+    "target_type": "Mirror",
+    "goal_text": "Go to the bedroom and find the Mirror on the wall."
+  },
+  {
+    "task_id": 64,
+    "scene": "FloorPlan314",
+    "room_type": "bedroom",
+    "target_type": "Book",
+    "goal_text": "Search the bedroom for the Book on the Bed."
+  },
+  {
+    "task_id": 65,
+    "scene": "FloorPlan315",
+    "room_type": "bedroom",
+    "target_type": "Pen",
+    "goal_text": "Locate the Pen near the DeskLamp in the bedroom."
+  },
+  {
+    "task_id": 66,
+    "scene": "FloorPlan316",
+    "room_type": "bedroom",
+    "target_type": "CreditCard",
+    "goal_text": "Find the CreditCard near the Mirror in the bedroom."
+  },
+  {
+    "task_id": 67,
+    "scene": "FloorPlan317",
+    "room_type": "bedroom",
+    "target_type": "CellPhone",
+    "goal_text": "Navigate to the bedroom and find the CellPhone on the Bed."
+  },
+  {
+    "task_id": 68,
+    "scene": "FloorPlan318",
+    "room_type": "bedroom",
+    "target_type": "Pillow",
+    "goal_text": "Head to the bedroom and find the Pillow on the Bed."
+  },
+  {
+    "task_id": 69,
+    "scene": "FloorPlan319",
+    "room_type": "bedroom",
+    "target_type": "Window",
+    "goal_text": "Search the bedroom for the Window beside the Bed."
+  },
+  {
+    "task_id": 70,
+    "scene": "FloorPlan320",
+    "room_type": "bedroom",
+    "target_type": "Book",
+    "goal_text": "Go to the bedroom and find the Book near the Window."
+  },
+  {
+    "task_id": 71,
+    "scene": "FloorPlan321",
+    "room_type": "bedroom",
+    "target_type": "AlarmClock",
+    "goal_text": "Locate the AlarmClock near the Pillow in the bedroom."
+  },
+  {
+    "task_id": 72,
+    "scene": "FloorPlan322",
+    "room_type": "bedroom",
+    "target_type": "Pen",
+    "goal_text": "Find the Pen on the Bed in the bedroom."
+  },
+  {
+    "task_id": 73,
+    "scene": "FloorPlan323",
+    "room_type": "bedroom",
+    "target_type": "CreditCard",
+    "goal_text": "Navigate to the bedroom and look for the CreditCard near the Pillow."
+  },
+  {
+    "task_id": 74,
+    "scene": "FloorPlan324",
+    "room_type": "bedroom",
+    "target_type": "CellPhone",
+    "goal_text": "Head to the bedroom and find the CellPhone next to the Pillow."
+  },
+  {
+    "task_id": 75,
+    "scene": "FloorPlan325",
+    "room_type": "bedroom",
+    "target_type": "DeskLamp",
+    "goal_text": "Go to the bedroom and find the DeskLamp next to the Window."
+  },
+  {
+    "task_id": 76,
+    "scene": "FloorPlan401",
+    "room_type": "bathroom",
+    "target_type": "Toilet",
+    "goal_text": "Find the Toilet in the bathroom."
+  },
+  {
+    "task_id": 77,
+    "scene": "FloorPlan402",
+    "room_type": "bathroom",
+    "target_type": "TowelHolder",
+    "goal_text": "Locate the TowelHolder in the bathroom."
+  },
+  {
+    "task_id": 78,
+    "scene": "FloorPlan403",
+    "room_type": "bathroom",
+    "target_type": "SoapBar",
+    "goal_text": "Navigate to the bathroom and find the SoapBar."
+  },
+  {
+    "task_id": 79,
+    "scene": "FloorPlan404",
+    "room_type": "bathroom",
+    "target_type": "Plunger",
+    "goal_text": "Search the bathroom for the Plunger."
+  },
+  {
+    "task_id": 80,
+    "scene": "FloorPlan405",
+    "room_type": "bathroom",
+    "target_type": "HandTowel",
+    "goal_text": "Find the HandTowel in the bathroom."
+  },
+  {
+    "task_id": 81,
+    "scene": "FloorPlan406",
+    "room_type": "bathroom",
+    "target_type": "Towel",
+    "goal_text": "Go to the bathroom and look for the Towel."
+  },
+  {
+    "task_id": 82,
+    "scene": "FloorPlan407",
+    "room_type": "bathroom",
+    "target_type": "SprayBottle",
+    "goal_text": "Locate the SprayBottle in the bathroom."
+  },
+  {
+    "task_id": 83,
+    "scene": "FloorPlan408",
+    "room_type": "bathroom",
+    "target_type": "Candle",
+    "goal_text": "Find the Candle in the bathroom."
+  },
+  {
+    "task_id": 84,
+    "scene": "FloorPlan409",
+    "room_type": "bathroom",
+    "target_type": "ToiletPaper",
+    "goal_text": "Search the bathroom for the Toilet Paper."
+  },
+  {
+    "task_id": 85,
+    "scene": "FloorPlan410",
+    "room_type": "bathroom",
+    "target_type": "Cloth",
+    "goal_text": "Find the Cloth in the bathroom."
+  },
+  {
+    "task_id": 86,
+    "scene": "FloorPlan411",
+    "room_type": "bathroom",
+    "target_type": "ToiletPaper",
+    "goal_text": "Navigate to the bathroom and find the Toilet Paper near the Toilet."
+  },
+  {
+    "task_id": 87,
+    "scene": "FloorPlan412",
+    "room_type": "bathroom",
+    "target_type": "SoapBar",
+    "goal_text": "Head to the bathroom and find the SoapBar on the shelf."
+  },
+  {
+    "task_id": 88,
+    "scene": "FloorPlan413",
+    "room_type": "bathroom",
+    "target_type": "SprayBottle",
+    "goal_text": "Go to the bathroom and find the SprayBottle near the TowelHolder."
+  },
+  {
+    "task_id": 89,
+    "scene": "FloorPlan414",
+    "room_type": "bathroom",
+    "target_type": "Candle",
+    "goal_text": "Search the bathroom for the Candle near the Towel."
+  },
+  {
+    "task_id": 90,
+    "scene": "FloorPlan415",
+    "room_type": "bathroom",
+    "target_type": "Plunger",
+    "goal_text": "Find the Plunger beside the Toilet in the bathroom."
+  },
+  {
+    "task_id": 91,
+    "scene": "FloorPlan416",
+    "room_type": "bathroom",
+    "target_type": "HandTowel",
+    "goal_text": "Navigate to the bathroom and look for the HandTowel on the TowelHolder."
+  },
+  {
+    "task_id": 92,
+    "scene": "FloorPlan417",
+    "room_type": "bathroom",
+    "target_type": "Cloth",
+    "goal_text": "Head to the bathroom and find the Cloth near the Towel."
+  },
+  {
+    "task_id": 93,
+    "scene": "FloorPlan418",
+    "room_type": "bathroom",
+    "target_type": "Towel",
+    "goal_text": "Go to the bathroom and find the Towel hanging on the TowelHolder."
+  },
+  {
+    "task_id": 94,
+    "scene": "FloorPlan419",
+    "room_type": "bathroom",
+    "target_type": "ToiletPaper",
+    "goal_text": "Locate the Toilet Paper on the holder in the bathroom."
+  },
+  {
+    "task_id": 95,
+    "scene": "FloorPlan420",
+    "room_type": "bathroom",
+    "target_type": "SprayBottle",
+    "goal_text": "Locate the SprayBottle by the door in the bathroom."
+  },
+  {
+    "task_id": 96,
+    "scene": "FloorPlan421",
+    "room_type": "bathroom",
+    "target_type": "Candle",
+    "goal_text": "Search the bathroom for the Candle on the shelf."
+  },
+  {
+    "task_id": 97,
+    "scene": "FloorPlan422",
+    "room_type": "bathroom",
+    "target_type": "Towel",
+    "goal_text": "Navigate to the bathroom and find the Towel folded near the Toilet."
+  },
+  {
+    "task_id": 98,
+    "scene": "FloorPlan423",
+    "room_type": "bathroom",
+    "target_type": "HandTowel",
+    "goal_text": "Head to the bathroom and find the HandTowel near the SoapBar."
+  },
+  {
+    "task_id": 99,
+    "scene": "FloorPlan424",
+    "room_type": "bathroom",
+    "target_type": "Cloth",
+    "goal_text": "Go to the bathroom and find the Cloth next to the TowelHolder."
+  },
+  {
+    "task_id": 100,
+    "scene": "FloorPlan425",
+    "room_type": "bathroom",
+    "target_type": "Toilet",
+    "goal_text": "Locate the Toilet in the bathroom."
+  }
+]

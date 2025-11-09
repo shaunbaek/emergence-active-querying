@@ -75,6 +75,11 @@ The project includes several pre-configured task sets:
   - Living Room (FloorPlan 201-230): 25 tasks
   - Bedroom (FloorPlan 301-330): 25 tasks
   - Bathroom (FloorPlan 401-430): 25 tasks
+- **`baseline100`** - ✅ **Validated 100 tasks extracted from completed baseline logs** (RECOMMENDED for reproducibility):
+  - Kitchen: 12 tasks
+  - Living Room: 31 tasks
+  - Bedroom: 29 tasks
+  - Bathroom: 28 tasks
 
 ### Agent Policies
 
@@ -86,27 +91,42 @@ Three different policies are available:
 
 ### Running Experiments
 
-Basic usage:
+**Recommended: Use the validated baseline100 task set** (extracted from completed baseline logs):
 
 ```bash
-# Run baseline policy on custom 100 tasks
-python3 loop.py --policy baseline --taskset custom100 --max_steps 30
+# Run baseline policy on validated 100 tasks (RECOMMENDED)
+python3 loop.py --policy baseline --taskset baseline100 --max_steps 30
 
-# Run handicapped policy on dev tasks
-python3 loop.py --policy handicapped --taskset custom100 --max_steps 30
+# Run handicapped policy on validated 100 tasks
+python3 loop.py --policy handicapped --taskset baseline100 --max_steps 30
 
-# Run two-agent policy on custom 100 tasks
-python3 loop.py --policy two_agent --taskset custom100 --max_steps 30
+# Run two-agent policy on validated 100 tasks
+python3 loop.py --policy two_agent --taskset baseline100 --max_steps 30
 
 # Resume interrupted run (skip already completed tasks)
 # NOTE: You must specify --max_steps when using --resume to maintain consistency
-python3 loop.py --policy baseline --taskset custom100 --max_steps 30 --resume
+python3 loop.py --policy baseline --taskset baseline100 --max_steps 30 --resume
+python3 loop.py --policy handicapped --taskset baseline100 --max_steps 30 --resume
+python3 loop.py --policy two_agent --taskset baseline100 --max_steps 30 --resume
+
+
+```
+
+Alternative task sets:
+
+```bash
+# Run on custom 100 tasks
+python3 loop.py --policy baseline --taskset custom100 --max_steps 30
+
+# Run on dev tasks (20 tasks for quick testing)
+python3 loop.py --policy baseline --taskset dev20 --max_steps 30
 ```
 
 ### Command-line Arguments
 
 - `--policy` - Choose agent policy: `baseline`, `handicapped`, or `two_agent` (default: `baseline`)
-- `--taskset` - Choose task set: `dev20`, `full100`, or `custom100` (default: `full100`)
+- `--taskset` - Choose task set: `dev20`, `full100`, `custom100`, or `baseline100` (default: `full100`)
+  - **`baseline100` is RECOMMENDED** - validated tasks from completed baseline experiments
 - `--max_steps` - Maximum steps per episode (default: `50`)
 - `--resume` - Skip tasks that already have log files (useful for resuming interrupted runs)
 
