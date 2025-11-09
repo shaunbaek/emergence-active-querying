@@ -1,0 +1,798 @@
+{
+  "task_meta": {
+    "task_id": 40,
+    "scene": "FloorPlan215",
+    "room_type": "living_room",
+    "target_type": "Box",
+    "goal_text": "Search the living room for the Box under the Painting."
+  },
+  "episode_time_sec": 66.90951183399966,
+  "steps": [
+    {
+      "step": 0,
+      "task_id": 40,
+      "scene": "FloorPlan215",
+      "room_type": "living_room",
+      "target_type": "Box",
+      "goal_text": "Search the living room for the Box under the Painting.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -4.5,
+        "y": 0.910965085029602,
+        "z": 5.0
+      },
+      "target_visible": false,
+      "target_distance": 1.8248006105422974,
+      "memory_snapshot": [],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 1,
+      "task_id": 40,
+      "scene": "FloorPlan215",
+      "room_type": "living_room",
+      "target_type": "Box",
+      "goal_text": "Search the living room for the Box under the Painting.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -4.5,
+        "y": 0.910965085029602,
+        "z": 5.0
+      },
+      "target_visible": false,
+      "target_distance": 1.8248006105422974,
+      "memory_snapshot": [],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 2,
+      "task_id": 40,
+      "scene": "FloorPlan215",
+      "room_type": "living_room",
+      "target_type": "Box",
+      "goal_text": "Search the living room for the Box under the Painting.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -4.5,
+        "y": 0.910965085029602,
+        "z": 5.0
+      },
+      "target_visible": false,
+      "target_distance": 1.8248006105422974,
+      "memory_snapshot": [],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 3,
+      "task_id": 40,
+      "scene": "FloorPlan215",
+      "room_type": "living_room",
+      "target_type": "Box",
+      "goal_text": "Search the living room for the Box under the Painting.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -4.5,
+        "y": 0.910965085029602,
+        "z": 5.0
+      },
+      "target_visible": true,
+      "target_distance": 1.8248006105422974,
+      "memory_snapshot": [
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 4,
+      "task_id": 40,
+      "scene": "FloorPlan215",
+      "room_type": "living_room",
+      "target_type": "Box",
+      "goal_text": "Search the living room for the Box under the Painting.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -4.5,
+        "y": 0.910965085029602,
+        "z": 5.0
+      },
+      "target_visible": false,
+      "target_distance": 1.8248006105422974,
+      "memory_snapshot": [
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 5,
+      "task_id": 40,
+      "scene": "FloorPlan215",
+      "room_type": "living_room",
+      "target_type": "Box",
+      "goal_text": "Search the living room for the Box under the Painting.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -4.5,
+        "y": 0.910965085029602,
+        "z": 5.0
+      },
+      "target_visible": false,
+      "target_distance": 1.8248006105422974,
+      "memory_snapshot": [
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 6,
+      "task_id": 40,
+      "scene": "FloorPlan215",
+      "room_type": "living_room",
+      "target_type": "Box",
+      "goal_text": "Search the living room for the Box under the Painting.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -4.5,
+        "y": 0.910965085029602,
+        "z": 5.0
+      },
+      "target_visible": false,
+      "target_distance": 1.8248006105422974,
+      "memory_snapshot": [
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 7,
+      "task_id": 40,
+      "scene": "FloorPlan215",
+      "room_type": "living_room",
+      "target_type": "Box",
+      "goal_text": "Search the living room for the Box under the Painting.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -4.5,
+        "y": 0.910965085029602,
+        "z": 5.0
+      },
+      "target_visible": true,
+      "target_distance": 1.8248006105422974,
+      "memory_snapshot": [
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00.",
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 8,
+      "task_id": 40,
+      "scene": "FloorPlan215",
+      "room_type": "living_room",
+      "target_type": "Box",
+      "goal_text": "Search the living room for the Box under the Painting.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -4.5,
+        "y": 0.910965085029602,
+        "z": 5.0
+      },
+      "target_visible": false,
+      "target_distance": 1.8248006105422974,
+      "memory_snapshot": [
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00.",
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 9,
+      "task_id": 40,
+      "scene": "FloorPlan215",
+      "room_type": "living_room",
+      "target_type": "Box",
+      "goal_text": "Search the living room for the Box under the Painting.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -4.5,
+        "y": 0.910965085029602,
+        "z": 5.0
+      },
+      "target_visible": false,
+      "target_distance": 1.8248006105422974,
+      "memory_snapshot": [
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00.",
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 10,
+      "task_id": 40,
+      "scene": "FloorPlan215",
+      "room_type": "living_room",
+      "target_type": "Box",
+      "goal_text": "Search the living room for the Box under the Painting.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -4.5,
+        "y": 0.910965085029602,
+        "z": 5.0
+      },
+      "target_visible": false,
+      "target_distance": 1.8248006105422974,
+      "memory_snapshot": [
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00.",
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 11,
+      "task_id": 40,
+      "scene": "FloorPlan215",
+      "room_type": "living_room",
+      "target_type": "Box",
+      "goal_text": "Search the living room for the Box under the Painting.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -4.5,
+        "y": 0.910965085029602,
+        "z": 5.0
+      },
+      "target_visible": true,
+      "target_distance": 1.8248006105422974,
+      "memory_snapshot": [
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00.",
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00.",
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 12,
+      "task_id": 40,
+      "scene": "FloorPlan215",
+      "room_type": "living_room",
+      "target_type": "Box",
+      "goal_text": "Search the living room for the Box under the Painting.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -4.5,
+        "y": 0.910965085029602,
+        "z": 5.0
+      },
+      "target_visible": false,
+      "target_distance": 1.8248006105422974,
+      "memory_snapshot": [
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00.",
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00.",
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 13,
+      "task_id": 40,
+      "scene": "FloorPlan215",
+      "room_type": "living_room",
+      "target_type": "Box",
+      "goal_text": "Search the living room for the Box under the Painting.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": -4.5,
+        "y": 0.910965085029602,
+        "z": 5.0
+      },
+      "target_visible": false,
+      "target_distance": 1.8248006105422974,
+      "memory_snapshot": [
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00.",
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00.",
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 14,
+      "task_id": 40,
+      "scene": "FloorPlan215",
+      "room_type": "living_room",
+      "target_type": "Box",
+      "goal_text": "Search the living room for the Box under the Painting.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -4.5,
+        "y": 0.910965085029602,
+        "z": 5.0
+      },
+      "target_visible": false,
+      "target_distance": 1.8248006105422974,
+      "memory_snapshot": [
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00.",
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00.",
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 15,
+      "task_id": 40,
+      "scene": "FloorPlan215",
+      "room_type": "living_room",
+      "target_type": "Box",
+      "goal_text": "Search the living room for the Box under the Painting.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": -4.5,
+        "y": 0.910965085029602,
+        "z": 5.0
+      },
+      "target_visible": false,
+      "target_distance": 1.8248006105422974,
+      "memory_snapshot": [
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00.",
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00.",
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 16,
+      "task_id": 40,
+      "scene": "FloorPlan215",
+      "room_type": "living_room",
+      "target_type": "Box",
+      "goal_text": "Search the living room for the Box under the Painting.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -4.5,
+        "y": 0.910965085029602,
+        "z": 5.0
+      },
+      "target_visible": false,
+      "target_distance": 1.8248006105422974,
+      "memory_snapshot": [
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00.",
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00.",
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 17,
+      "task_id": 40,
+      "scene": "FloorPlan215",
+      "room_type": "living_room",
+      "target_type": "Box",
+      "goal_text": "Search the living room for the Box under the Painting.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": -4.5,
+        "y": 0.910965085029602,
+        "z": 5.0
+      },
+      "target_visible": false,
+      "target_distance": 1.8248006105422974,
+      "memory_snapshot": [
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00.",
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00.",
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 18,
+      "task_id": 40,
+      "scene": "FloorPlan215",
+      "room_type": "living_room",
+      "target_type": "Box",
+      "goal_text": "Search the living room for the Box under the Painting.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -4.5,
+        "y": 0.910965085029602,
+        "z": 5.0
+      },
+      "target_visible": false,
+      "target_distance": 1.8248006105422974,
+      "memory_snapshot": [
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00.",
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00.",
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 19,
+      "task_id": 40,
+      "scene": "FloorPlan215",
+      "room_type": "living_room",
+      "target_type": "Box",
+      "goal_text": "Search the living room for the Box under the Painting.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": -4.5,
+        "y": 0.910965085029602,
+        "z": 5.0
+      },
+      "target_visible": false,
+      "target_distance": 1.8248006105422974,
+      "memory_snapshot": [
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00.",
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00.",
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 20,
+      "task_id": 40,
+      "scene": "FloorPlan215",
+      "room_type": "living_room",
+      "target_type": "Box",
+      "goal_text": "Search the living room for the Box under the Painting.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -4.5,
+        "y": 0.910965085029602,
+        "z": 5.0
+      },
+      "target_visible": false,
+      "target_distance": 1.8248006105422974,
+      "memory_snapshot": [
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00.",
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00.",
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 21,
+      "task_id": 40,
+      "scene": "FloorPlan215",
+      "room_type": "living_room",
+      "target_type": "Box",
+      "goal_text": "Search the living room for the Box under the Painting.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": -4.5,
+        "y": 0.910965085029602,
+        "z": 5.0
+      },
+      "target_visible": false,
+      "target_distance": 1.8248006105422974,
+      "memory_snapshot": [
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00.",
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00.",
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 22,
+      "task_id": 40,
+      "scene": "FloorPlan215",
+      "room_type": "living_room",
+      "target_type": "Box",
+      "goal_text": "Search the living room for the Box under the Painting.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -4.5,
+        "y": 0.910965085029602,
+        "z": 5.0
+      },
+      "target_visible": false,
+      "target_distance": 1.8248006105422974,
+      "memory_snapshot": [
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00.",
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00.",
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 23,
+      "task_id": 40,
+      "scene": "FloorPlan215",
+      "room_type": "living_room",
+      "target_type": "Box",
+      "goal_text": "Search the living room for the Box under the Painting.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": -4.5,
+        "y": 0.910965085029602,
+        "z": 5.0
+      },
+      "target_visible": false,
+      "target_distance": 1.8248006105422974,
+      "memory_snapshot": [
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00.",
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00.",
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 24,
+      "task_id": 40,
+      "scene": "FloorPlan215",
+      "room_type": "living_room",
+      "target_type": "Box",
+      "goal_text": "Search the living room for the Box under the Painting.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -4.5,
+        "y": 0.910965085029602,
+        "z": 5.0
+      },
+      "target_visible": false,
+      "target_distance": 1.8248006105422974,
+      "memory_snapshot": [
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00.",
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00.",
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 25,
+      "task_id": 40,
+      "scene": "FloorPlan215",
+      "room_type": "living_room",
+      "target_type": "Box",
+      "goal_text": "Search the living room for the Box under the Painting.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": -4.5,
+        "y": 0.910965085029602,
+        "z": 5.0
+      },
+      "target_visible": false,
+      "target_distance": 1.8248006105422974,
+      "memory_snapshot": [
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00.",
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00.",
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 26,
+      "task_id": 40,
+      "scene": "FloorPlan215",
+      "room_type": "living_room",
+      "target_type": "Box",
+      "goal_text": "Search the living room for the Box under the Painting.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -4.5,
+        "y": 0.910965085029602,
+        "z": 5.0
+      },
+      "target_visible": false,
+      "target_distance": 1.8248006105422974,
+      "memory_snapshot": [
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00.",
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00.",
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 27,
+      "task_id": 40,
+      "scene": "FloorPlan215",
+      "room_type": "living_room",
+      "target_type": "Box",
+      "goal_text": "Search the living room for the Box under the Painting.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": -4.5,
+        "y": 0.910965085029602,
+        "z": 5.0
+      },
+      "target_visible": false,
+      "target_distance": 1.8248006105422974,
+      "memory_snapshot": [
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00.",
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00.",
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 28,
+      "task_id": 40,
+      "scene": "FloorPlan215",
+      "room_type": "living_room",
+      "target_type": "Box",
+      "goal_text": "Search the living room for the Box under the Painting.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateRight",
+      "agent_position": {
+        "x": -4.5,
+        "y": 0.910965085029602,
+        "z": 5.0
+      },
+      "target_visible": false,
+      "target_distance": 1.8248006105422974,
+      "memory_snapshot": [
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00.",
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00.",
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    },
+    {
+      "step": 29,
+      "task_id": 40,
+      "scene": "FloorPlan215",
+      "room_type": "living_room",
+      "target_type": "Box",
+      "goal_text": "Search the living room for the Box under the Painting.",
+      "policy": "baseline",
+      "role": "solo",
+      "is_repair": false,
+      "repair_helpful": null,
+      "action": "RotateLeft",
+      "agent_position": {
+        "x": -4.5,
+        "y": 0.910965085029602,
+        "z": 5.0
+      },
+      "target_visible": false,
+      "target_distance": 1.8248006105422974,
+      "memory_snapshot": [
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00.",
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00.",
+        "Previously saw Box at distance 1.82 m near position x=-4.50, z=5.00."
+      ],
+      "message": "",
+      "conversation_log": null
+    }
+  ]
+}

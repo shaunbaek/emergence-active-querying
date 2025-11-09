@@ -99,7 +99,8 @@ python3 loop.py --policy handicapped --taskset dev20 --max_steps 30
 python3 loop.py --policy two_agent --taskset custom100 --max_steps 30
 
 # Resume interrupted run (skip already completed tasks)
-python3 loop.py --policy baseline --taskset custom100 --resume
+# NOTE: You must specify --max_steps when using --resume to maintain consistency
+python3 loop.py --policy baseline --taskset custom100 --max_steps 30 --resume
 ```
 
 ### Command-line Arguments
@@ -108,6 +109,8 @@ python3 loop.py --policy baseline --taskset custom100 --resume
 - `--taskset` - Choose task set: `dev20`, `full100`, or `custom100` (default: `full100`)
 - `--max_steps` - Maximum steps per episode (default: `50`)
 - `--resume` - Skip tasks that already have log files (useful for resuming interrupted runs)
+
+> **Important**: When using `--resume`, always specify `--max_steps` to ensure consistency with your previous run. The default is 50 steps if not specified.
 
 ### Results
 
