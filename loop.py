@@ -663,8 +663,8 @@ if __name__ == "__main__":
         "--taskset",
         type=str,
         default="full100",
-        choices=["dev20", "full100", "custom100", "baseline100"],
-        help="Which task set to use: dev20, full100, custom100, or baseline100 (validated tasks from baseline logs).",
+        choices=["dev20", "full100", "custom100"],
+        help="Which task set to use: dev20, full100, or custom100.",
     )
     parser.add_argument(
         "--resume",
@@ -679,8 +679,6 @@ if __name__ == "__main__":
         tasks = generate_task_list_100()
     elif args.taskset == "custom100":
         tasks = load_tasks_from_json("tasks_custom_100.json")
-    elif args.taskset == "baseline100":
-        tasks = load_tasks_from_json("tasks_baseline_100.json")
     else:
         raise ValueError(f"Unknown taskset: {args.taskset}")
 

@@ -1,20 +1,20 @@
 {
   "task_meta": {
     "task_id": 3,
-    "scene": "FloorPlan1",
+    "scene": "FloorPlan5",
     "room_type": "kitchen",
-    "target_type": "CoffeeMachine",
-    "goal_text": "Navigate to the CoffeeMachine."
+    "target_type": "Apple",
+    "goal_text": "Navigate to the Apple."
   },
-  "episode_time_sec": 14.235845625000138,
+  "episode_time_sec": 12.335518292000415,
   "steps": [
     {
       "step": 0,
       "task_id": 3,
-      "scene": "FloorPlan1",
+      "scene": "FloorPlan5",
       "room_type": "kitchen",
-      "target_type": "CoffeeMachine",
-      "goal_text": "Navigate to the CoffeeMachine.",
+      "target_type": "Apple",
+      "goal_text": "Navigate to the Apple.",
       "policy": "baseline",
       "role": "solo",
       "is_repair": false,
@@ -22,11 +22,11 @@
       "action": "RotateRight",
       "agent_position": {
         "x": 0.0,
-        "y": 0.900999128818512,
-        "z": -1.5
+        "y": 0.9009991884231567,
+        "z": -0.75
       },
       "target_visible": false,
-      "target_distance": 2.3729939460754395,
+      "target_distance": 1.8392925262451172,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -34,22 +34,22 @@
     {
       "step": 1,
       "task_id": 3,
-      "scene": "FloorPlan1",
+      "scene": "FloorPlan5",
       "room_type": "kitchen",
-      "target_type": "CoffeeMachine",
-      "goal_text": "Navigate to the CoffeeMachine.",
+      "target_type": "Apple",
+      "goal_text": "Navigate to the Apple.",
       "policy": "baseline",
       "role": "solo",
       "is_repair": false,
       "repair_helpful": null,
-      "action": "RotateRight",
+      "action": "RotateLeft",
       "agent_position": {
         "x": 0.0,
-        "y": 0.900999128818512,
-        "z": -1.5
+        "y": 0.9009991884231567,
+        "z": -0.75
       },
       "target_visible": false,
-      "target_distance": 2.3729934692382812,
+      "target_distance": 1.839708685874939,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -57,10 +57,10 @@
     {
       "step": 2,
       "task_id": 3,
-      "scene": "FloorPlan1",
+      "scene": "FloorPlan5",
       "room_type": "kitchen",
-      "target_type": "CoffeeMachine",
-      "goal_text": "Navigate to the CoffeeMachine.",
+      "target_type": "Apple",
+      "goal_text": "Navigate to the Apple.",
       "policy": "baseline",
       "role": "solo",
       "is_repair": false,
@@ -68,11 +68,11 @@
       "action": "RotateRight",
       "agent_position": {
         "x": 0.0,
-        "y": 0.900999128818512,
-        "z": -1.5
+        "y": 0.9009991884231567,
+        "z": -0.75
       },
       "target_visible": false,
-      "target_distance": 2.3729934692382812,
+      "target_distance": 1.839708685874939,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -80,10 +80,10 @@
     {
       "step": 3,
       "task_id": 3,
-      "scene": "FloorPlan1",
+      "scene": "FloorPlan5",
       "room_type": "kitchen",
-      "target_type": "CoffeeMachine",
-      "goal_text": "Navigate to the CoffeeMachine.",
+      "target_type": "Apple",
+      "goal_text": "Navigate to the Apple.",
       "policy": "baseline",
       "role": "solo",
       "is_repair": false,
@@ -91,11 +91,11 @@
       "action": "RotateLeft",
       "agent_position": {
         "x": 0.0,
-        "y": 0.900999128818512,
-        "z": -1.5
+        "y": 0.9009991884231567,
+        "z": -0.75
       },
       "target_visible": false,
-      "target_distance": 2.3729934692382812,
+      "target_distance": 1.839708685874939,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -103,10 +103,10 @@
     {
       "step": 4,
       "task_id": 3,
-      "scene": "FloorPlan1",
+      "scene": "FloorPlan5",
       "room_type": "kitchen",
-      "target_type": "CoffeeMachine",
-      "goal_text": "Navigate to the CoffeeMachine.",
+      "target_type": "Apple",
+      "goal_text": "Navigate to the Apple.",
       "policy": "baseline",
       "role": "solo",
       "is_repair": false,
@@ -114,11 +114,11 @@
       "action": "RotateRight",
       "agent_position": {
         "x": 0.0,
-        "y": 0.900999128818512,
-        "z": -1.5
+        "y": 0.9009991884231567,
+        "z": -0.75
       },
       "target_visible": false,
-      "target_distance": 2.3729934692382812,
+      "target_distance": 1.839708685874939,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -126,10 +126,10 @@
     {
       "step": 5,
       "task_id": 3,
-      "scene": "FloorPlan1",
+      "scene": "FloorPlan5",
       "room_type": "kitchen",
-      "target_type": "CoffeeMachine",
-      "goal_text": "Navigate to the CoffeeMachine.",
+      "target_type": "Apple",
+      "goal_text": "Navigate to the Apple.",
       "policy": "baseline",
       "role": "solo",
       "is_repair": false,
@@ -137,11 +137,11 @@
       "action": "RotateLeft",
       "agent_position": {
         "x": 0.0,
-        "y": 0.900999128818512,
-        "z": -1.5
+        "y": 0.9009991884231567,
+        "z": -0.75
       },
       "target_visible": false,
-      "target_distance": 2.3729934692382812,
+      "target_distance": 1.839708685874939,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -149,10 +149,10 @@
     {
       "step": 6,
       "task_id": 3,
-      "scene": "FloorPlan1",
+      "scene": "FloorPlan5",
       "room_type": "kitchen",
-      "target_type": "CoffeeMachine",
-      "goal_text": "Navigate to the CoffeeMachine.",
+      "target_type": "Apple",
+      "goal_text": "Navigate to the Apple.",
       "policy": "baseline",
       "role": "solo",
       "is_repair": false,
@@ -160,11 +160,11 @@
       "action": "RotateRight",
       "agent_position": {
         "x": 0.0,
-        "y": 0.900999128818512,
-        "z": -1.5
+        "y": 0.9009991884231567,
+        "z": -0.75
       },
       "target_visible": false,
-      "target_distance": 2.3729934692382812,
+      "target_distance": 1.839708685874939,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -172,10 +172,10 @@
     {
       "step": 7,
       "task_id": 3,
-      "scene": "FloorPlan1",
+      "scene": "FloorPlan5",
       "room_type": "kitchen",
-      "target_type": "CoffeeMachine",
-      "goal_text": "Navigate to the CoffeeMachine.",
+      "target_type": "Apple",
+      "goal_text": "Navigate to the Apple.",
       "policy": "baseline",
       "role": "solo",
       "is_repair": false,
@@ -183,11 +183,11 @@
       "action": "RotateLeft",
       "agent_position": {
         "x": 0.0,
-        "y": 0.900999128818512,
-        "z": -1.5
+        "y": 0.9009991884231567,
+        "z": -0.75
       },
       "target_visible": false,
-      "target_distance": 2.3729934692382812,
+      "target_distance": 1.839708685874939,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -195,10 +195,10 @@
     {
       "step": 8,
       "task_id": 3,
-      "scene": "FloorPlan1",
+      "scene": "FloorPlan5",
       "room_type": "kitchen",
-      "target_type": "CoffeeMachine",
-      "goal_text": "Navigate to the CoffeeMachine.",
+      "target_type": "Apple",
+      "goal_text": "Navigate to the Apple.",
       "policy": "baseline",
       "role": "solo",
       "is_repair": false,
@@ -206,11 +206,11 @@
       "action": "RotateRight",
       "agent_position": {
         "x": 0.0,
-        "y": 0.900999128818512,
-        "z": -1.5
+        "y": 0.9009991884231567,
+        "z": -0.75
       },
       "target_visible": false,
-      "target_distance": 2.3729934692382812,
+      "target_distance": 1.839708685874939,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -218,10 +218,10 @@
     {
       "step": 9,
       "task_id": 3,
-      "scene": "FloorPlan1",
+      "scene": "FloorPlan5",
       "room_type": "kitchen",
-      "target_type": "CoffeeMachine",
-      "goal_text": "Navigate to the CoffeeMachine.",
+      "target_type": "Apple",
+      "goal_text": "Navigate to the Apple.",
       "policy": "baseline",
       "role": "solo",
       "is_repair": false,
@@ -229,11 +229,11 @@
       "action": "RotateLeft",
       "agent_position": {
         "x": 0.0,
-        "y": 0.900999128818512,
-        "z": -1.5
+        "y": 0.9009991884231567,
+        "z": -0.75
       },
       "target_visible": false,
-      "target_distance": 2.3729934692382812,
+      "target_distance": 1.839708685874939,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -241,10 +241,10 @@
     {
       "step": 10,
       "task_id": 3,
-      "scene": "FloorPlan1",
+      "scene": "FloorPlan5",
       "room_type": "kitchen",
-      "target_type": "CoffeeMachine",
-      "goal_text": "Navigate to the CoffeeMachine.",
+      "target_type": "Apple",
+      "goal_text": "Navigate to the Apple.",
       "policy": "baseline",
       "role": "solo",
       "is_repair": false,
@@ -252,11 +252,11 @@
       "action": "RotateRight",
       "agent_position": {
         "x": 0.0,
-        "y": 0.900999128818512,
-        "z": -1.5
+        "y": 0.9009991884231567,
+        "z": -0.75
       },
       "target_visible": false,
-      "target_distance": 2.3729934692382812,
+      "target_distance": 1.839708685874939,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -264,10 +264,10 @@
     {
       "step": 11,
       "task_id": 3,
-      "scene": "FloorPlan1",
+      "scene": "FloorPlan5",
       "room_type": "kitchen",
-      "target_type": "CoffeeMachine",
-      "goal_text": "Navigate to the CoffeeMachine.",
+      "target_type": "Apple",
+      "goal_text": "Navigate to the Apple.",
       "policy": "baseline",
       "role": "solo",
       "is_repair": false,
@@ -275,11 +275,11 @@
       "action": "RotateLeft",
       "agent_position": {
         "x": 0.0,
-        "y": 0.900999128818512,
-        "z": -1.5
+        "y": 0.9009991884231567,
+        "z": -0.75
       },
       "target_visible": false,
-      "target_distance": 2.3729934692382812,
+      "target_distance": 1.839708685874939,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -287,10 +287,10 @@
     {
       "step": 12,
       "task_id": 3,
-      "scene": "FloorPlan1",
+      "scene": "FloorPlan5",
       "room_type": "kitchen",
-      "target_type": "CoffeeMachine",
-      "goal_text": "Navigate to the CoffeeMachine.",
+      "target_type": "Apple",
+      "goal_text": "Navigate to the Apple.",
       "policy": "baseline",
       "role": "solo",
       "is_repair": false,
@@ -298,11 +298,11 @@
       "action": "RotateRight",
       "agent_position": {
         "x": 0.0,
-        "y": 0.900999128818512,
-        "z": -1.5
+        "y": 0.9009991884231567,
+        "z": -0.75
       },
       "target_visible": false,
-      "target_distance": 2.3729934692382812,
+      "target_distance": 1.839708685874939,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -310,10 +310,10 @@
     {
       "step": 13,
       "task_id": 3,
-      "scene": "FloorPlan1",
+      "scene": "FloorPlan5",
       "room_type": "kitchen",
-      "target_type": "CoffeeMachine",
-      "goal_text": "Navigate to the CoffeeMachine.",
+      "target_type": "Apple",
+      "goal_text": "Navigate to the Apple.",
       "policy": "baseline",
       "role": "solo",
       "is_repair": false,
@@ -321,11 +321,11 @@
       "action": "RotateLeft",
       "agent_position": {
         "x": 0.0,
-        "y": 0.900999128818512,
-        "z": -1.5
+        "y": 0.9009991884231567,
+        "z": -0.75
       },
       "target_visible": false,
-      "target_distance": 2.3729934692382812,
+      "target_distance": 1.839708685874939,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -333,10 +333,10 @@
     {
       "step": 14,
       "task_id": 3,
-      "scene": "FloorPlan1",
+      "scene": "FloorPlan5",
       "room_type": "kitchen",
-      "target_type": "CoffeeMachine",
-      "goal_text": "Navigate to the CoffeeMachine.",
+      "target_type": "Apple",
+      "goal_text": "Navigate to the Apple.",
       "policy": "baseline",
       "role": "solo",
       "is_repair": false,
@@ -344,11 +344,11 @@
       "action": "RotateRight",
       "agent_position": {
         "x": 0.0,
-        "y": 0.900999128818512,
-        "z": -1.5
+        "y": 0.9009991884231567,
+        "z": -0.75
       },
       "target_visible": false,
-      "target_distance": 2.3729934692382812,
+      "target_distance": 1.839708685874939,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -356,10 +356,10 @@
     {
       "step": 15,
       "task_id": 3,
-      "scene": "FloorPlan1",
+      "scene": "FloorPlan5",
       "room_type": "kitchen",
-      "target_type": "CoffeeMachine",
-      "goal_text": "Navigate to the CoffeeMachine.",
+      "target_type": "Apple",
+      "goal_text": "Navigate to the Apple.",
       "policy": "baseline",
       "role": "solo",
       "is_repair": false,
@@ -367,11 +367,11 @@
       "action": "RotateLeft",
       "agent_position": {
         "x": 0.0,
-        "y": 0.900999128818512,
-        "z": -1.5
+        "y": 0.9009991884231567,
+        "z": -0.75
       },
       "target_visible": false,
-      "target_distance": 2.3729934692382812,
+      "target_distance": 1.839708685874939,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -379,10 +379,10 @@
     {
       "step": 16,
       "task_id": 3,
-      "scene": "FloorPlan1",
+      "scene": "FloorPlan5",
       "room_type": "kitchen",
-      "target_type": "CoffeeMachine",
-      "goal_text": "Navigate to the CoffeeMachine.",
+      "target_type": "Apple",
+      "goal_text": "Navigate to the Apple.",
       "policy": "baseline",
       "role": "solo",
       "is_repair": false,
@@ -390,11 +390,11 @@
       "action": "RotateRight",
       "agent_position": {
         "x": 0.0,
-        "y": 0.900999128818512,
-        "z": -1.5
+        "y": 0.9009991884231567,
+        "z": -0.75
       },
       "target_visible": false,
-      "target_distance": 2.3729934692382812,
+      "target_distance": 1.839708685874939,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -402,10 +402,10 @@
     {
       "step": 17,
       "task_id": 3,
-      "scene": "FloorPlan1",
+      "scene": "FloorPlan5",
       "room_type": "kitchen",
-      "target_type": "CoffeeMachine",
-      "goal_text": "Navigate to the CoffeeMachine.",
+      "target_type": "Apple",
+      "goal_text": "Navigate to the Apple.",
       "policy": "baseline",
       "role": "solo",
       "is_repair": false,
@@ -413,11 +413,11 @@
       "action": "RotateLeft",
       "agent_position": {
         "x": 0.0,
-        "y": 0.900999128818512,
-        "z": -1.5
+        "y": 0.9009991884231567,
+        "z": -0.75
       },
       "target_visible": false,
-      "target_distance": 2.3729934692382812,
+      "target_distance": 1.839708685874939,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -425,10 +425,10 @@
     {
       "step": 18,
       "task_id": 3,
-      "scene": "FloorPlan1",
+      "scene": "FloorPlan5",
       "room_type": "kitchen",
-      "target_type": "CoffeeMachine",
-      "goal_text": "Navigate to the CoffeeMachine.",
+      "target_type": "Apple",
+      "goal_text": "Navigate to the Apple.",
       "policy": "baseline",
       "role": "solo",
       "is_repair": false,
@@ -436,11 +436,11 @@
       "action": "RotateRight",
       "agent_position": {
         "x": 0.0,
-        "y": 0.900999128818512,
-        "z": -1.5
+        "y": 0.9009991884231567,
+        "z": -0.75
       },
       "target_visible": false,
-      "target_distance": 2.3729934692382812,
+      "target_distance": 1.839708685874939,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -448,10 +448,10 @@
     {
       "step": 19,
       "task_id": 3,
-      "scene": "FloorPlan1",
+      "scene": "FloorPlan5",
       "room_type": "kitchen",
-      "target_type": "CoffeeMachine",
-      "goal_text": "Navigate to the CoffeeMachine.",
+      "target_type": "Apple",
+      "goal_text": "Navigate to the Apple.",
       "policy": "baseline",
       "role": "solo",
       "is_repair": false,
@@ -459,11 +459,11 @@
       "action": "RotateLeft",
       "agent_position": {
         "x": 0.0,
-        "y": 0.900999128818512,
-        "z": -1.5
+        "y": 0.9009991884231567,
+        "z": -0.75
       },
       "target_visible": false,
-      "target_distance": 2.3729934692382812,
+      "target_distance": 1.839708685874939,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -471,10 +471,10 @@
     {
       "step": 20,
       "task_id": 3,
-      "scene": "FloorPlan1",
+      "scene": "FloorPlan5",
       "room_type": "kitchen",
-      "target_type": "CoffeeMachine",
-      "goal_text": "Navigate to the CoffeeMachine.",
+      "target_type": "Apple",
+      "goal_text": "Navigate to the Apple.",
       "policy": "baseline",
       "role": "solo",
       "is_repair": false,
@@ -482,11 +482,11 @@
       "action": "RotateRight",
       "agent_position": {
         "x": 0.0,
-        "y": 0.900999128818512,
-        "z": -1.5
+        "y": 0.9009991884231567,
+        "z": -0.75
       },
       "target_visible": false,
-      "target_distance": 2.3729934692382812,
+      "target_distance": 1.839708685874939,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -494,10 +494,10 @@
     {
       "step": 21,
       "task_id": 3,
-      "scene": "FloorPlan1",
+      "scene": "FloorPlan5",
       "room_type": "kitchen",
-      "target_type": "CoffeeMachine",
-      "goal_text": "Navigate to the CoffeeMachine.",
+      "target_type": "Apple",
+      "goal_text": "Navigate to the Apple.",
       "policy": "baseline",
       "role": "solo",
       "is_repair": false,
@@ -505,11 +505,11 @@
       "action": "RotateLeft",
       "agent_position": {
         "x": 0.0,
-        "y": 0.900999128818512,
-        "z": -1.5
+        "y": 0.9009991884231567,
+        "z": -0.75
       },
       "target_visible": false,
-      "target_distance": 2.3729934692382812,
+      "target_distance": 1.839708685874939,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -517,10 +517,10 @@
     {
       "step": 22,
       "task_id": 3,
-      "scene": "FloorPlan1",
+      "scene": "FloorPlan5",
       "room_type": "kitchen",
-      "target_type": "CoffeeMachine",
-      "goal_text": "Navigate to the CoffeeMachine.",
+      "target_type": "Apple",
+      "goal_text": "Navigate to the Apple.",
       "policy": "baseline",
       "role": "solo",
       "is_repair": false,
@@ -528,11 +528,11 @@
       "action": "RotateRight",
       "agent_position": {
         "x": 0.0,
-        "y": 0.900999128818512,
-        "z": -1.5
+        "y": 0.9009991884231567,
+        "z": -0.75
       },
       "target_visible": false,
-      "target_distance": 2.3729934692382812,
+      "target_distance": 1.839708685874939,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -540,10 +540,10 @@
     {
       "step": 23,
       "task_id": 3,
-      "scene": "FloorPlan1",
+      "scene": "FloorPlan5",
       "room_type": "kitchen",
-      "target_type": "CoffeeMachine",
-      "goal_text": "Navigate to the CoffeeMachine.",
+      "target_type": "Apple",
+      "goal_text": "Navigate to the Apple.",
       "policy": "baseline",
       "role": "solo",
       "is_repair": false,
@@ -551,11 +551,11 @@
       "action": "RotateLeft",
       "agent_position": {
         "x": 0.0,
-        "y": 0.900999128818512,
-        "z": -1.5
+        "y": 0.9009991884231567,
+        "z": -0.75
       },
       "target_visible": false,
-      "target_distance": 2.3729934692382812,
+      "target_distance": 1.839708685874939,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -563,10 +563,10 @@
     {
       "step": 24,
       "task_id": 3,
-      "scene": "FloorPlan1",
+      "scene": "FloorPlan5",
       "room_type": "kitchen",
-      "target_type": "CoffeeMachine",
-      "goal_text": "Navigate to the CoffeeMachine.",
+      "target_type": "Apple",
+      "goal_text": "Navigate to the Apple.",
       "policy": "baseline",
       "role": "solo",
       "is_repair": false,
@@ -574,11 +574,11 @@
       "action": "RotateRight",
       "agent_position": {
         "x": 0.0,
-        "y": 0.900999128818512,
-        "z": -1.5
+        "y": 0.9009991884231567,
+        "z": -0.75
       },
       "target_visible": false,
-      "target_distance": 2.3729934692382812,
+      "target_distance": 1.839708685874939,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -586,10 +586,10 @@
     {
       "step": 25,
       "task_id": 3,
-      "scene": "FloorPlan1",
+      "scene": "FloorPlan5",
       "room_type": "kitchen",
-      "target_type": "CoffeeMachine",
-      "goal_text": "Navigate to the CoffeeMachine.",
+      "target_type": "Apple",
+      "goal_text": "Navigate to the Apple.",
       "policy": "baseline",
       "role": "solo",
       "is_repair": false,
@@ -597,11 +597,11 @@
       "action": "RotateLeft",
       "agent_position": {
         "x": 0.0,
-        "y": 0.900999128818512,
-        "z": -1.5
+        "y": 0.9009991884231567,
+        "z": -0.75
       },
       "target_visible": false,
-      "target_distance": 2.3729934692382812,
+      "target_distance": 1.839708685874939,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -609,10 +609,10 @@
     {
       "step": 26,
       "task_id": 3,
-      "scene": "FloorPlan1",
+      "scene": "FloorPlan5",
       "room_type": "kitchen",
-      "target_type": "CoffeeMachine",
-      "goal_text": "Navigate to the CoffeeMachine.",
+      "target_type": "Apple",
+      "goal_text": "Navigate to the Apple.",
       "policy": "baseline",
       "role": "solo",
       "is_repair": false,
@@ -620,11 +620,11 @@
       "action": "RotateRight",
       "agent_position": {
         "x": 0.0,
-        "y": 0.900999128818512,
-        "z": -1.5
+        "y": 0.9009991884231567,
+        "z": -0.75
       },
       "target_visible": false,
-      "target_distance": 2.3729934692382812,
+      "target_distance": 1.839708685874939,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -632,10 +632,10 @@
     {
       "step": 27,
       "task_id": 3,
-      "scene": "FloorPlan1",
+      "scene": "FloorPlan5",
       "room_type": "kitchen",
-      "target_type": "CoffeeMachine",
-      "goal_text": "Navigate to the CoffeeMachine.",
+      "target_type": "Apple",
+      "goal_text": "Navigate to the Apple.",
       "policy": "baseline",
       "role": "solo",
       "is_repair": false,
@@ -643,11 +643,11 @@
       "action": "RotateLeft",
       "agent_position": {
         "x": 0.0,
-        "y": 0.900999128818512,
-        "z": -1.5
+        "y": 0.9009991884231567,
+        "z": -0.75
       },
       "target_visible": false,
-      "target_distance": 2.3729934692382812,
+      "target_distance": 1.839708685874939,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -655,10 +655,10 @@
     {
       "step": 28,
       "task_id": 3,
-      "scene": "FloorPlan1",
+      "scene": "FloorPlan5",
       "room_type": "kitchen",
-      "target_type": "CoffeeMachine",
-      "goal_text": "Navigate to the CoffeeMachine.",
+      "target_type": "Apple",
+      "goal_text": "Navigate to the Apple.",
       "policy": "baseline",
       "role": "solo",
       "is_repair": false,
@@ -666,11 +666,11 @@
       "action": "RotateRight",
       "agent_position": {
         "x": 0.0,
-        "y": 0.900999128818512,
-        "z": -1.5
+        "y": 0.9009991884231567,
+        "z": -0.75
       },
       "target_visible": false,
-      "target_distance": 2.3729934692382812,
+      "target_distance": 1.839708685874939,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
@@ -678,10 +678,10 @@
     {
       "step": 29,
       "task_id": 3,
-      "scene": "FloorPlan1",
+      "scene": "FloorPlan5",
       "room_type": "kitchen",
-      "target_type": "CoffeeMachine",
-      "goal_text": "Navigate to the CoffeeMachine.",
+      "target_type": "Apple",
+      "goal_text": "Navigate to the Apple.",
       "policy": "baseline",
       "role": "solo",
       "is_repair": false,
@@ -689,11 +689,11 @@
       "action": "RotateLeft",
       "agent_position": {
         "x": 0.0,
-        "y": 0.900999128818512,
-        "z": -1.5
+        "y": 0.9009991884231567,
+        "z": -0.75
       },
       "target_visible": false,
-      "target_distance": 2.3729934692382812,
+      "target_distance": 1.839708685874939,
       "memory_snapshot": [],
       "message": "",
       "conversation_log": null
