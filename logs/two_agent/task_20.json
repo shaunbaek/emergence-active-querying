@@ -1,0 +1,928 @@
+{
+  "task_meta": {
+    "task_id": 20,
+    "scene": "FloorPlan4",
+    "room_type": "kitchen",
+    "target_type": "Tomato",
+    "goal_text": "Navigate to the Tomato."
+  },
+  "episode_time_sec": 102.98679187498055,
+  "steps": [
+    {
+      "step": 0,
+      "task_id": 20,
+      "scene": "FloorPlan4",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Cooperatively navigate to the Tomato.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "RotateRight",
+      "message": "I am rotating right to scan the area for the tomato. Please rotate right as well.",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.9009998440742493,
+        "z": 1.25
+      },
+      "target_visible": false,
+      "target_distance": 1.7100894451141357,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: I am rotating right to scan the area for the tomato. Please rotate right as well.",
+        "HANDICAPPED: Rotating right."
+      ]
+    },
+    {
+      "step": 0,
+      "task_id": 20,
+      "scene": "FloorPlan4",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Cooperatively navigate to the Tomato.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "RotateRight",
+      "message": "Rotating right.",
+      "agent_position": {
+        "x": -1.5,
+        "y": 0.900999903678894,
+        "z": 1.75
+      },
+      "target_visible": false,
+      "target_distance": 1.0108011960983276,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: I am rotating right to scan the area for the tomato. Please rotate right as well.",
+        "HANDICAPPED: Rotating right."
+      ]
+    },
+    {
+      "step": 1,
+      "task_id": 20,
+      "scene": "FloorPlan4",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Cooperatively navigate to the Tomato.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "RotateRight",
+      "message": "Still scanning for the tomato. What do you see?",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.9009998440742493,
+        "z": 1.25
+      },
+      "target_visible": false,
+      "target_distance": 1.7100595235824585,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Tomato at distance 1.01 m near position x=-1.50, z=1.75."
+      ],
+      "conversation_log": [
+        "LEADER: I am rotating right to scan the area for the tomato. Please rotate right as well.",
+        "HANDICAPPED: Rotating right.",
+        "LEADER: Still scanning for the tomato. What do you see?",
+        "HANDICAPPED: I see the Tomato nearby at 1.01m. I am moving towards it."
+      ]
+    },
+    {
+      "step": 1,
+      "task_id": 20,
+      "scene": "FloorPlan4",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Cooperatively navigate to the Tomato.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "I see the Tomato nearby at 1.01m. I am moving towards it.",
+      "agent_position": {
+        "x": -1.5,
+        "y": 0.900999903678894,
+        "z": 1.75
+      },
+      "target_visible": true,
+      "target_distance": 1.0107711553573608,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Tomato at distance 1.01 m near position x=-1.50, z=1.75."
+      ],
+      "conversation_log": [
+        "LEADER: I am rotating right to scan the area for the tomato. Please rotate right as well.",
+        "HANDICAPPED: Rotating right.",
+        "LEADER: Still scanning for the tomato. What do you see?",
+        "HANDICAPPED: I see the Tomato nearby at 1.01m. I am moving towards it."
+      ]
+    },
+    {
+      "step": 2,
+      "task_id": 20,
+      "scene": "FloorPlan4",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Cooperatively navigate to the Tomato.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "LookUp",
+      "message": "I estimate the tomato is very close, but not in my view. I am starting a specific search pattern to find it.",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.9009998440742493,
+        "z": 1.25
+      },
+      "target_visible": false,
+      "target_distance": 1.7100595235824585,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Tomato at distance 1.01 m near position x=-1.50, z=1.75."
+      ],
+      "conversation_log": [
+        "LEADER: I am rotating right to scan the area for the tomato. Please rotate right as well.",
+        "HANDICAPPED: Rotating right.",
+        "LEADER: Still scanning for the tomato. What do you see?",
+        "HANDICAPPED: I see the Tomato nearby at 1.01m. I am moving towards it.",
+        "LEADER: I estimate the tomato is very close, but not in my view. I am starting a specific search pattern to find it.",
+        "HANDICAPPED: I am still moving ahead towards the tomato."
+      ]
+    },
+    {
+      "step": 2,
+      "task_id": 20,
+      "scene": "FloorPlan4",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Cooperatively navigate to the Tomato.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "I am still moving ahead towards the tomato.",
+      "agent_position": {
+        "x": -1.5,
+        "y": 0.900999903678894,
+        "z": 2.0
+      },
+      "target_visible": false,
+      "target_distance": 0.8714330792427063,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Tomato at distance 1.01 m near position x=-1.50, z=1.75."
+      ],
+      "conversation_log": [
+        "LEADER: I am rotating right to scan the area for the tomato. Please rotate right as well.",
+        "HANDICAPPED: Rotating right.",
+        "LEADER: Still scanning for the tomato. What do you see?",
+        "HANDICAPPED: I see the Tomato nearby at 1.01m. I am moving towards it.",
+        "LEADER: I estimate the tomato is very close, but not in my view. I am starting a specific search pattern to find it.",
+        "HANDICAPPED: I am still moving ahead towards the tomato."
+      ]
+    },
+    {
+      "step": 3,
+      "task_id": 20,
+      "scene": "FloorPlan4",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Cooperatively navigate to the Tomato.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "I now see the tomato and am moving ahead. Keep moving, you are closer.",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.9009998440742493,
+        "z": 1.25
+      },
+      "target_visible": true,
+      "target_distance": 1.7100595235824585,
+      "leader_memory_snapshot": [
+        "Leader saw Tomato at distance 1.71 m near position x=-2.00, z=1.25."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Tomato at distance 1.01 m near position x=-1.50, z=1.75."
+      ],
+      "conversation_log": [
+        "LEADER: I am rotating right to scan the area for the tomato. Please rotate right as well.",
+        "HANDICAPPED: Rotating right.",
+        "LEADER: Still scanning for the tomato. What do you see?",
+        "HANDICAPPED: I see the Tomato nearby at 1.01m. I am moving towards it.",
+        "LEADER: I estimate the tomato is very close, but not in my view. I am starting a specific search pattern to find it.",
+        "HANDICAPPED: I am still moving ahead towards the tomato.",
+        "LEADER: I now see the tomato and am moving ahead. Keep moving, you are closer.",
+        "HANDICAPPED: Still moving ahead, I estimate I am very close."
+      ]
+    },
+    {
+      "step": 3,
+      "task_id": 20,
+      "scene": "FloorPlan4",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Cooperatively navigate to the Tomato.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Still moving ahead, I estimate I am very close.",
+      "agent_position": {
+        "x": -1.5,
+        "y": 0.900999903678894,
+        "z": 2.25
+      },
+      "target_visible": false,
+      "target_distance": 0.7887539267539978,
+      "leader_memory_snapshot": [
+        "Leader saw Tomato at distance 1.71 m near position x=-2.00, z=1.25."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Tomato at distance 1.01 m near position x=-1.50, z=1.75."
+      ],
+      "conversation_log": [
+        "LEADER: I am rotating right to scan the area for the tomato. Please rotate right as well.",
+        "HANDICAPPED: Rotating right.",
+        "LEADER: Still scanning for the tomato. What do you see?",
+        "HANDICAPPED: I see the Tomato nearby at 1.01m. I am moving towards it.",
+        "LEADER: I estimate the tomato is very close, but not in my view. I am starting a specific search pattern to find it.",
+        "HANDICAPPED: I am still moving ahead towards the tomato.",
+        "LEADER: I now see the tomato and am moving ahead. Keep moving, you are closer.",
+        "HANDICAPPED: Still moving ahead, I estimate I am very close."
+      ]
+    },
+    {
+      "step": 4,
+      "task_id": 20,
+      "scene": "FloorPlan4",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Cooperatively navigate to the Tomato.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "Keep moving ahead. I see the tomato and am closing in on it.",
+      "agent_position": {
+        "x": -1.75,
+        "y": 0.9009998440742493,
+        "z": 1.25
+      },
+      "target_visible": true,
+      "target_distance": 1.5363084077835083,
+      "leader_memory_snapshot": [
+        "Leader saw Tomato at distance 1.71 m near position x=-2.00, z=1.25.",
+        "Leader saw Tomato at distance 1.54 m near position x=-1.75, z=1.25."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Tomato at distance 1.01 m near position x=-1.50, z=1.75."
+      ],
+      "conversation_log": [
+        "LEADER: I am rotating right to scan the area for the tomato. Please rotate right as well.",
+        "HANDICAPPED: Rotating right.",
+        "LEADER: Still scanning for the tomato. What do you see?",
+        "HANDICAPPED: I see the Tomato nearby at 1.01m. I am moving towards it.",
+        "LEADER: I estimate the tomato is very close, but not in my view. I am starting a specific search pattern to find it.",
+        "HANDICAPPED: I am still moving ahead towards the tomato.",
+        "LEADER: I now see the tomato and am moving ahead. Keep moving, you are closer.",
+        "HANDICAPPED: Still moving ahead, I estimate I am very close.",
+        "LEADER: Keep moving ahead. I see the tomato and am closing in on it.",
+        "HANDICAPPED: Still moving ahead. I believe I will be at 1.0m or less after this."
+      ]
+    },
+    {
+      "step": 4,
+      "task_id": 20,
+      "scene": "FloorPlan4",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Cooperatively navigate to the Tomato.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Still moving ahead. I believe I will be at 1.0m or less after this.",
+      "agent_position": {
+        "x": -1.5,
+        "y": 0.900999903678894,
+        "z": 2.5
+      },
+      "target_visible": false,
+      "target_distance": 0.7809417247772217,
+      "leader_memory_snapshot": [
+        "Leader saw Tomato at distance 1.71 m near position x=-2.00, z=1.25.",
+        "Leader saw Tomato at distance 1.54 m near position x=-1.75, z=1.25."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Tomato at distance 1.01 m near position x=-1.50, z=1.75."
+      ],
+      "conversation_log": [
+        "LEADER: I am rotating right to scan the area for the tomato. Please rotate right as well.",
+        "HANDICAPPED: Rotating right.",
+        "LEADER: Still scanning for the tomato. What do you see?",
+        "HANDICAPPED: I see the Tomato nearby at 1.01m. I am moving towards it.",
+        "LEADER: I estimate the tomato is very close, but not in my view. I am starting a specific search pattern to find it.",
+        "HANDICAPPED: I am still moving ahead towards the tomato.",
+        "LEADER: I now see the tomato and am moving ahead. Keep moving, you are closer.",
+        "HANDICAPPED: Still moving ahead, I estimate I am very close.",
+        "LEADER: Keep moving ahead. I see the tomato and am closing in on it.",
+        "HANDICAPPED: Still moving ahead. I believe I will be at 1.0m or less after this."
+      ]
+    },
+    {
+      "step": 5,
+      "task_id": 20,
+      "scene": "FloorPlan4",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Cooperatively navigate to the Tomato.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "RotateLeft",
+      "message": "I have momentarily lost sight of the tomato and am rotating to re-acquire it, based on my last known location for it. You should be at 1.0m or less, so please begin the search pattern.",
+      "agent_position": {
+        "x": -1.5,
+        "y": 0.9009998440742493,
+        "z": 1.25
+      },
+      "target_visible": false,
+      "target_distance": 1.3860678672790527,
+      "leader_memory_snapshot": [
+        "Leader saw Tomato at distance 1.71 m near position x=-2.00, z=1.25.",
+        "Leader saw Tomato at distance 1.54 m near position x=-1.75, z=1.25."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Tomato at distance 1.01 m near position x=-1.50, z=1.75."
+      ],
+      "conversation_log": [
+        "LEADER: I am rotating right to scan the area for the tomato. Please rotate right as well.",
+        "HANDICAPPED: Rotating right.",
+        "LEADER: Still scanning for the tomato. What do you see?",
+        "HANDICAPPED: I see the Tomato nearby at 1.01m. I am moving towards it.",
+        "LEADER: I estimate the tomato is very close, but not in my view. I am starting a specific search pattern to find it.",
+        "HANDICAPPED: I am still moving ahead towards the tomato.",
+        "LEADER: I now see the tomato and am moving ahead. Keep moving, you are closer.",
+        "HANDICAPPED: Still moving ahead, I estimate I am very close.",
+        "LEADER: Keep moving ahead. I see the tomato and am closing in on it.",
+        "HANDICAPPED: Still moving ahead. I believe I will be at 1.0m or less after this.",
+        "LEADER: I have momentarily lost sight of the tomato and am rotating to re-acquire it, based on my last known location for it. You should be at 1.0m or less, so please begin the search pattern.",
+        "HANDICAPPED: I am initiating the search pattern by looking up, as I believe I am within 1.0m."
+      ]
+    },
+    {
+      "step": 5,
+      "task_id": 20,
+      "scene": "FloorPlan4",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Cooperatively navigate to the Tomato.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "LookUp",
+      "message": "I am initiating the search pattern by looking up, as I believe I am within 1.0m.",
+      "agent_position": {
+        "x": -1.5,
+        "y": 0.900999903678894,
+        "z": 2.75
+      },
+      "target_visible": false,
+      "target_distance": 0.8500630259513855,
+      "leader_memory_snapshot": [
+        "Leader saw Tomato at distance 1.71 m near position x=-2.00, z=1.25.",
+        "Leader saw Tomato at distance 1.54 m near position x=-1.75, z=1.25."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Tomato at distance 1.01 m near position x=-1.50, z=1.75."
+      ],
+      "conversation_log": [
+        "LEADER: I am rotating right to scan the area for the tomato. Please rotate right as well.",
+        "HANDICAPPED: Rotating right.",
+        "LEADER: Still scanning for the tomato. What do you see?",
+        "HANDICAPPED: I see the Tomato nearby at 1.01m. I am moving towards it.",
+        "LEADER: I estimate the tomato is very close, but not in my view. I am starting a specific search pattern to find it.",
+        "HANDICAPPED: I am still moving ahead towards the tomato.",
+        "LEADER: I now see the tomato and am moving ahead. Keep moving, you are closer.",
+        "HANDICAPPED: Still moving ahead, I estimate I am very close.",
+        "LEADER: Keep moving ahead. I see the tomato and am closing in on it.",
+        "HANDICAPPED: Still moving ahead. I believe I will be at 1.0m or less after this.",
+        "LEADER: I have momentarily lost sight of the tomato and am rotating to re-acquire it, based on my last known location for it. You should be at 1.0m or less, so please begin the search pattern.",
+        "HANDICAPPED: I am initiating the search pattern by looking up, as I believe I am within 1.0m."
+      ]
+    },
+    {
+      "step": 6,
+      "task_id": 20,
+      "scene": "FloorPlan4",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Cooperatively navigate to the Tomato.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "I see the tomato again at 1.39m and am moving closer. Please continue with your search pattern.",
+      "agent_position": {
+        "x": -1.5,
+        "y": 0.9009998440742493,
+        "z": 1.25
+      },
+      "target_visible": true,
+      "target_distance": 1.3860678672790527,
+      "leader_memory_snapshot": [
+        "Leader saw Tomato at distance 1.71 m near position x=-2.00, z=1.25.",
+        "Leader saw Tomato at distance 1.54 m near position x=-1.75, z=1.25.",
+        "Leader saw Tomato at distance 1.39 m near position x=-1.50, z=1.25."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Tomato at distance 1.01 m near position x=-1.50, z=1.75.",
+        "Handicapped saw Tomato at distance 0.85 m near position x=-1.50, z=2.75."
+      ],
+      "conversation_log": [
+        "LEADER: I am rotating right to scan the area for the tomato. Please rotate right as well.",
+        "HANDICAPPED: Rotating right.",
+        "LEADER: Still scanning for the tomato. What do you see?",
+        "HANDICAPPED: I see the Tomato nearby at 1.01m. I am moving towards it.",
+        "LEADER: I estimate the tomato is very close, but not in my view. I am starting a specific search pattern to find it.",
+        "HANDICAPPED: I am still moving ahead towards the tomato.",
+        "LEADER: I now see the tomato and am moving ahead. Keep moving, you are closer.",
+        "HANDICAPPED: Still moving ahead, I estimate I am very close.",
+        "LEADER: Keep moving ahead. I see the tomato and am closing in on it.",
+        "HANDICAPPED: Still moving ahead. I believe I will be at 1.0m or less after this.",
+        "LEADER: I have momentarily lost sight of the tomato and am rotating to re-acquire it, based on my last known location for it. You should be at 1.0m or less, so please begin the search pattern.",
+        "HANDICAPPED: I am initiating the search pattern by looking up, as I believe I am within 1.0m.",
+        "LEADER: I see the tomato again at 1.39m and am moving closer. Please continue with your search pattern.",
+        "HANDICAPPED: Rotating right, continuing the search pattern."
+      ]
+    },
+    {
+      "step": 6,
+      "task_id": 20,
+      "scene": "FloorPlan4",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Cooperatively navigate to the Tomato.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "RotateRight",
+      "message": "Rotating right, continuing the search pattern.",
+      "agent_position": {
+        "x": -1.5,
+        "y": 0.900999903678894,
+        "z": 2.75
+      },
+      "target_visible": true,
+      "target_distance": 0.8500630259513855,
+      "leader_memory_snapshot": [
+        "Leader saw Tomato at distance 1.71 m near position x=-2.00, z=1.25.",
+        "Leader saw Tomato at distance 1.54 m near position x=-1.75, z=1.25.",
+        "Leader saw Tomato at distance 1.39 m near position x=-1.50, z=1.25."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Tomato at distance 1.01 m near position x=-1.50, z=1.75.",
+        "Handicapped saw Tomato at distance 0.85 m near position x=-1.50, z=2.75."
+      ],
+      "conversation_log": [
+        "LEADER: I am rotating right to scan the area for the tomato. Please rotate right as well.",
+        "HANDICAPPED: Rotating right.",
+        "LEADER: Still scanning for the tomato. What do you see?",
+        "HANDICAPPED: I see the Tomato nearby at 1.01m. I am moving towards it.",
+        "LEADER: I estimate the tomato is very close, but not in my view. I am starting a specific search pattern to find it.",
+        "HANDICAPPED: I am still moving ahead towards the tomato.",
+        "LEADER: I now see the tomato and am moving ahead. Keep moving, you are closer.",
+        "HANDICAPPED: Still moving ahead, I estimate I am very close.",
+        "LEADER: Keep moving ahead. I see the tomato and am closing in on it.",
+        "HANDICAPPED: Still moving ahead. I believe I will be at 1.0m or less after this.",
+        "LEADER: I have momentarily lost sight of the tomato and am rotating to re-acquire it, based on my last known location for it. You should be at 1.0m or less, so please begin the search pattern.",
+        "HANDICAPPED: I am initiating the search pattern by looking up, as I believe I am within 1.0m.",
+        "LEADER: I see the tomato again at 1.39m and am moving closer. Please continue with your search pattern.",
+        "HANDICAPPED: Rotating right, continuing the search pattern."
+      ]
+    },
+    {
+      "step": 7,
+      "task_id": 20,
+      "scene": "FloorPlan4",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Cooperatively navigate to the Tomato.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "I am moving ahead, the tomato is at 1.19m. Continue your search pattern.",
+      "agent_position": {
+        "x": -1.5,
+        "y": 0.9009998440742493,
+        "z": 1.5
+      },
+      "target_visible": true,
+      "target_distance": 1.18697988986969,
+      "leader_memory_snapshot": [
+        "Leader saw Tomato at distance 1.71 m near position x=-2.00, z=1.25.",
+        "Leader saw Tomato at distance 1.54 m near position x=-1.75, z=1.25.",
+        "Leader saw Tomato at distance 1.39 m near position x=-1.50, z=1.25.",
+        "Leader saw Tomato at distance 1.19 m near position x=-1.50, z=1.50."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Tomato at distance 1.01 m near position x=-1.50, z=1.75.",
+        "Handicapped saw Tomato at distance 0.85 m near position x=-1.50, z=2.75."
+      ],
+      "conversation_log": [
+        "LEADER: I am rotating right to scan the area for the tomato. Please rotate right as well.",
+        "HANDICAPPED: Rotating right.",
+        "LEADER: Still scanning for the tomato. What do you see?",
+        "HANDICAPPED: I see the Tomato nearby at 1.01m. I am moving towards it.",
+        "LEADER: I estimate the tomato is very close, but not in my view. I am starting a specific search pattern to find it.",
+        "HANDICAPPED: I am still moving ahead towards the tomato.",
+        "LEADER: I now see the tomato and am moving ahead. Keep moving, you are closer.",
+        "HANDICAPPED: Still moving ahead, I estimate I am very close.",
+        "LEADER: Keep moving ahead. I see the tomato and am closing in on it.",
+        "HANDICAPPED: Still moving ahead. I believe I will be at 1.0m or less after this.",
+        "LEADER: I have momentarily lost sight of the tomato and am rotating to re-acquire it, based on my last known location for it. You should be at 1.0m or less, so please begin the search pattern.",
+        "HANDICAPPED: I am initiating the search pattern by looking up, as I believe I am within 1.0m.",
+        "LEADER: I see the tomato again at 1.39m and am moving closer. Please continue with your search pattern.",
+        "HANDICAPPED: Rotating right, continuing the search pattern.",
+        "LEADER: I am moving ahead, the tomato is at 1.19m. Continue your search pattern.",
+        "HANDICAPPED: Still rotating right to continue the search pattern."
+      ]
+    },
+    {
+      "step": 7,
+      "task_id": 20,
+      "scene": "FloorPlan4",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Cooperatively navigate to the Tomato.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "RotateRight",
+      "message": "Still rotating right to continue the search pattern.",
+      "agent_position": {
+        "x": -1.5,
+        "y": 0.900999903678894,
+        "z": 2.75
+      },
+      "target_visible": false,
+      "target_distance": 0.8500630259513855,
+      "leader_memory_snapshot": [
+        "Leader saw Tomato at distance 1.71 m near position x=-2.00, z=1.25.",
+        "Leader saw Tomato at distance 1.54 m near position x=-1.75, z=1.25.",
+        "Leader saw Tomato at distance 1.39 m near position x=-1.50, z=1.25.",
+        "Leader saw Tomato at distance 1.19 m near position x=-1.50, z=1.50."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Tomato at distance 1.01 m near position x=-1.50, z=1.75.",
+        "Handicapped saw Tomato at distance 0.85 m near position x=-1.50, z=2.75."
+      ],
+      "conversation_log": [
+        "LEADER: I am rotating right to scan the area for the tomato. Please rotate right as well.",
+        "HANDICAPPED: Rotating right.",
+        "LEADER: Still scanning for the tomato. What do you see?",
+        "HANDICAPPED: I see the Tomato nearby at 1.01m. I am moving towards it.",
+        "LEADER: I estimate the tomato is very close, but not in my view. I am starting a specific search pattern to find it.",
+        "HANDICAPPED: I am still moving ahead towards the tomato.",
+        "LEADER: I now see the tomato and am moving ahead. Keep moving, you are closer.",
+        "HANDICAPPED: Still moving ahead, I estimate I am very close.",
+        "LEADER: Keep moving ahead. I see the tomato and am closing in on it.",
+        "HANDICAPPED: Still moving ahead. I believe I will be at 1.0m or less after this.",
+        "LEADER: I have momentarily lost sight of the tomato and am rotating to re-acquire it, based on my last known location for it. You should be at 1.0m or less, so please begin the search pattern.",
+        "HANDICAPPED: I am initiating the search pattern by looking up, as I believe I am within 1.0m.",
+        "LEADER: I see the tomato again at 1.39m and am moving closer. Please continue with your search pattern.",
+        "HANDICAPPED: Rotating right, continuing the search pattern.",
+        "LEADER: I am moving ahead, the tomato is at 1.19m. Continue your search pattern.",
+        "HANDICAPPED: Still rotating right to continue the search pattern."
+      ]
+    },
+    {
+      "step": 8,
+      "task_id": 20,
+      "scene": "FloorPlan4",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Cooperatively navigate to the Tomato.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "I am moving ahead, the tomato is now at 1.01m. Please continue your search pattern.",
+      "agent_position": {
+        "x": -1.5,
+        "y": 0.9009998440742493,
+        "z": 1.75
+      },
+      "target_visible": true,
+      "target_distance": 1.0107711553573608,
+      "leader_memory_snapshot": [
+        "Leader saw Tomato at distance 1.71 m near position x=-2.00, z=1.25.",
+        "Leader saw Tomato at distance 1.54 m near position x=-1.75, z=1.25.",
+        "Leader saw Tomato at distance 1.39 m near position x=-1.50, z=1.25.",
+        "Leader saw Tomato at distance 1.19 m near position x=-1.50, z=1.50.",
+        "Leader saw Tomato at distance 1.01 m near position x=-1.50, z=1.75."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Tomato at distance 1.01 m near position x=-1.50, z=1.75.",
+        "Handicapped saw Tomato at distance 0.85 m near position x=-1.50, z=2.75."
+      ],
+      "conversation_log": [
+        "LEADER: I am rotating right to scan the area for the tomato. Please rotate right as well.",
+        "HANDICAPPED: Rotating right.",
+        "LEADER: Still scanning for the tomato. What do you see?",
+        "HANDICAPPED: I see the Tomato nearby at 1.01m. I am moving towards it.",
+        "LEADER: I estimate the tomato is very close, but not in my view. I am starting a specific search pattern to find it.",
+        "HANDICAPPED: I am still moving ahead towards the tomato.",
+        "LEADER: I now see the tomato and am moving ahead. Keep moving, you are closer.",
+        "HANDICAPPED: Still moving ahead, I estimate I am very close.",
+        "LEADER: Keep moving ahead. I see the tomato and am closing in on it.",
+        "HANDICAPPED: Still moving ahead. I believe I will be at 1.0m or less after this.",
+        "LEADER: I have momentarily lost sight of the tomato and am rotating to re-acquire it, based on my last known location for it. You should be at 1.0m or less, so please begin the search pattern.",
+        "HANDICAPPED: I am initiating the search pattern by looking up, as I believe I am within 1.0m.",
+        "LEADER: I see the tomato again at 1.39m and am moving closer. Please continue with your search pattern.",
+        "HANDICAPPED: Rotating right, continuing the search pattern.",
+        "LEADER: I am moving ahead, the tomato is at 1.19m. Continue your search pattern.",
+        "HANDICAPPED: Still rotating right to continue the search pattern.",
+        "LEADER: I am moving ahead, the tomato is now at 1.01m. Please continue your search pattern.",
+        "HANDICAPPED: Still rotating right to complete the current search segment."
+      ]
+    },
+    {
+      "step": 8,
+      "task_id": 20,
+      "scene": "FloorPlan4",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Cooperatively navigate to the Tomato.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "RotateRight",
+      "message": "Still rotating right to complete the current search segment.",
+      "agent_position": {
+        "x": -1.5,
+        "y": 0.900999903678894,
+        "z": 2.75
+      },
+      "target_visible": false,
+      "target_distance": 0.8500630259513855,
+      "leader_memory_snapshot": [
+        "Leader saw Tomato at distance 1.71 m near position x=-2.00, z=1.25.",
+        "Leader saw Tomato at distance 1.54 m near position x=-1.75, z=1.25.",
+        "Leader saw Tomato at distance 1.39 m near position x=-1.50, z=1.25.",
+        "Leader saw Tomato at distance 1.19 m near position x=-1.50, z=1.50.",
+        "Leader saw Tomato at distance 1.01 m near position x=-1.50, z=1.75."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Tomato at distance 1.01 m near position x=-1.50, z=1.75.",
+        "Handicapped saw Tomato at distance 0.85 m near position x=-1.50, z=2.75."
+      ],
+      "conversation_log": [
+        "LEADER: I am rotating right to scan the area for the tomato. Please rotate right as well.",
+        "HANDICAPPED: Rotating right.",
+        "LEADER: Still scanning for the tomato. What do you see?",
+        "HANDICAPPED: I see the Tomato nearby at 1.01m. I am moving towards it.",
+        "LEADER: I estimate the tomato is very close, but not in my view. I am starting a specific search pattern to find it.",
+        "HANDICAPPED: I am still moving ahead towards the tomato.",
+        "LEADER: I now see the tomato and am moving ahead. Keep moving, you are closer.",
+        "HANDICAPPED: Still moving ahead, I estimate I am very close.",
+        "LEADER: Keep moving ahead. I see the tomato and am closing in on it.",
+        "HANDICAPPED: Still moving ahead. I believe I will be at 1.0m or less after this.",
+        "LEADER: I have momentarily lost sight of the tomato and am rotating to re-acquire it, based on my last known location for it. You should be at 1.0m or less, so please begin the search pattern.",
+        "HANDICAPPED: I am initiating the search pattern by looking up, as I believe I am within 1.0m.",
+        "LEADER: I see the tomato again at 1.39m and am moving closer. Please continue with your search pattern.",
+        "HANDICAPPED: Rotating right, continuing the search pattern.",
+        "LEADER: I am moving ahead, the tomato is at 1.19m. Continue your search pattern.",
+        "HANDICAPPED: Still rotating right to continue the search pattern.",
+        "LEADER: I am moving ahead, the tomato is now at 1.01m. Please continue your search pattern.",
+        "HANDICAPPED: Still rotating right to complete the current search segment."
+      ]
+    },
+    {
+      "step": 9,
+      "task_id": 20,
+      "scene": "FloorPlan4",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Cooperatively navigate to the Tomato.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "RotateRight",
+      "message": "I am rotating right to look behind me for the tomato, as I seem to have overshot it. Please continue your search pattern.",
+      "agent_position": {
+        "x": -1.5,
+        "y": 0.9009998440742493,
+        "z": 2.0
+      },
+      "target_visible": false,
+      "target_distance": 0.8714330792427063,
+      "leader_memory_snapshot": [
+        "Leader saw Tomato at distance 1.71 m near position x=-2.00, z=1.25.",
+        "Leader saw Tomato at distance 1.54 m near position x=-1.75, z=1.25.",
+        "Leader saw Tomato at distance 1.39 m near position x=-1.50, z=1.25.",
+        "Leader saw Tomato at distance 1.19 m near position x=-1.50, z=1.50.",
+        "Leader saw Tomato at distance 1.01 m near position x=-1.50, z=1.75."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Tomato at distance 1.01 m near position x=-1.50, z=1.75.",
+        "Handicapped saw Tomato at distance 0.85 m near position x=-1.50, z=2.75."
+      ],
+      "conversation_log": [
+        "LEADER: I am rotating right to scan the area for the tomato. Please rotate right as well.",
+        "HANDICAPPED: Rotating right.",
+        "LEADER: Still scanning for the tomato. What do you see?",
+        "HANDICAPPED: I see the Tomato nearby at 1.01m. I am moving towards it.",
+        "LEADER: I estimate the tomato is very close, but not in my view. I am starting a specific search pattern to find it.",
+        "HANDICAPPED: I am still moving ahead towards the tomato.",
+        "LEADER: I now see the tomato and am moving ahead. Keep moving, you are closer.",
+        "HANDICAPPED: Still moving ahead, I estimate I am very close.",
+        "LEADER: Keep moving ahead. I see the tomato and am closing in on it.",
+        "HANDICAPPED: Still moving ahead. I believe I will be at 1.0m or less after this.",
+        "LEADER: I have momentarily lost sight of the tomato and am rotating to re-acquire it, based on my last known location for it. You should be at 1.0m or less, so please begin the search pattern.",
+        "HANDICAPPED: I am initiating the search pattern by looking up, as I believe I am within 1.0m.",
+        "LEADER: I see the tomato again at 1.39m and am moving closer. Please continue with your search pattern.",
+        "HANDICAPPED: Rotating right, continuing the search pattern.",
+        "LEADER: I am moving ahead, the tomato is at 1.19m. Continue your search pattern.",
+        "HANDICAPPED: Still rotating right to continue the search pattern.",
+        "LEADER: I am moving ahead, the tomato is now at 1.01m. Please continue your search pattern.",
+        "HANDICAPPED: Still rotating right to complete the current search segment.",
+        "LEADER: I am rotating right to look behind me for the tomato, as I seem to have overshot it. Please continue your search pattern.",
+        "HANDICAPPED: Looking down, continuing the search pattern as instructed."
+      ]
+    },
+    {
+      "step": 9,
+      "task_id": 20,
+      "scene": "FloorPlan4",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Cooperatively navigate to the Tomato.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "LookDown",
+      "message": "Looking down, continuing the search pattern as instructed.",
+      "agent_position": {
+        "x": -1.5,
+        "y": 0.900999903678894,
+        "z": 2.75
+      },
+      "target_visible": false,
+      "target_distance": 0.8500630259513855,
+      "leader_memory_snapshot": [
+        "Leader saw Tomato at distance 1.71 m near position x=-2.00, z=1.25.",
+        "Leader saw Tomato at distance 1.54 m near position x=-1.75, z=1.25.",
+        "Leader saw Tomato at distance 1.39 m near position x=-1.50, z=1.25.",
+        "Leader saw Tomato at distance 1.19 m near position x=-1.50, z=1.50.",
+        "Leader saw Tomato at distance 1.01 m near position x=-1.50, z=1.75."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Tomato at distance 1.01 m near position x=-1.50, z=1.75.",
+        "Handicapped saw Tomato at distance 0.85 m near position x=-1.50, z=2.75."
+      ],
+      "conversation_log": [
+        "LEADER: I am rotating right to scan the area for the tomato. Please rotate right as well.",
+        "HANDICAPPED: Rotating right.",
+        "LEADER: Still scanning for the tomato. What do you see?",
+        "HANDICAPPED: I see the Tomato nearby at 1.01m. I am moving towards it.",
+        "LEADER: I estimate the tomato is very close, but not in my view. I am starting a specific search pattern to find it.",
+        "HANDICAPPED: I am still moving ahead towards the tomato.",
+        "LEADER: I now see the tomato and am moving ahead. Keep moving, you are closer.",
+        "HANDICAPPED: Still moving ahead, I estimate I am very close.",
+        "LEADER: Keep moving ahead. I see the tomato and am closing in on it.",
+        "HANDICAPPED: Still moving ahead. I believe I will be at 1.0m or less after this.",
+        "LEADER: I have momentarily lost sight of the tomato and am rotating to re-acquire it, based on my last known location for it. You should be at 1.0m or less, so please begin the search pattern.",
+        "HANDICAPPED: I am initiating the search pattern by looking up, as I believe I am within 1.0m.",
+        "LEADER: I see the tomato again at 1.39m and am moving closer. Please continue with your search pattern.",
+        "HANDICAPPED: Rotating right, continuing the search pattern.",
+        "LEADER: I am moving ahead, the tomato is at 1.19m. Continue your search pattern.",
+        "HANDICAPPED: Still rotating right to continue the search pattern.",
+        "LEADER: I am moving ahead, the tomato is now at 1.01m. Please continue your search pattern.",
+        "HANDICAPPED: Still rotating right to complete the current search segment.",
+        "LEADER: I am rotating right to look behind me for the tomato, as I seem to have overshot it. Please continue your search pattern.",
+        "HANDICAPPED: Looking down, continuing the search pattern as instructed."
+      ]
+    },
+    {
+      "step": 10,
+      "task_id": 20,
+      "scene": "FloorPlan4",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Cooperatively navigate to the Tomato.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "Done",
+      "message": "I have reached the tomato! You can stop now.",
+      "agent_position": {
+        "x": -1.5,
+        "y": 0.9009998440742493,
+        "z": 2.0
+      },
+      "target_visible": true,
+      "target_distance": 0.8714330792427063,
+      "leader_memory_snapshot": [
+        "Leader saw Tomato at distance 1.71 m near position x=-2.00, z=1.25.",
+        "Leader saw Tomato at distance 1.54 m near position x=-1.75, z=1.25.",
+        "Leader saw Tomato at distance 1.39 m near position x=-1.50, z=1.25.",
+        "Leader saw Tomato at distance 1.19 m near position x=-1.50, z=1.50.",
+        "Leader saw Tomato at distance 1.01 m near position x=-1.50, z=1.75.",
+        "Leader saw Tomato at distance 0.87 m near position x=-1.50, z=2.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Tomato at distance 1.01 m near position x=-1.50, z=1.75.",
+        "Handicapped saw Tomato at distance 0.85 m near position x=-1.50, z=2.75.",
+        "Handicapped saw Tomato at distance 0.85 m near position x=-1.50, z=2.75."
+      ],
+      "conversation_log": [
+        "LEADER: I am rotating right to scan the area for the tomato. Please rotate right as well.",
+        "HANDICAPPED: Rotating right.",
+        "LEADER: Still scanning for the tomato. What do you see?",
+        "HANDICAPPED: I see the Tomato nearby at 1.01m. I am moving towards it.",
+        "LEADER: I estimate the tomato is very close, but not in my view. I am starting a specific search pattern to find it.",
+        "HANDICAPPED: I am still moving ahead towards the tomato.",
+        "LEADER: I now see the tomato and am moving ahead. Keep moving, you are closer.",
+        "HANDICAPPED: Still moving ahead, I estimate I am very close.",
+        "LEADER: Keep moving ahead. I see the tomato and am closing in on it.",
+        "HANDICAPPED: Still moving ahead. I believe I will be at 1.0m or less after this.",
+        "LEADER: I have momentarily lost sight of the tomato and am rotating to re-acquire it, based on my last known location for it. You should be at 1.0m or less, so please begin the search pattern.",
+        "HANDICAPPED: I am initiating the search pattern by looking up, as I believe I am within 1.0m.",
+        "LEADER: I see the tomato again at 1.39m and am moving closer. Please continue with your search pattern.",
+        "HANDICAPPED: Rotating right, continuing the search pattern.",
+        "LEADER: I am moving ahead, the tomato is at 1.19m. Continue your search pattern.",
+        "HANDICAPPED: Still rotating right to continue the search pattern.",
+        "LEADER: I am moving ahead, the tomato is now at 1.01m. Please continue your search pattern.",
+        "HANDICAPPED: Still rotating right to complete the current search segment.",
+        "LEADER: I am rotating right to look behind me for the tomato, as I seem to have overshot it. Please continue your search pattern.",
+        "HANDICAPPED: Looking down, continuing the search pattern as instructed.",
+        "LEADER: I have reached the tomato! You can stop now.",
+        "HANDICAPPED: Acknowledged, I am done."
+      ]
+    },
+    {
+      "step": 10,
+      "task_id": 20,
+      "scene": "FloorPlan4",
+      "room_type": "kitchen",
+      "target_type": "Tomato",
+      "goal_text": "Cooperatively navigate to the Tomato.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "Done",
+      "message": "Acknowledged, I am done.",
+      "agent_position": {
+        "x": -1.5,
+        "y": 0.900999903678894,
+        "z": 2.75
+      },
+      "target_visible": true,
+      "target_distance": 0.8500630259513855,
+      "leader_memory_snapshot": [
+        "Leader saw Tomato at distance 1.71 m near position x=-2.00, z=1.25.",
+        "Leader saw Tomato at distance 1.54 m near position x=-1.75, z=1.25.",
+        "Leader saw Tomato at distance 1.39 m near position x=-1.50, z=1.25.",
+        "Leader saw Tomato at distance 1.19 m near position x=-1.50, z=1.50.",
+        "Leader saw Tomato at distance 1.01 m near position x=-1.50, z=1.75.",
+        "Leader saw Tomato at distance 0.87 m near position x=-1.50, z=2.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Tomato at distance 1.01 m near position x=-1.50, z=1.75.",
+        "Handicapped saw Tomato at distance 0.85 m near position x=-1.50, z=2.75.",
+        "Handicapped saw Tomato at distance 0.85 m near position x=-1.50, z=2.75."
+      ],
+      "conversation_log": [
+        "LEADER: I am rotating right to scan the area for the tomato. Please rotate right as well.",
+        "HANDICAPPED: Rotating right.",
+        "LEADER: Still scanning for the tomato. What do you see?",
+        "HANDICAPPED: I see the Tomato nearby at 1.01m. I am moving towards it.",
+        "LEADER: I estimate the tomato is very close, but not in my view. I am starting a specific search pattern to find it.",
+        "HANDICAPPED: I am still moving ahead towards the tomato.",
+        "LEADER: I now see the tomato and am moving ahead. Keep moving, you are closer.",
+        "HANDICAPPED: Still moving ahead, I estimate I am very close.",
+        "LEADER: Keep moving ahead. I see the tomato and am closing in on it.",
+        "HANDICAPPED: Still moving ahead. I believe I will be at 1.0m or less after this.",
+        "LEADER: I have momentarily lost sight of the tomato and am rotating to re-acquire it, based on my last known location for it. You should be at 1.0m or less, so please begin the search pattern.",
+        "HANDICAPPED: I am initiating the search pattern by looking up, as I believe I am within 1.0m.",
+        "LEADER: I see the tomato again at 1.39m and am moving closer. Please continue with your search pattern.",
+        "HANDICAPPED: Rotating right, continuing the search pattern.",
+        "LEADER: I am moving ahead, the tomato is at 1.19m. Continue your search pattern.",
+        "HANDICAPPED: Still rotating right to continue the search pattern.",
+        "LEADER: I am moving ahead, the tomato is now at 1.01m. Please continue your search pattern.",
+        "HANDICAPPED: Still rotating right to complete the current search segment.",
+        "LEADER: I am rotating right to look behind me for the tomato, as I seem to have overshot it. Please continue your search pattern.",
+        "HANDICAPPED: Looking down, continuing the search pattern as instructed.",
+        "LEADER: I have reached the tomato! You can stop now.",
+        "HANDICAPPED: Acknowledged, I am done."
+      ]
+    }
+  ]
+}

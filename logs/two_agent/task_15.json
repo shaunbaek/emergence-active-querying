@@ -1,0 +1,288 @@
+{
+  "task_meta": {
+    "task_id": 15,
+    "scene": "FloorPlan205",
+    "room_type": "living_room",
+    "target_type": "Laptop",
+    "goal_text": "Navigate to the Laptop."
+  },
+  "episode_time_sec": 21.773499875096604,
+  "steps": [
+    {
+      "step": 0,
+      "task_id": 15,
+      "scene": "FloorPlan205",
+      "room_type": "living_room",
+      "target_type": "Laptop",
+      "goal_text": "Cooperatively navigate to the Laptop.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "Laptop is ahead, move forward.",
+      "agent_position": {
+        "x": -3.0,
+        "y": 0.9011250734329224,
+        "z": 2.0
+      },
+      "target_visible": true,
+      "target_distance": 1.4214731454849243,
+      "leader_memory_snapshot": [
+        "Leader saw Laptop at distance 1.42 m near position x=-3.00, z=2.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Laptop at distance 1.31 m near position x=-2.50, z=2.50."
+      ],
+      "conversation_log": [
+        "LEADER: Laptop is ahead, move forward.",
+        "HANDICAPPED: Moving ahead."
+      ]
+    },
+    {
+      "step": 0,
+      "task_id": 15,
+      "scene": "FloorPlan205",
+      "room_type": "living_room",
+      "target_type": "Laptop",
+      "goal_text": "Cooperatively navigate to the Laptop.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Moving ahead.",
+      "agent_position": {
+        "x": -2.5,
+        "y": 0.9011250734329224,
+        "z": 2.5
+      },
+      "target_visible": true,
+      "target_distance": 1.3094534873962402,
+      "leader_memory_snapshot": [
+        "Leader saw Laptop at distance 1.42 m near position x=-3.00, z=2.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Laptop at distance 1.31 m near position x=-2.50, z=2.50."
+      ],
+      "conversation_log": [
+        "LEADER: Laptop is ahead, move forward.",
+        "HANDICAPPED: Moving ahead."
+      ]
+    },
+    {
+      "step": 1,
+      "task_id": 15,
+      "scene": "FloorPlan205",
+      "room_type": "living_room",
+      "target_type": "Laptop",
+      "goal_text": "Cooperatively navigate to the Laptop.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "Laptop is very close, continue moving forward.",
+      "agent_position": {
+        "x": -2.75,
+        "y": 0.9011250734329224,
+        "z": 2.0
+      },
+      "target_visible": true,
+      "target_distance": 1.1935863494873047,
+      "leader_memory_snapshot": [
+        "Leader saw Laptop at distance 1.42 m near position x=-3.00, z=2.00.",
+        "Leader saw Laptop at distance 1.19 m near position x=-2.75, z=2.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Laptop at distance 1.31 m near position x=-2.50, z=2.50."
+      ],
+      "conversation_log": [
+        "LEADER: Laptop is ahead, move forward.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: Laptop is very close, continue moving forward.",
+        "HANDICAPPED: Moving forward as instructed."
+      ]
+    },
+    {
+      "step": 1,
+      "task_id": 15,
+      "scene": "FloorPlan205",
+      "room_type": "living_room",
+      "target_type": "Laptop",
+      "goal_text": "Cooperatively navigate to the Laptop.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Moving forward as instructed.",
+      "agent_position": {
+        "x": -2.25,
+        "y": 0.9011250734329224,
+        "z": 2.5
+      },
+      "target_visible": false,
+      "target_distance": 1.1699281930923462,
+      "leader_memory_snapshot": [
+        "Leader saw Laptop at distance 1.42 m near position x=-3.00, z=2.00.",
+        "Leader saw Laptop at distance 1.19 m near position x=-2.75, z=2.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Laptop at distance 1.31 m near position x=-2.50, z=2.50."
+      ],
+      "conversation_log": [
+        "LEADER: Laptop is ahead, move forward.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: Laptop is very close, continue moving forward.",
+        "HANDICAPPED: Moving forward as instructed."
+      ]
+    },
+    {
+      "step": 2,
+      "task_id": 15,
+      "scene": "FloorPlan205",
+      "room_type": "living_room",
+      "target_type": "Laptop",
+      "goal_text": "Cooperatively navigate to the Laptop.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "Laptop is now within reach, prepare to stop.",
+      "agent_position": {
+        "x": -2.5,
+        "y": 0.9011250734329224,
+        "z": 2.0
+      },
+      "target_visible": true,
+      "target_distance": 1.0284888744354248,
+      "leader_memory_snapshot": [
+        "Leader saw Laptop at distance 1.42 m near position x=-3.00, z=2.00.",
+        "Leader saw Laptop at distance 1.19 m near position x=-2.75, z=2.00.",
+        "Leader saw Laptop at distance 1.03 m near position x=-2.50, z=2.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Laptop at distance 1.31 m near position x=-2.50, z=2.50."
+      ],
+      "conversation_log": [
+        "LEADER: Laptop is ahead, move forward.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: Laptop is very close, continue moving forward.",
+        "HANDICAPPED: Moving forward as instructed.",
+        "LEADER: Laptop is now within reach, prepare to stop.",
+        "HANDICAPPED: Moving forward as instructed."
+      ]
+    },
+    {
+      "step": 2,
+      "task_id": 15,
+      "scene": "FloorPlan205",
+      "room_type": "living_room",
+      "target_type": "Laptop",
+      "goal_text": "Cooperatively navigate to the Laptop.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Moving forward as instructed.",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.9011250734329224,
+        "z": 2.5
+      },
+      "target_visible": false,
+      "target_distance": 1.1044291257858276,
+      "leader_memory_snapshot": [
+        "Leader saw Laptop at distance 1.42 m near position x=-3.00, z=2.00.",
+        "Leader saw Laptop at distance 1.19 m near position x=-2.75, z=2.00.",
+        "Leader saw Laptop at distance 1.03 m near position x=-2.50, z=2.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Laptop at distance 1.31 m near position x=-2.50, z=2.50."
+      ],
+      "conversation_log": [
+        "LEADER: Laptop is ahead, move forward.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: Laptop is very close, continue moving forward.",
+        "HANDICAPPED: Moving forward as instructed.",
+        "LEADER: Laptop is now within reach, prepare to stop.",
+        "HANDICAPPED: Moving forward as instructed."
+      ]
+    },
+    {
+      "step": 3,
+      "task_id": 15,
+      "scene": "FloorPlan205",
+      "room_type": "living_room",
+      "target_type": "Laptop",
+      "goal_text": "Cooperatively navigate to the Laptop.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "Done",
+      "message": "We have reached the laptop, you can stop.",
+      "agent_position": {
+        "x": -2.25,
+        "y": 0.9011250734329224,
+        "z": 2.0
+      },
+      "target_visible": true,
+      "target_distance": 0.9964545369148254,
+      "leader_memory_snapshot": [
+        "Leader saw Laptop at distance 1.42 m near position x=-3.00, z=2.00.",
+        "Leader saw Laptop at distance 1.19 m near position x=-2.75, z=2.00.",
+        "Leader saw Laptop at distance 1.03 m near position x=-2.50, z=2.00.",
+        "Leader saw Laptop at distance 1.00 m near position x=-2.25, z=2.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Laptop at distance 1.31 m near position x=-2.50, z=2.50."
+      ],
+      "conversation_log": [
+        "LEADER: Laptop is ahead, move forward.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: Laptop is very close, continue moving forward.",
+        "HANDICAPPED: Moving forward as instructed.",
+        "LEADER: Laptop is now within reach, prepare to stop.",
+        "HANDICAPPED: Moving forward as instructed.",
+        "LEADER: We have reached the laptop, you can stop.",
+        "HANDICAPPED: Stopping as instructed."
+      ]
+    },
+    {
+      "step": 3,
+      "task_id": 15,
+      "scene": "FloorPlan205",
+      "room_type": "living_room",
+      "target_type": "Laptop",
+      "goal_text": "Cooperatively navigate to the Laptop.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "Done",
+      "message": "Stopping as instructed.",
+      "agent_position": {
+        "x": -1.75,
+        "y": 0.9011250734329224,
+        "z": 2.5
+      },
+      "target_visible": false,
+      "target_distance": 1.1880439519882202,
+      "leader_memory_snapshot": [
+        "Leader saw Laptop at distance 1.42 m near position x=-3.00, z=2.00.",
+        "Leader saw Laptop at distance 1.19 m near position x=-2.75, z=2.00.",
+        "Leader saw Laptop at distance 1.03 m near position x=-2.50, z=2.00.",
+        "Leader saw Laptop at distance 1.00 m near position x=-2.25, z=2.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Laptop at distance 1.31 m near position x=-2.50, z=2.50."
+      ],
+      "conversation_log": [
+        "LEADER: Laptop is ahead, move forward.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: Laptop is very close, continue moving forward.",
+        "HANDICAPPED: Moving forward as instructed.",
+        "LEADER: Laptop is now within reach, prepare to stop.",
+        "HANDICAPPED: Moving forward as instructed.",
+        "LEADER: We have reached the laptop, you can stop.",
+        "HANDICAPPED: Stopping as instructed."
+      ]
+    }
+  ]
+}

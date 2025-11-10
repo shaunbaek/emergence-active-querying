@@ -1,0 +1,664 @@
+{
+  "task_meta": {
+    "task_id": 36,
+    "scene": "FloorPlan13",
+    "room_type": "kitchen",
+    "target_type": "Cup",
+    "goal_text": "Navigate to the Cup."
+  },
+  "episode_time_sec": 48.606082832906395,
+  "steps": [
+    {
+      "step": 0,
+      "task_id": 36,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "Cup",
+      "goal_text": "Cooperatively navigate to the Cup.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "I see the Cup, it's a bit far. Move ahead.",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.8995019197463989,
+        "z": 3.75
+      },
+      "target_visible": false,
+      "target_distance": 1.8276258707046509,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: I see the Cup, it's a bit far. Move ahead.",
+        "HANDICAPPED: Moving ahead."
+      ]
+    },
+    {
+      "step": 0,
+      "task_id": 36,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "Cup",
+      "goal_text": "Cooperatively navigate to the Cup.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Moving ahead.",
+      "agent_position": {
+        "x": -1.0,
+        "y": 0.8995019197463989,
+        "z": 3.75
+      },
+      "target_visible": false,
+      "target_distance": 1.9355039596557617,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: I see the Cup, it's a bit far. Move ahead.",
+        "HANDICAPPED: Moving ahead."
+      ]
+    },
+    {
+      "step": 1,
+      "task_id": 36,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "Cup",
+      "goal_text": "Cooperatively navigate to the Cup.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "RotateRight",
+      "message": "I lost sight of the Cup. Rotating right to find it.",
+      "agent_position": {
+        "x": -2.25,
+        "y": 0.8995019197463989,
+        "z": 3.75
+      },
+      "target_visible": false,
+      "target_distance": 1.8844658136367798,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: I see the Cup, it's a bit far. Move ahead.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: I lost sight of the Cup. Rotating right to find it.",
+        "HANDICAPPED: Rotating right."
+      ]
+    },
+    {
+      "step": 1,
+      "task_id": 36,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "Cup",
+      "goal_text": "Cooperatively navigate to the Cup.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "RotateRight",
+      "message": "Rotating right.",
+      "agent_position": {
+        "x": -1.25,
+        "y": 0.8995019197463989,
+        "z": 3.75
+      },
+      "target_visible": false,
+      "target_distance": 1.859349250793457,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: I see the Cup, it's a bit far. Move ahead.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: I lost sight of the Cup. Rotating right to find it.",
+        "HANDICAPPED: Rotating right."
+      ]
+    },
+    {
+      "step": 2,
+      "task_id": 36,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "Cup",
+      "goal_text": "Cooperatively navigate to the Cup.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "RotateRight",
+      "message": "Still searching. Rotating right again.",
+      "agent_position": {
+        "x": -2.25,
+        "y": 0.8995019197463989,
+        "z": 3.75
+      },
+      "target_visible": false,
+      "target_distance": 1.8844658136367798,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: I see the Cup, it's a bit far. Move ahead.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: I lost sight of the Cup. Rotating right to find it.",
+        "HANDICAPPED: Rotating right.",
+        "LEADER: Still searching. Rotating right again.",
+        "HANDICAPPED: Rotating right."
+      ]
+    },
+    {
+      "step": 2,
+      "task_id": 36,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "Cup",
+      "goal_text": "Cooperatively navigate to the Cup.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "RotateRight",
+      "message": "Rotating right.",
+      "agent_position": {
+        "x": -1.25,
+        "y": 0.8995019197463989,
+        "z": 3.75
+      },
+      "target_visible": false,
+      "target_distance": 1.859349250793457,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: I see the Cup, it's a bit far. Move ahead.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: I lost sight of the Cup. Rotating right to find it.",
+        "HANDICAPPED: Rotating right.",
+        "LEADER: Still searching. Rotating right again.",
+        "HANDICAPPED: Rotating right."
+      ]
+    },
+    {
+      "step": 3,
+      "task_id": 36,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "Cup",
+      "goal_text": "Cooperatively navigate to the Cup.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "RotateRight",
+      "message": "Still searching for the Cup, rotating right.",
+      "agent_position": {
+        "x": -2.25,
+        "y": 0.8995019197463989,
+        "z": 3.75
+      },
+      "target_visible": false,
+      "target_distance": 1.8844658136367798,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: I see the Cup, it's a bit far. Move ahead.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: I lost sight of the Cup. Rotating right to find it.",
+        "HANDICAPPED: Rotating right.",
+        "LEADER: Still searching. Rotating right again.",
+        "HANDICAPPED: Rotating right.",
+        "LEADER: Still searching for the Cup, rotating right.",
+        "HANDICAPPED: Rotating right."
+      ]
+    },
+    {
+      "step": 3,
+      "task_id": 36,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "Cup",
+      "goal_text": "Cooperatively navigate to the Cup.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "RotateRight",
+      "message": "Rotating right.",
+      "agent_position": {
+        "x": -1.25,
+        "y": 0.8995019197463989,
+        "z": 3.75
+      },
+      "target_visible": false,
+      "target_distance": 1.859349250793457,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: I see the Cup, it's a bit far. Move ahead.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: I lost sight of the Cup. Rotating right to find it.",
+        "HANDICAPPED: Rotating right.",
+        "LEADER: Still searching. Rotating right again.",
+        "HANDICAPPED: Rotating right.",
+        "LEADER: Still searching for the Cup, rotating right.",
+        "HANDICAPPED: Rotating right."
+      ]
+    },
+    {
+      "step": 4,
+      "task_id": 36,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "Cup",
+      "goal_text": "Cooperatively navigate to the Cup.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "I see the Cup again. Move ahead towards it.",
+      "agent_position": {
+        "x": -2.25,
+        "y": 0.8995019197463989,
+        "z": 3.75
+      },
+      "target_visible": true,
+      "target_distance": 1.8844658136367798,
+      "leader_memory_snapshot": [
+        "Leader saw Cup at distance 1.88 m near position x=-2.25, z=3.75."
+      ],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: I see the Cup, it's a bit far. Move ahead.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: I lost sight of the Cup. Rotating right to find it.",
+        "HANDICAPPED: Rotating right.",
+        "LEADER: Still searching. Rotating right again.",
+        "HANDICAPPED: Rotating right.",
+        "LEADER: Still searching for the Cup, rotating right.",
+        "HANDICAPPED: Rotating right.",
+        "LEADER: I see the Cup again. Move ahead towards it.",
+        "HANDICAPPED: Moving ahead."
+      ]
+    },
+    {
+      "step": 4,
+      "task_id": 36,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "Cup",
+      "goal_text": "Cooperatively navigate to the Cup.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Moving ahead.",
+      "agent_position": {
+        "x": -1.25,
+        "y": 0.8995019197463989,
+        "z": 3.75
+      },
+      "target_visible": false,
+      "target_distance": 1.859349250793457,
+      "leader_memory_snapshot": [
+        "Leader saw Cup at distance 1.88 m near position x=-2.25, z=3.75."
+      ],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: I see the Cup, it's a bit far. Move ahead.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: I lost sight of the Cup. Rotating right to find it.",
+        "HANDICAPPED: Rotating right.",
+        "LEADER: Still searching. Rotating right again.",
+        "HANDICAPPED: Rotating right.",
+        "LEADER: Still searching for the Cup, rotating right.",
+        "HANDICAPPED: Rotating right.",
+        "LEADER: I see the Cup again. Move ahead towards it.",
+        "HANDICAPPED: Moving ahead."
+      ]
+    },
+    {
+      "step": 5,
+      "task_id": 36,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "Cup",
+      "goal_text": "Cooperatively navigate to the Cup.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "The Cup is closer, keep moving ahead.",
+      "agent_position": {
+        "x": -2.25,
+        "y": 0.8995019197463989,
+        "z": 3.5
+      },
+      "target_visible": true,
+      "target_distance": 1.646836757659912,
+      "leader_memory_snapshot": [
+        "Leader saw Cup at distance 1.88 m near position x=-2.25, z=3.75.",
+        "Leader saw Cup at distance 1.65 m near position x=-2.25, z=3.50."
+      ],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: I see the Cup, it's a bit far. Move ahead.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: I lost sight of the Cup. Rotating right to find it.",
+        "HANDICAPPED: Rotating right.",
+        "LEADER: Still searching. Rotating right again.",
+        "HANDICAPPED: Rotating right.",
+        "LEADER: Still searching for the Cup, rotating right.",
+        "HANDICAPPED: Rotating right.",
+        "LEADER: I see the Cup again. Move ahead towards it.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: The Cup is closer, keep moving ahead.",
+        "HANDICAPPED: Moving ahead towards the Cup."
+      ]
+    },
+    {
+      "step": 5,
+      "task_id": 36,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "Cup",
+      "goal_text": "Cooperatively navigate to the Cup.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Moving ahead towards the Cup.",
+      "agent_position": {
+        "x": -1.25,
+        "y": 0.8995019197463989,
+        "z": 4.0
+      },
+      "target_visible": false,
+      "target_distance": 2.102693557739258,
+      "leader_memory_snapshot": [
+        "Leader saw Cup at distance 1.88 m near position x=-2.25, z=3.75.",
+        "Leader saw Cup at distance 1.65 m near position x=-2.25, z=3.50."
+      ],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: I see the Cup, it's a bit far. Move ahead.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: I lost sight of the Cup. Rotating right to find it.",
+        "HANDICAPPED: Rotating right.",
+        "LEADER: Still searching. Rotating right again.",
+        "HANDICAPPED: Rotating right.",
+        "LEADER: Still searching for the Cup, rotating right.",
+        "HANDICAPPED: Rotating right.",
+        "LEADER: I see the Cup again. Move ahead towards it.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: The Cup is closer, keep moving ahead.",
+        "HANDICAPPED: Moving ahead towards the Cup."
+      ]
+    },
+    {
+      "step": 6,
+      "task_id": 36,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "Cup",
+      "goal_text": "Cooperatively navigate to the Cup.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "Keep moving ahead, the Cup is getting very close.",
+      "agent_position": {
+        "x": -2.25,
+        "y": 0.8995019197463989,
+        "z": 3.25
+      },
+      "target_visible": true,
+      "target_distance": 1.4134818315505981,
+      "leader_memory_snapshot": [
+        "Leader saw Cup at distance 1.88 m near position x=-2.25, z=3.75.",
+        "Leader saw Cup at distance 1.65 m near position x=-2.25, z=3.50.",
+        "Leader saw Cup at distance 1.41 m near position x=-2.25, z=3.25."
+      ],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: I see the Cup, it's a bit far. Move ahead.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: I lost sight of the Cup. Rotating right to find it.",
+        "HANDICAPPED: Rotating right.",
+        "LEADER: Still searching. Rotating right again.",
+        "HANDICAPPED: Rotating right.",
+        "LEADER: Still searching for the Cup, rotating right.",
+        "HANDICAPPED: Rotating right.",
+        "LEADER: I see the Cup again. Move ahead towards it.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: The Cup is closer, keep moving ahead.",
+        "HANDICAPPED: Moving ahead towards the Cup.",
+        "LEADER: Keep moving ahead, the Cup is getting very close.",
+        "HANDICAPPED: Moving ahead."
+      ]
+    },
+    {
+      "step": 6,
+      "task_id": 36,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "Cup",
+      "goal_text": "Cooperatively navigate to the Cup.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Moving ahead.",
+      "agent_position": {
+        "x": -1.25,
+        "y": 0.8995019197463989,
+        "z": 4.25
+      },
+      "target_visible": false,
+      "target_distance": 2.3474369049072266,
+      "leader_memory_snapshot": [
+        "Leader saw Cup at distance 1.88 m near position x=-2.25, z=3.75.",
+        "Leader saw Cup at distance 1.65 m near position x=-2.25, z=3.50.",
+        "Leader saw Cup at distance 1.41 m near position x=-2.25, z=3.25."
+      ],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: I see the Cup, it's a bit far. Move ahead.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: I lost sight of the Cup. Rotating right to find it.",
+        "HANDICAPPED: Rotating right.",
+        "LEADER: Still searching. Rotating right again.",
+        "HANDICAPPED: Rotating right.",
+        "LEADER: Still searching for the Cup, rotating right.",
+        "HANDICAPPED: Rotating right.",
+        "LEADER: I see the Cup again. Move ahead towards it.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: The Cup is closer, keep moving ahead.",
+        "HANDICAPPED: Moving ahead towards the Cup.",
+        "LEADER: Keep moving ahead, the Cup is getting very close.",
+        "HANDICAPPED: Moving ahead."
+      ]
+    },
+    {
+      "step": 7,
+      "task_id": 36,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "Cup",
+      "goal_text": "Cooperatively navigate to the Cup.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "The Cup is now very close. One more step.",
+      "agent_position": {
+        "x": -2.25,
+        "y": 0.8995019197463989,
+        "z": 3.0
+      },
+      "target_visible": true,
+      "target_distance": 1.186924695968628,
+      "leader_memory_snapshot": [
+        "Leader saw Cup at distance 1.88 m near position x=-2.25, z=3.75.",
+        "Leader saw Cup at distance 1.65 m near position x=-2.25, z=3.50.",
+        "Leader saw Cup at distance 1.41 m near position x=-2.25, z=3.25.",
+        "Leader saw Cup at distance 1.19 m near position x=-2.25, z=3.00."
+      ],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: I see the Cup, it's a bit far. Move ahead.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: I lost sight of the Cup. Rotating right to find it.",
+        "HANDICAPPED: Rotating right.",
+        "LEADER: Still searching. Rotating right again.",
+        "HANDICAPPED: Rotating right.",
+        "LEADER: Still searching for the Cup, rotating right.",
+        "HANDICAPPED: Rotating right.",
+        "LEADER: I see the Cup again. Move ahead towards it.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: The Cup is closer, keep moving ahead.",
+        "HANDICAPPED: Moving ahead towards the Cup.",
+        "LEADER: Keep moving ahead, the Cup is getting very close.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: The Cup is now very close. One more step.",
+        "HANDICAPPED: Moving ahead, Leader."
+      ]
+    },
+    {
+      "step": 7,
+      "task_id": 36,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "Cup",
+      "goal_text": "Cooperatively navigate to the Cup.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Moving ahead, Leader.",
+      "agent_position": {
+        "x": -1.25,
+        "y": 0.8995019197463989,
+        "z": 4.5
+      },
+      "target_visible": false,
+      "target_distance": 2.5931835174560547,
+      "leader_memory_snapshot": [
+        "Leader saw Cup at distance 1.88 m near position x=-2.25, z=3.75.",
+        "Leader saw Cup at distance 1.65 m near position x=-2.25, z=3.50.",
+        "Leader saw Cup at distance 1.41 m near position x=-2.25, z=3.25.",
+        "Leader saw Cup at distance 1.19 m near position x=-2.25, z=3.00."
+      ],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: I see the Cup, it's a bit far. Move ahead.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: I lost sight of the Cup. Rotating right to find it.",
+        "HANDICAPPED: Rotating right.",
+        "LEADER: Still searching. Rotating right again.",
+        "HANDICAPPED: Rotating right.",
+        "LEADER: Still searching for the Cup, rotating right.",
+        "HANDICAPPED: Rotating right.",
+        "LEADER: I see the Cup again. Move ahead towards it.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: The Cup is closer, keep moving ahead.",
+        "HANDICAPPED: Moving ahead towards the Cup.",
+        "LEADER: Keep moving ahead, the Cup is getting very close.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: The Cup is now very close. One more step.",
+        "HANDICAPPED: Moving ahead, Leader."
+      ]
+    },
+    {
+      "step": 8,
+      "task_id": 36,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "Cup",
+      "goal_text": "Cooperatively navigate to the Cup.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "Done",
+      "message": "We have reached the Cup. Well done!",
+      "agent_position": {
+        "x": -2.25,
+        "y": 0.8995019197463989,
+        "z": 2.75
+      },
+      "target_visible": true,
+      "target_distance": 0.9719310402870178,
+      "leader_memory_snapshot": [
+        "Leader saw Cup at distance 1.88 m near position x=-2.25, z=3.75.",
+        "Leader saw Cup at distance 1.65 m near position x=-2.25, z=3.50.",
+        "Leader saw Cup at distance 1.41 m near position x=-2.25, z=3.25.",
+        "Leader saw Cup at distance 1.19 m near position x=-2.25, z=3.00.",
+        "Leader saw Cup at distance 0.97 m near position x=-2.25, z=2.75."
+      ],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: I see the Cup, it's a bit far. Move ahead.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: I lost sight of the Cup. Rotating right to find it.",
+        "HANDICAPPED: Rotating right.",
+        "LEADER: Still searching. Rotating right again.",
+        "HANDICAPPED: Rotating right.",
+        "LEADER: Still searching for the Cup, rotating right.",
+        "HANDICAPPED: Rotating right.",
+        "LEADER: I see the Cup again. Move ahead towards it.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: The Cup is closer, keep moving ahead.",
+        "HANDICAPPED: Moving ahead towards the Cup.",
+        "LEADER: Keep moving ahead, the Cup is getting very close.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: The Cup is now very close. One more step.",
+        "HANDICAPPED: Moving ahead, Leader.",
+        "LEADER: We have reached the Cup. Well done!",
+        "HANDICAPPED: Target reached, Leader. Task complete."
+      ]
+    },
+    {
+      "step": 8,
+      "task_id": 36,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "Cup",
+      "goal_text": "Cooperatively navigate to the Cup.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "Done",
+      "message": "Target reached, Leader. Task complete.",
+      "agent_position": {
+        "x": -1.25,
+        "y": 0.8995019197463989,
+        "z": 4.75
+      },
+      "target_visible": false,
+      "target_distance": 2.839672803878784,
+      "leader_memory_snapshot": [
+        "Leader saw Cup at distance 1.88 m near position x=-2.25, z=3.75.",
+        "Leader saw Cup at distance 1.65 m near position x=-2.25, z=3.50.",
+        "Leader saw Cup at distance 1.41 m near position x=-2.25, z=3.25.",
+        "Leader saw Cup at distance 1.19 m near position x=-2.25, z=3.00.",
+        "Leader saw Cup at distance 0.97 m near position x=-2.25, z=2.75."
+      ],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: I see the Cup, it's a bit far. Move ahead.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: I lost sight of the Cup. Rotating right to find it.",
+        "HANDICAPPED: Rotating right.",
+        "LEADER: Still searching. Rotating right again.",
+        "HANDICAPPED: Rotating right.",
+        "LEADER: Still searching for the Cup, rotating right.",
+        "HANDICAPPED: Rotating right.",
+        "LEADER: I see the Cup again. Move ahead towards it.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: The Cup is closer, keep moving ahead.",
+        "HANDICAPPED: Moving ahead towards the Cup.",
+        "LEADER: Keep moving ahead, the Cup is getting very close.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: The Cup is now very close. One more step.",
+        "HANDICAPPED: Moving ahead, Leader.",
+        "LEADER: We have reached the Cup. Well done!",
+        "HANDICAPPED: Target reached, Leader. Task complete."
+      ]
+    }
+  ]
+}

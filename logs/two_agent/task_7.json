@@ -1,0 +1,1354 @@
+{
+  "task_meta": {
+    "task_id": 7,
+    "scene": "FloorPlan218",
+    "room_type": "living_room",
+    "target_type": "Television",
+    "goal_text": "Navigate to the Television."
+  },
+  "episode_time_sec": 111.67487504193559,
+  "steps": [
+    {
+      "step": 0,
+      "task_id": 7,
+      "scene": "FloorPlan218",
+      "room_type": "living_room",
+      "target_type": "Television",
+      "goal_text": "Cooperatively navigate to the Television.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "RotateRight",
+      "message": "I am rotating right to scan the room. Follow my lead.",
+      "agent_position": {
+        "x": -0.5,
+        "y": 0.9008399248123169,
+        "z": 4.5
+      },
+      "target_visible": false,
+      "target_distance": 1.6562429666519165,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: I am rotating right to scan the room. Follow my lead.",
+        "HANDICAPPED: Okay, rotating right."
+      ]
+    },
+    {
+      "step": 0,
+      "task_id": 7,
+      "scene": "FloorPlan218",
+      "room_type": "living_room",
+      "target_type": "Television",
+      "goal_text": "Cooperatively navigate to the Television.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "RotateRight",
+      "message": "Okay, rotating right.",
+      "agent_position": {
+        "x": 0.0,
+        "y": 0.9008399248123169,
+        "z": 5.0
+      },
+      "target_visible": false,
+      "target_distance": 1.6321147680282593,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: I am rotating right to scan the room. Follow my lead.",
+        "HANDICAPPED: Okay, rotating right."
+      ]
+    },
+    {
+      "step": 1,
+      "task_id": 7,
+      "scene": "FloorPlan218",
+      "room_type": "living_room",
+      "target_type": "Television",
+      "goal_text": "Cooperatively navigate to the Television.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "RotateRight",
+      "message": "Still scanning, continue rotating right.",
+      "agent_position": {
+        "x": -0.5,
+        "y": 0.9008399248123169,
+        "z": 4.5
+      },
+      "target_visible": false,
+      "target_distance": 1.6560035943984985,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: I am rotating right to scan the room. Follow my lead.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: Still scanning, continue rotating right.",
+        "HANDICAPPED: Affirmative, rotating right."
+      ]
+    },
+    {
+      "step": 1,
+      "task_id": 7,
+      "scene": "FloorPlan218",
+      "room_type": "living_room",
+      "target_type": "Television",
+      "goal_text": "Cooperatively navigate to the Television.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "RotateRight",
+      "message": "Affirmative, rotating right.",
+      "agent_position": {
+        "x": 0.0,
+        "y": 0.9008399248123169,
+        "z": 5.0
+      },
+      "target_visible": false,
+      "target_distance": 1.631870985031128,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: I am rotating right to scan the room. Follow my lead.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: Still scanning, continue rotating right.",
+        "HANDICAPPED: Affirmative, rotating right."
+      ]
+    },
+    {
+      "step": 2,
+      "task_id": 7,
+      "scene": "FloorPlan218",
+      "room_type": "living_room",
+      "target_type": "Television",
+      "goal_text": "Cooperatively navigate to the Television.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "I see the Television directly ahead. Let's move towards it.",
+      "agent_position": {
+        "x": -0.5,
+        "y": 0.9008399248123169,
+        "z": 4.5
+      },
+      "target_visible": true,
+      "target_distance": 1.6560035943984985,
+      "leader_memory_snapshot": [
+        "Leader saw Television at distance 1.66 m near position x=-0.50, z=4.50."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Television at distance 1.63 m near position x=0.00, z=5.00."
+      ],
+      "conversation_log": [
+        "LEADER: I am rotating right to scan the room. Follow my lead.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: Still scanning, continue rotating right.",
+        "HANDICAPPED: Affirmative, rotating right.",
+        "LEADER: I see the Television directly ahead. Let's move towards it.",
+        "HANDICAPPED: I also see the Television. Moving ahead."
+      ]
+    },
+    {
+      "step": 2,
+      "task_id": 7,
+      "scene": "FloorPlan218",
+      "room_type": "living_room",
+      "target_type": "Television",
+      "goal_text": "Cooperatively navigate to the Television.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "I also see the Television. Moving ahead.",
+      "agent_position": {
+        "x": 0.0,
+        "y": 0.9008399248123169,
+        "z": 5.0
+      },
+      "target_visible": true,
+      "target_distance": 1.631870985031128,
+      "leader_memory_snapshot": [
+        "Leader saw Television at distance 1.66 m near position x=-0.50, z=4.50."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Television at distance 1.63 m near position x=0.00, z=5.00."
+      ],
+      "conversation_log": [
+        "LEADER: I am rotating right to scan the room. Follow my lead.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: Still scanning, continue rotating right.",
+        "HANDICAPPED: Affirmative, rotating right.",
+        "LEADER: I see the Television directly ahead. Let's move towards it.",
+        "HANDICAPPED: I also see the Television. Moving ahead."
+      ]
+    },
+    {
+      "step": 3,
+      "task_id": 7,
+      "scene": "FloorPlan218",
+      "room_type": "living_room",
+      "target_type": "Television",
+      "goal_text": "Cooperatively navigate to the Television.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "Keep moving ahead, we are getting closer to the Television.",
+      "agent_position": {
+        "x": -0.2499999701976776,
+        "y": 0.9008399248123169,
+        "z": 4.5
+      },
+      "target_visible": true,
+      "target_distance": 1.4588731527328491,
+      "leader_memory_snapshot": [
+        "Leader saw Television at distance 1.66 m near position x=-0.50, z=4.50.",
+        "Leader saw Television at distance 1.46 m near position x=-0.25, z=4.50."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Television at distance 1.63 m near position x=0.00, z=5.00.",
+        "Handicapped saw Television at distance 1.52 m near position x=0.25, z=5.00."
+      ],
+      "conversation_log": [
+        "LEADER: I am rotating right to scan the room. Follow my lead.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: Still scanning, continue rotating right.",
+        "HANDICAPPED: Affirmative, rotating right.",
+        "LEADER: I see the Television directly ahead. Let's move towards it.",
+        "HANDICAPPED: I also see the Television. Moving ahead.",
+        "LEADER: Keep moving ahead, we are getting closer to the Television.",
+        "HANDICAPPED: Moving ahead with you."
+      ]
+    },
+    {
+      "step": 3,
+      "task_id": 7,
+      "scene": "FloorPlan218",
+      "room_type": "living_room",
+      "target_type": "Television",
+      "goal_text": "Cooperatively navigate to the Television.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Moving ahead with you.",
+      "agent_position": {
+        "x": 0.2500000298023224,
+        "y": 0.9008399248123169,
+        "z": 5.0
+      },
+      "target_visible": true,
+      "target_distance": 1.516234040260315,
+      "leader_memory_snapshot": [
+        "Leader saw Television at distance 1.66 m near position x=-0.50, z=4.50.",
+        "Leader saw Television at distance 1.46 m near position x=-0.25, z=4.50."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Television at distance 1.63 m near position x=0.00, z=5.00.",
+        "Handicapped saw Television at distance 1.52 m near position x=0.25, z=5.00."
+      ],
+      "conversation_log": [
+        "LEADER: I am rotating right to scan the room. Follow my lead.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: Still scanning, continue rotating right.",
+        "HANDICAPPED: Affirmative, rotating right.",
+        "LEADER: I see the Television directly ahead. Let's move towards it.",
+        "HANDICAPPED: I also see the Television. Moving ahead.",
+        "LEADER: Keep moving ahead, we are getting closer to the Television.",
+        "HANDICAPPED: Moving ahead with you."
+      ]
+    },
+    {
+      "step": 4,
+      "task_id": 7,
+      "scene": "FloorPlan218",
+      "room_type": "living_room",
+      "target_type": "Television",
+      "goal_text": "Cooperatively navigate to the Television.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "We are very close to the Television, keep moving ahead.",
+      "agent_position": {
+        "x": 5.960464477539063e-08,
+        "y": 0.9008399248123169,
+        "z": 4.5
+      },
+      "target_visible": true,
+      "target_distance": 1.2803412675857544,
+      "leader_memory_snapshot": [
+        "Leader saw Television at distance 1.66 m near position x=-0.50, z=4.50.",
+        "Leader saw Television at distance 1.46 m near position x=-0.25, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Television at distance 1.63 m near position x=0.00, z=5.00.",
+        "Handicapped saw Television at distance 1.52 m near position x=0.25, z=5.00."
+      ],
+      "conversation_log": [
+        "LEADER: I am rotating right to scan the room. Follow my lead.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: Still scanning, continue rotating right.",
+        "HANDICAPPED: Affirmative, rotating right.",
+        "LEADER: I see the Television directly ahead. Let's move towards it.",
+        "HANDICAPPED: I also see the Television. Moving ahead.",
+        "LEADER: Keep moving ahead, we are getting closer to the Television.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: We are very close to the Television, keep moving ahead.",
+        "HANDICAPPED: Moving ahead with you."
+      ]
+    },
+    {
+      "step": 4,
+      "task_id": 7,
+      "scene": "FloorPlan218",
+      "room_type": "living_room",
+      "target_type": "Television",
+      "goal_text": "Cooperatively navigate to the Television.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Moving ahead with you.",
+      "agent_position": {
+        "x": 0.5000000596046448,
+        "y": 0.9008399248123169,
+        "z": 5.0
+      },
+      "target_visible": false,
+      "target_distance": 1.4352450370788574,
+      "leader_memory_snapshot": [
+        "Leader saw Television at distance 1.66 m near position x=-0.50, z=4.50.",
+        "Leader saw Television at distance 1.46 m near position x=-0.25, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Television at distance 1.63 m near position x=0.00, z=5.00.",
+        "Handicapped saw Television at distance 1.52 m near position x=0.25, z=5.00."
+      ],
+      "conversation_log": [
+        "LEADER: I am rotating right to scan the room. Follow my lead.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: Still scanning, continue rotating right.",
+        "HANDICAPPED: Affirmative, rotating right.",
+        "LEADER: I see the Television directly ahead. Let's move towards it.",
+        "HANDICAPPED: I also see the Television. Moving ahead.",
+        "LEADER: Keep moving ahead, we are getting closer to the Television.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: We are very close to the Television, keep moving ahead.",
+        "HANDICAPPED: Moving ahead with you."
+      ]
+    },
+    {
+      "step": 5,
+      "task_id": 7,
+      "scene": "FloorPlan218",
+      "room_type": "living_room",
+      "target_type": "Television",
+      "goal_text": "Cooperatively navigate to the Television.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "Keep moving ahead, we are still a bit away from the Television.",
+      "agent_position": {
+        "x": 5.960464477539063e-08,
+        "y": 0.9008399248123169,
+        "z": 4.5
+      },
+      "target_visible": true,
+      "target_distance": 1.2803518772125244,
+      "leader_memory_snapshot": [
+        "Leader saw Television at distance 1.66 m near position x=-0.50, z=4.50.",
+        "Leader saw Television at distance 1.46 m near position x=-0.25, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Television at distance 1.63 m near position x=0.00, z=5.00.",
+        "Handicapped saw Television at distance 1.52 m near position x=0.25, z=5.00."
+      ],
+      "conversation_log": [
+        "LEADER: I am rotating right to scan the room. Follow my lead.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: Still scanning, continue rotating right.",
+        "HANDICAPPED: Affirmative, rotating right.",
+        "LEADER: I see the Television directly ahead. Let's move towards it.",
+        "HANDICAPPED: I also see the Television. Moving ahead.",
+        "LEADER: Keep moving ahead, we are getting closer to the Television.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: We are very close to the Television, keep moving ahead.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Keep moving ahead, we are still a bit away from the Television.",
+        "HANDICAPPED: Affirmative, moving ahead with you."
+      ]
+    },
+    {
+      "step": 5,
+      "task_id": 7,
+      "scene": "FloorPlan218",
+      "room_type": "living_room",
+      "target_type": "Television",
+      "goal_text": "Cooperatively navigate to the Television.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Affirmative, moving ahead with you.",
+      "agent_position": {
+        "x": 0.5000000596046448,
+        "y": 0.9008399248123169,
+        "z": 5.0
+      },
+      "target_visible": false,
+      "target_distance": 1.4351978302001953,
+      "leader_memory_snapshot": [
+        "Leader saw Television at distance 1.66 m near position x=-0.50, z=4.50.",
+        "Leader saw Television at distance 1.46 m near position x=-0.25, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Television at distance 1.63 m near position x=0.00, z=5.00.",
+        "Handicapped saw Television at distance 1.52 m near position x=0.25, z=5.00."
+      ],
+      "conversation_log": [
+        "LEADER: I am rotating right to scan the room. Follow my lead.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: Still scanning, continue rotating right.",
+        "HANDICAPPED: Affirmative, rotating right.",
+        "LEADER: I see the Television directly ahead. Let's move towards it.",
+        "HANDICAPPED: I also see the Television. Moving ahead.",
+        "LEADER: Keep moving ahead, we are getting closer to the Television.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: We are very close to the Television, keep moving ahead.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Keep moving ahead, we are still a bit away from the Television.",
+        "HANDICAPPED: Affirmative, moving ahead with you."
+      ]
+    },
+    {
+      "step": 6,
+      "task_id": 7,
+      "scene": "FloorPlan218",
+      "room_type": "living_room",
+      "target_type": "Television",
+      "goal_text": "Cooperatively navigate to the Television.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "We are very close to the Television, moving ahead one more step.",
+      "agent_position": {
+        "x": 5.960464477539063e-08,
+        "y": 0.9008399248123169,
+        "z": 4.5
+      },
+      "target_visible": true,
+      "target_distance": 1.2803624868392944,
+      "leader_memory_snapshot": [
+        "Leader saw Television at distance 1.66 m near position x=-0.50, z=4.50.",
+        "Leader saw Television at distance 1.46 m near position x=-0.25, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Television at distance 1.63 m near position x=0.00, z=5.00.",
+        "Handicapped saw Television at distance 1.52 m near position x=0.25, z=5.00."
+      ],
+      "conversation_log": [
+        "LEADER: I am rotating right to scan the room. Follow my lead.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: Still scanning, continue rotating right.",
+        "HANDICAPPED: Affirmative, rotating right.",
+        "LEADER: I see the Television directly ahead. Let's move towards it.",
+        "HANDICAPPED: I also see the Television. Moving ahead.",
+        "LEADER: Keep moving ahead, we are getting closer to the Television.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: We are very close to the Television, keep moving ahead.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Keep moving ahead, we are still a bit away from the Television.",
+        "HANDICAPPED: Affirmative, moving ahead with you.",
+        "LEADER: We are very close to the Television, moving ahead one more step.",
+        "HANDICAPPED: Moving ahead with you."
+      ]
+    },
+    {
+      "step": 6,
+      "task_id": 7,
+      "scene": "FloorPlan218",
+      "room_type": "living_room",
+      "target_type": "Television",
+      "goal_text": "Cooperatively navigate to the Television.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Moving ahead with you.",
+      "agent_position": {
+        "x": 0.5000000596046448,
+        "y": 0.9008399248123169,
+        "z": 5.0
+      },
+      "target_visible": false,
+      "target_distance": 1.4351977109909058,
+      "leader_memory_snapshot": [
+        "Leader saw Television at distance 1.66 m near position x=-0.50, z=4.50.",
+        "Leader saw Television at distance 1.46 m near position x=-0.25, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Television at distance 1.63 m near position x=0.00, z=5.00.",
+        "Handicapped saw Television at distance 1.52 m near position x=0.25, z=5.00."
+      ],
+      "conversation_log": [
+        "LEADER: I am rotating right to scan the room. Follow my lead.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: Still scanning, continue rotating right.",
+        "HANDICAPPED: Affirmative, rotating right.",
+        "LEADER: I see the Television directly ahead. Let's move towards it.",
+        "HANDICAPPED: I also see the Television. Moving ahead.",
+        "LEADER: Keep moving ahead, we are getting closer to the Television.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: We are very close to the Television, keep moving ahead.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Keep moving ahead, we are still a bit away from the Television.",
+        "HANDICAPPED: Affirmative, moving ahead with you.",
+        "LEADER: We are very close to the Television, moving ahead one more step.",
+        "HANDICAPPED: Moving ahead with you."
+      ]
+    },
+    {
+      "step": 7,
+      "task_id": 7,
+      "scene": "FloorPlan218",
+      "room_type": "living_room",
+      "target_type": "Television",
+      "goal_text": "Cooperatively navigate to the Television.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "Still moving towards the Television, it's very close now.",
+      "agent_position": {
+        "x": 5.960464477539063e-08,
+        "y": 0.9008399248123169,
+        "z": 4.5
+      },
+      "target_visible": true,
+      "target_distance": 1.2803571224212646,
+      "leader_memory_snapshot": [
+        "Leader saw Television at distance 1.66 m near position x=-0.50, z=4.50.",
+        "Leader saw Television at distance 1.46 m near position x=-0.25, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Television at distance 1.63 m near position x=0.00, z=5.00.",
+        "Handicapped saw Television at distance 1.52 m near position x=0.25, z=5.00."
+      ],
+      "conversation_log": [
+        "LEADER: I am rotating right to scan the room. Follow my lead.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: Still scanning, continue rotating right.",
+        "HANDICAPPED: Affirmative, rotating right.",
+        "LEADER: I see the Television directly ahead. Let's move towards it.",
+        "HANDICAPPED: I also see the Television. Moving ahead.",
+        "LEADER: Keep moving ahead, we are getting closer to the Television.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: We are very close to the Television, keep moving ahead.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Keep moving ahead, we are still a bit away from the Television.",
+        "HANDICAPPED: Affirmative, moving ahead with you.",
+        "LEADER: We are very close to the Television, moving ahead one more step.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Still moving towards the Television, it's very close now.",
+        "HANDICAPPED: Moving ahead with you."
+      ]
+    },
+    {
+      "step": 7,
+      "task_id": 7,
+      "scene": "FloorPlan218",
+      "room_type": "living_room",
+      "target_type": "Television",
+      "goal_text": "Cooperatively navigate to the Television.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Moving ahead with you.",
+      "agent_position": {
+        "x": 0.5000000596046448,
+        "y": 0.9008399248123169,
+        "z": 5.0
+      },
+      "target_visible": false,
+      "target_distance": 1.4351460933685303,
+      "leader_memory_snapshot": [
+        "Leader saw Television at distance 1.66 m near position x=-0.50, z=4.50.",
+        "Leader saw Television at distance 1.46 m near position x=-0.25, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Television at distance 1.63 m near position x=0.00, z=5.00.",
+        "Handicapped saw Television at distance 1.52 m near position x=0.25, z=5.00."
+      ],
+      "conversation_log": [
+        "LEADER: I am rotating right to scan the room. Follow my lead.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: Still scanning, continue rotating right.",
+        "HANDICAPPED: Affirmative, rotating right.",
+        "LEADER: I see the Television directly ahead. Let's move towards it.",
+        "HANDICAPPED: I also see the Television. Moving ahead.",
+        "LEADER: Keep moving ahead, we are getting closer to the Television.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: We are very close to the Television, keep moving ahead.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Keep moving ahead, we are still a bit away from the Television.",
+        "HANDICAPPED: Affirmative, moving ahead with you.",
+        "LEADER: We are very close to the Television, moving ahead one more step.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Still moving towards the Television, it's very close now.",
+        "HANDICAPPED: Moving ahead with you."
+      ]
+    },
+    {
+      "step": 8,
+      "task_id": 7,
+      "scene": "FloorPlan218",
+      "room_type": "living_room",
+      "target_type": "Television",
+      "goal_text": "Cooperatively navigate to the Television.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "We are very close, moving ahead to reach the Television.",
+      "agent_position": {
+        "x": 5.960464477539063e-08,
+        "y": 0.9008399248123169,
+        "z": 4.5
+      },
+      "target_visible": true,
+      "target_distance": 1.2803325653076172,
+      "leader_memory_snapshot": [
+        "Leader saw Television at distance 1.66 m near position x=-0.50, z=4.50.",
+        "Leader saw Television at distance 1.46 m near position x=-0.25, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Television at distance 1.63 m near position x=0.00, z=5.00.",
+        "Handicapped saw Television at distance 1.52 m near position x=0.25, z=5.00."
+      ],
+      "conversation_log": [
+        "LEADER: I am rotating right to scan the room. Follow my lead.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: Still scanning, continue rotating right.",
+        "HANDICAPPED: Affirmative, rotating right.",
+        "LEADER: I see the Television directly ahead. Let's move towards it.",
+        "HANDICAPPED: I also see the Television. Moving ahead.",
+        "LEADER: Keep moving ahead, we are getting closer to the Television.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: We are very close to the Television, keep moving ahead.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Keep moving ahead, we are still a bit away from the Television.",
+        "HANDICAPPED: Affirmative, moving ahead with you.",
+        "LEADER: We are very close to the Television, moving ahead one more step.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Still moving towards the Television, it's very close now.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: We are very close, moving ahead to reach the Television.",
+        "HANDICAPPED: Moving ahead with you."
+      ]
+    },
+    {
+      "step": 8,
+      "task_id": 7,
+      "scene": "FloorPlan218",
+      "room_type": "living_room",
+      "target_type": "Television",
+      "goal_text": "Cooperatively navigate to the Television.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Moving ahead with you.",
+      "agent_position": {
+        "x": 0.5000000596046448,
+        "y": 0.9008399248123169,
+        "z": 5.0
+      },
+      "target_visible": false,
+      "target_distance": 1.4351458549499512,
+      "leader_memory_snapshot": [
+        "Leader saw Television at distance 1.66 m near position x=-0.50, z=4.50.",
+        "Leader saw Television at distance 1.46 m near position x=-0.25, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Television at distance 1.63 m near position x=0.00, z=5.00.",
+        "Handicapped saw Television at distance 1.52 m near position x=0.25, z=5.00."
+      ],
+      "conversation_log": [
+        "LEADER: I am rotating right to scan the room. Follow my lead.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: Still scanning, continue rotating right.",
+        "HANDICAPPED: Affirmative, rotating right.",
+        "LEADER: I see the Television directly ahead. Let's move towards it.",
+        "HANDICAPPED: I also see the Television. Moving ahead.",
+        "LEADER: Keep moving ahead, we are getting closer to the Television.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: We are very close to the Television, keep moving ahead.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Keep moving ahead, we are still a bit away from the Television.",
+        "HANDICAPPED: Affirmative, moving ahead with you.",
+        "LEADER: We are very close to the Television, moving ahead one more step.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Still moving towards the Television, it's very close now.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: We are very close, moving ahead to reach the Television.",
+        "HANDICAPPED: Moving ahead with you."
+      ]
+    },
+    {
+      "step": 9,
+      "task_id": 7,
+      "scene": "FloorPlan218",
+      "room_type": "living_room",
+      "target_type": "Television",
+      "goal_text": "Cooperatively navigate to the Television.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "Continue moving ahead, we are almost at the Television.",
+      "agent_position": {
+        "x": 5.960464477539063e-08,
+        "y": 0.9008399248123169,
+        "z": 4.5
+      },
+      "target_visible": true,
+      "target_distance": 1.2803186178207397,
+      "leader_memory_snapshot": [
+        "Leader saw Television at distance 1.66 m near position x=-0.50, z=4.50.",
+        "Leader saw Television at distance 1.46 m near position x=-0.25, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Television at distance 1.63 m near position x=0.00, z=5.00.",
+        "Handicapped saw Television at distance 1.52 m near position x=0.25, z=5.00."
+      ],
+      "conversation_log": [
+        "LEADER: I am rotating right to scan the room. Follow my lead.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: Still scanning, continue rotating right.",
+        "HANDICAPPED: Affirmative, rotating right.",
+        "LEADER: I see the Television directly ahead. Let's move towards it.",
+        "HANDICAPPED: I also see the Television. Moving ahead.",
+        "LEADER: Keep moving ahead, we are getting closer to the Television.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: We are very close to the Television, keep moving ahead.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Keep moving ahead, we are still a bit away from the Television.",
+        "HANDICAPPED: Affirmative, moving ahead with you.",
+        "LEADER: We are very close to the Television, moving ahead one more step.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Still moving towards the Television, it's very close now.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: We are very close, moving ahead to reach the Television.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Continue moving ahead, we are almost at the Television.",
+        "HANDICAPPED: Moving ahead with you."
+      ]
+    },
+    {
+      "step": 9,
+      "task_id": 7,
+      "scene": "FloorPlan218",
+      "room_type": "living_room",
+      "target_type": "Television",
+      "goal_text": "Cooperatively navigate to the Television.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Moving ahead with you.",
+      "agent_position": {
+        "x": 0.5000000596046448,
+        "y": 0.9008399248123169,
+        "z": 5.0
+      },
+      "target_visible": false,
+      "target_distance": 1.4350857734680176,
+      "leader_memory_snapshot": [
+        "Leader saw Television at distance 1.66 m near position x=-0.50, z=4.50.",
+        "Leader saw Television at distance 1.46 m near position x=-0.25, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Television at distance 1.63 m near position x=0.00, z=5.00.",
+        "Handicapped saw Television at distance 1.52 m near position x=0.25, z=5.00."
+      ],
+      "conversation_log": [
+        "LEADER: I am rotating right to scan the room. Follow my lead.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: Still scanning, continue rotating right.",
+        "HANDICAPPED: Affirmative, rotating right.",
+        "LEADER: I see the Television directly ahead. Let's move towards it.",
+        "HANDICAPPED: I also see the Television. Moving ahead.",
+        "LEADER: Keep moving ahead, we are getting closer to the Television.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: We are very close to the Television, keep moving ahead.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Keep moving ahead, we are still a bit away from the Television.",
+        "HANDICAPPED: Affirmative, moving ahead with you.",
+        "LEADER: We are very close to the Television, moving ahead one more step.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Still moving towards the Television, it's very close now.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: We are very close, moving ahead to reach the Television.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Continue moving ahead, we are almost at the Television.",
+        "HANDICAPPED: Moving ahead with you."
+      ]
+    },
+    {
+      "step": 10,
+      "task_id": 7,
+      "scene": "FloorPlan218",
+      "room_type": "living_room",
+      "target_type": "Television",
+      "goal_text": "Cooperatively navigate to the Television.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "We are extremely close, one final step towards the Television.",
+      "agent_position": {
+        "x": 5.960464477539063e-08,
+        "y": 0.9008399248123169,
+        "z": 4.5
+      },
+      "target_visible": true,
+      "target_distance": 1.2802784442901611,
+      "leader_memory_snapshot": [
+        "Leader saw Television at distance 1.66 m near position x=-0.50, z=4.50.",
+        "Leader saw Television at distance 1.46 m near position x=-0.25, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Television at distance 1.63 m near position x=0.00, z=5.00.",
+        "Handicapped saw Television at distance 1.52 m near position x=0.25, z=5.00."
+      ],
+      "conversation_log": [
+        "LEADER: I am rotating right to scan the room. Follow my lead.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: Still scanning, continue rotating right.",
+        "HANDICAPPED: Affirmative, rotating right.",
+        "LEADER: I see the Television directly ahead. Let's move towards it.",
+        "HANDICAPPED: I also see the Television. Moving ahead.",
+        "LEADER: Keep moving ahead, we are getting closer to the Television.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: We are very close to the Television, keep moving ahead.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Keep moving ahead, we are still a bit away from the Television.",
+        "HANDICAPPED: Affirmative, moving ahead with you.",
+        "LEADER: We are very close to the Television, moving ahead one more step.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Still moving towards the Television, it's very close now.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: We are very close, moving ahead to reach the Television.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Continue moving ahead, we are almost at the Television.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: We are extremely close, one final step towards the Television.",
+        "HANDICAPPED: Moving ahead with you."
+      ]
+    },
+    {
+      "step": 10,
+      "task_id": 7,
+      "scene": "FloorPlan218",
+      "room_type": "living_room",
+      "target_type": "Television",
+      "goal_text": "Cooperatively navigate to the Television.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Moving ahead with you.",
+      "agent_position": {
+        "x": 0.5000000596046448,
+        "y": 0.9008399248123169,
+        "z": 5.0
+      },
+      "target_visible": false,
+      "target_distance": 1.4350851774215698,
+      "leader_memory_snapshot": [
+        "Leader saw Television at distance 1.66 m near position x=-0.50, z=4.50.",
+        "Leader saw Television at distance 1.46 m near position x=-0.25, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Television at distance 1.63 m near position x=0.00, z=5.00.",
+        "Handicapped saw Television at distance 1.52 m near position x=0.25, z=5.00."
+      ],
+      "conversation_log": [
+        "LEADER: I am rotating right to scan the room. Follow my lead.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: Still scanning, continue rotating right.",
+        "HANDICAPPED: Affirmative, rotating right.",
+        "LEADER: I see the Television directly ahead. Let's move towards it.",
+        "HANDICAPPED: I also see the Television. Moving ahead.",
+        "LEADER: Keep moving ahead, we are getting closer to the Television.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: We are very close to the Television, keep moving ahead.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Keep moving ahead, we are still a bit away from the Television.",
+        "HANDICAPPED: Affirmative, moving ahead with you.",
+        "LEADER: We are very close to the Television, moving ahead one more step.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Still moving towards the Television, it's very close now.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: We are very close, moving ahead to reach the Television.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Continue moving ahead, we are almost at the Television.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: We are extremely close, one final step towards the Television.",
+        "HANDICAPPED: Moving ahead with you."
+      ]
+    },
+    {
+      "step": 11,
+      "task_id": 7,
+      "scene": "FloorPlan218",
+      "room_type": "living_room",
+      "target_type": "Television",
+      "goal_text": "Cooperatively navigate to the Television.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "RotateLeft",
+      "message": "Moving ahead is not reducing the distance. I am rotating left to re-align with the Television. Please rotate left with me.",
+      "agent_position": {
+        "x": 5.960464477539063e-08,
+        "y": 0.9008399248123169,
+        "z": 4.5
+      },
+      "target_visible": true,
+      "target_distance": 1.280261754989624,
+      "leader_memory_snapshot": [
+        "Leader saw Television at distance 1.66 m near position x=-0.50, z=4.50.",
+        "Leader saw Television at distance 1.46 m near position x=-0.25, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Television at distance 1.63 m near position x=0.00, z=5.00.",
+        "Handicapped saw Television at distance 1.52 m near position x=0.25, z=5.00."
+      ],
+      "conversation_log": [
+        "LEADER: I am rotating right to scan the room. Follow my lead.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: Still scanning, continue rotating right.",
+        "HANDICAPPED: Affirmative, rotating right.",
+        "LEADER: I see the Television directly ahead. Let's move towards it.",
+        "HANDICAPPED: I also see the Television. Moving ahead.",
+        "LEADER: Keep moving ahead, we are getting closer to the Television.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: We are very close to the Television, keep moving ahead.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Keep moving ahead, we are still a bit away from the Television.",
+        "HANDICAPPED: Affirmative, moving ahead with you.",
+        "LEADER: We are very close to the Television, moving ahead one more step.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Still moving towards the Television, it's very close now.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: We are very close, moving ahead to reach the Television.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Continue moving ahead, we are almost at the Television.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: We are extremely close, one final step towards the Television.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Moving ahead is not reducing the distance. I am rotating left to re-align with the Television. Please rotate left with me.",
+        "HANDICAPPED: Rotating left to follow your lead."
+      ]
+    },
+    {
+      "step": 11,
+      "task_id": 7,
+      "scene": "FloorPlan218",
+      "room_type": "living_room",
+      "target_type": "Television",
+      "goal_text": "Cooperatively navigate to the Television.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "RotateLeft",
+      "message": "Rotating left to follow your lead.",
+      "agent_position": {
+        "x": 0.5000000596046448,
+        "y": 0.9008399248123169,
+        "z": 5.0
+      },
+      "target_visible": false,
+      "target_distance": 1.4350217580795288,
+      "leader_memory_snapshot": [
+        "Leader saw Television at distance 1.66 m near position x=-0.50, z=4.50.",
+        "Leader saw Television at distance 1.46 m near position x=-0.25, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Television at distance 1.63 m near position x=0.00, z=5.00.",
+        "Handicapped saw Television at distance 1.52 m near position x=0.25, z=5.00."
+      ],
+      "conversation_log": [
+        "LEADER: I am rotating right to scan the room. Follow my lead.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: Still scanning, continue rotating right.",
+        "HANDICAPPED: Affirmative, rotating right.",
+        "LEADER: I see the Television directly ahead. Let's move towards it.",
+        "HANDICAPPED: I also see the Television. Moving ahead.",
+        "LEADER: Keep moving ahead, we are getting closer to the Television.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: We are very close to the Television, keep moving ahead.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Keep moving ahead, we are still a bit away from the Television.",
+        "HANDICAPPED: Affirmative, moving ahead with you.",
+        "LEADER: We are very close to the Television, moving ahead one more step.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Still moving towards the Television, it's very close now.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: We are very close, moving ahead to reach the Television.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Continue moving ahead, we are almost at the Television.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: We are extremely close, one final step towards the Television.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Moving ahead is not reducing the distance. I am rotating left to re-align with the Television. Please rotate left with me.",
+        "HANDICAPPED: Rotating left to follow your lead."
+      ]
+    },
+    {
+      "step": 12,
+      "task_id": 7,
+      "scene": "FloorPlan218",
+      "room_type": "living_room",
+      "target_type": "Television",
+      "goal_text": "Cooperatively navigate to the Television.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "LookUp",
+      "message": "Moving ahead isn't reducing the distance, and I suspect the Television might be at a different height. I'm looking up to check. Please look up with me.",
+      "agent_position": {
+        "x": 5.960464477539063e-08,
+        "y": 0.9008399248123169,
+        "z": 4.5
+      },
+      "target_visible": true,
+      "target_distance": 1.2802178859710693,
+      "leader_memory_snapshot": [
+        "Leader saw Television at distance 1.66 m near position x=-0.50, z=4.50.",
+        "Leader saw Television at distance 1.46 m near position x=-0.25, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Television at distance 1.63 m near position x=0.00, z=5.00.",
+        "Handicapped saw Television at distance 1.52 m near position x=0.25, z=5.00."
+      ],
+      "conversation_log": [
+        "LEADER: I am rotating right to scan the room. Follow my lead.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: Still scanning, continue rotating right.",
+        "HANDICAPPED: Affirmative, rotating right.",
+        "LEADER: I see the Television directly ahead. Let's move towards it.",
+        "HANDICAPPED: I also see the Television. Moving ahead.",
+        "LEADER: Keep moving ahead, we are getting closer to the Television.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: We are very close to the Television, keep moving ahead.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Keep moving ahead, we are still a bit away from the Television.",
+        "HANDICAPPED: Affirmative, moving ahead with you.",
+        "LEADER: We are very close to the Television, moving ahead one more step.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Still moving towards the Television, it's very close now.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: We are very close, moving ahead to reach the Television.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Continue moving ahead, we are almost at the Television.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: We are extremely close, one final step towards the Television.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Moving ahead is not reducing the distance. I am rotating left to re-align with the Television. Please rotate left with me.",
+        "HANDICAPPED: Rotating left to follow your lead.",
+        "LEADER: Moving ahead isn't reducing the distance, and I suspect the Television might be at a different height. I'm looking up to check. Please look up with me.",
+        "HANDICAPPED: Acknowledged, looking up."
+      ]
+    },
+    {
+      "step": 12,
+      "task_id": 7,
+      "scene": "FloorPlan218",
+      "room_type": "living_room",
+      "target_type": "Television",
+      "goal_text": "Cooperatively navigate to the Television.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "LookUp",
+      "message": "Acknowledged, looking up.",
+      "agent_position": {
+        "x": 0.5000000596046448,
+        "y": 0.9008399248123169,
+        "z": 5.0
+      },
+      "target_visible": false,
+      "target_distance": 1.4349863529205322,
+      "leader_memory_snapshot": [
+        "Leader saw Television at distance 1.66 m near position x=-0.50, z=4.50.",
+        "Leader saw Television at distance 1.46 m near position x=-0.25, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Television at distance 1.63 m near position x=0.00, z=5.00.",
+        "Handicapped saw Television at distance 1.52 m near position x=0.25, z=5.00."
+      ],
+      "conversation_log": [
+        "LEADER: I am rotating right to scan the room. Follow my lead.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: Still scanning, continue rotating right.",
+        "HANDICAPPED: Affirmative, rotating right.",
+        "LEADER: I see the Television directly ahead. Let's move towards it.",
+        "HANDICAPPED: I also see the Television. Moving ahead.",
+        "LEADER: Keep moving ahead, we are getting closer to the Television.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: We are very close to the Television, keep moving ahead.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Keep moving ahead, we are still a bit away from the Television.",
+        "HANDICAPPED: Affirmative, moving ahead with you.",
+        "LEADER: We are very close to the Television, moving ahead one more step.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Still moving towards the Television, it's very close now.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: We are very close, moving ahead to reach the Television.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Continue moving ahead, we are almost at the Television.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: We are extremely close, one final step towards the Television.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Moving ahead is not reducing the distance. I am rotating left to re-align with the Television. Please rotate left with me.",
+        "HANDICAPPED: Rotating left to follow your lead.",
+        "LEADER: Moving ahead isn't reducing the distance, and I suspect the Television might be at a different height. I'm looking up to check. Please look up with me.",
+        "HANDICAPPED: Acknowledged, looking up."
+      ]
+    },
+    {
+      "step": 13,
+      "task_id": 7,
+      "scene": "FloorPlan218",
+      "room_type": "living_room",
+      "target_type": "Television",
+      "goal_text": "Cooperatively navigate to the Television.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "Done",
+      "message": "We have reached the Television's horizontal position. Since we cannot move vertically, we are as close as possible. We are done.",
+      "agent_position": {
+        "x": 5.960464477539063e-08,
+        "y": 0.9008399248123169,
+        "z": 4.5
+      },
+      "target_visible": true,
+      "target_distance": 1.2801820039749146,
+      "leader_memory_snapshot": [
+        "Leader saw Television at distance 1.66 m near position x=-0.50, z=4.50.",
+        "Leader saw Television at distance 1.46 m near position x=-0.25, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Television at distance 1.63 m near position x=0.00, z=5.00.",
+        "Handicapped saw Television at distance 1.52 m near position x=0.25, z=5.00."
+      ],
+      "conversation_log": [
+        "LEADER: I am rotating right to scan the room. Follow my lead.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: Still scanning, continue rotating right.",
+        "HANDICAPPED: Affirmative, rotating right.",
+        "LEADER: I see the Television directly ahead. Let's move towards it.",
+        "HANDICAPPED: I also see the Television. Moving ahead.",
+        "LEADER: Keep moving ahead, we are getting closer to the Television.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: We are very close to the Television, keep moving ahead.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Keep moving ahead, we are still a bit away from the Television.",
+        "HANDICAPPED: Affirmative, moving ahead with you.",
+        "LEADER: We are very close to the Television, moving ahead one more step.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Still moving towards the Television, it's very close now.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: We are very close, moving ahead to reach the Television.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Continue moving ahead, we are almost at the Television.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: We are extremely close, one final step towards the Television.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Moving ahead is not reducing the distance. I am rotating left to re-align with the Television. Please rotate left with me.",
+        "HANDICAPPED: Rotating left to follow your lead.",
+        "LEADER: Moving ahead isn't reducing the distance, and I suspect the Television might be at a different height. I'm looking up to check. Please look up with me.",
+        "HANDICAPPED: Acknowledged, looking up.",
+        "LEADER: We have reached the Television's horizontal position. Since we cannot move vertically, we are as close as possible. We are done.",
+        "HANDICAPPED: Acknowledged, stopping at the Television's location."
+      ]
+    },
+    {
+      "step": 13,
+      "task_id": 7,
+      "scene": "FloorPlan218",
+      "room_type": "living_room",
+      "target_type": "Television",
+      "goal_text": "Cooperatively navigate to the Television.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "Done",
+      "message": "Acknowledged, stopping at the Television's location.",
+      "agent_position": {
+        "x": 0.5000000596046448,
+        "y": 0.9008399248123169,
+        "z": 5.0
+      },
+      "target_visible": false,
+      "target_distance": 1.4349863529205322,
+      "leader_memory_snapshot": [
+        "Leader saw Television at distance 1.66 m near position x=-0.50, z=4.50.",
+        "Leader saw Television at distance 1.46 m near position x=-0.25, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50.",
+        "Leader saw Television at distance 1.28 m near position x=0.00, z=4.50."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Television at distance 1.63 m near position x=0.00, z=5.00.",
+        "Handicapped saw Television at distance 1.52 m near position x=0.25, z=5.00."
+      ],
+      "conversation_log": [
+        "LEADER: I am rotating right to scan the room. Follow my lead.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: Still scanning, continue rotating right.",
+        "HANDICAPPED: Affirmative, rotating right.",
+        "LEADER: I see the Television directly ahead. Let's move towards it.",
+        "HANDICAPPED: I also see the Television. Moving ahead.",
+        "LEADER: Keep moving ahead, we are getting closer to the Television.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: We are very close to the Television, keep moving ahead.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Keep moving ahead, we are still a bit away from the Television.",
+        "HANDICAPPED: Affirmative, moving ahead with you.",
+        "LEADER: We are very close to the Television, moving ahead one more step.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Still moving towards the Television, it's very close now.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: We are very close, moving ahead to reach the Television.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Continue moving ahead, we are almost at the Television.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: We are extremely close, one final step towards the Television.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Moving ahead is not reducing the distance. I am rotating left to re-align with the Television. Please rotate left with me.",
+        "HANDICAPPED: Rotating left to follow your lead.",
+        "LEADER: Moving ahead isn't reducing the distance, and I suspect the Television might be at a different height. I'm looking up to check. Please look up with me.",
+        "HANDICAPPED: Acknowledged, looking up.",
+        "LEADER: We have reached the Television's horizontal position. Since we cannot move vertically, we are as close as possible. We are done.",
+        "HANDICAPPED: Acknowledged, stopping at the Television's location."
+      ]
+    }
+  ]
+}

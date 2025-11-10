@@ -1,0 +1,1514 @@
+{
+  "task_meta": {
+    "task_id": 28,
+    "scene": "FloorPlan329",
+    "room_type": "bedroom",
+    "target_type": "Mirror",
+    "goal_text": "Navigate to the Mirror."
+  },
+  "episode_time_sec": 126.9990664171055,
+  "steps": [
+    {
+      "step": 0,
+      "task_id": 28,
+      "scene": "FloorPlan329",
+      "room_type": "bedroom",
+      "target_type": "Mirror",
+      "goal_text": "Cooperatively navigate to the Mirror.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "LookUp",
+      "message": "I am searching for the mirror, please move closer to it.",
+      "agent_position": {
+        "x": 1.0,
+        "y": 0.9009991884231567,
+        "z": 0.0
+      },
+      "target_visible": false,
+      "target_distance": 1.7463899850845337,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Mirror at distance 0.87 m near position x=2.00, z=0.00."
+      ],
+      "conversation_log": [
+        "LEADER: I am searching for the mirror, please move closer to it.",
+        "HANDICAPPED: Moving ahead, I see the mirror nearby."
+      ]
+    },
+    {
+      "step": 0,
+      "task_id": 28,
+      "scene": "FloorPlan329",
+      "room_type": "bedroom",
+      "target_type": "Mirror",
+      "goal_text": "Cooperatively navigate to the Mirror.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Moving ahead, I see the mirror nearby.",
+      "agent_position": {
+        "x": 2.0,
+        "y": 0.9009991884231567,
+        "z": 0.0
+      },
+      "target_visible": true,
+      "target_distance": 0.872856080532074,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Mirror at distance 0.87 m near position x=2.00, z=0.00."
+      ],
+      "conversation_log": [
+        "LEADER: I am searching for the mirror, please move closer to it.",
+        "HANDICAPPED: Moving ahead, I see the mirror nearby."
+      ]
+    },
+    {
+      "step": 1,
+      "task_id": 28,
+      "scene": "FloorPlan329",
+      "room_type": "bedroom",
+      "target_type": "Mirror",
+      "goal_text": "Cooperatively navigate to the Mirror.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "I see the mirror ahead, moving closer. You are very close, consider looking around carefully.",
+      "agent_position": {
+        "x": 1.0,
+        "y": 0.9009991884231567,
+        "z": 0.0
+      },
+      "target_visible": true,
+      "target_distance": 1.7463899850845337,
+      "leader_memory_snapshot": [
+        "Leader saw Mirror at distance 1.75 m near position x=1.00, z=0.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Mirror at distance 0.87 m near position x=2.00, z=0.00."
+      ],
+      "conversation_log": [
+        "LEADER: I am searching for the mirror, please move closer to it.",
+        "HANDICAPPED: Moving ahead, I see the mirror nearby.",
+        "LEADER: I see the mirror ahead, moving closer. You are very close, consider looking around carefully.",
+        "HANDICAPPED: I'm very close, starting a detailed search for the mirror now."
+      ]
+    },
+    {
+      "step": 1,
+      "task_id": 28,
+      "scene": "FloorPlan329",
+      "room_type": "bedroom",
+      "target_type": "Mirror",
+      "goal_text": "Cooperatively navigate to the Mirror.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "LookUp",
+      "message": "I'm very close, starting a detailed search for the mirror now.",
+      "agent_position": {
+        "x": 2.0,
+        "y": 0.9009991884231567,
+        "z": 0.25
+      },
+      "target_visible": false,
+      "target_distance": 0.7949073910713196,
+      "leader_memory_snapshot": [
+        "Leader saw Mirror at distance 1.75 m near position x=1.00, z=0.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Mirror at distance 0.87 m near position x=2.00, z=0.00."
+      ],
+      "conversation_log": [
+        "LEADER: I am searching for the mirror, please move closer to it.",
+        "HANDICAPPED: Moving ahead, I see the mirror nearby.",
+        "LEADER: I see the mirror ahead, moving closer. You are very close, consider looking around carefully.",
+        "HANDICAPPED: I'm very close, starting a detailed search for the mirror now."
+      ]
+    },
+    {
+      "step": 2,
+      "task_id": 28,
+      "scene": "FloorPlan329",
+      "room_type": "bedroom",
+      "target_type": "Mirror",
+      "goal_text": "Cooperatively navigate to the Mirror.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "LookUp",
+      "message": "I am initiating a detailed visual sweep for the mirror since it's very close. Handicapped, you continue your careful search.",
+      "agent_position": {
+        "x": 1.25,
+        "y": 0.9009991884231567,
+        "z": -2.9802322387695312e-08
+      },
+      "target_visible": false,
+      "target_distance": 1.5133994817733765,
+      "leader_memory_snapshot": [
+        "Leader saw Mirror at distance 1.75 m near position x=1.00, z=0.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Mirror at distance 0.87 m near position x=2.00, z=0.00.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25."
+      ],
+      "conversation_log": [
+        "LEADER: I am searching for the mirror, please move closer to it.",
+        "HANDICAPPED: Moving ahead, I see the mirror nearby.",
+        "LEADER: I see the mirror ahead, moving closer. You are very close, consider looking around carefully.",
+        "HANDICAPPED: I'm very close, starting a detailed search for the mirror now.",
+        "LEADER: I am initiating a detailed visual sweep for the mirror since it's very close. Handicapped, you continue your careful search.",
+        "HANDICAPPED: Acknowledged. I am also beginning a careful visual search in my immediate surroundings."
+      ]
+    },
+    {
+      "step": 2,
+      "task_id": 28,
+      "scene": "FloorPlan329",
+      "room_type": "bedroom",
+      "target_type": "Mirror",
+      "goal_text": "Cooperatively navigate to the Mirror.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "LookUp",
+      "message": "Acknowledged. I am also beginning a careful visual search in my immediate surroundings.",
+      "agent_position": {
+        "x": 2.0,
+        "y": 0.9009991884231567,
+        "z": 0.25
+      },
+      "target_visible": true,
+      "target_distance": 0.7949073910713196,
+      "leader_memory_snapshot": [
+        "Leader saw Mirror at distance 1.75 m near position x=1.00, z=0.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Mirror at distance 0.87 m near position x=2.00, z=0.00.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25."
+      ],
+      "conversation_log": [
+        "LEADER: I am searching for the mirror, please move closer to it.",
+        "HANDICAPPED: Moving ahead, I see the mirror nearby.",
+        "LEADER: I see the mirror ahead, moving closer. You are very close, consider looking around carefully.",
+        "HANDICAPPED: I'm very close, starting a detailed search for the mirror now.",
+        "LEADER: I am initiating a detailed visual sweep for the mirror since it's very close. Handicapped, you continue your careful search.",
+        "HANDICAPPED: Acknowledged. I am also beginning a careful visual search in my immediate surroundings."
+      ]
+    },
+    {
+      "step": 3,
+      "task_id": 28,
+      "scene": "FloorPlan329",
+      "room_type": "bedroom",
+      "target_type": "Mirror",
+      "goal_text": "Cooperatively navigate to the Mirror.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "LookUp",
+      "message": "We are very close to the mirror. Begin the detailed visual sweep by looking up.",
+      "agent_position": {
+        "x": 1.25,
+        "y": 0.9009991884231567,
+        "z": -2.9802322387695312e-08
+      },
+      "target_visible": false,
+      "target_distance": 1.5133994817733765,
+      "leader_memory_snapshot": [
+        "Leader saw Mirror at distance 1.75 m near position x=1.00, z=0.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Mirror at distance 0.87 m near position x=2.00, z=0.00.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25."
+      ],
+      "conversation_log": [
+        "LEADER: I am searching for the mirror, please move closer to it.",
+        "HANDICAPPED: Moving ahead, I see the mirror nearby.",
+        "LEADER: I see the mirror ahead, moving closer. You are very close, consider looking around carefully.",
+        "HANDICAPPED: I'm very close, starting a detailed search for the mirror now.",
+        "LEADER: I am initiating a detailed visual sweep for the mirror since it's very close. Handicapped, you continue your careful search.",
+        "HANDICAPPED: Acknowledged. I am also beginning a careful visual search in my immediate surroundings.",
+        "LEADER: We are very close to the mirror. Begin the detailed visual sweep by looking up.",
+        "HANDICAPPED: Acknowledged. I am starting the detailed visual sweep by looking up."
+      ]
+    },
+    {
+      "step": 3,
+      "task_id": 28,
+      "scene": "FloorPlan329",
+      "room_type": "bedroom",
+      "target_type": "Mirror",
+      "goal_text": "Cooperatively navigate to the Mirror.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "LookUp",
+      "message": "Acknowledged. I am starting the detailed visual sweep by looking up.",
+      "agent_position": {
+        "x": 2.0,
+        "y": 0.9009991884231567,
+        "z": 0.25
+      },
+      "target_visible": false,
+      "target_distance": 0.7949073910713196,
+      "leader_memory_snapshot": [
+        "Leader saw Mirror at distance 1.75 m near position x=1.00, z=0.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Mirror at distance 0.87 m near position x=2.00, z=0.00.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25."
+      ],
+      "conversation_log": [
+        "LEADER: I am searching for the mirror, please move closer to it.",
+        "HANDICAPPED: Moving ahead, I see the mirror nearby.",
+        "LEADER: I see the mirror ahead, moving closer. You are very close, consider looking around carefully.",
+        "HANDICAPPED: I'm very close, starting a detailed search for the mirror now.",
+        "LEADER: I am initiating a detailed visual sweep for the mirror since it's very close. Handicapped, you continue your careful search.",
+        "HANDICAPPED: Acknowledged. I am also beginning a careful visual search in my immediate surroundings.",
+        "LEADER: We are very close to the mirror. Begin the detailed visual sweep by looking up.",
+        "HANDICAPPED: Acknowledged. I am starting the detailed visual sweep by looking up."
+      ]
+    },
+    {
+      "step": 4,
+      "task_id": 28,
+      "scene": "FloorPlan329",
+      "room_type": "bedroom",
+      "target_type": "Mirror",
+      "goal_text": "Cooperatively navigate to the Mirror.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "RotateRight",
+      "message": "I have looked up. Now I am rotating right as part of the detailed sweep. You should do the same.",
+      "agent_position": {
+        "x": 1.25,
+        "y": 0.9009991884231567,
+        "z": -2.9802322387695312e-08
+      },
+      "target_visible": false,
+      "target_distance": 1.5133994817733765,
+      "leader_memory_snapshot": [
+        "Leader saw Mirror at distance 1.75 m near position x=1.00, z=0.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Mirror at distance 0.87 m near position x=2.00, z=0.00.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25."
+      ],
+      "conversation_log": [
+        "LEADER: I am searching for the mirror, please move closer to it.",
+        "HANDICAPPED: Moving ahead, I see the mirror nearby.",
+        "LEADER: I see the mirror ahead, moving closer. You are very close, consider looking around carefully.",
+        "HANDICAPPED: I'm very close, starting a detailed search for the mirror now.",
+        "LEADER: I am initiating a detailed visual sweep for the mirror since it's very close. Handicapped, you continue your careful search.",
+        "HANDICAPPED: Acknowledged. I am also beginning a careful visual search in my immediate surroundings.",
+        "LEADER: We are very close to the mirror. Begin the detailed visual sweep by looking up.",
+        "HANDICAPPED: Acknowledged. I am starting the detailed visual sweep by looking up.",
+        "LEADER: I have looked up. Now I am rotating right as part of the detailed sweep. You should do the same.",
+        "HANDICAPPED: Acknowledged, I am rotating right to continue the detailed visual sweep."
+      ]
+    },
+    {
+      "step": 4,
+      "task_id": 28,
+      "scene": "FloorPlan329",
+      "room_type": "bedroom",
+      "target_type": "Mirror",
+      "goal_text": "Cooperatively navigate to the Mirror.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "RotateRight",
+      "message": "Acknowledged, I am rotating right to continue the detailed visual sweep.",
+      "agent_position": {
+        "x": 2.0,
+        "y": 0.9009991884231567,
+        "z": 0.25
+      },
+      "target_visible": false,
+      "target_distance": 0.7949073910713196,
+      "leader_memory_snapshot": [
+        "Leader saw Mirror at distance 1.75 m near position x=1.00, z=0.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Mirror at distance 0.87 m near position x=2.00, z=0.00.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25."
+      ],
+      "conversation_log": [
+        "LEADER: I am searching for the mirror, please move closer to it.",
+        "HANDICAPPED: Moving ahead, I see the mirror nearby.",
+        "LEADER: I see the mirror ahead, moving closer. You are very close, consider looking around carefully.",
+        "HANDICAPPED: I'm very close, starting a detailed search for the mirror now.",
+        "LEADER: I am initiating a detailed visual sweep for the mirror since it's very close. Handicapped, you continue your careful search.",
+        "HANDICAPPED: Acknowledged. I am also beginning a careful visual search in my immediate surroundings.",
+        "LEADER: We are very close to the mirror. Begin the detailed visual sweep by looking up.",
+        "HANDICAPPED: Acknowledged. I am starting the detailed visual sweep by looking up.",
+        "LEADER: I have looked up. Now I am rotating right as part of the detailed sweep. You should do the same.",
+        "HANDICAPPED: Acknowledged, I am rotating right to continue the detailed visual sweep."
+      ]
+    },
+    {
+      "step": 5,
+      "task_id": 28,
+      "scene": "FloorPlan329",
+      "room_type": "bedroom",
+      "target_type": "Mirror",
+      "goal_text": "Cooperatively navigate to the Mirror.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "RotateRight",
+      "message": "We need two more right rotations to complete this phase of the sweep. Continue rotating right.",
+      "agent_position": {
+        "x": 1.25,
+        "y": 0.9009991884231567,
+        "z": -2.9802322387695312e-08
+      },
+      "target_visible": false,
+      "target_distance": 1.5133994817733765,
+      "leader_memory_snapshot": [
+        "Leader saw Mirror at distance 1.75 m near position x=1.00, z=0.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Mirror at distance 0.87 m near position x=2.00, z=0.00.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25."
+      ],
+      "conversation_log": [
+        "LEADER: I am searching for the mirror, please move closer to it.",
+        "HANDICAPPED: Moving ahead, I see the mirror nearby.",
+        "LEADER: I see the mirror ahead, moving closer. You are very close, consider looking around carefully.",
+        "HANDICAPPED: I'm very close, starting a detailed search for the mirror now.",
+        "LEADER: I am initiating a detailed visual sweep for the mirror since it's very close. Handicapped, you continue your careful search.",
+        "HANDICAPPED: Acknowledged. I am also beginning a careful visual search in my immediate surroundings.",
+        "LEADER: We are very close to the mirror. Begin the detailed visual sweep by looking up.",
+        "HANDICAPPED: Acknowledged. I am starting the detailed visual sweep by looking up.",
+        "LEADER: I have looked up. Now I am rotating right as part of the detailed sweep. You should do the same.",
+        "HANDICAPPED: Acknowledged, I am rotating right to continue the detailed visual sweep.",
+        "LEADER: We need two more right rotations to complete this phase of the sweep. Continue rotating right.",
+        "HANDICAPPED: Acknowledged, rotating right again to complete the sweep phase."
+      ]
+    },
+    {
+      "step": 5,
+      "task_id": 28,
+      "scene": "FloorPlan329",
+      "room_type": "bedroom",
+      "target_type": "Mirror",
+      "goal_text": "Cooperatively navigate to the Mirror.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "RotateRight",
+      "message": "Acknowledged, rotating right again to complete the sweep phase.",
+      "agent_position": {
+        "x": 2.0,
+        "y": 0.9009991884231567,
+        "z": 0.25
+      },
+      "target_visible": false,
+      "target_distance": 0.7949073910713196,
+      "leader_memory_snapshot": [
+        "Leader saw Mirror at distance 1.75 m near position x=1.00, z=0.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Mirror at distance 0.87 m near position x=2.00, z=0.00.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25."
+      ],
+      "conversation_log": [
+        "LEADER: I am searching for the mirror, please move closer to it.",
+        "HANDICAPPED: Moving ahead, I see the mirror nearby.",
+        "LEADER: I see the mirror ahead, moving closer. You are very close, consider looking around carefully.",
+        "HANDICAPPED: I'm very close, starting a detailed search for the mirror now.",
+        "LEADER: I am initiating a detailed visual sweep for the mirror since it's very close. Handicapped, you continue your careful search.",
+        "HANDICAPPED: Acknowledged. I am also beginning a careful visual search in my immediate surroundings.",
+        "LEADER: We are very close to the mirror. Begin the detailed visual sweep by looking up.",
+        "HANDICAPPED: Acknowledged. I am starting the detailed visual sweep by looking up.",
+        "LEADER: I have looked up. Now I am rotating right as part of the detailed sweep. You should do the same.",
+        "HANDICAPPED: Acknowledged, I am rotating right to continue the detailed visual sweep.",
+        "LEADER: We need two more right rotations to complete this phase of the sweep. Continue rotating right.",
+        "HANDICAPPED: Acknowledged, rotating right again to complete the sweep phase."
+      ]
+    },
+    {
+      "step": 6,
+      "task_id": 28,
+      "scene": "FloorPlan329",
+      "room_type": "bedroom",
+      "target_type": "Mirror",
+      "goal_text": "Cooperatively navigate to the Mirror.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "RotateRight",
+      "message": "I am performing my second right rotation for this phase. Handicapped, you should complete your 270-degree rotation this turn. After this, we will both look down.",
+      "agent_position": {
+        "x": 1.25,
+        "y": 0.9009991884231567,
+        "z": -2.9802322387695312e-08
+      },
+      "target_visible": false,
+      "target_distance": 1.5133994817733765,
+      "leader_memory_snapshot": [
+        "Leader saw Mirror at distance 1.75 m near position x=1.00, z=0.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Mirror at distance 0.87 m near position x=2.00, z=0.00.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25."
+      ],
+      "conversation_log": [
+        "LEADER: I am searching for the mirror, please move closer to it.",
+        "HANDICAPPED: Moving ahead, I see the mirror nearby.",
+        "LEADER: I see the mirror ahead, moving closer. You are very close, consider looking around carefully.",
+        "HANDICAPPED: I'm very close, starting a detailed search for the mirror now.",
+        "LEADER: I am initiating a detailed visual sweep for the mirror since it's very close. Handicapped, you continue your careful search.",
+        "HANDICAPPED: Acknowledged. I am also beginning a careful visual search in my immediate surroundings.",
+        "LEADER: We are very close to the mirror. Begin the detailed visual sweep by looking up.",
+        "HANDICAPPED: Acknowledged. I am starting the detailed visual sweep by looking up.",
+        "LEADER: I have looked up. Now I am rotating right as part of the detailed sweep. You should do the same.",
+        "HANDICAPPED: Acknowledged, I am rotating right to continue the detailed visual sweep.",
+        "LEADER: We need two more right rotations to complete this phase of the sweep. Continue rotating right.",
+        "HANDICAPPED: Acknowledged, rotating right again to complete the sweep phase.",
+        "LEADER: I am performing my second right rotation for this phase. Handicapped, you should complete your 270-degree rotation this turn. After this, we will both look down.",
+        "HANDICAPPED: Acknowledged. I am completing my 270-degree right rotation for this phase. Ready to look down next."
+      ]
+    },
+    {
+      "step": 6,
+      "task_id": 28,
+      "scene": "FloorPlan329",
+      "room_type": "bedroom",
+      "target_type": "Mirror",
+      "goal_text": "Cooperatively navigate to the Mirror.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "RotateRight",
+      "message": "Acknowledged. I am completing my 270-degree right rotation for this phase. Ready to look down next.",
+      "agent_position": {
+        "x": 2.0,
+        "y": 0.9009991884231567,
+        "z": 0.25
+      },
+      "target_visible": true,
+      "target_distance": 0.7949073910713196,
+      "leader_memory_snapshot": [
+        "Leader saw Mirror at distance 1.75 m near position x=1.00, z=0.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Mirror at distance 0.87 m near position x=2.00, z=0.00.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25."
+      ],
+      "conversation_log": [
+        "LEADER: I am searching for the mirror, please move closer to it.",
+        "HANDICAPPED: Moving ahead, I see the mirror nearby.",
+        "LEADER: I see the mirror ahead, moving closer. You are very close, consider looking around carefully.",
+        "HANDICAPPED: I'm very close, starting a detailed search for the mirror now.",
+        "LEADER: I am initiating a detailed visual sweep for the mirror since it's very close. Handicapped, you continue your careful search.",
+        "HANDICAPPED: Acknowledged. I am also beginning a careful visual search in my immediate surroundings.",
+        "LEADER: We are very close to the mirror. Begin the detailed visual sweep by looking up.",
+        "HANDICAPPED: Acknowledged. I am starting the detailed visual sweep by looking up.",
+        "LEADER: I have looked up. Now I am rotating right as part of the detailed sweep. You should do the same.",
+        "HANDICAPPED: Acknowledged, I am rotating right to continue the detailed visual sweep.",
+        "LEADER: We need two more right rotations to complete this phase of the sweep. Continue rotating right.",
+        "HANDICAPPED: Acknowledged, rotating right again to complete the sweep phase.",
+        "LEADER: I am performing my second right rotation for this phase. Handicapped, you should complete your 270-degree rotation this turn. After this, we will both look down.",
+        "HANDICAPPED: Acknowledged. I am completing my 270-degree right rotation for this phase. Ready to look down next."
+      ]
+    },
+    {
+      "step": 7,
+      "task_id": 28,
+      "scene": "FloorPlan329",
+      "room_type": "bedroom",
+      "target_type": "Mirror",
+      "goal_text": "Cooperatively navigate to the Mirror.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "RotateRight",
+      "message": "I am completing the 270-degree rotation for this phase. Handicapped, now that you've completed your rotation, we will both look down next.",
+      "agent_position": {
+        "x": 1.25,
+        "y": 0.9009991884231567,
+        "z": -2.9802322387695312e-08
+      },
+      "target_visible": false,
+      "target_distance": 1.5133994817733765,
+      "leader_memory_snapshot": [
+        "Leader saw Mirror at distance 1.75 m near position x=1.00, z=0.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Mirror at distance 0.87 m near position x=2.00, z=0.00.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25."
+      ],
+      "conversation_log": [
+        "LEADER: I am searching for the mirror, please move closer to it.",
+        "HANDICAPPED: Moving ahead, I see the mirror nearby.",
+        "LEADER: I see the mirror ahead, moving closer. You are very close, consider looking around carefully.",
+        "HANDICAPPED: I'm very close, starting a detailed search for the mirror now.",
+        "LEADER: I am initiating a detailed visual sweep for the mirror since it's very close. Handicapped, you continue your careful search.",
+        "HANDICAPPED: Acknowledged. I am also beginning a careful visual search in my immediate surroundings.",
+        "LEADER: We are very close to the mirror. Begin the detailed visual sweep by looking up.",
+        "HANDICAPPED: Acknowledged. I am starting the detailed visual sweep by looking up.",
+        "LEADER: I have looked up. Now I am rotating right as part of the detailed sweep. You should do the same.",
+        "HANDICAPPED: Acknowledged, I am rotating right to continue the detailed visual sweep.",
+        "LEADER: We need two more right rotations to complete this phase of the sweep. Continue rotating right.",
+        "HANDICAPPED: Acknowledged, rotating right again to complete the sweep phase.",
+        "LEADER: I am performing my second right rotation for this phase. Handicapped, you should complete your 270-degree rotation this turn. After this, we will both look down.",
+        "HANDICAPPED: Acknowledged. I am completing my 270-degree right rotation for this phase. Ready to look down next.",
+        "LEADER: I am completing the 270-degree rotation for this phase. Handicapped, now that you've completed your rotation, we will both look down next.",
+        "HANDICAPPED: I am completing my 270-degree rotation now. Ready to look down next."
+      ]
+    },
+    {
+      "step": 7,
+      "task_id": 28,
+      "scene": "FloorPlan329",
+      "room_type": "bedroom",
+      "target_type": "Mirror",
+      "goal_text": "Cooperatively navigate to the Mirror.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "RotateRight",
+      "message": "I am completing my 270-degree rotation now. Ready to look down next.",
+      "agent_position": {
+        "x": 2.0,
+        "y": 0.9009991884231567,
+        "z": 0.25
+      },
+      "target_visible": false,
+      "target_distance": 0.7949073910713196,
+      "leader_memory_snapshot": [
+        "Leader saw Mirror at distance 1.75 m near position x=1.00, z=0.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Mirror at distance 0.87 m near position x=2.00, z=0.00.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25."
+      ],
+      "conversation_log": [
+        "LEADER: I am searching for the mirror, please move closer to it.",
+        "HANDICAPPED: Moving ahead, I see the mirror nearby.",
+        "LEADER: I see the mirror ahead, moving closer. You are very close, consider looking around carefully.",
+        "HANDICAPPED: I'm very close, starting a detailed search for the mirror now.",
+        "LEADER: I am initiating a detailed visual sweep for the mirror since it's very close. Handicapped, you continue your careful search.",
+        "HANDICAPPED: Acknowledged. I am also beginning a careful visual search in my immediate surroundings.",
+        "LEADER: We are very close to the mirror. Begin the detailed visual sweep by looking up.",
+        "HANDICAPPED: Acknowledged. I am starting the detailed visual sweep by looking up.",
+        "LEADER: I have looked up. Now I am rotating right as part of the detailed sweep. You should do the same.",
+        "HANDICAPPED: Acknowledged, I am rotating right to continue the detailed visual sweep.",
+        "LEADER: We need two more right rotations to complete this phase of the sweep. Continue rotating right.",
+        "HANDICAPPED: Acknowledged, rotating right again to complete the sweep phase.",
+        "LEADER: I am performing my second right rotation for this phase. Handicapped, you should complete your 270-degree rotation this turn. After this, we will both look down.",
+        "HANDICAPPED: Acknowledged. I am completing my 270-degree right rotation for this phase. Ready to look down next.",
+        "LEADER: I am completing the 270-degree rotation for this phase. Handicapped, now that you've completed your rotation, we will both look down next.",
+        "HANDICAPPED: I am completing my 270-degree rotation now. Ready to look down next."
+      ]
+    },
+    {
+      "step": 8,
+      "task_id": 28,
+      "scene": "FloorPlan329",
+      "room_type": "bedroom",
+      "target_type": "Mirror",
+      "goal_text": "Cooperatively navigate to the Mirror.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "LookDown",
+      "message": "I have completed the upward sweep rotation. Now we will both look down as the next step of our detailed visual sweep.",
+      "agent_position": {
+        "x": 1.25,
+        "y": 0.9009991884231567,
+        "z": -2.9802322387695312e-08
+      },
+      "target_visible": false,
+      "target_distance": 1.5133994817733765,
+      "leader_memory_snapshot": [
+        "Leader saw Mirror at distance 1.75 m near position x=1.00, z=0.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Mirror at distance 0.87 m near position x=2.00, z=0.00.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25."
+      ],
+      "conversation_log": [
+        "LEADER: I am searching for the mirror, please move closer to it.",
+        "HANDICAPPED: Moving ahead, I see the mirror nearby.",
+        "LEADER: I see the mirror ahead, moving closer. You are very close, consider looking around carefully.",
+        "HANDICAPPED: I'm very close, starting a detailed search for the mirror now.",
+        "LEADER: I am initiating a detailed visual sweep for the mirror since it's very close. Handicapped, you continue your careful search.",
+        "HANDICAPPED: Acknowledged. I am also beginning a careful visual search in my immediate surroundings.",
+        "LEADER: We are very close to the mirror. Begin the detailed visual sweep by looking up.",
+        "HANDICAPPED: Acknowledged. I am starting the detailed visual sweep by looking up.",
+        "LEADER: I have looked up. Now I am rotating right as part of the detailed sweep. You should do the same.",
+        "HANDICAPPED: Acknowledged, I am rotating right to continue the detailed visual sweep.",
+        "LEADER: We need two more right rotations to complete this phase of the sweep. Continue rotating right.",
+        "HANDICAPPED: Acknowledged, rotating right again to complete the sweep phase.",
+        "LEADER: I am performing my second right rotation for this phase. Handicapped, you should complete your 270-degree rotation this turn. After this, we will both look down.",
+        "HANDICAPPED: Acknowledged. I am completing my 270-degree right rotation for this phase. Ready to look down next.",
+        "LEADER: I am completing the 270-degree rotation for this phase. Handicapped, now that you've completed your rotation, we will both look down next.",
+        "HANDICAPPED: I am completing my 270-degree rotation now. Ready to look down next.",
+        "LEADER: I have completed the upward sweep rotation. Now we will both look down as the next step of our detailed visual sweep.",
+        "HANDICAPPED: Acknowledged. I am looking down now as part of the detailed visual sweep."
+      ]
+    },
+    {
+      "step": 8,
+      "task_id": 28,
+      "scene": "FloorPlan329",
+      "room_type": "bedroom",
+      "target_type": "Mirror",
+      "goal_text": "Cooperatively navigate to the Mirror.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "LookDown",
+      "message": "Acknowledged. I am looking down now as part of the detailed visual sweep.",
+      "agent_position": {
+        "x": 2.0,
+        "y": 0.9009991884231567,
+        "z": 0.25
+      },
+      "target_visible": false,
+      "target_distance": 0.7949073910713196,
+      "leader_memory_snapshot": [
+        "Leader saw Mirror at distance 1.75 m near position x=1.00, z=0.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Mirror at distance 0.87 m near position x=2.00, z=0.00.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25."
+      ],
+      "conversation_log": [
+        "LEADER: I am searching for the mirror, please move closer to it.",
+        "HANDICAPPED: Moving ahead, I see the mirror nearby.",
+        "LEADER: I see the mirror ahead, moving closer. You are very close, consider looking around carefully.",
+        "HANDICAPPED: I'm very close, starting a detailed search for the mirror now.",
+        "LEADER: I am initiating a detailed visual sweep for the mirror since it's very close. Handicapped, you continue your careful search.",
+        "HANDICAPPED: Acknowledged. I am also beginning a careful visual search in my immediate surroundings.",
+        "LEADER: We are very close to the mirror. Begin the detailed visual sweep by looking up.",
+        "HANDICAPPED: Acknowledged. I am starting the detailed visual sweep by looking up.",
+        "LEADER: I have looked up. Now I am rotating right as part of the detailed sweep. You should do the same.",
+        "HANDICAPPED: Acknowledged, I am rotating right to continue the detailed visual sweep.",
+        "LEADER: We need two more right rotations to complete this phase of the sweep. Continue rotating right.",
+        "HANDICAPPED: Acknowledged, rotating right again to complete the sweep phase.",
+        "LEADER: I am performing my second right rotation for this phase. Handicapped, you should complete your 270-degree rotation this turn. After this, we will both look down.",
+        "HANDICAPPED: Acknowledged. I am completing my 270-degree right rotation for this phase. Ready to look down next.",
+        "LEADER: I am completing the 270-degree rotation for this phase. Handicapped, now that you've completed your rotation, we will both look down next.",
+        "HANDICAPPED: I am completing my 270-degree rotation now. Ready to look down next.",
+        "LEADER: I have completed the upward sweep rotation. Now we will both look down as the next step of our detailed visual sweep.",
+        "HANDICAPPED: Acknowledged. I am looking down now as part of the detailed visual sweep."
+      ]
+    },
+    {
+      "step": 9,
+      "task_id": 28,
+      "scene": "FloorPlan329",
+      "room_type": "bedroom",
+      "target_type": "Mirror",
+      "goal_text": "Cooperatively navigate to the Mirror.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "LookDown",
+      "message": "I am looking down now as part of our sweep. After this, we will begin rotating again.",
+      "agent_position": {
+        "x": 1.25,
+        "y": 0.9009991884231567,
+        "z": -2.9802322387695312e-08
+      },
+      "target_visible": false,
+      "target_distance": 1.5133994817733765,
+      "leader_memory_snapshot": [
+        "Leader saw Mirror at distance 1.75 m near position x=1.00, z=0.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Mirror at distance 0.87 m near position x=2.00, z=0.00.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25."
+      ],
+      "conversation_log": [
+        "LEADER: I am searching for the mirror, please move closer to it.",
+        "HANDICAPPED: Moving ahead, I see the mirror nearby.",
+        "LEADER: I see the mirror ahead, moving closer. You are very close, consider looking around carefully.",
+        "HANDICAPPED: I'm very close, starting a detailed search for the mirror now.",
+        "LEADER: I am initiating a detailed visual sweep for the mirror since it's very close. Handicapped, you continue your careful search.",
+        "HANDICAPPED: Acknowledged. I am also beginning a careful visual search in my immediate surroundings.",
+        "LEADER: We are very close to the mirror. Begin the detailed visual sweep by looking up.",
+        "HANDICAPPED: Acknowledged. I am starting the detailed visual sweep by looking up.",
+        "LEADER: I have looked up. Now I am rotating right as part of the detailed sweep. You should do the same.",
+        "HANDICAPPED: Acknowledged, I am rotating right to continue the detailed visual sweep.",
+        "LEADER: We need two more right rotations to complete this phase of the sweep. Continue rotating right.",
+        "HANDICAPPED: Acknowledged, rotating right again to complete the sweep phase.",
+        "LEADER: I am performing my second right rotation for this phase. Handicapped, you should complete your 270-degree rotation this turn. After this, we will both look down.",
+        "HANDICAPPED: Acknowledged. I am completing my 270-degree right rotation for this phase. Ready to look down next.",
+        "LEADER: I am completing the 270-degree rotation for this phase. Handicapped, now that you've completed your rotation, we will both look down next.",
+        "HANDICAPPED: I am completing my 270-degree rotation now. Ready to look down next.",
+        "LEADER: I have completed the upward sweep rotation. Now we will both look down as the next step of our detailed visual sweep.",
+        "HANDICAPPED: Acknowledged. I am looking down now as part of the detailed visual sweep.",
+        "LEADER: I am looking down now as part of our sweep. After this, we will begin rotating again.",
+        "HANDICAPPED: I am also looking down, ready for the next rotation phase."
+      ]
+    },
+    {
+      "step": 9,
+      "task_id": 28,
+      "scene": "FloorPlan329",
+      "room_type": "bedroom",
+      "target_type": "Mirror",
+      "goal_text": "Cooperatively navigate to the Mirror.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "LookDown",
+      "message": "I am also looking down, ready for the next rotation phase.",
+      "agent_position": {
+        "x": 2.0,
+        "y": 0.9009991884231567,
+        "z": 0.25
+      },
+      "target_visible": false,
+      "target_distance": 0.7949073910713196,
+      "leader_memory_snapshot": [
+        "Leader saw Mirror at distance 1.75 m near position x=1.00, z=0.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Mirror at distance 0.87 m near position x=2.00, z=0.00.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25."
+      ],
+      "conversation_log": [
+        "LEADER: I am searching for the mirror, please move closer to it.",
+        "HANDICAPPED: Moving ahead, I see the mirror nearby.",
+        "LEADER: I see the mirror ahead, moving closer. You are very close, consider looking around carefully.",
+        "HANDICAPPED: I'm very close, starting a detailed search for the mirror now.",
+        "LEADER: I am initiating a detailed visual sweep for the mirror since it's very close. Handicapped, you continue your careful search.",
+        "HANDICAPPED: Acknowledged. I am also beginning a careful visual search in my immediate surroundings.",
+        "LEADER: We are very close to the mirror. Begin the detailed visual sweep by looking up.",
+        "HANDICAPPED: Acknowledged. I am starting the detailed visual sweep by looking up.",
+        "LEADER: I have looked up. Now I am rotating right as part of the detailed sweep. You should do the same.",
+        "HANDICAPPED: Acknowledged, I am rotating right to continue the detailed visual sweep.",
+        "LEADER: We need two more right rotations to complete this phase of the sweep. Continue rotating right.",
+        "HANDICAPPED: Acknowledged, rotating right again to complete the sweep phase.",
+        "LEADER: I am performing my second right rotation for this phase. Handicapped, you should complete your 270-degree rotation this turn. After this, we will both look down.",
+        "HANDICAPPED: Acknowledged. I am completing my 270-degree right rotation for this phase. Ready to look down next.",
+        "LEADER: I am completing the 270-degree rotation for this phase. Handicapped, now that you've completed your rotation, we will both look down next.",
+        "HANDICAPPED: I am completing my 270-degree rotation now. Ready to look down next.",
+        "LEADER: I have completed the upward sweep rotation. Now we will both look down as the next step of our detailed visual sweep.",
+        "HANDICAPPED: Acknowledged. I am looking down now as part of the detailed visual sweep.",
+        "LEADER: I am looking down now as part of our sweep. After this, we will begin rotating again.",
+        "HANDICAPPED: I am also looking down, ready for the next rotation phase."
+      ]
+    },
+    {
+      "step": 10,
+      "task_id": 28,
+      "scene": "FloorPlan329",
+      "room_type": "bedroom",
+      "target_type": "Mirror",
+      "goal_text": "Cooperatively navigate to the Mirror.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "RotateRight",
+      "message": "I am starting the 270-degree right rotation after looking down. Handicapped, you should do the same.",
+      "agent_position": {
+        "x": 1.25,
+        "y": 0.9009991884231567,
+        "z": -2.9802322387695312e-08
+      },
+      "target_visible": false,
+      "target_distance": 1.5133994817733765,
+      "leader_memory_snapshot": [
+        "Leader saw Mirror at distance 1.75 m near position x=1.00, z=0.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Mirror at distance 0.87 m near position x=2.00, z=0.00.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25."
+      ],
+      "conversation_log": [
+        "LEADER: I am searching for the mirror, please move closer to it.",
+        "HANDICAPPED: Moving ahead, I see the mirror nearby.",
+        "LEADER: I see the mirror ahead, moving closer. You are very close, consider looking around carefully.",
+        "HANDICAPPED: I'm very close, starting a detailed search for the mirror now.",
+        "LEADER: I am initiating a detailed visual sweep for the mirror since it's very close. Handicapped, you continue your careful search.",
+        "HANDICAPPED: Acknowledged. I am also beginning a careful visual search in my immediate surroundings.",
+        "LEADER: We are very close to the mirror. Begin the detailed visual sweep by looking up.",
+        "HANDICAPPED: Acknowledged. I am starting the detailed visual sweep by looking up.",
+        "LEADER: I have looked up. Now I am rotating right as part of the detailed sweep. You should do the same.",
+        "HANDICAPPED: Acknowledged, I am rotating right to continue the detailed visual sweep.",
+        "LEADER: We need two more right rotations to complete this phase of the sweep. Continue rotating right.",
+        "HANDICAPPED: Acknowledged, rotating right again to complete the sweep phase.",
+        "LEADER: I am performing my second right rotation for this phase. Handicapped, you should complete your 270-degree rotation this turn. After this, we will both look down.",
+        "HANDICAPPED: Acknowledged. I am completing my 270-degree right rotation for this phase. Ready to look down next.",
+        "LEADER: I am completing the 270-degree rotation for this phase. Handicapped, now that you've completed your rotation, we will both look down next.",
+        "HANDICAPPED: I am completing my 270-degree rotation now. Ready to look down next.",
+        "LEADER: I have completed the upward sweep rotation. Now we will both look down as the next step of our detailed visual sweep.",
+        "HANDICAPPED: Acknowledged. I am looking down now as part of the detailed visual sweep.",
+        "LEADER: I am looking down now as part of our sweep. After this, we will begin rotating again.",
+        "HANDICAPPED: I am also looking down, ready for the next rotation phase.",
+        "LEADER: I am starting the 270-degree right rotation after looking down. Handicapped, you should do the same.",
+        "HANDICAPPED: Acknowledged. I am beginning my right rotation as part of the detailed sweep."
+      ]
+    },
+    {
+      "step": 10,
+      "task_id": 28,
+      "scene": "FloorPlan329",
+      "room_type": "bedroom",
+      "target_type": "Mirror",
+      "goal_text": "Cooperatively navigate to the Mirror.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "RotateRight",
+      "message": "Acknowledged. I am beginning my right rotation as part of the detailed sweep.",
+      "agent_position": {
+        "x": 2.0,
+        "y": 0.9009991884231567,
+        "z": 0.25
+      },
+      "target_visible": true,
+      "target_distance": 0.7949073910713196,
+      "leader_memory_snapshot": [
+        "Leader saw Mirror at distance 1.75 m near position x=1.00, z=0.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Mirror at distance 0.87 m near position x=2.00, z=0.00.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25."
+      ],
+      "conversation_log": [
+        "LEADER: I am searching for the mirror, please move closer to it.",
+        "HANDICAPPED: Moving ahead, I see the mirror nearby.",
+        "LEADER: I see the mirror ahead, moving closer. You are very close, consider looking around carefully.",
+        "HANDICAPPED: I'm very close, starting a detailed search for the mirror now.",
+        "LEADER: I am initiating a detailed visual sweep for the mirror since it's very close. Handicapped, you continue your careful search.",
+        "HANDICAPPED: Acknowledged. I am also beginning a careful visual search in my immediate surroundings.",
+        "LEADER: We are very close to the mirror. Begin the detailed visual sweep by looking up.",
+        "HANDICAPPED: Acknowledged. I am starting the detailed visual sweep by looking up.",
+        "LEADER: I have looked up. Now I am rotating right as part of the detailed sweep. You should do the same.",
+        "HANDICAPPED: Acknowledged, I am rotating right to continue the detailed visual sweep.",
+        "LEADER: We need two more right rotations to complete this phase of the sweep. Continue rotating right.",
+        "HANDICAPPED: Acknowledged, rotating right again to complete the sweep phase.",
+        "LEADER: I am performing my second right rotation for this phase. Handicapped, you should complete your 270-degree rotation this turn. After this, we will both look down.",
+        "HANDICAPPED: Acknowledged. I am completing my 270-degree right rotation for this phase. Ready to look down next.",
+        "LEADER: I am completing the 270-degree rotation for this phase. Handicapped, now that you've completed your rotation, we will both look down next.",
+        "HANDICAPPED: I am completing my 270-degree rotation now. Ready to look down next.",
+        "LEADER: I have completed the upward sweep rotation. Now we will both look down as the next step of our detailed visual sweep.",
+        "HANDICAPPED: Acknowledged. I am looking down now as part of the detailed visual sweep.",
+        "LEADER: I am looking down now as part of our sweep. After this, we will begin rotating again.",
+        "HANDICAPPED: I am also looking down, ready for the next rotation phase.",
+        "LEADER: I am starting the 270-degree right rotation after looking down. Handicapped, you should do the same.",
+        "HANDICAPPED: Acknowledged. I am beginning my right rotation as part of the detailed sweep."
+      ]
+    },
+    {
+      "step": 11,
+      "task_id": 28,
+      "scene": "FloorPlan329",
+      "room_type": "bedroom",
+      "target_type": "Mirror",
+      "goal_text": "Cooperatively navigate to the Mirror.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "RotateRight",
+      "message": "I am performing my second right rotation for this phase of the detailed sweep. Handicapped, you should do the same.",
+      "agent_position": {
+        "x": 1.25,
+        "y": 0.9009991884231567,
+        "z": -2.9802322387695312e-08
+      },
+      "target_visible": false,
+      "target_distance": 1.5133994817733765,
+      "leader_memory_snapshot": [
+        "Leader saw Mirror at distance 1.75 m near position x=1.00, z=0.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Mirror at distance 0.87 m near position x=2.00, z=0.00.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25."
+      ],
+      "conversation_log": [
+        "LEADER: I am searching for the mirror, please move closer to it.",
+        "HANDICAPPED: Moving ahead, I see the mirror nearby.",
+        "LEADER: I see the mirror ahead, moving closer. You are very close, consider looking around carefully.",
+        "HANDICAPPED: I'm very close, starting a detailed search for the mirror now.",
+        "LEADER: I am initiating a detailed visual sweep for the mirror since it's very close. Handicapped, you continue your careful search.",
+        "HANDICAPPED: Acknowledged. I am also beginning a careful visual search in my immediate surroundings.",
+        "LEADER: We are very close to the mirror. Begin the detailed visual sweep by looking up.",
+        "HANDICAPPED: Acknowledged. I am starting the detailed visual sweep by looking up.",
+        "LEADER: I have looked up. Now I am rotating right as part of the detailed sweep. You should do the same.",
+        "HANDICAPPED: Acknowledged, I am rotating right to continue the detailed visual sweep.",
+        "LEADER: We need two more right rotations to complete this phase of the sweep. Continue rotating right.",
+        "HANDICAPPED: Acknowledged, rotating right again to complete the sweep phase.",
+        "LEADER: I am performing my second right rotation for this phase. Handicapped, you should complete your 270-degree rotation this turn. After this, we will both look down.",
+        "HANDICAPPED: Acknowledged. I am completing my 270-degree right rotation for this phase. Ready to look down next.",
+        "LEADER: I am completing the 270-degree rotation for this phase. Handicapped, now that you've completed your rotation, we will both look down next.",
+        "HANDICAPPED: I am completing my 270-degree rotation now. Ready to look down next.",
+        "LEADER: I have completed the upward sweep rotation. Now we will both look down as the next step of our detailed visual sweep.",
+        "HANDICAPPED: Acknowledged. I am looking down now as part of the detailed visual sweep.",
+        "LEADER: I am looking down now as part of our sweep. After this, we will begin rotating again.",
+        "HANDICAPPED: I am also looking down, ready for the next rotation phase.",
+        "LEADER: I am starting the 270-degree right rotation after looking down. Handicapped, you should do the same.",
+        "HANDICAPPED: Acknowledged. I am beginning my right rotation as part of the detailed sweep.",
+        "LEADER: I am performing my second right rotation for this phase of the detailed sweep. Handicapped, you should do the same.",
+        "HANDICAPPED: Acknowledged. I am also performing my second right rotation for this phase."
+      ]
+    },
+    {
+      "step": 11,
+      "task_id": 28,
+      "scene": "FloorPlan329",
+      "room_type": "bedroom",
+      "target_type": "Mirror",
+      "goal_text": "Cooperatively navigate to the Mirror.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "RotateRight",
+      "message": "Acknowledged. I am also performing my second right rotation for this phase.",
+      "agent_position": {
+        "x": 2.0,
+        "y": 0.9009991884231567,
+        "z": 0.25
+      },
+      "target_visible": false,
+      "target_distance": 0.7949073910713196,
+      "leader_memory_snapshot": [
+        "Leader saw Mirror at distance 1.75 m near position x=1.00, z=0.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Mirror at distance 0.87 m near position x=2.00, z=0.00.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25."
+      ],
+      "conversation_log": [
+        "LEADER: I am searching for the mirror, please move closer to it.",
+        "HANDICAPPED: Moving ahead, I see the mirror nearby.",
+        "LEADER: I see the mirror ahead, moving closer. You are very close, consider looking around carefully.",
+        "HANDICAPPED: I'm very close, starting a detailed search for the mirror now.",
+        "LEADER: I am initiating a detailed visual sweep for the mirror since it's very close. Handicapped, you continue your careful search.",
+        "HANDICAPPED: Acknowledged. I am also beginning a careful visual search in my immediate surroundings.",
+        "LEADER: We are very close to the mirror. Begin the detailed visual sweep by looking up.",
+        "HANDICAPPED: Acknowledged. I am starting the detailed visual sweep by looking up.",
+        "LEADER: I have looked up. Now I am rotating right as part of the detailed sweep. You should do the same.",
+        "HANDICAPPED: Acknowledged, I am rotating right to continue the detailed visual sweep.",
+        "LEADER: We need two more right rotations to complete this phase of the sweep. Continue rotating right.",
+        "HANDICAPPED: Acknowledged, rotating right again to complete the sweep phase.",
+        "LEADER: I am performing my second right rotation for this phase. Handicapped, you should complete your 270-degree rotation this turn. After this, we will both look down.",
+        "HANDICAPPED: Acknowledged. I am completing my 270-degree right rotation for this phase. Ready to look down next.",
+        "LEADER: I am completing the 270-degree rotation for this phase. Handicapped, now that you've completed your rotation, we will both look down next.",
+        "HANDICAPPED: I am completing my 270-degree rotation now. Ready to look down next.",
+        "LEADER: I have completed the upward sweep rotation. Now we will both look down as the next step of our detailed visual sweep.",
+        "HANDICAPPED: Acknowledged. I am looking down now as part of the detailed visual sweep.",
+        "LEADER: I am looking down now as part of our sweep. After this, we will begin rotating again.",
+        "HANDICAPPED: I am also looking down, ready for the next rotation phase.",
+        "LEADER: I am starting the 270-degree right rotation after looking down. Handicapped, you should do the same.",
+        "HANDICAPPED: Acknowledged. I am beginning my right rotation as part of the detailed sweep.",
+        "LEADER: I am performing my second right rotation for this phase of the detailed sweep. Handicapped, you should do the same.",
+        "HANDICAPPED: Acknowledged. I am also performing my second right rotation for this phase."
+      ]
+    },
+    {
+      "step": 12,
+      "task_id": 28,
+      "scene": "FloorPlan329",
+      "room_type": "bedroom",
+      "target_type": "Mirror",
+      "goal_text": "Cooperatively navigate to the Mirror.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "RotateRight",
+      "message": "I am performing the third right rotation to complete this phase of the detailed sweep. Handicapped, you should do the same, then we will both look down again.",
+      "agent_position": {
+        "x": 1.25,
+        "y": 0.9009991884231567,
+        "z": -2.9802322387695312e-08
+      },
+      "target_visible": false,
+      "target_distance": 1.5133994817733765,
+      "leader_memory_snapshot": [
+        "Leader saw Mirror at distance 1.75 m near position x=1.00, z=0.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Mirror at distance 0.87 m near position x=2.00, z=0.00.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25."
+      ],
+      "conversation_log": [
+        "LEADER: I am searching for the mirror, please move closer to it.",
+        "HANDICAPPED: Moving ahead, I see the mirror nearby.",
+        "LEADER: I see the mirror ahead, moving closer. You are very close, consider looking around carefully.",
+        "HANDICAPPED: I'm very close, starting a detailed search for the mirror now.",
+        "LEADER: I am initiating a detailed visual sweep for the mirror since it's very close. Handicapped, you continue your careful search.",
+        "HANDICAPPED: Acknowledged. I am also beginning a careful visual search in my immediate surroundings.",
+        "LEADER: We are very close to the mirror. Begin the detailed visual sweep by looking up.",
+        "HANDICAPPED: Acknowledged. I am starting the detailed visual sweep by looking up.",
+        "LEADER: I have looked up. Now I am rotating right as part of the detailed sweep. You should do the same.",
+        "HANDICAPPED: Acknowledged, I am rotating right to continue the detailed visual sweep.",
+        "LEADER: We need two more right rotations to complete this phase of the sweep. Continue rotating right.",
+        "HANDICAPPED: Acknowledged, rotating right again to complete the sweep phase.",
+        "LEADER: I am performing my second right rotation for this phase. Handicapped, you should complete your 270-degree rotation this turn. After this, we will both look down.",
+        "HANDICAPPED: Acknowledged. I am completing my 270-degree right rotation for this phase. Ready to look down next.",
+        "LEADER: I am completing the 270-degree rotation for this phase. Handicapped, now that you've completed your rotation, we will both look down next.",
+        "HANDICAPPED: I am completing my 270-degree rotation now. Ready to look down next.",
+        "LEADER: I have completed the upward sweep rotation. Now we will both look down as the next step of our detailed visual sweep.",
+        "HANDICAPPED: Acknowledged. I am looking down now as part of the detailed visual sweep.",
+        "LEADER: I am looking down now as part of our sweep. After this, we will begin rotating again.",
+        "HANDICAPPED: I am also looking down, ready for the next rotation phase.",
+        "LEADER: I am starting the 270-degree right rotation after looking down. Handicapped, you should do the same.",
+        "HANDICAPPED: Acknowledged. I am beginning my right rotation as part of the detailed sweep.",
+        "LEADER: I am performing my second right rotation for this phase of the detailed sweep. Handicapped, you should do the same.",
+        "HANDICAPPED: Acknowledged. I am also performing my second right rotation for this phase.",
+        "LEADER: I am performing the third right rotation to complete this phase of the detailed sweep. Handicapped, you should do the same, then we will both look down again.",
+        "HANDICAPPED: Acknowledged. I am performing my third right rotation to complete this phase. Ready to look down again after this."
+      ]
+    },
+    {
+      "step": 12,
+      "task_id": 28,
+      "scene": "FloorPlan329",
+      "room_type": "bedroom",
+      "target_type": "Mirror",
+      "goal_text": "Cooperatively navigate to the Mirror.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "RotateRight",
+      "message": "Acknowledged. I am performing my third right rotation to complete this phase. Ready to look down again after this.",
+      "agent_position": {
+        "x": 2.0,
+        "y": 0.9009991884231567,
+        "z": 0.25
+      },
+      "target_visible": false,
+      "target_distance": 0.7949073910713196,
+      "leader_memory_snapshot": [
+        "Leader saw Mirror at distance 1.75 m near position x=1.00, z=0.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Mirror at distance 0.87 m near position x=2.00, z=0.00.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25."
+      ],
+      "conversation_log": [
+        "LEADER: I am searching for the mirror, please move closer to it.",
+        "HANDICAPPED: Moving ahead, I see the mirror nearby.",
+        "LEADER: I see the mirror ahead, moving closer. You are very close, consider looking around carefully.",
+        "HANDICAPPED: I'm very close, starting a detailed search for the mirror now.",
+        "LEADER: I am initiating a detailed visual sweep for the mirror since it's very close. Handicapped, you continue your careful search.",
+        "HANDICAPPED: Acknowledged. I am also beginning a careful visual search in my immediate surroundings.",
+        "LEADER: We are very close to the mirror. Begin the detailed visual sweep by looking up.",
+        "HANDICAPPED: Acknowledged. I am starting the detailed visual sweep by looking up.",
+        "LEADER: I have looked up. Now I am rotating right as part of the detailed sweep. You should do the same.",
+        "HANDICAPPED: Acknowledged, I am rotating right to continue the detailed visual sweep.",
+        "LEADER: We need two more right rotations to complete this phase of the sweep. Continue rotating right.",
+        "HANDICAPPED: Acknowledged, rotating right again to complete the sweep phase.",
+        "LEADER: I am performing my second right rotation for this phase. Handicapped, you should complete your 270-degree rotation this turn. After this, we will both look down.",
+        "HANDICAPPED: Acknowledged. I am completing my 270-degree right rotation for this phase. Ready to look down next.",
+        "LEADER: I am completing the 270-degree rotation for this phase. Handicapped, now that you've completed your rotation, we will both look down next.",
+        "HANDICAPPED: I am completing my 270-degree rotation now. Ready to look down next.",
+        "LEADER: I have completed the upward sweep rotation. Now we will both look down as the next step of our detailed visual sweep.",
+        "HANDICAPPED: Acknowledged. I am looking down now as part of the detailed visual sweep.",
+        "LEADER: I am looking down now as part of our sweep. After this, we will begin rotating again.",
+        "HANDICAPPED: I am also looking down, ready for the next rotation phase.",
+        "LEADER: I am starting the 270-degree right rotation after looking down. Handicapped, you should do the same.",
+        "HANDICAPPED: Acknowledged. I am beginning my right rotation as part of the detailed sweep.",
+        "LEADER: I am performing my second right rotation for this phase of the detailed sweep. Handicapped, you should do the same.",
+        "HANDICAPPED: Acknowledged. I am also performing my second right rotation for this phase.",
+        "LEADER: I am performing the third right rotation to complete this phase of the detailed sweep. Handicapped, you should do the same, then we will both look down again.",
+        "HANDICAPPED: Acknowledged. I am performing my third right rotation to complete this phase. Ready to look down again after this."
+      ]
+    },
+    {
+      "step": 13,
+      "task_id": 28,
+      "scene": "FloorPlan329",
+      "room_type": "bedroom",
+      "target_type": "Mirror",
+      "goal_text": "Cooperatively navigate to the Mirror.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "LookDown",
+      "message": "I have completed the second rotation phase. Now we both need to look down again as the next step of our detailed visual sweep.",
+      "agent_position": {
+        "x": 1.25,
+        "y": 0.9009991884231567,
+        "z": -2.9802322387695312e-08
+      },
+      "target_visible": false,
+      "target_distance": 1.5133994817733765,
+      "leader_memory_snapshot": [
+        "Leader saw Mirror at distance 1.75 m near position x=1.00, z=0.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Mirror at distance 0.87 m near position x=2.00, z=0.00.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25."
+      ],
+      "conversation_log": [
+        "LEADER: I am searching for the mirror, please move closer to it.",
+        "HANDICAPPED: Moving ahead, I see the mirror nearby.",
+        "LEADER: I see the mirror ahead, moving closer. You are very close, consider looking around carefully.",
+        "HANDICAPPED: I'm very close, starting a detailed search for the mirror now.",
+        "LEADER: I am initiating a detailed visual sweep for the mirror since it's very close. Handicapped, you continue your careful search.",
+        "HANDICAPPED: Acknowledged. I am also beginning a careful visual search in my immediate surroundings.",
+        "LEADER: We are very close to the mirror. Begin the detailed visual sweep by looking up.",
+        "HANDICAPPED: Acknowledged. I am starting the detailed visual sweep by looking up.",
+        "LEADER: I have looked up. Now I am rotating right as part of the detailed sweep. You should do the same.",
+        "HANDICAPPED: Acknowledged, I am rotating right to continue the detailed visual sweep.",
+        "LEADER: We need two more right rotations to complete this phase of the sweep. Continue rotating right.",
+        "HANDICAPPED: Acknowledged, rotating right again to complete the sweep phase.",
+        "LEADER: I am performing my second right rotation for this phase. Handicapped, you should complete your 270-degree rotation this turn. After this, we will both look down.",
+        "HANDICAPPED: Acknowledged. I am completing my 270-degree right rotation for this phase. Ready to look down next.",
+        "LEADER: I am completing the 270-degree rotation for this phase. Handicapped, now that you've completed your rotation, we will both look down next.",
+        "HANDICAPPED: I am completing my 270-degree rotation now. Ready to look down next.",
+        "LEADER: I have completed the upward sweep rotation. Now we will both look down as the next step of our detailed visual sweep.",
+        "HANDICAPPED: Acknowledged. I am looking down now as part of the detailed visual sweep.",
+        "LEADER: I am looking down now as part of our sweep. After this, we will begin rotating again.",
+        "HANDICAPPED: I am also looking down, ready for the next rotation phase.",
+        "LEADER: I am starting the 270-degree right rotation after looking down. Handicapped, you should do the same.",
+        "HANDICAPPED: Acknowledged. I am beginning my right rotation as part of the detailed sweep.",
+        "LEADER: I am performing my second right rotation for this phase of the detailed sweep. Handicapped, you should do the same.",
+        "HANDICAPPED: Acknowledged. I am also performing my second right rotation for this phase.",
+        "LEADER: I am performing the third right rotation to complete this phase of the detailed sweep. Handicapped, you should do the same, then we will both look down again.",
+        "HANDICAPPED: Acknowledged. I am performing my third right rotation to complete this phase. Ready to look down again after this.",
+        "LEADER: I have completed the second rotation phase. Now we both need to look down again as the next step of our detailed visual sweep.",
+        "HANDICAPPED: Acknowledged. I am looking down now, ready for the next rotation phase."
+      ]
+    },
+    {
+      "step": 13,
+      "task_id": 28,
+      "scene": "FloorPlan329",
+      "room_type": "bedroom",
+      "target_type": "Mirror",
+      "goal_text": "Cooperatively navigate to the Mirror.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "LookDown",
+      "message": "Acknowledged. I am looking down now, ready for the next rotation phase.",
+      "agent_position": {
+        "x": 2.0,
+        "y": 0.9009991884231567,
+        "z": 0.25
+      },
+      "target_visible": false,
+      "target_distance": 0.7949073910713196,
+      "leader_memory_snapshot": [
+        "Leader saw Mirror at distance 1.75 m near position x=1.00, z=0.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Mirror at distance 0.87 m near position x=2.00, z=0.00.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25."
+      ],
+      "conversation_log": [
+        "LEADER: I am searching for the mirror, please move closer to it.",
+        "HANDICAPPED: Moving ahead, I see the mirror nearby.",
+        "LEADER: I see the mirror ahead, moving closer. You are very close, consider looking around carefully.",
+        "HANDICAPPED: I'm very close, starting a detailed search for the mirror now.",
+        "LEADER: I am initiating a detailed visual sweep for the mirror since it's very close. Handicapped, you continue your careful search.",
+        "HANDICAPPED: Acknowledged. I am also beginning a careful visual search in my immediate surroundings.",
+        "LEADER: We are very close to the mirror. Begin the detailed visual sweep by looking up.",
+        "HANDICAPPED: Acknowledged. I am starting the detailed visual sweep by looking up.",
+        "LEADER: I have looked up. Now I am rotating right as part of the detailed sweep. You should do the same.",
+        "HANDICAPPED: Acknowledged, I am rotating right to continue the detailed visual sweep.",
+        "LEADER: We need two more right rotations to complete this phase of the sweep. Continue rotating right.",
+        "HANDICAPPED: Acknowledged, rotating right again to complete the sweep phase.",
+        "LEADER: I am performing my second right rotation for this phase. Handicapped, you should complete your 270-degree rotation this turn. After this, we will both look down.",
+        "HANDICAPPED: Acknowledged. I am completing my 270-degree right rotation for this phase. Ready to look down next.",
+        "LEADER: I am completing the 270-degree rotation for this phase. Handicapped, now that you've completed your rotation, we will both look down next.",
+        "HANDICAPPED: I am completing my 270-degree rotation now. Ready to look down next.",
+        "LEADER: I have completed the upward sweep rotation. Now we will both look down as the next step of our detailed visual sweep.",
+        "HANDICAPPED: Acknowledged. I am looking down now as part of the detailed visual sweep.",
+        "LEADER: I am looking down now as part of our sweep. After this, we will begin rotating again.",
+        "HANDICAPPED: I am also looking down, ready for the next rotation phase.",
+        "LEADER: I am starting the 270-degree right rotation after looking down. Handicapped, you should do the same.",
+        "HANDICAPPED: Acknowledged. I am beginning my right rotation as part of the detailed sweep.",
+        "LEADER: I am performing my second right rotation for this phase of the detailed sweep. Handicapped, you should do the same.",
+        "HANDICAPPED: Acknowledged. I am also performing my second right rotation for this phase.",
+        "LEADER: I am performing the third right rotation to complete this phase of the detailed sweep. Handicapped, you should do the same, then we will both look down again.",
+        "HANDICAPPED: Acknowledged. I am performing my third right rotation to complete this phase. Ready to look down again after this.",
+        "LEADER: I have completed the second rotation phase. Now we both need to look down again as the next step of our detailed visual sweep.",
+        "HANDICAPPED: Acknowledged. I am looking down now, ready for the next rotation phase."
+      ]
+    },
+    {
+      "step": 14,
+      "task_id": 28,
+      "scene": "FloorPlan329",
+      "room_type": "bedroom",
+      "target_type": "Mirror",
+      "goal_text": "Cooperatively navigate to the Mirror.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "RotateRight",
+      "message": "I am beginning the third 270-degree right rotation for the detailed sweep. Handicapped, you should also begin yours.",
+      "agent_position": {
+        "x": 1.25,
+        "y": 0.9009991884231567,
+        "z": -2.9802322387695312e-08
+      },
+      "target_visible": false,
+      "target_distance": 1.5133994817733765,
+      "leader_memory_snapshot": [
+        "Leader saw Mirror at distance 1.75 m near position x=1.00, z=0.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Mirror at distance 0.87 m near position x=2.00, z=0.00.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25."
+      ],
+      "conversation_log": [
+        "LEADER: I am searching for the mirror, please move closer to it.",
+        "HANDICAPPED: Moving ahead, I see the mirror nearby.",
+        "LEADER: I see the mirror ahead, moving closer. You are very close, consider looking around carefully.",
+        "HANDICAPPED: I'm very close, starting a detailed search for the mirror now.",
+        "LEADER: I am initiating a detailed visual sweep for the mirror since it's very close. Handicapped, you continue your careful search.",
+        "HANDICAPPED: Acknowledged. I am also beginning a careful visual search in my immediate surroundings.",
+        "LEADER: We are very close to the mirror. Begin the detailed visual sweep by looking up.",
+        "HANDICAPPED: Acknowledged. I am starting the detailed visual sweep by looking up.",
+        "LEADER: I have looked up. Now I am rotating right as part of the detailed sweep. You should do the same.",
+        "HANDICAPPED: Acknowledged, I am rotating right to continue the detailed visual sweep.",
+        "LEADER: We need two more right rotations to complete this phase of the sweep. Continue rotating right.",
+        "HANDICAPPED: Acknowledged, rotating right again to complete the sweep phase.",
+        "LEADER: I am performing my second right rotation for this phase. Handicapped, you should complete your 270-degree rotation this turn. After this, we will both look down.",
+        "HANDICAPPED: Acknowledged. I am completing my 270-degree right rotation for this phase. Ready to look down next.",
+        "LEADER: I am completing the 270-degree rotation for this phase. Handicapped, now that you've completed your rotation, we will both look down next.",
+        "HANDICAPPED: I am completing my 270-degree rotation now. Ready to look down next.",
+        "LEADER: I have completed the upward sweep rotation. Now we will both look down as the next step of our detailed visual sweep.",
+        "HANDICAPPED: Acknowledged. I am looking down now as part of the detailed visual sweep.",
+        "LEADER: I am looking down now as part of our sweep. After this, we will begin rotating again.",
+        "HANDICAPPED: I am also looking down, ready for the next rotation phase.",
+        "LEADER: I am starting the 270-degree right rotation after looking down. Handicapped, you should do the same.",
+        "HANDICAPPED: Acknowledged. I am beginning my right rotation as part of the detailed sweep.",
+        "LEADER: I am performing my second right rotation for this phase of the detailed sweep. Handicapped, you should do the same.",
+        "HANDICAPPED: Acknowledged. I am also performing my second right rotation for this phase.",
+        "LEADER: I am performing the third right rotation to complete this phase of the detailed sweep. Handicapped, you should do the same, then we will both look down again.",
+        "HANDICAPPED: Acknowledged. I am performing my third right rotation to complete this phase. Ready to look down again after this.",
+        "LEADER: I have completed the second rotation phase. Now we both need to look down again as the next step of our detailed visual sweep.",
+        "HANDICAPPED: Acknowledged. I am looking down now, ready for the next rotation phase.",
+        "LEADER: I am beginning the third 270-degree right rotation for the detailed sweep. Handicapped, you should also begin yours.",
+        "HANDICAPPED: I see the mirror directly now and am at the target. Task complete for me!"
+      ]
+    },
+    {
+      "step": 14,
+      "task_id": 28,
+      "scene": "FloorPlan329",
+      "room_type": "bedroom",
+      "target_type": "Mirror",
+      "goal_text": "Cooperatively navigate to the Mirror.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "Done",
+      "message": "I see the mirror directly now and am at the target. Task complete for me!",
+      "agent_position": {
+        "x": 2.0,
+        "y": 0.9009991884231567,
+        "z": 0.25
+      },
+      "target_visible": true,
+      "target_distance": 0.7949073910713196,
+      "leader_memory_snapshot": [
+        "Leader saw Mirror at distance 1.75 m near position x=1.00, z=0.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Mirror at distance 0.87 m near position x=2.00, z=0.00.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25."
+      ],
+      "conversation_log": [
+        "LEADER: I am searching for the mirror, please move closer to it.",
+        "HANDICAPPED: Moving ahead, I see the mirror nearby.",
+        "LEADER: I see the mirror ahead, moving closer. You are very close, consider looking around carefully.",
+        "HANDICAPPED: I'm very close, starting a detailed search for the mirror now.",
+        "LEADER: I am initiating a detailed visual sweep for the mirror since it's very close. Handicapped, you continue your careful search.",
+        "HANDICAPPED: Acknowledged. I am also beginning a careful visual search in my immediate surroundings.",
+        "LEADER: We are very close to the mirror. Begin the detailed visual sweep by looking up.",
+        "HANDICAPPED: Acknowledged. I am starting the detailed visual sweep by looking up.",
+        "LEADER: I have looked up. Now I am rotating right as part of the detailed sweep. You should do the same.",
+        "HANDICAPPED: Acknowledged, I am rotating right to continue the detailed visual sweep.",
+        "LEADER: We need two more right rotations to complete this phase of the sweep. Continue rotating right.",
+        "HANDICAPPED: Acknowledged, rotating right again to complete the sweep phase.",
+        "LEADER: I am performing my second right rotation for this phase. Handicapped, you should complete your 270-degree rotation this turn. After this, we will both look down.",
+        "HANDICAPPED: Acknowledged. I am completing my 270-degree right rotation for this phase. Ready to look down next.",
+        "LEADER: I am completing the 270-degree rotation for this phase. Handicapped, now that you've completed your rotation, we will both look down next.",
+        "HANDICAPPED: I am completing my 270-degree rotation now. Ready to look down next.",
+        "LEADER: I have completed the upward sweep rotation. Now we will both look down as the next step of our detailed visual sweep.",
+        "HANDICAPPED: Acknowledged. I am looking down now as part of the detailed visual sweep.",
+        "LEADER: I am looking down now as part of our sweep. After this, we will begin rotating again.",
+        "HANDICAPPED: I am also looking down, ready for the next rotation phase.",
+        "LEADER: I am starting the 270-degree right rotation after looking down. Handicapped, you should do the same.",
+        "HANDICAPPED: Acknowledged. I am beginning my right rotation as part of the detailed sweep.",
+        "LEADER: I am performing my second right rotation for this phase of the detailed sweep. Handicapped, you should do the same.",
+        "HANDICAPPED: Acknowledged. I am also performing my second right rotation for this phase.",
+        "LEADER: I am performing the third right rotation to complete this phase of the detailed sweep. Handicapped, you should do the same, then we will both look down again.",
+        "HANDICAPPED: Acknowledged. I am performing my third right rotation to complete this phase. Ready to look down again after this.",
+        "LEADER: I have completed the second rotation phase. Now we both need to look down again as the next step of our detailed visual sweep.",
+        "HANDICAPPED: Acknowledged. I am looking down now, ready for the next rotation phase.",
+        "LEADER: I am beginning the third 270-degree right rotation for the detailed sweep. Handicapped, you should also begin yours.",
+        "HANDICAPPED: I see the mirror directly now and am at the target. Task complete for me!"
+      ]
+    },
+    {
+      "step": 15,
+      "task_id": 28,
+      "scene": "FloorPlan329",
+      "room_type": "bedroom",
+      "target_type": "Mirror",
+      "goal_text": "Cooperatively navigate to the Mirror.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "Done",
+      "message": "Excellent work, Handicapped! Since you've located the mirror and are at the target, I will also complete the task.",
+      "agent_position": {
+        "x": 1.25,
+        "y": 0.9009991884231567,
+        "z": -2.9802322387695312e-08
+      },
+      "target_visible": false,
+      "target_distance": 1.5133994817733765,
+      "leader_memory_snapshot": [
+        "Leader saw Mirror at distance 1.75 m near position x=1.00, z=0.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Mirror at distance 0.87 m near position x=2.00, z=0.00.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25."
+      ],
+      "conversation_log": [
+        "LEADER: I am searching for the mirror, please move closer to it.",
+        "HANDICAPPED: Moving ahead, I see the mirror nearby.",
+        "LEADER: I see the mirror ahead, moving closer. You are very close, consider looking around carefully.",
+        "HANDICAPPED: I'm very close, starting a detailed search for the mirror now.",
+        "LEADER: I am initiating a detailed visual sweep for the mirror since it's very close. Handicapped, you continue your careful search.",
+        "HANDICAPPED: Acknowledged. I am also beginning a careful visual search in my immediate surroundings.",
+        "LEADER: We are very close to the mirror. Begin the detailed visual sweep by looking up.",
+        "HANDICAPPED: Acknowledged. I am starting the detailed visual sweep by looking up.",
+        "LEADER: I have looked up. Now I am rotating right as part of the detailed sweep. You should do the same.",
+        "HANDICAPPED: Acknowledged, I am rotating right to continue the detailed visual sweep.",
+        "LEADER: We need two more right rotations to complete this phase of the sweep. Continue rotating right.",
+        "HANDICAPPED: Acknowledged, rotating right again to complete the sweep phase.",
+        "LEADER: I am performing my second right rotation for this phase. Handicapped, you should complete your 270-degree rotation this turn. After this, we will both look down.",
+        "HANDICAPPED: Acknowledged. I am completing my 270-degree right rotation for this phase. Ready to look down next.",
+        "LEADER: I am completing the 270-degree rotation for this phase. Handicapped, now that you've completed your rotation, we will both look down next.",
+        "HANDICAPPED: I am completing my 270-degree rotation now. Ready to look down next.",
+        "LEADER: I have completed the upward sweep rotation. Now we will both look down as the next step of our detailed visual sweep.",
+        "HANDICAPPED: Acknowledged. I am looking down now as part of the detailed visual sweep.",
+        "LEADER: I am looking down now as part of our sweep. After this, we will begin rotating again.",
+        "HANDICAPPED: I am also looking down, ready for the next rotation phase.",
+        "LEADER: I am starting the 270-degree right rotation after looking down. Handicapped, you should do the same.",
+        "HANDICAPPED: Acknowledged. I am beginning my right rotation as part of the detailed sweep.",
+        "LEADER: I am performing my second right rotation for this phase of the detailed sweep. Handicapped, you should do the same.",
+        "HANDICAPPED: Acknowledged. I am also performing my second right rotation for this phase.",
+        "LEADER: I am performing the third right rotation to complete this phase of the detailed sweep. Handicapped, you should do the same, then we will both look down again.",
+        "HANDICAPPED: Acknowledged. I am performing my third right rotation to complete this phase. Ready to look down again after this.",
+        "LEADER: I have completed the second rotation phase. Now we both need to look down again as the next step of our detailed visual sweep.",
+        "HANDICAPPED: Acknowledged. I am looking down now, ready for the next rotation phase.",
+        "LEADER: I am beginning the third 270-degree right rotation for the detailed sweep. Handicapped, you should also begin yours.",
+        "HANDICAPPED: I see the mirror directly now and am at the target. Task complete for me!",
+        "LEADER: Excellent work, Handicapped! Since you've located the mirror and are at the target, I will also complete the task.",
+        "HANDICAPPED: Affirmative, I am at the target. Task complete for me."
+      ]
+    },
+    {
+      "step": 15,
+      "task_id": 28,
+      "scene": "FloorPlan329",
+      "room_type": "bedroom",
+      "target_type": "Mirror",
+      "goal_text": "Cooperatively navigate to the Mirror.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "Done",
+      "message": "Affirmative, I am at the target. Task complete for me.",
+      "agent_position": {
+        "x": 2.0,
+        "y": 0.9009991884231567,
+        "z": 0.25
+      },
+      "target_visible": true,
+      "target_distance": 0.7949073910713196,
+      "leader_memory_snapshot": [
+        "Leader saw Mirror at distance 1.75 m near position x=1.00, z=0.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Mirror at distance 0.87 m near position x=2.00, z=0.00.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25.",
+        "Handicapped saw Mirror at distance 0.79 m near position x=2.00, z=0.25."
+      ],
+      "conversation_log": [
+        "LEADER: I am searching for the mirror, please move closer to it.",
+        "HANDICAPPED: Moving ahead, I see the mirror nearby.",
+        "LEADER: I see the mirror ahead, moving closer. You are very close, consider looking around carefully.",
+        "HANDICAPPED: I'm very close, starting a detailed search for the mirror now.",
+        "LEADER: I am initiating a detailed visual sweep for the mirror since it's very close. Handicapped, you continue your careful search.",
+        "HANDICAPPED: Acknowledged. I am also beginning a careful visual search in my immediate surroundings.",
+        "LEADER: We are very close to the mirror. Begin the detailed visual sweep by looking up.",
+        "HANDICAPPED: Acknowledged. I am starting the detailed visual sweep by looking up.",
+        "LEADER: I have looked up. Now I am rotating right as part of the detailed sweep. You should do the same.",
+        "HANDICAPPED: Acknowledged, I am rotating right to continue the detailed visual sweep.",
+        "LEADER: We need two more right rotations to complete this phase of the sweep. Continue rotating right.",
+        "HANDICAPPED: Acknowledged, rotating right again to complete the sweep phase.",
+        "LEADER: I am performing my second right rotation for this phase. Handicapped, you should complete your 270-degree rotation this turn. After this, we will both look down.",
+        "HANDICAPPED: Acknowledged. I am completing my 270-degree right rotation for this phase. Ready to look down next.",
+        "LEADER: I am completing the 270-degree rotation for this phase. Handicapped, now that you've completed your rotation, we will both look down next.",
+        "HANDICAPPED: I am completing my 270-degree rotation now. Ready to look down next.",
+        "LEADER: I have completed the upward sweep rotation. Now we will both look down as the next step of our detailed visual sweep.",
+        "HANDICAPPED: Acknowledged. I am looking down now as part of the detailed visual sweep.",
+        "LEADER: I am looking down now as part of our sweep. After this, we will begin rotating again.",
+        "HANDICAPPED: I am also looking down, ready for the next rotation phase.",
+        "LEADER: I am starting the 270-degree right rotation after looking down. Handicapped, you should do the same.",
+        "HANDICAPPED: Acknowledged. I am beginning my right rotation as part of the detailed sweep.",
+        "LEADER: I am performing my second right rotation for this phase of the detailed sweep. Handicapped, you should do the same.",
+        "HANDICAPPED: Acknowledged. I am also performing my second right rotation for this phase.",
+        "LEADER: I am performing the third right rotation to complete this phase of the detailed sweep. Handicapped, you should do the same, then we will both look down again.",
+        "HANDICAPPED: Acknowledged. I am performing my third right rotation to complete this phase. Ready to look down again after this.",
+        "LEADER: I have completed the second rotation phase. Now we both need to look down again as the next step of our detailed visual sweep.",
+        "HANDICAPPED: Acknowledged. I am looking down now, ready for the next rotation phase.",
+        "LEADER: I am beginning the third 270-degree right rotation for the detailed sweep. Handicapped, you should also begin yours.",
+        "HANDICAPPED: I see the mirror directly now and am at the target. Task complete for me!",
+        "LEADER: Excellent work, Handicapped! Since you've located the mirror and are at the target, I will also complete the task.",
+        "HANDICAPPED: Affirmative, I am at the target. Task complete for me."
+      ]
+    }
+  ]
+}
