@@ -1,0 +1,394 @@
+{
+  "task_meta": {
+    "task_id": 84,
+    "scene": "FloorPlan27",
+    "room_type": "kitchen",
+    "target_type": "Pot",
+    "goal_text": "Navigate to the Pot."
+  },
+  "episode_time_sec": 60.334812874905765,
+  "steps": [
+    {
+      "step": 0,
+      "task_id": 84,
+      "scene": "FloorPlan27",
+      "room_type": "kitchen",
+      "target_type": "Pot",
+      "goal_text": "Cooperatively navigate to the Pot.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "Moving ahead. The Pot might be in the area near the Microwave.",
+      "agent_position": {
+        "x": 1.0,
+        "y": 0.9010001420974731,
+        "z": 1.0
+      },
+      "target_visible": false,
+      "target_distance": 0.9890249371528625,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: Moving ahead. The Pot might be in the area near the Microwave.",
+        "HANDICAPPED: Moving ahead with you."
+      ]
+    },
+    {
+      "step": 0,
+      "task_id": 84,
+      "scene": "FloorPlan27",
+      "room_type": "kitchen",
+      "target_type": "Pot",
+      "goal_text": "Cooperatively navigate to the Pot.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Moving ahead with you.",
+      "agent_position": {
+        "x": 0.5,
+        "y": 0.9010001420974731,
+        "z": 1.5
+      },
+      "target_visible": false,
+      "target_distance": 1.3548599481582642,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: Moving ahead. The Pot might be in the area near the Microwave.",
+        "HANDICAPPED: Moving ahead with you."
+      ]
+    },
+    {
+      "step": 1,
+      "task_id": 84,
+      "scene": "FloorPlan27",
+      "room_type": "kitchen",
+      "target_type": "Pot",
+      "goal_text": "Cooperatively navigate to the Pot.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "RotateRight",
+      "message": "I am rotating right to get a better view of the area near the Microwave. Keep an eye on the Microwave.",
+      "agent_position": {
+        "x": 0.75,
+        "y": 0.9010001420974731,
+        "z": 1.0
+      },
+      "target_visible": false,
+      "target_distance": 1.2115730047225952,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: Moving ahead. The Pot might be in the area near the Microwave.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: I am rotating right to get a better view of the area near the Microwave. Keep an eye on the Microwave.",
+        "HANDICAPPED: Rotating right with you, keeping the Microwave in sight."
+      ]
+    },
+    {
+      "step": 1,
+      "task_id": 84,
+      "scene": "FloorPlan27",
+      "room_type": "kitchen",
+      "target_type": "Pot",
+      "goal_text": "Cooperatively navigate to the Pot.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "RotateRight",
+      "message": "Rotating right with you, keeping the Microwave in sight.",
+      "agent_position": {
+        "x": 0.5,
+        "y": 0.9010001420974731,
+        "z": 1.5
+      },
+      "target_visible": false,
+      "target_distance": 1.3548589944839478,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: Moving ahead. The Pot might be in the area near the Microwave.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: I am rotating right to get a better view of the area near the Microwave. Keep an eye on the Microwave.",
+        "HANDICAPPED: Rotating right with you, keeping the Microwave in sight."
+      ]
+    },
+    {
+      "step": 2,
+      "task_id": 84,
+      "scene": "FloorPlan27",
+      "room_type": "kitchen",
+      "target_type": "Pot",
+      "goal_text": "Cooperatively navigate to the Pot.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "Moving closer to the Microwave area. Keep an eye out for the Pot.",
+      "agent_position": {
+        "x": 0.75,
+        "y": 0.9010001420974731,
+        "z": 1.0
+      },
+      "target_visible": false,
+      "target_distance": 1.2115730047225952,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: Moving ahead. The Pot might be in the area near the Microwave.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: I am rotating right to get a better view of the area near the Microwave. Keep an eye on the Microwave.",
+        "HANDICAPPED: Rotating right with you, keeping the Microwave in sight.",
+        "LEADER: Moving closer to the Microwave area. Keep an eye out for the Pot.",
+        "HANDICAPPED: Moving ahead with you."
+      ]
+    },
+    {
+      "step": 2,
+      "task_id": 84,
+      "scene": "FloorPlan27",
+      "room_type": "kitchen",
+      "target_type": "Pot",
+      "goal_text": "Cooperatively navigate to the Pot.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Moving ahead with you.",
+      "agent_position": {
+        "x": 0.5,
+        "y": 0.9010001420974731,
+        "z": 1.5
+      },
+      "target_visible": false,
+      "target_distance": 1.3548589944839478,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: Moving ahead. The Pot might be in the area near the Microwave.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: I am rotating right to get a better view of the area near the Microwave. Keep an eye on the Microwave.",
+        "HANDICAPPED: Rotating right with you, keeping the Microwave in sight.",
+        "LEADER: Moving closer to the Microwave area. Keep an eye out for the Pot.",
+        "HANDICAPPED: Moving ahead with you."
+      ]
+    },
+    {
+      "step": 3,
+      "task_id": 84,
+      "scene": "FloorPlan27",
+      "room_type": "kitchen",
+      "target_type": "Pot",
+      "goal_text": "Cooperatively navigate to the Pot.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "RotateRight",
+      "message": "The Microwave is no longer in my direct view. I will rotate right to scan the area for the Pot.",
+      "agent_position": {
+        "x": 0.75,
+        "y": 0.9010001420974731,
+        "z": 1.25
+      },
+      "target_visible": false,
+      "target_distance": 1.1322129964828491,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: Moving ahead. The Pot might be in the area near the Microwave.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: I am rotating right to get a better view of the area near the Microwave. Keep an eye on the Microwave.",
+        "HANDICAPPED: Rotating right with you, keeping the Microwave in sight.",
+        "LEADER: Moving closer to the Microwave area. Keep an eye out for the Pot.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: The Microwave is no longer in my direct view. I will rotate right to scan the area for the Pot.",
+        "HANDICAPPED: Rotating right with you. The Microwave is still nearby."
+      ]
+    },
+    {
+      "step": 3,
+      "task_id": 84,
+      "scene": "FloorPlan27",
+      "room_type": "kitchen",
+      "target_type": "Pot",
+      "goal_text": "Cooperatively navigate to the Pot.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "RotateRight",
+      "message": "Rotating right with you. The Microwave is still nearby.",
+      "agent_position": {
+        "x": 0.5,
+        "y": 0.9010001420974731,
+        "z": 1.5
+      },
+      "target_visible": false,
+      "target_distance": 1.3548589944839478,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: Moving ahead. The Pot might be in the area near the Microwave.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: I am rotating right to get a better view of the area near the Microwave. Keep an eye on the Microwave.",
+        "HANDICAPPED: Rotating right with you, keeping the Microwave in sight.",
+        "LEADER: Moving closer to the Microwave area. Keep an eye out for the Pot.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: The Microwave is no longer in my direct view. I will rotate right to scan the area for the Pot.",
+        "HANDICAPPED: Rotating right with you. The Microwave is still nearby."
+      ]
+    },
+    {
+      "step": 4,
+      "task_id": 84,
+      "scene": "FloorPlan27",
+      "room_type": "kitchen",
+      "target_type": "Pot",
+      "goal_text": "Cooperatively navigate to the Pot.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "I found the Pot! It's straight ahead, so I'm moving closer.",
+      "agent_position": {
+        "x": 0.75,
+        "y": 0.9010001420974731,
+        "z": 1.25
+      },
+      "target_visible": true,
+      "target_distance": 1.1322129964828491,
+      "leader_memory_snapshot": [
+        "Leader saw Pot at distance 1.13 m near position x=0.75, z=1.25."
+      ],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: Moving ahead. The Pot might be in the area near the Microwave.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: I am rotating right to get a better view of the area near the Microwave. Keep an eye on the Microwave.",
+        "HANDICAPPED: Rotating right with you, keeping the Microwave in sight.",
+        "LEADER: Moving closer to the Microwave area. Keep an eye out for the Pot.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: The Microwave is no longer in my direct view. I will rotate right to scan the area for the Pot.",
+        "HANDICAPPED: Rotating right with you. The Microwave is still nearby.",
+        "LEADER: I found the Pot! It's straight ahead, so I'm moving closer.",
+        "HANDICAPPED: Moving ahead with you towards the Pot."
+      ]
+    },
+    {
+      "step": 4,
+      "task_id": 84,
+      "scene": "FloorPlan27",
+      "room_type": "kitchen",
+      "target_type": "Pot",
+      "goal_text": "Cooperatively navigate to the Pot.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Moving ahead with you towards the Pot.",
+      "agent_position": {
+        "x": 0.5,
+        "y": 0.9010001420974731,
+        "z": 1.5
+      },
+      "target_visible": false,
+      "target_distance": 1.3548589944839478,
+      "leader_memory_snapshot": [
+        "Leader saw Pot at distance 1.13 m near position x=0.75, z=1.25."
+      ],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: Moving ahead. The Pot might be in the area near the Microwave.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: I am rotating right to get a better view of the area near the Microwave. Keep an eye on the Microwave.",
+        "HANDICAPPED: Rotating right with you, keeping the Microwave in sight.",
+        "LEADER: Moving closer to the Microwave area. Keep an eye out for the Pot.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: The Microwave is no longer in my direct view. I will rotate right to scan the area for the Pot.",
+        "HANDICAPPED: Rotating right with you. The Microwave is still nearby.",
+        "LEADER: I found the Pot! It's straight ahead, so I'm moving closer.",
+        "HANDICAPPED: Moving ahead with you towards the Pot."
+      ]
+    },
+    {
+      "step": 5,
+      "task_id": 84,
+      "scene": "FloorPlan27",
+      "room_type": "kitchen",
+      "target_type": "Pot",
+      "goal_text": "Cooperatively navigate to the Pot.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "Done",
+      "message": "I am at the Pot. We are done.",
+      "agent_position": {
+        "x": 1.0,
+        "y": 0.9010001420974731,
+        "z": 1.25
+      },
+      "target_visible": true,
+      "target_distance": 0.8900373578071594,
+      "leader_memory_snapshot": [
+        "Leader saw Pot at distance 1.13 m near position x=0.75, z=1.25.",
+        "Leader saw Pot at distance 0.89 m near position x=1.00, z=1.25."
+      ],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: Moving ahead. The Pot might be in the area near the Microwave.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: I am rotating right to get a better view of the area near the Microwave. Keep an eye on the Microwave.",
+        "HANDICAPPED: Rotating right with you, keeping the Microwave in sight.",
+        "LEADER: Moving closer to the Microwave area. Keep an eye out for the Pot.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: The Microwave is no longer in my direct view. I will rotate right to scan the area for the Pot.",
+        "HANDICAPPED: Rotating right with you. The Microwave is still nearby.",
+        "LEADER: I found the Pot! It's straight ahead, so I'm moving closer.",
+        "HANDICAPPED: Moving ahead with you towards the Pot.",
+        "LEADER: I am at the Pot. We are done.",
+        "HANDICAPPED: Understood, I am stopping as well."
+      ]
+    },
+    {
+      "step": 5,
+      "task_id": 84,
+      "scene": "FloorPlan27",
+      "room_type": "kitchen",
+      "target_type": "Pot",
+      "goal_text": "Cooperatively navigate to the Pot.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "Done",
+      "message": "Understood, I am stopping as well.",
+      "agent_position": {
+        "x": 0.5,
+        "y": 0.9010001420974731,
+        "z": 1.5
+      },
+      "target_visible": false,
+      "target_distance": 1.3548589944839478,
+      "leader_memory_snapshot": [
+        "Leader saw Pot at distance 1.13 m near position x=0.75, z=1.25.",
+        "Leader saw Pot at distance 0.89 m near position x=1.00, z=1.25."
+      ],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: Moving ahead. The Pot might be in the area near the Microwave.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: I am rotating right to get a better view of the area near the Microwave. Keep an eye on the Microwave.",
+        "HANDICAPPED: Rotating right with you, keeping the Microwave in sight.",
+        "LEADER: Moving closer to the Microwave area. Keep an eye out for the Pot.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: The Microwave is no longer in my direct view. I will rotate right to scan the area for the Pot.",
+        "HANDICAPPED: Rotating right with you. The Microwave is still nearby.",
+        "LEADER: I found the Pot! It's straight ahead, so I'm moving closer.",
+        "HANDICAPPED: Moving ahead with you towards the Pot.",
+        "LEADER: I am at the Pot. We are done.",
+        "HANDICAPPED: Understood, I am stopping as well."
+      ]
+    }
+  ]
+}

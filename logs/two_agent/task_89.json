@@ -1,0 +1,1278 @@
+{
+  "task_meta": {
+    "task_id": 89,
+    "scene": "FloorPlan310",
+    "room_type": "bedroom",
+    "target_type": "Bed",
+    "goal_text": "Navigate to the Bed."
+  },
+  "episode_time_sec": 99.84151537506841,
+  "steps": [
+    {
+      "step": 0,
+      "task_id": 89,
+      "scene": "FloorPlan310",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Cooperatively navigate to the Bed.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "RotateRight",
+      "message": "I am turning right to scout our surroundings for the Bed. Please do the same.",
+      "agent_position": {
+        "x": 0.5,
+        "y": 0.9009992480278015,
+        "z": -1.25
+      },
+      "target_visible": false,
+      "target_distance": 1.8686208724975586,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: I am turning right to scout our surroundings for the Bed. Please do the same.",
+        "HANDICAPPED: Turning right now."
+      ]
+    },
+    {
+      "step": 0,
+      "task_id": 89,
+      "scene": "FloorPlan310",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Cooperatively navigate to the Bed.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "RotateRight",
+      "message": "Turning right now.",
+      "agent_position": {
+        "x": 1.0,
+        "y": 0.9009992480278015,
+        "z": -0.75
+      },
+      "target_visible": false,
+      "target_distance": 1.3512011766433716,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: I am turning right to scout our surroundings for the Bed. Please do the same.",
+        "HANDICAPPED: Turning right now."
+      ]
+    },
+    {
+      "step": 1,
+      "task_id": 89,
+      "scene": "FloorPlan310",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Cooperatively navigate to the Bed.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "The Bed is directly ahead. Moving forward. Please move ahead as well.",
+      "agent_position": {
+        "x": 0.5,
+        "y": 0.9009992480278015,
+        "z": -1.25
+      },
+      "target_visible": true,
+      "target_distance": 1.8677695989608765,
+      "leader_memory_snapshot": [
+        "Leader saw Bed at distance 1.87 m near position x=0.50, z=-1.25."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Bed at distance 1.37 m near position x=1.00, z=-0.75."
+      ],
+      "conversation_log": [
+        "LEADER: I am turning right to scout our surroundings for the Bed. Please do the same.",
+        "HANDICAPPED: Turning right now.",
+        "LEADER: The Bed is directly ahead. Moving forward. Please move ahead as well.",
+        "HANDICAPPED: I also see the Bed nearby and am moving forward."
+      ]
+    },
+    {
+      "step": 1,
+      "task_id": 89,
+      "scene": "FloorPlan310",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Cooperatively navigate to the Bed.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "I also see the Bed nearby and am moving forward.",
+      "agent_position": {
+        "x": 1.0,
+        "y": 0.9009992480278015,
+        "z": -0.75
+      },
+      "target_visible": true,
+      "target_distance": 1.3718819618225098,
+      "leader_memory_snapshot": [
+        "Leader saw Bed at distance 1.87 m near position x=0.50, z=-1.25."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Bed at distance 1.37 m near position x=1.00, z=-0.75."
+      ],
+      "conversation_log": [
+        "LEADER: I am turning right to scout our surroundings for the Bed. Please do the same.",
+        "HANDICAPPED: Turning right now.",
+        "LEADER: The Bed is directly ahead. Moving forward. Please move ahead as well.",
+        "HANDICAPPED: I also see the Bed nearby and am moving forward."
+      ]
+    },
+    {
+      "step": 2,
+      "task_id": 89,
+      "scene": "FloorPlan310",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Cooperatively navigate to the Bed.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "The Bed is still directly ahead. Keep moving forward.",
+      "agent_position": {
+        "x": 0.5,
+        "y": 0.9009992480278015,
+        "z": -1.0
+      },
+      "target_visible": true,
+      "target_distance": 1.6964111328125,
+      "leader_memory_snapshot": [
+        "Leader saw Bed at distance 1.87 m near position x=0.50, z=-1.25.",
+        "Leader saw Bed at distance 1.70 m near position x=0.50, z=-1.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Bed at distance 1.37 m near position x=1.00, z=-0.75.",
+        "Handicapped saw Bed at distance 1.22 m near position x=1.00, z=-0.50."
+      ],
+      "conversation_log": [
+        "LEADER: I am turning right to scout our surroundings for the Bed. Please do the same.",
+        "HANDICAPPED: Turning right now.",
+        "LEADER: The Bed is directly ahead. Moving forward. Please move ahead as well.",
+        "HANDICAPPED: I also see the Bed nearby and am moving forward.",
+        "LEADER: The Bed is still directly ahead. Keep moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby."
+      ]
+    },
+    {
+      "step": 2,
+      "task_id": 89,
+      "scene": "FloorPlan310",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Cooperatively navigate to the Bed.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Moving forward as instructed. I still see the Bed nearby.",
+      "agent_position": {
+        "x": 1.0,
+        "y": 0.9009992480278015,
+        "z": -0.5
+      },
+      "target_visible": true,
+      "target_distance": 1.2223803997039795,
+      "leader_memory_snapshot": [
+        "Leader saw Bed at distance 1.87 m near position x=0.50, z=-1.25.",
+        "Leader saw Bed at distance 1.70 m near position x=0.50, z=-1.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Bed at distance 1.37 m near position x=1.00, z=-0.75.",
+        "Handicapped saw Bed at distance 1.22 m near position x=1.00, z=-0.50."
+      ],
+      "conversation_log": [
+        "LEADER: I am turning right to scout our surroundings for the Bed. Please do the same.",
+        "HANDICAPPED: Turning right now.",
+        "LEADER: The Bed is directly ahead. Moving forward. Please move ahead as well.",
+        "HANDICAPPED: I also see the Bed nearby and am moving forward.",
+        "LEADER: The Bed is still directly ahead. Keep moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby."
+      ]
+    },
+    {
+      "step": 3,
+      "task_id": 89,
+      "scene": "FloorPlan310",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Cooperatively navigate to the Bed.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "I am still moving forward. The Bed is directly ahead.",
+      "agent_position": {
+        "x": 0.5,
+        "y": 0.9009992480278015,
+        "z": -0.75
+      },
+      "target_visible": true,
+      "target_distance": 1.5448534488677979,
+      "leader_memory_snapshot": [
+        "Leader saw Bed at distance 1.87 m near position x=0.50, z=-1.25.",
+        "Leader saw Bed at distance 1.70 m near position x=0.50, z=-1.00.",
+        "Leader saw Bed at distance 1.54 m near position x=0.50, z=-0.75."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Bed at distance 1.37 m near position x=1.00, z=-0.75.",
+        "Handicapped saw Bed at distance 1.22 m near position x=1.00, z=-0.50.",
+        "Handicapped saw Bed at distance 1.08 m near position x=1.00, z=-0.25."
+      ],
+      "conversation_log": [
+        "LEADER: I am turning right to scout our surroundings for the Bed. Please do the same.",
+        "HANDICAPPED: Turning right now.",
+        "LEADER: The Bed is directly ahead. Moving forward. Please move ahead as well.",
+        "HANDICAPPED: I also see the Bed nearby and am moving forward.",
+        "LEADER: The Bed is still directly ahead. Keep moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby.",
+        "LEADER: I am still moving forward. The Bed is directly ahead.",
+        "HANDICAPPED: I am very close to the Bed, so I am looking up to search for its exact position."
+      ]
+    },
+    {
+      "step": 3,
+      "task_id": 89,
+      "scene": "FloorPlan310",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Cooperatively navigate to the Bed.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "LookUp",
+      "message": "I am very close to the Bed, so I am looking up to search for its exact position.",
+      "agent_position": {
+        "x": 1.0,
+        "y": 0.9009992480278015,
+        "z": -0.25
+      },
+      "target_visible": true,
+      "target_distance": 1.0799750089645386,
+      "leader_memory_snapshot": [
+        "Leader saw Bed at distance 1.87 m near position x=0.50, z=-1.25.",
+        "Leader saw Bed at distance 1.70 m near position x=0.50, z=-1.00.",
+        "Leader saw Bed at distance 1.54 m near position x=0.50, z=-0.75."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Bed at distance 1.37 m near position x=1.00, z=-0.75.",
+        "Handicapped saw Bed at distance 1.22 m near position x=1.00, z=-0.50.",
+        "Handicapped saw Bed at distance 1.08 m near position x=1.00, z=-0.25."
+      ],
+      "conversation_log": [
+        "LEADER: I am turning right to scout our surroundings for the Bed. Please do the same.",
+        "HANDICAPPED: Turning right now.",
+        "LEADER: The Bed is directly ahead. Moving forward. Please move ahead as well.",
+        "HANDICAPPED: I also see the Bed nearby and am moving forward.",
+        "LEADER: The Bed is still directly ahead. Keep moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby.",
+        "LEADER: I am still moving forward. The Bed is directly ahead.",
+        "HANDICAPPED: I am very close to the Bed, so I am looking up to search for its exact position."
+      ]
+    },
+    {
+      "step": 4,
+      "task_id": 89,
+      "scene": "FloorPlan310",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Cooperatively navigate to the Bed.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "The Bed is still directly ahead at 1.37 meters. Moving forward.",
+      "agent_position": {
+        "x": 0.5,
+        "y": 0.9009992480278015,
+        "z": -0.5
+      },
+      "target_visible": true,
+      "target_distance": 1.3686472177505493,
+      "leader_memory_snapshot": [
+        "Leader saw Bed at distance 1.87 m near position x=0.50, z=-1.25.",
+        "Leader saw Bed at distance 1.70 m near position x=0.50, z=-1.00.",
+        "Leader saw Bed at distance 1.54 m near position x=0.50, z=-0.75.",
+        "Leader saw Bed at distance 1.37 m near position x=0.50, z=-0.50."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Bed at distance 1.37 m near position x=1.00, z=-0.75.",
+        "Handicapped saw Bed at distance 1.22 m near position x=1.00, z=-0.50.",
+        "Handicapped saw Bed at distance 1.08 m near position x=1.00, z=-0.25.",
+        "Handicapped saw Bed at distance 1.09 m near position x=1.00, z=-0.25."
+      ],
+      "conversation_log": [
+        "LEADER: I am turning right to scout our surroundings for the Bed. Please do the same.",
+        "HANDICAPPED: Turning right now.",
+        "LEADER: The Bed is directly ahead. Moving forward. Please move ahead as well.",
+        "HANDICAPPED: I also see the Bed nearby and am moving forward.",
+        "LEADER: The Bed is still directly ahead. Keep moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby.",
+        "LEADER: I am still moving forward. The Bed is directly ahead.",
+        "HANDICAPPED: I am very close to the Bed, so I am looking up to search for its exact position.",
+        "LEADER: The Bed is still directly ahead at 1.37 meters. Moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby."
+      ]
+    },
+    {
+      "step": 4,
+      "task_id": 89,
+      "scene": "FloorPlan310",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Cooperatively navigate to the Bed.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Moving forward as instructed. I still see the Bed nearby.",
+      "agent_position": {
+        "x": 1.0,
+        "y": 0.9009992480278015,
+        "z": -0.25
+      },
+      "target_visible": true,
+      "target_distance": 1.0862659215927124,
+      "leader_memory_snapshot": [
+        "Leader saw Bed at distance 1.87 m near position x=0.50, z=-1.25.",
+        "Leader saw Bed at distance 1.70 m near position x=0.50, z=-1.00.",
+        "Leader saw Bed at distance 1.54 m near position x=0.50, z=-0.75.",
+        "Leader saw Bed at distance 1.37 m near position x=0.50, z=-0.50."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Bed at distance 1.37 m near position x=1.00, z=-0.75.",
+        "Handicapped saw Bed at distance 1.22 m near position x=1.00, z=-0.50.",
+        "Handicapped saw Bed at distance 1.08 m near position x=1.00, z=-0.25.",
+        "Handicapped saw Bed at distance 1.09 m near position x=1.00, z=-0.25."
+      ],
+      "conversation_log": [
+        "LEADER: I am turning right to scout our surroundings for the Bed. Please do the same.",
+        "HANDICAPPED: Turning right now.",
+        "LEADER: The Bed is directly ahead. Moving forward. Please move ahead as well.",
+        "HANDICAPPED: I also see the Bed nearby and am moving forward.",
+        "LEADER: The Bed is still directly ahead. Keep moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby.",
+        "LEADER: I am still moving forward. The Bed is directly ahead.",
+        "HANDICAPPED: I am very close to the Bed, so I am looking up to search for its exact position.",
+        "LEADER: The Bed is still directly ahead at 1.37 meters. Moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby."
+      ]
+    },
+    {
+      "step": 5,
+      "task_id": 89,
+      "scene": "FloorPlan310",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Cooperatively navigate to the Bed.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "The Bed is still ahead, 1.19 meters away. Move forward.",
+      "agent_position": {
+        "x": 0.5,
+        "y": 0.9009992480278015,
+        "z": -0.25
+      },
+      "target_visible": true,
+      "target_distance": 1.1867254972457886,
+      "leader_memory_snapshot": [
+        "Leader saw Bed at distance 1.87 m near position x=0.50, z=-1.25.",
+        "Leader saw Bed at distance 1.70 m near position x=0.50, z=-1.00.",
+        "Leader saw Bed at distance 1.54 m near position x=0.50, z=-0.75.",
+        "Leader saw Bed at distance 1.37 m near position x=0.50, z=-0.50.",
+        "Leader saw Bed at distance 1.19 m near position x=0.50, z=-0.25."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Bed at distance 1.37 m near position x=1.00, z=-0.75.",
+        "Handicapped saw Bed at distance 1.22 m near position x=1.00, z=-0.50.",
+        "Handicapped saw Bed at distance 1.08 m near position x=1.00, z=-0.25.",
+        "Handicapped saw Bed at distance 1.09 m near position x=1.00, z=-0.25.",
+        "Handicapped saw Bed at distance 1.13 m near position x=1.25, z=-0.25."
+      ],
+      "conversation_log": [
+        "LEADER: I am turning right to scout our surroundings for the Bed. Please do the same.",
+        "HANDICAPPED: Turning right now.",
+        "LEADER: The Bed is directly ahead. Moving forward. Please move ahead as well.",
+        "HANDICAPPED: I also see the Bed nearby and am moving forward.",
+        "LEADER: The Bed is still directly ahead. Keep moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby.",
+        "LEADER: I am still moving forward. The Bed is directly ahead.",
+        "HANDICAPPED: I am very close to the Bed, so I am looking up to search for its exact position.",
+        "LEADER: The Bed is still directly ahead at 1.37 meters. Moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby.",
+        "LEADER: The Bed is still ahead, 1.19 meters away. Move forward.",
+        "HANDICAPPED: Moving forward as instructed. The Bed is still nearby."
+      ]
+    },
+    {
+      "step": 5,
+      "task_id": 89,
+      "scene": "FloorPlan310",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Cooperatively navigate to the Bed.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Moving forward as instructed. The Bed is still nearby.",
+      "agent_position": {
+        "x": 1.25,
+        "y": 0.9009992480278015,
+        "z": -0.2500000298023224
+      },
+      "target_visible": true,
+      "target_distance": 1.1314674615859985,
+      "leader_memory_snapshot": [
+        "Leader saw Bed at distance 1.87 m near position x=0.50, z=-1.25.",
+        "Leader saw Bed at distance 1.70 m near position x=0.50, z=-1.00.",
+        "Leader saw Bed at distance 1.54 m near position x=0.50, z=-0.75.",
+        "Leader saw Bed at distance 1.37 m near position x=0.50, z=-0.50.",
+        "Leader saw Bed at distance 1.19 m near position x=0.50, z=-0.25."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Bed at distance 1.37 m near position x=1.00, z=-0.75.",
+        "Handicapped saw Bed at distance 1.22 m near position x=1.00, z=-0.50.",
+        "Handicapped saw Bed at distance 1.08 m near position x=1.00, z=-0.25.",
+        "Handicapped saw Bed at distance 1.09 m near position x=1.00, z=-0.25.",
+        "Handicapped saw Bed at distance 1.13 m near position x=1.25, z=-0.25."
+      ],
+      "conversation_log": [
+        "LEADER: I am turning right to scout our surroundings for the Bed. Please do the same.",
+        "HANDICAPPED: Turning right now.",
+        "LEADER: The Bed is directly ahead. Moving forward. Please move ahead as well.",
+        "HANDICAPPED: I also see the Bed nearby and am moving forward.",
+        "LEADER: The Bed is still directly ahead. Keep moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby.",
+        "LEADER: I am still moving forward. The Bed is directly ahead.",
+        "HANDICAPPED: I am very close to the Bed, so I am looking up to search for its exact position.",
+        "LEADER: The Bed is still directly ahead at 1.37 meters. Moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby.",
+        "LEADER: The Bed is still ahead, 1.19 meters away. Move forward.",
+        "HANDICAPPED: Moving forward as instructed. The Bed is still nearby."
+      ]
+    },
+    {
+      "step": 6,
+      "task_id": 89,
+      "scene": "FloorPlan310",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Cooperatively navigate to the Bed.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "The Bed is still directly ahead at 1.11 meters. Moving forward.",
+      "agent_position": {
+        "x": 0.5,
+        "y": 0.9009992480278015,
+        "z": 0.0
+      },
+      "target_visible": true,
+      "target_distance": 1.1135122776031494,
+      "leader_memory_snapshot": [
+        "Leader saw Bed at distance 1.87 m near position x=0.50, z=-1.25.",
+        "Leader saw Bed at distance 1.70 m near position x=0.50, z=-1.00.",
+        "Leader saw Bed at distance 1.54 m near position x=0.50, z=-0.75.",
+        "Leader saw Bed at distance 1.37 m near position x=0.50, z=-0.50.",
+        "Leader saw Bed at distance 1.19 m near position x=0.50, z=-0.25.",
+        "Leader saw Bed at distance 1.11 m near position x=0.50, z=0.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Bed at distance 1.37 m near position x=1.00, z=-0.75.",
+        "Handicapped saw Bed at distance 1.22 m near position x=1.00, z=-0.50.",
+        "Handicapped saw Bed at distance 1.08 m near position x=1.00, z=-0.25.",
+        "Handicapped saw Bed at distance 1.09 m near position x=1.00, z=-0.25.",
+        "Handicapped saw Bed at distance 1.13 m near position x=1.25, z=-0.25.",
+        "Handicapped saw Bed at distance 1.15 m near position x=1.25, z=-0.25."
+      ],
+      "conversation_log": [
+        "LEADER: I am turning right to scout our surroundings for the Bed. Please do the same.",
+        "HANDICAPPED: Turning right now.",
+        "LEADER: The Bed is directly ahead. Moving forward. Please move ahead as well.",
+        "HANDICAPPED: I also see the Bed nearby and am moving forward.",
+        "LEADER: The Bed is still directly ahead. Keep moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby.",
+        "LEADER: I am still moving forward. The Bed is directly ahead.",
+        "HANDICAPPED: I am very close to the Bed, so I am looking up to search for its exact position.",
+        "LEADER: The Bed is still directly ahead at 1.37 meters. Moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby.",
+        "LEADER: The Bed is still ahead, 1.19 meters away. Move forward.",
+        "HANDICAPPED: Moving forward as instructed. The Bed is still nearby.",
+        "LEADER: The Bed is still directly ahead at 1.11 meters. Moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby."
+      ]
+    },
+    {
+      "step": 6,
+      "task_id": 89,
+      "scene": "FloorPlan310",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Cooperatively navigate to the Bed.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Moving forward as instructed. I still see the Bed nearby.",
+      "agent_position": {
+        "x": 1.25,
+        "y": 0.9009992480278015,
+        "z": -0.2500000298023224
+      },
+      "target_visible": true,
+      "target_distance": 1.1451550722122192,
+      "leader_memory_snapshot": [
+        "Leader saw Bed at distance 1.87 m near position x=0.50, z=-1.25.",
+        "Leader saw Bed at distance 1.70 m near position x=0.50, z=-1.00.",
+        "Leader saw Bed at distance 1.54 m near position x=0.50, z=-0.75.",
+        "Leader saw Bed at distance 1.37 m near position x=0.50, z=-0.50.",
+        "Leader saw Bed at distance 1.19 m near position x=0.50, z=-0.25.",
+        "Leader saw Bed at distance 1.11 m near position x=0.50, z=0.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Bed at distance 1.37 m near position x=1.00, z=-0.75.",
+        "Handicapped saw Bed at distance 1.22 m near position x=1.00, z=-0.50.",
+        "Handicapped saw Bed at distance 1.08 m near position x=1.00, z=-0.25.",
+        "Handicapped saw Bed at distance 1.09 m near position x=1.00, z=-0.25.",
+        "Handicapped saw Bed at distance 1.13 m near position x=1.25, z=-0.25.",
+        "Handicapped saw Bed at distance 1.15 m near position x=1.25, z=-0.25."
+      ],
+      "conversation_log": [
+        "LEADER: I am turning right to scout our surroundings for the Bed. Please do the same.",
+        "HANDICAPPED: Turning right now.",
+        "LEADER: The Bed is directly ahead. Moving forward. Please move ahead as well.",
+        "HANDICAPPED: I also see the Bed nearby and am moving forward.",
+        "LEADER: The Bed is still directly ahead. Keep moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby.",
+        "LEADER: I am still moving forward. The Bed is directly ahead.",
+        "HANDICAPPED: I am very close to the Bed, so I am looking up to search for its exact position.",
+        "LEADER: The Bed is still directly ahead at 1.37 meters. Moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby.",
+        "LEADER: The Bed is still ahead, 1.19 meters away. Move forward.",
+        "HANDICAPPED: Moving forward as instructed. The Bed is still nearby.",
+        "LEADER: The Bed is still directly ahead at 1.11 meters. Moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby."
+      ]
+    },
+    {
+      "step": 7,
+      "task_id": 89,
+      "scene": "FloorPlan310",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Cooperatively navigate to the Bed.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "The Bed is still directly ahead. Keep moving forward.",
+      "agent_position": {
+        "x": 0.5,
+        "y": 0.9009992480278015,
+        "z": 0.25
+      },
+      "target_visible": false,
+      "target_distance": 1.03940749168396,
+      "leader_memory_snapshot": [
+        "Leader saw Bed at distance 1.87 m near position x=0.50, z=-1.25.",
+        "Leader saw Bed at distance 1.70 m near position x=0.50, z=-1.00.",
+        "Leader saw Bed at distance 1.54 m near position x=0.50, z=-0.75.",
+        "Leader saw Bed at distance 1.37 m near position x=0.50, z=-0.50.",
+        "Leader saw Bed at distance 1.19 m near position x=0.50, z=-0.25.",
+        "Leader saw Bed at distance 1.11 m near position x=0.50, z=0.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Bed at distance 1.37 m near position x=1.00, z=-0.75.",
+        "Handicapped saw Bed at distance 1.22 m near position x=1.00, z=-0.50.",
+        "Handicapped saw Bed at distance 1.08 m near position x=1.00, z=-0.25.",
+        "Handicapped saw Bed at distance 1.09 m near position x=1.00, z=-0.25.",
+        "Handicapped saw Bed at distance 1.13 m near position x=1.25, z=-0.25.",
+        "Handicapped saw Bed at distance 1.15 m near position x=1.25, z=-0.25."
+      ],
+      "conversation_log": [
+        "LEADER: I am turning right to scout our surroundings for the Bed. Please do the same.",
+        "HANDICAPPED: Turning right now.",
+        "LEADER: The Bed is directly ahead. Moving forward. Please move ahead as well.",
+        "HANDICAPPED: I also see the Bed nearby and am moving forward.",
+        "LEADER: The Bed is still directly ahead. Keep moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby.",
+        "LEADER: I am still moving forward. The Bed is directly ahead.",
+        "HANDICAPPED: I am very close to the Bed, so I am looking up to search for its exact position.",
+        "LEADER: The Bed is still directly ahead at 1.37 meters. Moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby.",
+        "LEADER: The Bed is still ahead, 1.19 meters away. Move forward.",
+        "HANDICAPPED: Moving forward as instructed. The Bed is still nearby.",
+        "LEADER: The Bed is still directly ahead at 1.11 meters. Moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby.",
+        "LEADER: The Bed is still directly ahead. Keep moving forward.",
+        "HANDICAPPED: Moving forward as instructed. The Bed is still nearby."
+      ]
+    },
+    {
+      "step": 7,
+      "task_id": 89,
+      "scene": "FloorPlan310",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Cooperatively navigate to the Bed.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Moving forward as instructed. The Bed is still nearby.",
+      "agent_position": {
+        "x": 1.25,
+        "y": 0.9009992480278015,
+        "z": -0.2500000298023224
+      },
+      "target_visible": false,
+      "target_distance": 1.390174150466919,
+      "leader_memory_snapshot": [
+        "Leader saw Bed at distance 1.87 m near position x=0.50, z=-1.25.",
+        "Leader saw Bed at distance 1.70 m near position x=0.50, z=-1.00.",
+        "Leader saw Bed at distance 1.54 m near position x=0.50, z=-0.75.",
+        "Leader saw Bed at distance 1.37 m near position x=0.50, z=-0.50.",
+        "Leader saw Bed at distance 1.19 m near position x=0.50, z=-0.25.",
+        "Leader saw Bed at distance 1.11 m near position x=0.50, z=0.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Bed at distance 1.37 m near position x=1.00, z=-0.75.",
+        "Handicapped saw Bed at distance 1.22 m near position x=1.00, z=-0.50.",
+        "Handicapped saw Bed at distance 1.08 m near position x=1.00, z=-0.25.",
+        "Handicapped saw Bed at distance 1.09 m near position x=1.00, z=-0.25.",
+        "Handicapped saw Bed at distance 1.13 m near position x=1.25, z=-0.25.",
+        "Handicapped saw Bed at distance 1.15 m near position x=1.25, z=-0.25."
+      ],
+      "conversation_log": [
+        "LEADER: I am turning right to scout our surroundings for the Bed. Please do the same.",
+        "HANDICAPPED: Turning right now.",
+        "LEADER: The Bed is directly ahead. Moving forward. Please move ahead as well.",
+        "HANDICAPPED: I also see the Bed nearby and am moving forward.",
+        "LEADER: The Bed is still directly ahead. Keep moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby.",
+        "LEADER: I am still moving forward. The Bed is directly ahead.",
+        "HANDICAPPED: I am very close to the Bed, so I am looking up to search for its exact position.",
+        "LEADER: The Bed is still directly ahead at 1.37 meters. Moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby.",
+        "LEADER: The Bed is still ahead, 1.19 meters away. Move forward.",
+        "HANDICAPPED: Moving forward as instructed. The Bed is still nearby.",
+        "LEADER: The Bed is still directly ahead at 1.11 meters. Moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby.",
+        "LEADER: The Bed is still directly ahead. Keep moving forward.",
+        "HANDICAPPED: Moving forward as instructed. The Bed is still nearby."
+      ]
+    },
+    {
+      "step": 8,
+      "task_id": 89,
+      "scene": "FloorPlan310",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Cooperatively navigate to the Bed.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "The Bed is still directly ahead at 1.11 meters. Moving forward.",
+      "agent_position": {
+        "x": 0.5,
+        "y": 0.9009992480278015,
+        "z": 0.5
+      },
+      "target_visible": false,
+      "target_distance": 1.0021032094955444,
+      "leader_memory_snapshot": [
+        "Leader saw Bed at distance 1.87 m near position x=0.50, z=-1.25.",
+        "Leader saw Bed at distance 1.70 m near position x=0.50, z=-1.00.",
+        "Leader saw Bed at distance 1.54 m near position x=0.50, z=-0.75.",
+        "Leader saw Bed at distance 1.37 m near position x=0.50, z=-0.50.",
+        "Leader saw Bed at distance 1.19 m near position x=0.50, z=-0.25.",
+        "Leader saw Bed at distance 1.11 m near position x=0.50, z=0.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Bed at distance 1.37 m near position x=1.00, z=-0.75.",
+        "Handicapped saw Bed at distance 1.22 m near position x=1.00, z=-0.50.",
+        "Handicapped saw Bed at distance 1.08 m near position x=1.00, z=-0.25.",
+        "Handicapped saw Bed at distance 1.09 m near position x=1.00, z=-0.25.",
+        "Handicapped saw Bed at distance 1.13 m near position x=1.25, z=-0.25.",
+        "Handicapped saw Bed at distance 1.15 m near position x=1.25, z=-0.25."
+      ],
+      "conversation_log": [
+        "LEADER: I am turning right to scout our surroundings for the Bed. Please do the same.",
+        "HANDICAPPED: Turning right now.",
+        "LEADER: The Bed is directly ahead. Moving forward. Please move ahead as well.",
+        "HANDICAPPED: I also see the Bed nearby and am moving forward.",
+        "LEADER: The Bed is still directly ahead. Keep moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby.",
+        "LEADER: I am still moving forward. The Bed is directly ahead.",
+        "HANDICAPPED: I am very close to the Bed, so I am looking up to search for its exact position.",
+        "LEADER: The Bed is still directly ahead at 1.37 meters. Moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby.",
+        "LEADER: The Bed is still ahead, 1.19 meters away. Move forward.",
+        "HANDICAPPED: Moving forward as instructed. The Bed is still nearby.",
+        "LEADER: The Bed is still directly ahead at 1.11 meters. Moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby.",
+        "LEADER: The Bed is still directly ahead. Keep moving forward.",
+        "HANDICAPPED: Moving forward as instructed. The Bed is still nearby.",
+        "LEADER: The Bed is still directly ahead at 1.11 meters. Moving forward.",
+        "HANDICAPPED: Moving forward as instructed. The Bed is still nearby."
+      ]
+    },
+    {
+      "step": 8,
+      "task_id": 89,
+      "scene": "FloorPlan310",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Cooperatively navigate to the Bed.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Moving forward as instructed. The Bed is still nearby.",
+      "agent_position": {
+        "x": 1.25,
+        "y": 0.9009992480278015,
+        "z": -0.2500000298023224
+      },
+      "target_visible": false,
+      "target_distance": 1.3857733011245728,
+      "leader_memory_snapshot": [
+        "Leader saw Bed at distance 1.87 m near position x=0.50, z=-1.25.",
+        "Leader saw Bed at distance 1.70 m near position x=0.50, z=-1.00.",
+        "Leader saw Bed at distance 1.54 m near position x=0.50, z=-0.75.",
+        "Leader saw Bed at distance 1.37 m near position x=0.50, z=-0.50.",
+        "Leader saw Bed at distance 1.19 m near position x=0.50, z=-0.25.",
+        "Leader saw Bed at distance 1.11 m near position x=0.50, z=0.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Bed at distance 1.37 m near position x=1.00, z=-0.75.",
+        "Handicapped saw Bed at distance 1.22 m near position x=1.00, z=-0.50.",
+        "Handicapped saw Bed at distance 1.08 m near position x=1.00, z=-0.25.",
+        "Handicapped saw Bed at distance 1.09 m near position x=1.00, z=-0.25.",
+        "Handicapped saw Bed at distance 1.13 m near position x=1.25, z=-0.25.",
+        "Handicapped saw Bed at distance 1.15 m near position x=1.25, z=-0.25."
+      ],
+      "conversation_log": [
+        "LEADER: I am turning right to scout our surroundings for the Bed. Please do the same.",
+        "HANDICAPPED: Turning right now.",
+        "LEADER: The Bed is directly ahead. Moving forward. Please move ahead as well.",
+        "HANDICAPPED: I also see the Bed nearby and am moving forward.",
+        "LEADER: The Bed is still directly ahead. Keep moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby.",
+        "LEADER: I am still moving forward. The Bed is directly ahead.",
+        "HANDICAPPED: I am very close to the Bed, so I am looking up to search for its exact position.",
+        "LEADER: The Bed is still directly ahead at 1.37 meters. Moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby.",
+        "LEADER: The Bed is still ahead, 1.19 meters away. Move forward.",
+        "HANDICAPPED: Moving forward as instructed. The Bed is still nearby.",
+        "LEADER: The Bed is still directly ahead at 1.11 meters. Moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby.",
+        "LEADER: The Bed is still directly ahead. Keep moving forward.",
+        "HANDICAPPED: Moving forward as instructed. The Bed is still nearby.",
+        "LEADER: The Bed is still directly ahead at 1.11 meters. Moving forward.",
+        "HANDICAPPED: Moving forward as instructed. The Bed is still nearby."
+      ]
+    },
+    {
+      "step": 9,
+      "task_id": 89,
+      "scene": "FloorPlan310",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Cooperatively navigate to the Bed.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "The Bed is still directly ahead at 1.11 meters. Moving forward.",
+      "agent_position": {
+        "x": 0.5,
+        "y": 0.9009992480278015,
+        "z": 0.5
+      },
+      "target_visible": false,
+      "target_distance": 0.963422954082489,
+      "leader_memory_snapshot": [
+        "Leader saw Bed at distance 1.87 m near position x=0.50, z=-1.25.",
+        "Leader saw Bed at distance 1.70 m near position x=0.50, z=-1.00.",
+        "Leader saw Bed at distance 1.54 m near position x=0.50, z=-0.75.",
+        "Leader saw Bed at distance 1.37 m near position x=0.50, z=-0.50.",
+        "Leader saw Bed at distance 1.19 m near position x=0.50, z=-0.25.",
+        "Leader saw Bed at distance 1.11 m near position x=0.50, z=0.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Bed at distance 1.37 m near position x=1.00, z=-0.75.",
+        "Handicapped saw Bed at distance 1.22 m near position x=1.00, z=-0.50.",
+        "Handicapped saw Bed at distance 1.08 m near position x=1.00, z=-0.25.",
+        "Handicapped saw Bed at distance 1.09 m near position x=1.00, z=-0.25.",
+        "Handicapped saw Bed at distance 1.13 m near position x=1.25, z=-0.25.",
+        "Handicapped saw Bed at distance 1.15 m near position x=1.25, z=-0.25."
+      ],
+      "conversation_log": [
+        "LEADER: I am turning right to scout our surroundings for the Bed. Please do the same.",
+        "HANDICAPPED: Turning right now.",
+        "LEADER: The Bed is directly ahead. Moving forward. Please move ahead as well.",
+        "HANDICAPPED: I also see the Bed nearby and am moving forward.",
+        "LEADER: The Bed is still directly ahead. Keep moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby.",
+        "LEADER: I am still moving forward. The Bed is directly ahead.",
+        "HANDICAPPED: I am very close to the Bed, so I am looking up to search for its exact position.",
+        "LEADER: The Bed is still directly ahead at 1.37 meters. Moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby.",
+        "LEADER: The Bed is still ahead, 1.19 meters away. Move forward.",
+        "HANDICAPPED: Moving forward as instructed. The Bed is still nearby.",
+        "LEADER: The Bed is still directly ahead at 1.11 meters. Moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby.",
+        "LEADER: The Bed is still directly ahead. Keep moving forward.",
+        "HANDICAPPED: Moving forward as instructed. The Bed is still nearby.",
+        "LEADER: The Bed is still directly ahead at 1.11 meters. Moving forward.",
+        "HANDICAPPED: Moving forward as instructed. The Bed is still nearby.",
+        "LEADER: The Bed is still directly ahead at 1.11 meters. Moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby."
+      ]
+    },
+    {
+      "step": 9,
+      "task_id": 89,
+      "scene": "FloorPlan310",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Cooperatively navigate to the Bed.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Moving forward as instructed. I still see the Bed nearby.",
+      "agent_position": {
+        "x": 1.25,
+        "y": 0.9009992480278015,
+        "z": -0.2500000298023224
+      },
+      "target_visible": false,
+      "target_distance": 1.4481425285339355,
+      "leader_memory_snapshot": [
+        "Leader saw Bed at distance 1.87 m near position x=0.50, z=-1.25.",
+        "Leader saw Bed at distance 1.70 m near position x=0.50, z=-1.00.",
+        "Leader saw Bed at distance 1.54 m near position x=0.50, z=-0.75.",
+        "Leader saw Bed at distance 1.37 m near position x=0.50, z=-0.50.",
+        "Leader saw Bed at distance 1.19 m near position x=0.50, z=-0.25.",
+        "Leader saw Bed at distance 1.11 m near position x=0.50, z=0.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Bed at distance 1.37 m near position x=1.00, z=-0.75.",
+        "Handicapped saw Bed at distance 1.22 m near position x=1.00, z=-0.50.",
+        "Handicapped saw Bed at distance 1.08 m near position x=1.00, z=-0.25.",
+        "Handicapped saw Bed at distance 1.09 m near position x=1.00, z=-0.25.",
+        "Handicapped saw Bed at distance 1.13 m near position x=1.25, z=-0.25.",
+        "Handicapped saw Bed at distance 1.15 m near position x=1.25, z=-0.25."
+      ],
+      "conversation_log": [
+        "LEADER: I am turning right to scout our surroundings for the Bed. Please do the same.",
+        "HANDICAPPED: Turning right now.",
+        "LEADER: The Bed is directly ahead. Moving forward. Please move ahead as well.",
+        "HANDICAPPED: I also see the Bed nearby and am moving forward.",
+        "LEADER: The Bed is still directly ahead. Keep moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby.",
+        "LEADER: I am still moving forward. The Bed is directly ahead.",
+        "HANDICAPPED: I am very close to the Bed, so I am looking up to search for its exact position.",
+        "LEADER: The Bed is still directly ahead at 1.37 meters. Moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby.",
+        "LEADER: The Bed is still ahead, 1.19 meters away. Move forward.",
+        "HANDICAPPED: Moving forward as instructed. The Bed is still nearby.",
+        "LEADER: The Bed is still directly ahead at 1.11 meters. Moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby.",
+        "LEADER: The Bed is still directly ahead. Keep moving forward.",
+        "HANDICAPPED: Moving forward as instructed. The Bed is still nearby.",
+        "LEADER: The Bed is still directly ahead at 1.11 meters. Moving forward.",
+        "HANDICAPPED: Moving forward as instructed. The Bed is still nearby.",
+        "LEADER: The Bed is still directly ahead at 1.11 meters. Moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby."
+      ]
+    },
+    {
+      "step": 10,
+      "task_id": 89,
+      "scene": "FloorPlan310",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Cooperatively navigate to the Bed.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "The Bed is still directly ahead at 1.0 meters. Moving forward.",
+      "agent_position": {
+        "x": 0.5,
+        "y": 0.9009992480278015,
+        "z": 0.5
+      },
+      "target_visible": false,
+      "target_distance": 0.9678003787994385,
+      "leader_memory_snapshot": [
+        "Leader saw Bed at distance 1.87 m near position x=0.50, z=-1.25.",
+        "Leader saw Bed at distance 1.70 m near position x=0.50, z=-1.00.",
+        "Leader saw Bed at distance 1.54 m near position x=0.50, z=-0.75.",
+        "Leader saw Bed at distance 1.37 m near position x=0.50, z=-0.50.",
+        "Leader saw Bed at distance 1.19 m near position x=0.50, z=-0.25.",
+        "Leader saw Bed at distance 1.11 m near position x=0.50, z=0.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Bed at distance 1.37 m near position x=1.00, z=-0.75.",
+        "Handicapped saw Bed at distance 1.22 m near position x=1.00, z=-0.50.",
+        "Handicapped saw Bed at distance 1.08 m near position x=1.00, z=-0.25.",
+        "Handicapped saw Bed at distance 1.09 m near position x=1.00, z=-0.25.",
+        "Handicapped saw Bed at distance 1.13 m near position x=1.25, z=-0.25.",
+        "Handicapped saw Bed at distance 1.15 m near position x=1.25, z=-0.25."
+      ],
+      "conversation_log": [
+        "LEADER: I am turning right to scout our surroundings for the Bed. Please do the same.",
+        "HANDICAPPED: Turning right now.",
+        "LEADER: The Bed is directly ahead. Moving forward. Please move ahead as well.",
+        "HANDICAPPED: I also see the Bed nearby and am moving forward.",
+        "LEADER: The Bed is still directly ahead. Keep moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby.",
+        "LEADER: I am still moving forward. The Bed is directly ahead.",
+        "HANDICAPPED: I am very close to the Bed, so I am looking up to search for its exact position.",
+        "LEADER: The Bed is still directly ahead at 1.37 meters. Moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby.",
+        "LEADER: The Bed is still ahead, 1.19 meters away. Move forward.",
+        "HANDICAPPED: Moving forward as instructed. The Bed is still nearby.",
+        "LEADER: The Bed is still directly ahead at 1.11 meters. Moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby.",
+        "LEADER: The Bed is still directly ahead. Keep moving forward.",
+        "HANDICAPPED: Moving forward as instructed. The Bed is still nearby.",
+        "LEADER: The Bed is still directly ahead at 1.11 meters. Moving forward.",
+        "HANDICAPPED: Moving forward as instructed. The Bed is still nearby.",
+        "LEADER: The Bed is still directly ahead at 1.11 meters. Moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby.",
+        "LEADER: The Bed is still directly ahead at 1.0 meters. Moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I do not see the Bed currently."
+      ]
+    },
+    {
+      "step": 10,
+      "task_id": 89,
+      "scene": "FloorPlan310",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Cooperatively navigate to the Bed.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Moving forward as instructed. I do not see the Bed currently.",
+      "agent_position": {
+        "x": 1.25,
+        "y": 0.9009992480278015,
+        "z": -0.2500000298023224
+      },
+      "target_visible": false,
+      "target_distance": 1.5130767822265625,
+      "leader_memory_snapshot": [
+        "Leader saw Bed at distance 1.87 m near position x=0.50, z=-1.25.",
+        "Leader saw Bed at distance 1.70 m near position x=0.50, z=-1.00.",
+        "Leader saw Bed at distance 1.54 m near position x=0.50, z=-0.75.",
+        "Leader saw Bed at distance 1.37 m near position x=0.50, z=-0.50.",
+        "Leader saw Bed at distance 1.19 m near position x=0.50, z=-0.25.",
+        "Leader saw Bed at distance 1.11 m near position x=0.50, z=0.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Bed at distance 1.37 m near position x=1.00, z=-0.75.",
+        "Handicapped saw Bed at distance 1.22 m near position x=1.00, z=-0.50.",
+        "Handicapped saw Bed at distance 1.08 m near position x=1.00, z=-0.25.",
+        "Handicapped saw Bed at distance 1.09 m near position x=1.00, z=-0.25.",
+        "Handicapped saw Bed at distance 1.13 m near position x=1.25, z=-0.25.",
+        "Handicapped saw Bed at distance 1.15 m near position x=1.25, z=-0.25."
+      ],
+      "conversation_log": [
+        "LEADER: I am turning right to scout our surroundings for the Bed. Please do the same.",
+        "HANDICAPPED: Turning right now.",
+        "LEADER: The Bed is directly ahead. Moving forward. Please move ahead as well.",
+        "HANDICAPPED: I also see the Bed nearby and am moving forward.",
+        "LEADER: The Bed is still directly ahead. Keep moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby.",
+        "LEADER: I am still moving forward. The Bed is directly ahead.",
+        "HANDICAPPED: I am very close to the Bed, so I am looking up to search for its exact position.",
+        "LEADER: The Bed is still directly ahead at 1.37 meters. Moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby.",
+        "LEADER: The Bed is still ahead, 1.19 meters away. Move forward.",
+        "HANDICAPPED: Moving forward as instructed. The Bed is still nearby.",
+        "LEADER: The Bed is still directly ahead at 1.11 meters. Moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby.",
+        "LEADER: The Bed is still directly ahead. Keep moving forward.",
+        "HANDICAPPED: Moving forward as instructed. The Bed is still nearby.",
+        "LEADER: The Bed is still directly ahead at 1.11 meters. Moving forward.",
+        "HANDICAPPED: Moving forward as instructed. The Bed is still nearby.",
+        "LEADER: The Bed is still directly ahead at 1.11 meters. Moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby.",
+        "LEADER: The Bed is still directly ahead at 1.0 meters. Moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I do not see the Bed currently."
+      ]
+    },
+    {
+      "step": 11,
+      "task_id": 89,
+      "scene": "FloorPlan310",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Cooperatively navigate to the Bed.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "LookUp",
+      "message": "We are at 1.0 meters from the Bed, but it's out of view. I am starting the detailed search pattern by looking up.",
+      "agent_position": {
+        "x": 0.5,
+        "y": 0.9009992480278015,
+        "z": 0.5
+      },
+      "target_visible": false,
+      "target_distance": 0.9777649641036987,
+      "leader_memory_snapshot": [
+        "Leader saw Bed at distance 1.87 m near position x=0.50, z=-1.25.",
+        "Leader saw Bed at distance 1.70 m near position x=0.50, z=-1.00.",
+        "Leader saw Bed at distance 1.54 m near position x=0.50, z=-0.75.",
+        "Leader saw Bed at distance 1.37 m near position x=0.50, z=-0.50.",
+        "Leader saw Bed at distance 1.19 m near position x=0.50, z=-0.25.",
+        "Leader saw Bed at distance 1.11 m near position x=0.50, z=0.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Bed at distance 1.37 m near position x=1.00, z=-0.75.",
+        "Handicapped saw Bed at distance 1.22 m near position x=1.00, z=-0.50.",
+        "Handicapped saw Bed at distance 1.08 m near position x=1.00, z=-0.25.",
+        "Handicapped saw Bed at distance 1.09 m near position x=1.00, z=-0.25.",
+        "Handicapped saw Bed at distance 1.13 m near position x=1.25, z=-0.25.",
+        "Handicapped saw Bed at distance 1.15 m near position x=1.25, z=-0.25."
+      ],
+      "conversation_log": [
+        "LEADER: I am turning right to scout our surroundings for the Bed. Please do the same.",
+        "HANDICAPPED: Turning right now.",
+        "LEADER: The Bed is directly ahead. Moving forward. Please move ahead as well.",
+        "HANDICAPPED: I also see the Bed nearby and am moving forward.",
+        "LEADER: The Bed is still directly ahead. Keep moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby.",
+        "LEADER: I am still moving forward. The Bed is directly ahead.",
+        "HANDICAPPED: I am very close to the Bed, so I am looking up to search for its exact position.",
+        "LEADER: The Bed is still directly ahead at 1.37 meters. Moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby.",
+        "LEADER: The Bed is still ahead, 1.19 meters away. Move forward.",
+        "HANDICAPPED: Moving forward as instructed. The Bed is still nearby.",
+        "LEADER: The Bed is still directly ahead at 1.11 meters. Moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby.",
+        "LEADER: The Bed is still directly ahead. Keep moving forward.",
+        "HANDICAPPED: Moving forward as instructed. The Bed is still nearby.",
+        "LEADER: The Bed is still directly ahead at 1.11 meters. Moving forward.",
+        "HANDICAPPED: Moving forward as instructed. The Bed is still nearby.",
+        "LEADER: The Bed is still directly ahead at 1.11 meters. Moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby.",
+        "LEADER: The Bed is still directly ahead at 1.0 meters. Moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I do not see the Bed currently.",
+        "LEADER: We are at 1.0 meters from the Bed, but it's out of view. I am starting the detailed search pattern by looking up.",
+        "HANDICAPPED: I also do not see the Bed and am looking up to search for it."
+      ]
+    },
+    {
+      "step": 11,
+      "task_id": 89,
+      "scene": "FloorPlan310",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Cooperatively navigate to the Bed.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "LookUp",
+      "message": "I also do not see the Bed and am looking up to search for it.",
+      "agent_position": {
+        "x": 1.25,
+        "y": 0.9009992480278015,
+        "z": -0.2500000298023224
+      },
+      "target_visible": false,
+      "target_distance": 1.5356409549713135,
+      "leader_memory_snapshot": [
+        "Leader saw Bed at distance 1.87 m near position x=0.50, z=-1.25.",
+        "Leader saw Bed at distance 1.70 m near position x=0.50, z=-1.00.",
+        "Leader saw Bed at distance 1.54 m near position x=0.50, z=-0.75.",
+        "Leader saw Bed at distance 1.37 m near position x=0.50, z=-0.50.",
+        "Leader saw Bed at distance 1.19 m near position x=0.50, z=-0.25.",
+        "Leader saw Bed at distance 1.11 m near position x=0.50, z=0.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Bed at distance 1.37 m near position x=1.00, z=-0.75.",
+        "Handicapped saw Bed at distance 1.22 m near position x=1.00, z=-0.50.",
+        "Handicapped saw Bed at distance 1.08 m near position x=1.00, z=-0.25.",
+        "Handicapped saw Bed at distance 1.09 m near position x=1.00, z=-0.25.",
+        "Handicapped saw Bed at distance 1.13 m near position x=1.25, z=-0.25.",
+        "Handicapped saw Bed at distance 1.15 m near position x=1.25, z=-0.25."
+      ],
+      "conversation_log": [
+        "LEADER: I am turning right to scout our surroundings for the Bed. Please do the same.",
+        "HANDICAPPED: Turning right now.",
+        "LEADER: The Bed is directly ahead. Moving forward. Please move ahead as well.",
+        "HANDICAPPED: I also see the Bed nearby and am moving forward.",
+        "LEADER: The Bed is still directly ahead. Keep moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby.",
+        "LEADER: I am still moving forward. The Bed is directly ahead.",
+        "HANDICAPPED: I am very close to the Bed, so I am looking up to search for its exact position.",
+        "LEADER: The Bed is still directly ahead at 1.37 meters. Moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby.",
+        "LEADER: The Bed is still ahead, 1.19 meters away. Move forward.",
+        "HANDICAPPED: Moving forward as instructed. The Bed is still nearby.",
+        "LEADER: The Bed is still directly ahead at 1.11 meters. Moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby.",
+        "LEADER: The Bed is still directly ahead. Keep moving forward.",
+        "HANDICAPPED: Moving forward as instructed. The Bed is still nearby.",
+        "LEADER: The Bed is still directly ahead at 1.11 meters. Moving forward.",
+        "HANDICAPPED: Moving forward as instructed. The Bed is still nearby.",
+        "LEADER: The Bed is still directly ahead at 1.11 meters. Moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby.",
+        "LEADER: The Bed is still directly ahead at 1.0 meters. Moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I do not see the Bed currently.",
+        "LEADER: We are at 1.0 meters from the Bed, but it's out of view. I am starting the detailed search pattern by looking up.",
+        "HANDICAPPED: I also do not see the Bed and am looking up to search for it."
+      ]
+    },
+    {
+      "step": 12,
+      "task_id": 89,
+      "scene": "FloorPlan310",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Cooperatively navigate to the Bed.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "Done",
+      "message": "I have found the Bed directly ahead at 0.99 meters. I am done.",
+      "agent_position": {
+        "x": 0.5,
+        "y": 0.9009992480278015,
+        "z": 0.5
+      },
+      "target_visible": true,
+      "target_distance": 0.9893664717674255,
+      "leader_memory_snapshot": [
+        "Leader saw Bed at distance 1.87 m near position x=0.50, z=-1.25.",
+        "Leader saw Bed at distance 1.70 m near position x=0.50, z=-1.00.",
+        "Leader saw Bed at distance 1.54 m near position x=0.50, z=-0.75.",
+        "Leader saw Bed at distance 1.37 m near position x=0.50, z=-0.50.",
+        "Leader saw Bed at distance 1.19 m near position x=0.50, z=-0.25.",
+        "Leader saw Bed at distance 1.11 m near position x=0.50, z=0.00.",
+        "Leader saw Bed at distance 0.99 m near position x=0.50, z=0.50."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Bed at distance 1.37 m near position x=1.00, z=-0.75.",
+        "Handicapped saw Bed at distance 1.22 m near position x=1.00, z=-0.50.",
+        "Handicapped saw Bed at distance 1.08 m near position x=1.00, z=-0.25.",
+        "Handicapped saw Bed at distance 1.09 m near position x=1.00, z=-0.25.",
+        "Handicapped saw Bed at distance 1.13 m near position x=1.25, z=-0.25.",
+        "Handicapped saw Bed at distance 1.15 m near position x=1.25, z=-0.25."
+      ],
+      "conversation_log": [
+        "LEADER: I am turning right to scout our surroundings for the Bed. Please do the same.",
+        "HANDICAPPED: Turning right now.",
+        "LEADER: The Bed is directly ahead. Moving forward. Please move ahead as well.",
+        "HANDICAPPED: I also see the Bed nearby and am moving forward.",
+        "LEADER: The Bed is still directly ahead. Keep moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby.",
+        "LEADER: I am still moving forward. The Bed is directly ahead.",
+        "HANDICAPPED: I am very close to the Bed, so I am looking up to search for its exact position.",
+        "LEADER: The Bed is still directly ahead at 1.37 meters. Moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby.",
+        "LEADER: The Bed is still ahead, 1.19 meters away. Move forward.",
+        "HANDICAPPED: Moving forward as instructed. The Bed is still nearby.",
+        "LEADER: The Bed is still directly ahead at 1.11 meters. Moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby.",
+        "LEADER: The Bed is still directly ahead. Keep moving forward.",
+        "HANDICAPPED: Moving forward as instructed. The Bed is still nearby.",
+        "LEADER: The Bed is still directly ahead at 1.11 meters. Moving forward.",
+        "HANDICAPPED: Moving forward as instructed. The Bed is still nearby.",
+        "LEADER: The Bed is still directly ahead at 1.11 meters. Moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby.",
+        "LEADER: The Bed is still directly ahead at 1.0 meters. Moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I do not see the Bed currently.",
+        "LEADER: We are at 1.0 meters from the Bed, but it's out of view. I am starting the detailed search pattern by looking up.",
+        "HANDICAPPED: I also do not see the Bed and am looking up to search for it.",
+        "LEADER: I have found the Bed directly ahead at 0.99 meters. I am done.",
+        "HANDICAPPED: Understood. I am also done, assuming I am close enough."
+      ]
+    },
+    {
+      "step": 12,
+      "task_id": 89,
+      "scene": "FloorPlan310",
+      "room_type": "bedroom",
+      "target_type": "Bed",
+      "goal_text": "Cooperatively navigate to the Bed.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "Done",
+      "message": "Understood. I am also done, assuming I am close enough.",
+      "agent_position": {
+        "x": 1.25,
+        "y": 0.9009992480278015,
+        "z": -0.2500000298023224
+      },
+      "target_visible": false,
+      "target_distance": 1.5546942949295044,
+      "leader_memory_snapshot": [
+        "Leader saw Bed at distance 1.87 m near position x=0.50, z=-1.25.",
+        "Leader saw Bed at distance 1.70 m near position x=0.50, z=-1.00.",
+        "Leader saw Bed at distance 1.54 m near position x=0.50, z=-0.75.",
+        "Leader saw Bed at distance 1.37 m near position x=0.50, z=-0.50.",
+        "Leader saw Bed at distance 1.19 m near position x=0.50, z=-0.25.",
+        "Leader saw Bed at distance 1.11 m near position x=0.50, z=0.00.",
+        "Leader saw Bed at distance 0.99 m near position x=0.50, z=0.50."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Bed at distance 1.37 m near position x=1.00, z=-0.75.",
+        "Handicapped saw Bed at distance 1.22 m near position x=1.00, z=-0.50.",
+        "Handicapped saw Bed at distance 1.08 m near position x=1.00, z=-0.25.",
+        "Handicapped saw Bed at distance 1.09 m near position x=1.00, z=-0.25.",
+        "Handicapped saw Bed at distance 1.13 m near position x=1.25, z=-0.25.",
+        "Handicapped saw Bed at distance 1.15 m near position x=1.25, z=-0.25."
+      ],
+      "conversation_log": [
+        "LEADER: I am turning right to scout our surroundings for the Bed. Please do the same.",
+        "HANDICAPPED: Turning right now.",
+        "LEADER: The Bed is directly ahead. Moving forward. Please move ahead as well.",
+        "HANDICAPPED: I also see the Bed nearby and am moving forward.",
+        "LEADER: The Bed is still directly ahead. Keep moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby.",
+        "LEADER: I am still moving forward. The Bed is directly ahead.",
+        "HANDICAPPED: I am very close to the Bed, so I am looking up to search for its exact position.",
+        "LEADER: The Bed is still directly ahead at 1.37 meters. Moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby.",
+        "LEADER: The Bed is still ahead, 1.19 meters away. Move forward.",
+        "HANDICAPPED: Moving forward as instructed. The Bed is still nearby.",
+        "LEADER: The Bed is still directly ahead at 1.11 meters. Moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby.",
+        "LEADER: The Bed is still directly ahead. Keep moving forward.",
+        "HANDICAPPED: Moving forward as instructed. The Bed is still nearby.",
+        "LEADER: The Bed is still directly ahead at 1.11 meters. Moving forward.",
+        "HANDICAPPED: Moving forward as instructed. The Bed is still nearby.",
+        "LEADER: The Bed is still directly ahead at 1.11 meters. Moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I still see the Bed nearby.",
+        "LEADER: The Bed is still directly ahead at 1.0 meters. Moving forward.",
+        "HANDICAPPED: Moving forward as instructed. I do not see the Bed currently.",
+        "LEADER: We are at 1.0 meters from the Bed, but it's out of view. I am starting the detailed search pattern by looking up.",
+        "HANDICAPPED: I also do not see the Bed and am looking up to search for it.",
+        "LEADER: I have found the Bed directly ahead at 0.99 meters. I am done.",
+        "HANDICAPPED: Understood. I am also done, assuming I am close enough."
+      ]
+    }
+  ]
+}

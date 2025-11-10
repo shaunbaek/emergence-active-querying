@@ -1,0 +1,928 @@
+{
+  "task_meta": {
+    "task_id": 86,
+    "scene": "FloorPlan202",
+    "room_type": "living_room",
+    "target_type": "LightSwitch",
+    "goal_text": "Navigate to the LightSwitch."
+  },
+  "episode_time_sec": 42.4465565411374,
+  "steps": [
+    {
+      "step": 0,
+      "task_id": 86,
+      "scene": "FloorPlan202",
+      "room_type": "living_room",
+      "target_type": "LightSwitch",
+      "goal_text": "Cooperatively navigate to the LightSwitch.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "RotateRight",
+      "message": "I'm rotating right to scan for the LightSwitch. You should also rotate right.",
+      "agent_position": {
+        "x": -0.5,
+        "y": 0.9010459184646606,
+        "z": 1.75
+      },
+      "target_visible": false,
+      "target_distance": 2.673705816268921,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: I'm rotating right to scan for the LightSwitch. You should also rotate right.",
+        "HANDICAPPED: Okay, rotating right."
+      ]
+    },
+    {
+      "step": 0,
+      "task_id": 86,
+      "scene": "FloorPlan202",
+      "room_type": "living_room",
+      "target_type": "LightSwitch",
+      "goal_text": "Cooperatively navigate to the LightSwitch.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "RotateRight",
+      "message": "Okay, rotating right.",
+      "agent_position": {
+        "x": 0.5,
+        "y": 0.9010459184646606,
+        "z": 1.75
+      },
+      "target_visible": false,
+      "target_distance": 2.721893310546875,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: I'm rotating right to scan for the LightSwitch. You should also rotate right.",
+        "HANDICAPPED: Okay, rotating right."
+      ]
+    },
+    {
+      "step": 1,
+      "task_id": 86,
+      "scene": "FloorPlan202",
+      "room_type": "living_room",
+      "target_type": "LightSwitch",
+      "goal_text": "Cooperatively navigate to the LightSwitch.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "I see the LightSwitch ahead of me. I am moving ahead. You should also move ahead.",
+      "agent_position": {
+        "x": -0.5,
+        "y": 0.9010459184646606,
+        "z": 1.75
+      },
+      "target_visible": true,
+      "target_distance": 2.673705816268921,
+      "leader_memory_snapshot": [
+        "Leader saw LightSwitch at distance 2.67 m near position x=-0.50, z=1.75."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw LightSwitch at distance 2.72 m near position x=0.50, z=1.75."
+      ],
+      "conversation_log": [
+        "LEADER: I'm rotating right to scan for the LightSwitch. You should also rotate right.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: I see the LightSwitch ahead of me. I am moving ahead. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead."
+      ]
+    },
+    {
+      "step": 1,
+      "task_id": 86,
+      "scene": "FloorPlan202",
+      "room_type": "living_room",
+      "target_type": "LightSwitch",
+      "goal_text": "Cooperatively navigate to the LightSwitch.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Okay, moving ahead.",
+      "agent_position": {
+        "x": 0.5,
+        "y": 0.9010459184646606,
+        "z": 1.75
+      },
+      "target_visible": true,
+      "target_distance": 2.721893310546875,
+      "leader_memory_snapshot": [
+        "Leader saw LightSwitch at distance 2.67 m near position x=-0.50, z=1.75."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw LightSwitch at distance 2.72 m near position x=0.50, z=1.75."
+      ],
+      "conversation_log": [
+        "LEADER: I'm rotating right to scan for the LightSwitch. You should also rotate right.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: I see the LightSwitch ahead of me. I am moving ahead. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead."
+      ]
+    },
+    {
+      "step": 2,
+      "task_id": 86,
+      "scene": "FloorPlan202",
+      "room_type": "living_room",
+      "target_type": "LightSwitch",
+      "goal_text": "Cooperatively navigate to the LightSwitch.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "I am moving ahead again, the LightSwitch is still in front of us. You should also move ahead.",
+      "agent_position": {
+        "x": -0.5,
+        "y": 0.9010459184646606,
+        "z": 2.0
+      },
+      "target_visible": true,
+      "target_distance": 2.431399345397949,
+      "leader_memory_snapshot": [
+        "Leader saw LightSwitch at distance 2.67 m near position x=-0.50, z=1.75.",
+        "Leader saw LightSwitch at distance 2.43 m near position x=-0.50, z=2.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw LightSwitch at distance 2.72 m near position x=0.50, z=1.75.",
+        "Handicapped saw LightSwitch at distance 2.48 m near position x=0.50, z=2.00."
+      ],
+      "conversation_log": [
+        "LEADER: I'm rotating right to scan for the LightSwitch. You should also rotate right.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: I see the LightSwitch ahead of me. I am moving ahead. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: I am moving ahead again, the LightSwitch is still in front of us. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead."
+      ]
+    },
+    {
+      "step": 2,
+      "task_id": 86,
+      "scene": "FloorPlan202",
+      "room_type": "living_room",
+      "target_type": "LightSwitch",
+      "goal_text": "Cooperatively navigate to the LightSwitch.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Okay, moving ahead.",
+      "agent_position": {
+        "x": 0.5,
+        "y": 0.9010459184646606,
+        "z": 2.0
+      },
+      "target_visible": true,
+      "target_distance": 2.4842913150787354,
+      "leader_memory_snapshot": [
+        "Leader saw LightSwitch at distance 2.67 m near position x=-0.50, z=1.75.",
+        "Leader saw LightSwitch at distance 2.43 m near position x=-0.50, z=2.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw LightSwitch at distance 2.72 m near position x=0.50, z=1.75.",
+        "Handicapped saw LightSwitch at distance 2.48 m near position x=0.50, z=2.00."
+      ],
+      "conversation_log": [
+        "LEADER: I'm rotating right to scan for the LightSwitch. You should also rotate right.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: I see the LightSwitch ahead of me. I am moving ahead. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: I am moving ahead again, the LightSwitch is still in front of us. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead."
+      ]
+    },
+    {
+      "step": 3,
+      "task_id": 86,
+      "scene": "FloorPlan202",
+      "room_type": "living_room",
+      "target_type": "LightSwitch",
+      "goal_text": "Cooperatively navigate to the LightSwitch.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "I am moving ahead again, the LightSwitch is still in front of us. You should also move ahead.",
+      "agent_position": {
+        "x": -0.5,
+        "y": 0.9010459184646606,
+        "z": 2.25
+      },
+      "target_visible": true,
+      "target_distance": 2.1908226013183594,
+      "leader_memory_snapshot": [
+        "Leader saw LightSwitch at distance 2.67 m near position x=-0.50, z=1.75.",
+        "Leader saw LightSwitch at distance 2.43 m near position x=-0.50, z=2.00.",
+        "Leader saw LightSwitch at distance 2.19 m near position x=-0.50, z=2.25."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw LightSwitch at distance 2.72 m near position x=0.50, z=1.75.",
+        "Handicapped saw LightSwitch at distance 2.48 m near position x=0.50, z=2.00.",
+        "Handicapped saw LightSwitch at distance 2.25 m near position x=0.50, z=2.25."
+      ],
+      "conversation_log": [
+        "LEADER: I'm rotating right to scan for the LightSwitch. You should also rotate right.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: I see the LightSwitch ahead of me. I am moving ahead. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: I am moving ahead again, the LightSwitch is still in front of us. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: I am moving ahead again, the LightSwitch is still in front of us. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead."
+      ]
+    },
+    {
+      "step": 3,
+      "task_id": 86,
+      "scene": "FloorPlan202",
+      "room_type": "living_room",
+      "target_type": "LightSwitch",
+      "goal_text": "Cooperatively navigate to the LightSwitch.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Okay, moving ahead.",
+      "agent_position": {
+        "x": 0.5,
+        "y": 0.9010459184646606,
+        "z": 2.25
+      },
+      "target_visible": true,
+      "target_distance": 2.2493784427642822,
+      "leader_memory_snapshot": [
+        "Leader saw LightSwitch at distance 2.67 m near position x=-0.50, z=1.75.",
+        "Leader saw LightSwitch at distance 2.43 m near position x=-0.50, z=2.00.",
+        "Leader saw LightSwitch at distance 2.19 m near position x=-0.50, z=2.25."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw LightSwitch at distance 2.72 m near position x=0.50, z=1.75.",
+        "Handicapped saw LightSwitch at distance 2.48 m near position x=0.50, z=2.00.",
+        "Handicapped saw LightSwitch at distance 2.25 m near position x=0.50, z=2.25."
+      ],
+      "conversation_log": [
+        "LEADER: I'm rotating right to scan for the LightSwitch. You should also rotate right.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: I see the LightSwitch ahead of me. I am moving ahead. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: I am moving ahead again, the LightSwitch is still in front of us. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: I am moving ahead again, the LightSwitch is still in front of us. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead."
+      ]
+    },
+    {
+      "step": 4,
+      "task_id": 86,
+      "scene": "FloorPlan202",
+      "room_type": "living_room",
+      "target_type": "LightSwitch",
+      "goal_text": "Cooperatively navigate to the LightSwitch.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "I am moving ahead again, the LightSwitch is still in front of us. You should also move ahead.",
+      "agent_position": {
+        "x": -0.5,
+        "y": 0.9010459184646606,
+        "z": 2.5
+      },
+      "target_visible": true,
+      "target_distance": 1.9526145458221436,
+      "leader_memory_snapshot": [
+        "Leader saw LightSwitch at distance 2.67 m near position x=-0.50, z=1.75.",
+        "Leader saw LightSwitch at distance 2.43 m near position x=-0.50, z=2.00.",
+        "Leader saw LightSwitch at distance 2.19 m near position x=-0.50, z=2.25.",
+        "Leader saw LightSwitch at distance 1.95 m near position x=-0.50, z=2.50."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw LightSwitch at distance 2.72 m near position x=0.50, z=1.75.",
+        "Handicapped saw LightSwitch at distance 2.48 m near position x=0.50, z=2.00.",
+        "Handicapped saw LightSwitch at distance 2.25 m near position x=0.50, z=2.25.",
+        "Handicapped saw LightSwitch at distance 2.02 m near position x=0.50, z=2.50."
+      ],
+      "conversation_log": [
+        "LEADER: I'm rotating right to scan for the LightSwitch. You should also rotate right.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: I see the LightSwitch ahead of me. I am moving ahead. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: I am moving ahead again, the LightSwitch is still in front of us. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: I am moving ahead again, the LightSwitch is still in front of us. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: I am moving ahead again, the LightSwitch is still in front of us. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead."
+      ]
+    },
+    {
+      "step": 4,
+      "task_id": 86,
+      "scene": "FloorPlan202",
+      "room_type": "living_room",
+      "target_type": "LightSwitch",
+      "goal_text": "Cooperatively navigate to the LightSwitch.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Okay, moving ahead.",
+      "agent_position": {
+        "x": 0.5,
+        "y": 0.9010459184646606,
+        "z": 2.5
+      },
+      "target_visible": true,
+      "target_distance": 2.018094062805176,
+      "leader_memory_snapshot": [
+        "Leader saw LightSwitch at distance 2.67 m near position x=-0.50, z=1.75.",
+        "Leader saw LightSwitch at distance 2.43 m near position x=-0.50, z=2.00.",
+        "Leader saw LightSwitch at distance 2.19 m near position x=-0.50, z=2.25.",
+        "Leader saw LightSwitch at distance 1.95 m near position x=-0.50, z=2.50."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw LightSwitch at distance 2.72 m near position x=0.50, z=1.75.",
+        "Handicapped saw LightSwitch at distance 2.48 m near position x=0.50, z=2.00.",
+        "Handicapped saw LightSwitch at distance 2.25 m near position x=0.50, z=2.25.",
+        "Handicapped saw LightSwitch at distance 2.02 m near position x=0.50, z=2.50."
+      ],
+      "conversation_log": [
+        "LEADER: I'm rotating right to scan for the LightSwitch. You should also rotate right.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: I see the LightSwitch ahead of me. I am moving ahead. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: I am moving ahead again, the LightSwitch is still in front of us. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: I am moving ahead again, the LightSwitch is still in front of us. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: I am moving ahead again, the LightSwitch is still in front of us. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead."
+      ]
+    },
+    {
+      "step": 5,
+      "task_id": 86,
+      "scene": "FloorPlan202",
+      "room_type": "living_room",
+      "target_type": "LightSwitch",
+      "goal_text": "Cooperatively navigate to the LightSwitch.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "The LightSwitch is still ahead. I am moving ahead, you should too.",
+      "agent_position": {
+        "x": -0.5,
+        "y": 0.9010459184646606,
+        "z": 2.75
+      },
+      "target_visible": true,
+      "target_distance": 1.7177611589431763,
+      "leader_memory_snapshot": [
+        "Leader saw LightSwitch at distance 2.67 m near position x=-0.50, z=1.75.",
+        "Leader saw LightSwitch at distance 2.43 m near position x=-0.50, z=2.00.",
+        "Leader saw LightSwitch at distance 2.19 m near position x=-0.50, z=2.25.",
+        "Leader saw LightSwitch at distance 1.95 m near position x=-0.50, z=2.50.",
+        "Leader saw LightSwitch at distance 1.72 m near position x=-0.50, z=2.75."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw LightSwitch at distance 2.72 m near position x=0.50, z=1.75.",
+        "Handicapped saw LightSwitch at distance 2.48 m near position x=0.50, z=2.00.",
+        "Handicapped saw LightSwitch at distance 2.25 m near position x=0.50, z=2.25.",
+        "Handicapped saw LightSwitch at distance 2.02 m near position x=0.50, z=2.50.",
+        "Handicapped saw LightSwitch at distance 1.79 m near position x=0.50, z=2.75."
+      ],
+      "conversation_log": [
+        "LEADER: I'm rotating right to scan for the LightSwitch. You should also rotate right.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: I see the LightSwitch ahead of me. I am moving ahead. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: I am moving ahead again, the LightSwitch is still in front of us. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: I am moving ahead again, the LightSwitch is still in front of us. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: I am moving ahead again, the LightSwitch is still in front of us. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: The LightSwitch is still ahead. I am moving ahead, you should too.",
+        "HANDICAPPED: Okay, moving ahead."
+      ]
+    },
+    {
+      "step": 5,
+      "task_id": 86,
+      "scene": "FloorPlan202",
+      "room_type": "living_room",
+      "target_type": "LightSwitch",
+      "goal_text": "Cooperatively navigate to the LightSwitch.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Okay, moving ahead.",
+      "agent_position": {
+        "x": 0.5,
+        "y": 0.9010459184646606,
+        "z": 2.75
+      },
+      "target_visible": true,
+      "target_distance": 1.7918435335159302,
+      "leader_memory_snapshot": [
+        "Leader saw LightSwitch at distance 2.67 m near position x=-0.50, z=1.75.",
+        "Leader saw LightSwitch at distance 2.43 m near position x=-0.50, z=2.00.",
+        "Leader saw LightSwitch at distance 2.19 m near position x=-0.50, z=2.25.",
+        "Leader saw LightSwitch at distance 1.95 m near position x=-0.50, z=2.50.",
+        "Leader saw LightSwitch at distance 1.72 m near position x=-0.50, z=2.75."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw LightSwitch at distance 2.72 m near position x=0.50, z=1.75.",
+        "Handicapped saw LightSwitch at distance 2.48 m near position x=0.50, z=2.00.",
+        "Handicapped saw LightSwitch at distance 2.25 m near position x=0.50, z=2.25.",
+        "Handicapped saw LightSwitch at distance 2.02 m near position x=0.50, z=2.50.",
+        "Handicapped saw LightSwitch at distance 1.79 m near position x=0.50, z=2.75."
+      ],
+      "conversation_log": [
+        "LEADER: I'm rotating right to scan for the LightSwitch. You should also rotate right.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: I see the LightSwitch ahead of me. I am moving ahead. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: I am moving ahead again, the LightSwitch is still in front of us. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: I am moving ahead again, the LightSwitch is still in front of us. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: I am moving ahead again, the LightSwitch is still in front of us. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: The LightSwitch is still ahead. I am moving ahead, you should too.",
+        "HANDICAPPED: Okay, moving ahead."
+      ]
+    },
+    {
+      "step": 6,
+      "task_id": 86,
+      "scene": "FloorPlan202",
+      "room_type": "living_room",
+      "target_type": "LightSwitch",
+      "goal_text": "Cooperatively navigate to the LightSwitch.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "The LightSwitch is still ahead. I am moving ahead, you should too.",
+      "agent_position": {
+        "x": -0.5,
+        "y": 0.9010459184646606,
+        "z": 3.0
+      },
+      "target_visible": true,
+      "target_distance": 1.4878519773483276,
+      "leader_memory_snapshot": [
+        "Leader saw LightSwitch at distance 2.67 m near position x=-0.50, z=1.75.",
+        "Leader saw LightSwitch at distance 2.43 m near position x=-0.50, z=2.00.",
+        "Leader saw LightSwitch at distance 2.19 m near position x=-0.50, z=2.25.",
+        "Leader saw LightSwitch at distance 1.95 m near position x=-0.50, z=2.50.",
+        "Leader saw LightSwitch at distance 1.72 m near position x=-0.50, z=2.75.",
+        "Leader saw LightSwitch at distance 1.49 m near position x=-0.50, z=3.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw LightSwitch at distance 2.72 m near position x=0.50, z=1.75.",
+        "Handicapped saw LightSwitch at distance 2.48 m near position x=0.50, z=2.00.",
+        "Handicapped saw LightSwitch at distance 2.25 m near position x=0.50, z=2.25.",
+        "Handicapped saw LightSwitch at distance 2.02 m near position x=0.50, z=2.50.",
+        "Handicapped saw LightSwitch at distance 1.79 m near position x=0.50, z=2.75.",
+        "Handicapped saw LightSwitch at distance 1.57 m near position x=0.50, z=3.00."
+      ],
+      "conversation_log": [
+        "LEADER: I'm rotating right to scan for the LightSwitch. You should also rotate right.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: I see the LightSwitch ahead of me. I am moving ahead. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: I am moving ahead again, the LightSwitch is still in front of us. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: I am moving ahead again, the LightSwitch is still in front of us. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: I am moving ahead again, the LightSwitch is still in front of us. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: The LightSwitch is still ahead. I am moving ahead, you should too.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: The LightSwitch is still ahead. I am moving ahead, you should too.",
+        "HANDICAPPED: Okay, moving ahead."
+      ]
+    },
+    {
+      "step": 6,
+      "task_id": 86,
+      "scene": "FloorPlan202",
+      "room_type": "living_room",
+      "target_type": "LightSwitch",
+      "goal_text": "Cooperatively navigate to the LightSwitch.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Okay, moving ahead.",
+      "agent_position": {
+        "x": 0.5,
+        "y": 0.9010459184646606,
+        "z": 3.0
+      },
+      "target_visible": true,
+      "target_distance": 1.572801113128662,
+      "leader_memory_snapshot": [
+        "Leader saw LightSwitch at distance 2.67 m near position x=-0.50, z=1.75.",
+        "Leader saw LightSwitch at distance 2.43 m near position x=-0.50, z=2.00.",
+        "Leader saw LightSwitch at distance 2.19 m near position x=-0.50, z=2.25.",
+        "Leader saw LightSwitch at distance 1.95 m near position x=-0.50, z=2.50.",
+        "Leader saw LightSwitch at distance 1.72 m near position x=-0.50, z=2.75.",
+        "Leader saw LightSwitch at distance 1.49 m near position x=-0.50, z=3.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw LightSwitch at distance 2.72 m near position x=0.50, z=1.75.",
+        "Handicapped saw LightSwitch at distance 2.48 m near position x=0.50, z=2.00.",
+        "Handicapped saw LightSwitch at distance 2.25 m near position x=0.50, z=2.25.",
+        "Handicapped saw LightSwitch at distance 2.02 m near position x=0.50, z=2.50.",
+        "Handicapped saw LightSwitch at distance 1.79 m near position x=0.50, z=2.75.",
+        "Handicapped saw LightSwitch at distance 1.57 m near position x=0.50, z=3.00."
+      ],
+      "conversation_log": [
+        "LEADER: I'm rotating right to scan for the LightSwitch. You should also rotate right.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: I see the LightSwitch ahead of me. I am moving ahead. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: I am moving ahead again, the LightSwitch is still in front of us. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: I am moving ahead again, the LightSwitch is still in front of us. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: I am moving ahead again, the LightSwitch is still in front of us. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: The LightSwitch is still ahead. I am moving ahead, you should too.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: The LightSwitch is still ahead. I am moving ahead, you should too.",
+        "HANDICAPPED: Okay, moving ahead."
+      ]
+    },
+    {
+      "step": 7,
+      "task_id": 86,
+      "scene": "FloorPlan202",
+      "room_type": "living_room",
+      "target_type": "LightSwitch",
+      "goal_text": "Cooperatively navigate to the LightSwitch.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "The LightSwitch is still ahead. I am moving ahead, you should too.",
+      "agent_position": {
+        "x": -0.5,
+        "y": 0.9010459184646606,
+        "z": 3.25
+      },
+      "target_visible": true,
+      "target_distance": 1.2655842304229736,
+      "leader_memory_snapshot": [
+        "Leader saw LightSwitch at distance 2.67 m near position x=-0.50, z=1.75.",
+        "Leader saw LightSwitch at distance 2.43 m near position x=-0.50, z=2.00.",
+        "Leader saw LightSwitch at distance 2.19 m near position x=-0.50, z=2.25.",
+        "Leader saw LightSwitch at distance 1.95 m near position x=-0.50, z=2.50.",
+        "Leader saw LightSwitch at distance 1.72 m near position x=-0.50, z=2.75.",
+        "Leader saw LightSwitch at distance 1.49 m near position x=-0.50, z=3.00.",
+        "Leader saw LightSwitch at distance 1.27 m near position x=-0.50, z=3.25."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw LightSwitch at distance 2.72 m near position x=0.50, z=1.75.",
+        "Handicapped saw LightSwitch at distance 2.48 m near position x=0.50, z=2.00.",
+        "Handicapped saw LightSwitch at distance 2.25 m near position x=0.50, z=2.25.",
+        "Handicapped saw LightSwitch at distance 2.02 m near position x=0.50, z=2.50.",
+        "Handicapped saw LightSwitch at distance 1.79 m near position x=0.50, z=2.75.",
+        "Handicapped saw LightSwitch at distance 1.57 m near position x=0.50, z=3.00.",
+        "Handicapped saw LightSwitch at distance 1.36 m near position x=0.50, z=3.25."
+      ],
+      "conversation_log": [
+        "LEADER: I'm rotating right to scan for the LightSwitch. You should also rotate right.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: I see the LightSwitch ahead of me. I am moving ahead. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: I am moving ahead again, the LightSwitch is still in front of us. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: I am moving ahead again, the LightSwitch is still in front of us. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: I am moving ahead again, the LightSwitch is still in front of us. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: The LightSwitch is still ahead. I am moving ahead, you should too.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: The LightSwitch is still ahead. I am moving ahead, you should too.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: The LightSwitch is still ahead. I am moving ahead, you should too.",
+        "HANDICAPPED: Okay, moving ahead."
+      ]
+    },
+    {
+      "step": 7,
+      "task_id": 86,
+      "scene": "FloorPlan202",
+      "room_type": "living_room",
+      "target_type": "LightSwitch",
+      "goal_text": "Cooperatively navigate to the LightSwitch.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Okay, moving ahead.",
+      "agent_position": {
+        "x": 0.5,
+        "y": 0.9010459184646606,
+        "z": 3.25
+      },
+      "target_visible": true,
+      "target_distance": 1.3644424676895142,
+      "leader_memory_snapshot": [
+        "Leader saw LightSwitch at distance 2.67 m near position x=-0.50, z=1.75.",
+        "Leader saw LightSwitch at distance 2.43 m near position x=-0.50, z=2.00.",
+        "Leader saw LightSwitch at distance 2.19 m near position x=-0.50, z=2.25.",
+        "Leader saw LightSwitch at distance 1.95 m near position x=-0.50, z=2.50.",
+        "Leader saw LightSwitch at distance 1.72 m near position x=-0.50, z=2.75.",
+        "Leader saw LightSwitch at distance 1.49 m near position x=-0.50, z=3.00.",
+        "Leader saw LightSwitch at distance 1.27 m near position x=-0.50, z=3.25."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw LightSwitch at distance 2.72 m near position x=0.50, z=1.75.",
+        "Handicapped saw LightSwitch at distance 2.48 m near position x=0.50, z=2.00.",
+        "Handicapped saw LightSwitch at distance 2.25 m near position x=0.50, z=2.25.",
+        "Handicapped saw LightSwitch at distance 2.02 m near position x=0.50, z=2.50.",
+        "Handicapped saw LightSwitch at distance 1.79 m near position x=0.50, z=2.75.",
+        "Handicapped saw LightSwitch at distance 1.57 m near position x=0.50, z=3.00.",
+        "Handicapped saw LightSwitch at distance 1.36 m near position x=0.50, z=3.25."
+      ],
+      "conversation_log": [
+        "LEADER: I'm rotating right to scan for the LightSwitch. You should also rotate right.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: I see the LightSwitch ahead of me. I am moving ahead. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: I am moving ahead again, the LightSwitch is still in front of us. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: I am moving ahead again, the LightSwitch is still in front of us. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: I am moving ahead again, the LightSwitch is still in front of us. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: The LightSwitch is still ahead. I am moving ahead, you should too.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: The LightSwitch is still ahead. I am moving ahead, you should too.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: The LightSwitch is still ahead. I am moving ahead, you should too.",
+        "HANDICAPPED: Okay, moving ahead."
+      ]
+    },
+    {
+      "step": 8,
+      "task_id": 86,
+      "scene": "FloorPlan202",
+      "room_type": "living_room",
+      "target_type": "LightSwitch",
+      "goal_text": "Cooperatively navigate to the LightSwitch.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "The LightSwitch is still ahead. I am moving ahead, you should too.",
+      "agent_position": {
+        "x": -0.5,
+        "y": 0.9010459184646606,
+        "z": 3.5
+      },
+      "target_visible": true,
+      "target_distance": 1.0557951927185059,
+      "leader_memory_snapshot": [
+        "Leader saw LightSwitch at distance 2.67 m near position x=-0.50, z=1.75.",
+        "Leader saw LightSwitch at distance 2.43 m near position x=-0.50, z=2.00.",
+        "Leader saw LightSwitch at distance 2.19 m near position x=-0.50, z=2.25.",
+        "Leader saw LightSwitch at distance 1.95 m near position x=-0.50, z=2.50.",
+        "Leader saw LightSwitch at distance 1.72 m near position x=-0.50, z=2.75.",
+        "Leader saw LightSwitch at distance 1.49 m near position x=-0.50, z=3.00.",
+        "Leader saw LightSwitch at distance 1.27 m near position x=-0.50, z=3.25.",
+        "Leader saw LightSwitch at distance 1.06 m near position x=-0.50, z=3.50."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw LightSwitch at distance 2.72 m near position x=0.50, z=1.75.",
+        "Handicapped saw LightSwitch at distance 2.48 m near position x=0.50, z=2.00.",
+        "Handicapped saw LightSwitch at distance 2.25 m near position x=0.50, z=2.25.",
+        "Handicapped saw LightSwitch at distance 2.02 m near position x=0.50, z=2.50.",
+        "Handicapped saw LightSwitch at distance 1.79 m near position x=0.50, z=2.75.",
+        "Handicapped saw LightSwitch at distance 1.57 m near position x=0.50, z=3.00.",
+        "Handicapped saw LightSwitch at distance 1.36 m near position x=0.50, z=3.25.",
+        "Handicapped saw LightSwitch at distance 1.17 m near position x=0.50, z=3.50."
+      ],
+      "conversation_log": [
+        "LEADER: I'm rotating right to scan for the LightSwitch. You should also rotate right.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: I see the LightSwitch ahead of me. I am moving ahead. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: I am moving ahead again, the LightSwitch is still in front of us. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: I am moving ahead again, the LightSwitch is still in front of us. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: I am moving ahead again, the LightSwitch is still in front of us. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: The LightSwitch is still ahead. I am moving ahead, you should too.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: The LightSwitch is still ahead. I am moving ahead, you should too.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: The LightSwitch is still ahead. I am moving ahead, you should too.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: The LightSwitch is still ahead. I am moving ahead, you should too.",
+        "HANDICAPPED: Okay, moving ahead."
+      ]
+    },
+    {
+      "step": 8,
+      "task_id": 86,
+      "scene": "FloorPlan202",
+      "room_type": "living_room",
+      "target_type": "LightSwitch",
+      "goal_text": "Cooperatively navigate to the LightSwitch.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Okay, moving ahead.",
+      "agent_position": {
+        "x": 0.5,
+        "y": 0.9010459184646606,
+        "z": 3.5
+      },
+      "target_visible": true,
+      "target_distance": 1.1724774837493896,
+      "leader_memory_snapshot": [
+        "Leader saw LightSwitch at distance 2.67 m near position x=-0.50, z=1.75.",
+        "Leader saw LightSwitch at distance 2.43 m near position x=-0.50, z=2.00.",
+        "Leader saw LightSwitch at distance 2.19 m near position x=-0.50, z=2.25.",
+        "Leader saw LightSwitch at distance 1.95 m near position x=-0.50, z=2.50.",
+        "Leader saw LightSwitch at distance 1.72 m near position x=-0.50, z=2.75.",
+        "Leader saw LightSwitch at distance 1.49 m near position x=-0.50, z=3.00.",
+        "Leader saw LightSwitch at distance 1.27 m near position x=-0.50, z=3.25.",
+        "Leader saw LightSwitch at distance 1.06 m near position x=-0.50, z=3.50."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw LightSwitch at distance 2.72 m near position x=0.50, z=1.75.",
+        "Handicapped saw LightSwitch at distance 2.48 m near position x=0.50, z=2.00.",
+        "Handicapped saw LightSwitch at distance 2.25 m near position x=0.50, z=2.25.",
+        "Handicapped saw LightSwitch at distance 2.02 m near position x=0.50, z=2.50.",
+        "Handicapped saw LightSwitch at distance 1.79 m near position x=0.50, z=2.75.",
+        "Handicapped saw LightSwitch at distance 1.57 m near position x=0.50, z=3.00.",
+        "Handicapped saw LightSwitch at distance 1.36 m near position x=0.50, z=3.25.",
+        "Handicapped saw LightSwitch at distance 1.17 m near position x=0.50, z=3.50."
+      ],
+      "conversation_log": [
+        "LEADER: I'm rotating right to scan for the LightSwitch. You should also rotate right.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: I see the LightSwitch ahead of me. I am moving ahead. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: I am moving ahead again, the LightSwitch is still in front of us. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: I am moving ahead again, the LightSwitch is still in front of us. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: I am moving ahead again, the LightSwitch is still in front of us. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: The LightSwitch is still ahead. I am moving ahead, you should too.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: The LightSwitch is still ahead. I am moving ahead, you should too.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: The LightSwitch is still ahead. I am moving ahead, you should too.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: The LightSwitch is still ahead. I am moving ahead, you should too.",
+        "HANDICAPPED: Okay, moving ahead."
+      ]
+    },
+    {
+      "step": 9,
+      "task_id": 86,
+      "scene": "FloorPlan202",
+      "room_type": "living_room",
+      "target_type": "LightSwitch",
+      "goal_text": "Cooperatively navigate to the LightSwitch.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "Done",
+      "message": "We are at the LightSwitch. I am done. You should also be done.",
+      "agent_position": {
+        "x": -0.5,
+        "y": 0.9010459184646606,
+        "z": 3.75
+      },
+      "target_visible": true,
+      "target_distance": 0.8675848245620728,
+      "leader_memory_snapshot": [
+        "Leader saw LightSwitch at distance 2.67 m near position x=-0.50, z=1.75.",
+        "Leader saw LightSwitch at distance 2.43 m near position x=-0.50, z=2.00.",
+        "Leader saw LightSwitch at distance 2.19 m near position x=-0.50, z=2.25.",
+        "Leader saw LightSwitch at distance 1.95 m near position x=-0.50, z=2.50.",
+        "Leader saw LightSwitch at distance 1.72 m near position x=-0.50, z=2.75.",
+        "Leader saw LightSwitch at distance 1.49 m near position x=-0.50, z=3.00.",
+        "Leader saw LightSwitch at distance 1.27 m near position x=-0.50, z=3.25.",
+        "Leader saw LightSwitch at distance 1.06 m near position x=-0.50, z=3.50.",
+        "Leader saw LightSwitch at distance 0.87 m near position x=-0.50, z=3.75."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw LightSwitch at distance 2.72 m near position x=0.50, z=1.75.",
+        "Handicapped saw LightSwitch at distance 2.48 m near position x=0.50, z=2.00.",
+        "Handicapped saw LightSwitch at distance 2.25 m near position x=0.50, z=2.25.",
+        "Handicapped saw LightSwitch at distance 2.02 m near position x=0.50, z=2.50.",
+        "Handicapped saw LightSwitch at distance 1.79 m near position x=0.50, z=2.75.",
+        "Handicapped saw LightSwitch at distance 1.57 m near position x=0.50, z=3.00.",
+        "Handicapped saw LightSwitch at distance 1.36 m near position x=0.50, z=3.25.",
+        "Handicapped saw LightSwitch at distance 1.17 m near position x=0.50, z=3.50.",
+        "Handicapped saw LightSwitch at distance 1.01 m near position x=0.50, z=3.75."
+      ],
+      "conversation_log": [
+        "LEADER: I'm rotating right to scan for the LightSwitch. You should also rotate right.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: I see the LightSwitch ahead of me. I am moving ahead. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: I am moving ahead again, the LightSwitch is still in front of us. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: I am moving ahead again, the LightSwitch is still in front of us. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: I am moving ahead again, the LightSwitch is still in front of us. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: The LightSwitch is still ahead. I am moving ahead, you should too.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: The LightSwitch is still ahead. I am moving ahead, you should too.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: The LightSwitch is still ahead. I am moving ahead, you should too.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: The LightSwitch is still ahead. I am moving ahead, you should too.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: We are at the LightSwitch. I am done. You should also be done.",
+        "HANDICAPPED: Okay, I see the LightSwitch nearby too. I am done."
+      ]
+    },
+    {
+      "step": 9,
+      "task_id": 86,
+      "scene": "FloorPlan202",
+      "room_type": "living_room",
+      "target_type": "LightSwitch",
+      "goal_text": "Cooperatively navigate to the LightSwitch.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "Done",
+      "message": "Okay, I see the LightSwitch nearby too. I am done.",
+      "agent_position": {
+        "x": 0.5,
+        "y": 0.9010459184646606,
+        "z": 3.75
+      },
+      "target_visible": true,
+      "target_distance": 1.0063316822052002,
+      "leader_memory_snapshot": [
+        "Leader saw LightSwitch at distance 2.67 m near position x=-0.50, z=1.75.",
+        "Leader saw LightSwitch at distance 2.43 m near position x=-0.50, z=2.00.",
+        "Leader saw LightSwitch at distance 2.19 m near position x=-0.50, z=2.25.",
+        "Leader saw LightSwitch at distance 1.95 m near position x=-0.50, z=2.50.",
+        "Leader saw LightSwitch at distance 1.72 m near position x=-0.50, z=2.75.",
+        "Leader saw LightSwitch at distance 1.49 m near position x=-0.50, z=3.00.",
+        "Leader saw LightSwitch at distance 1.27 m near position x=-0.50, z=3.25.",
+        "Leader saw LightSwitch at distance 1.06 m near position x=-0.50, z=3.50.",
+        "Leader saw LightSwitch at distance 0.87 m near position x=-0.50, z=3.75."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw LightSwitch at distance 2.72 m near position x=0.50, z=1.75.",
+        "Handicapped saw LightSwitch at distance 2.48 m near position x=0.50, z=2.00.",
+        "Handicapped saw LightSwitch at distance 2.25 m near position x=0.50, z=2.25.",
+        "Handicapped saw LightSwitch at distance 2.02 m near position x=0.50, z=2.50.",
+        "Handicapped saw LightSwitch at distance 1.79 m near position x=0.50, z=2.75.",
+        "Handicapped saw LightSwitch at distance 1.57 m near position x=0.50, z=3.00.",
+        "Handicapped saw LightSwitch at distance 1.36 m near position x=0.50, z=3.25.",
+        "Handicapped saw LightSwitch at distance 1.17 m near position x=0.50, z=3.50.",
+        "Handicapped saw LightSwitch at distance 1.01 m near position x=0.50, z=3.75."
+      ],
+      "conversation_log": [
+        "LEADER: I'm rotating right to scan for the LightSwitch. You should also rotate right.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: I see the LightSwitch ahead of me. I am moving ahead. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: I am moving ahead again, the LightSwitch is still in front of us. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: I am moving ahead again, the LightSwitch is still in front of us. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: I am moving ahead again, the LightSwitch is still in front of us. You should also move ahead.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: The LightSwitch is still ahead. I am moving ahead, you should too.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: The LightSwitch is still ahead. I am moving ahead, you should too.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: The LightSwitch is still ahead. I am moving ahead, you should too.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: The LightSwitch is still ahead. I am moving ahead, you should too.",
+        "HANDICAPPED: Okay, moving ahead.",
+        "LEADER: We are at the LightSwitch. I am done. You should also be done.",
+        "HANDICAPPED: Okay, I see the LightSwitch nearby too. I am done."
+      ]
+    }
+  ]
+}
