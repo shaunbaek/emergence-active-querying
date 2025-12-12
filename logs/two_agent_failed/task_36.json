@@ -1,0 +1,460 @@
+{
+  "task_meta": {
+    "task_id": 36,
+    "scene": "FloorPlan13",
+    "room_type": "kitchen",
+    "target_type": "Cup",
+    "goal_text": "Navigate to the Cup."
+  },
+  "episode_time_sec": 32.34614945796784,
+  "steps": [
+    {
+      "step": 0,
+      "task_id": 36,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "Cup",
+      "goal_text": "Cooperatively navigate to the Cup.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "The cup is ahead of us. Move ahead with me.",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.8995019197463989,
+        "z": 3.75
+      },
+      "target_visible": false,
+      "target_distance": 1.8276258707046509,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: The cup is ahead of us. Move ahead with me.",
+        "HANDICAPPED: Moving ahead."
+      ]
+    },
+    {
+      "step": 0,
+      "task_id": 36,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "Cup",
+      "goal_text": "Cooperatively navigate to the Cup.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Moving ahead.",
+      "agent_position": {
+        "x": -1.0,
+        "y": 0.8995019197463989,
+        "z": 3.75
+      },
+      "target_visible": false,
+      "target_distance": 1.9355039596557617,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: The cup is ahead of us. Move ahead with me.",
+        "HANDICAPPED: Moving ahead."
+      ]
+    },
+    {
+      "step": 1,
+      "task_id": 36,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "Cup",
+      "goal_text": "Cooperatively navigate to the Cup.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "Keep moving ahead. The cup is still in front of us.",
+      "agent_position": {
+        "x": -2.25,
+        "y": 0.8995019197463989,
+        "z": 3.75
+      },
+      "target_visible": false,
+      "target_distance": 1.8844658136367798,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: The cup is ahead of us. Move ahead with me.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: Keep moving ahead. The cup is still in front of us.",
+        "HANDICAPPED: Moving ahead."
+      ]
+    },
+    {
+      "step": 1,
+      "task_id": 36,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "Cup",
+      "goal_text": "Cooperatively navigate to the Cup.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Moving ahead.",
+      "agent_position": {
+        "x": -1.25,
+        "y": 0.8995019197463989,
+        "z": 3.75
+      },
+      "target_visible": false,
+      "target_distance": 1.859349250793457,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: The cup is ahead of us. Move ahead with me.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: Keep moving ahead. The cup is still in front of us.",
+        "HANDICAPPED: Moving ahead."
+      ]
+    },
+    {
+      "step": 2,
+      "task_id": 36,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "Cup",
+      "goal_text": "Cooperatively navigate to the Cup.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "The cup is still ahead. Let's move closer.",
+      "agent_position": {
+        "x": -2.5,
+        "y": 0.8995019197463989,
+        "z": 3.75
+      },
+      "target_visible": false,
+      "target_distance": 1.971603274345398,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: The cup is ahead of us. Move ahead with me.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: Keep moving ahead. The cup is still in front of us.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: The cup is still ahead. Let's move closer.",
+        "HANDICAPPED: Continuing to move ahead."
+      ]
+    },
+    {
+      "step": 2,
+      "task_id": 36,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "Cup",
+      "goal_text": "Cooperatively navigate to the Cup.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Continuing to move ahead.",
+      "agent_position": {
+        "x": -1.5,
+        "y": 0.8995019197463989,
+        "z": 3.75
+      },
+      "target_visible": false,
+      "target_distance": 1.8147141933441162,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: The cup is ahead of us. Move ahead with me.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: Keep moving ahead. The cup is still in front of us.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: The cup is still ahead. Let's move closer.",
+        "HANDICAPPED: Continuing to move ahead."
+      ]
+    },
+    {
+      "step": 3,
+      "task_id": 36,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "Cup",
+      "goal_text": "Cooperatively navigate to the Cup.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "I see the cup now, it's very close. Let's move ahead one more step.",
+      "agent_position": {
+        "x": -2.75,
+        "y": 0.8995019197463989,
+        "z": 3.75
+      },
+      "target_visible": false,
+      "target_distance": 2.085240364074707,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: The cup is ahead of us. Move ahead with me.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: Keep moving ahead. The cup is still in front of us.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: The cup is still ahead. Let's move closer.",
+        "HANDICAPPED: Continuing to move ahead.",
+        "LEADER: I see the cup now, it's very close. Let's move ahead one more step.",
+        "HANDICAPPED: Moving ahead, leader."
+      ]
+    },
+    {
+      "step": 3,
+      "task_id": 36,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "Cup",
+      "goal_text": "Cooperatively navigate to the Cup.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Moving ahead, leader.",
+      "agent_position": {
+        "x": -1.75,
+        "y": 0.8995019197463989,
+        "z": 3.75
+      },
+      "target_visible": false,
+      "target_distance": 1.803938865661621,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: The cup is ahead of us. Move ahead with me.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: Keep moving ahead. The cup is still in front of us.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: The cup is still ahead. Let's move closer.",
+        "HANDICAPPED: Continuing to move ahead.",
+        "LEADER: I see the cup now, it's very close. Let's move ahead one more step.",
+        "HANDICAPPED: Moving ahead, leader."
+      ]
+    },
+    {
+      "step": 4,
+      "task_id": 36,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "Cup",
+      "goal_text": "Cooperatively navigate to the Cup.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "We're almost there, just one more tiny step ahead to reach the cup.",
+      "agent_position": {
+        "x": -3.0,
+        "y": 0.8995019197463989,
+        "z": 3.75
+      },
+      "target_visible": false,
+      "target_distance": 2.221313953399658,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: The cup is ahead of us. Move ahead with me.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: Keep moving ahead. The cup is still in front of us.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: The cup is still ahead. Let's move closer.",
+        "HANDICAPPED: Continuing to move ahead.",
+        "LEADER: I see the cup now, it's very close. Let's move ahead one more step.",
+        "HANDICAPPED: Moving ahead, leader.",
+        "LEADER: We're almost there, just one more tiny step ahead to reach the cup.",
+        "HANDICAPPED: Moving ahead with you, leader."
+      ]
+    },
+    {
+      "step": 4,
+      "task_id": 36,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "Cup",
+      "goal_text": "Cooperatively navigate to the Cup.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Moving ahead with you, leader.",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.8995019197463989,
+        "z": 3.75
+      },
+      "target_visible": false,
+      "target_distance": 1.827622413635254,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: The cup is ahead of us. Move ahead with me.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: Keep moving ahead. The cup is still in front of us.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: The cup is still ahead. Let's move closer.",
+        "HANDICAPPED: Continuing to move ahead.",
+        "LEADER: I see the cup now, it's very close. Let's move ahead one more step.",
+        "HANDICAPPED: Moving ahead, leader.",
+        "LEADER: We're almost there, just one more tiny step ahead to reach the cup.",
+        "HANDICAPPED: Moving ahead with you, leader."
+      ]
+    },
+    {
+      "step": 5,
+      "task_id": 36,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "Cup",
+      "goal_text": "Cooperatively navigate to the Cup.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "We are almost there, one final step ahead to the cup.",
+      "agent_position": {
+        "x": -3.25,
+        "y": 0.8995019197463989,
+        "z": 3.75
+      },
+      "target_visible": false,
+      "target_distance": 2.375972032546997,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: The cup is ahead of us. Move ahead with me.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: Keep moving ahead. The cup is still in front of us.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: The cup is still ahead. Let's move closer.",
+        "HANDICAPPED: Continuing to move ahead.",
+        "LEADER: I see the cup now, it's very close. Let's move ahead one more step.",
+        "HANDICAPPED: Moving ahead, leader.",
+        "LEADER: We're almost there, just one more tiny step ahead to reach the cup.",
+        "HANDICAPPED: Moving ahead with you, leader.",
+        "LEADER: We are almost there, one final step ahead to the cup.",
+        "HANDICAPPED: Moving ahead for the final step, leader."
+      ]
+    },
+    {
+      "step": 5,
+      "task_id": 36,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "Cup",
+      "goal_text": "Cooperatively navigate to the Cup.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Moving ahead for the final step, leader.",
+      "agent_position": {
+        "x": -2.25,
+        "y": 0.8995019197463989,
+        "z": 3.75
+      },
+      "target_visible": false,
+      "target_distance": 1.8844658136367798,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: The cup is ahead of us. Move ahead with me.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: Keep moving ahead. The cup is still in front of us.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: The cup is still ahead. Let's move closer.",
+        "HANDICAPPED: Continuing to move ahead.",
+        "LEADER: I see the cup now, it's very close. Let's move ahead one more step.",
+        "HANDICAPPED: Moving ahead, leader.",
+        "LEADER: We're almost there, just one more tiny step ahead to reach the cup.",
+        "HANDICAPPED: Moving ahead with you, leader.",
+        "LEADER: We are almost there, one final step ahead to the cup.",
+        "HANDICAPPED: Moving ahead for the final step, leader."
+      ]
+    },
+    {
+      "step": 6,
+      "task_id": 36,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "Cup",
+      "goal_text": "Cooperatively navigate to the Cup.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "Done",
+      "message": "We have reached the cup! Good job.",
+      "agent_position": {
+        "x": -3.25,
+        "y": 0.8995019197463989,
+        "z": 3.75
+      },
+      "target_visible": false,
+      "target_distance": 2.375972032546997,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: The cup is ahead of us. Move ahead with me.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: Keep moving ahead. The cup is still in front of us.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: The cup is still ahead. Let's move closer.",
+        "HANDICAPPED: Continuing to move ahead.",
+        "LEADER: I see the cup now, it's very close. Let's move ahead one more step.",
+        "HANDICAPPED: Moving ahead, leader.",
+        "LEADER: We're almost there, just one more tiny step ahead to reach the cup.",
+        "HANDICAPPED: Moving ahead with you, leader.",
+        "LEADER: We are almost there, one final step ahead to the cup.",
+        "HANDICAPPED: Moving ahead for the final step, leader.",
+        "LEADER: We have reached the cup! Good job.",
+        "HANDICAPPED: Understood, leader. I am done."
+      ]
+    },
+    {
+      "step": 6,
+      "task_id": 36,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "Cup",
+      "goal_text": "Cooperatively navigate to the Cup.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "Done",
+      "message": "Understood, leader. I am done.",
+      "agent_position": {
+        "x": -2.5,
+        "y": 0.8995019197463989,
+        "z": 3.75
+      },
+      "target_visible": false,
+      "target_distance": 1.971603274345398,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: The cup is ahead of us. Move ahead with me.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: Keep moving ahead. The cup is still in front of us.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: The cup is still ahead. Let's move closer.",
+        "HANDICAPPED: Continuing to move ahead.",
+        "LEADER: I see the cup now, it's very close. Let's move ahead one more step.",
+        "HANDICAPPED: Moving ahead, leader.",
+        "LEADER: We're almost there, just one more tiny step ahead to reach the cup.",
+        "HANDICAPPED: Moving ahead with you, leader.",
+        "LEADER: We are almost there, one final step ahead to the cup.",
+        "HANDICAPPED: Moving ahead for the final step, leader.",
+        "LEADER: We have reached the cup! Good job.",
+        "HANDICAPPED: Understood, leader. I am done."
+      ]
+    }
+  ]
+}

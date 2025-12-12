@@ -1,0 +1,730 @@
+{
+  "task_meta": {
+    "task_id": 67,
+    "scene": "FloorPlan304",
+    "room_type": "bedroom",
+    "target_type": "Mirror",
+    "goal_text": "Navigate to the Mirror."
+  },
+  "episode_time_sec": 58.84532566589769,
+  "steps": [
+    {
+      "step": 0,
+      "task_id": 67,
+      "scene": "FloorPlan304",
+      "room_type": "bedroom",
+      "target_type": "Mirror",
+      "goal_text": "Cooperatively navigate to the Mirror.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "RotateRight",
+      "message": "I don't see the Mirror. I'm rotating right to scan the room. You can also rotate.",
+      "agent_position": {
+        "x": 0.5,
+        "y": 0.9069997072219849,
+        "z": 0.5
+      },
+      "target_visible": false,
+      "target_distance": 1.5612952709197998,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: I don't see the Mirror. I'm rotating right to scan the room. You can also rotate.",
+        "HANDICAPPED: Okay, rotating right."
+      ]
+    },
+    {
+      "step": 0,
+      "task_id": 67,
+      "scene": "FloorPlan304",
+      "room_type": "bedroom",
+      "target_type": "Mirror",
+      "goal_text": "Cooperatively navigate to the Mirror.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "RotateRight",
+      "message": "Okay, rotating right.",
+      "agent_position": {
+        "x": 1.5,
+        "y": 0.9069997072219849,
+        "z": 0.5
+      },
+      "target_visible": false,
+      "target_distance": 0.7884433269500732,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: I don't see the Mirror. I'm rotating right to scan the room. You can also rotate.",
+        "HANDICAPPED: Okay, rotating right."
+      ]
+    },
+    {
+      "step": 1,
+      "task_id": 67,
+      "scene": "FloorPlan304",
+      "room_type": "bedroom",
+      "target_type": "Mirror",
+      "goal_text": "Cooperatively navigate to the Mirror.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "I'm moving ahead towards the Mirror's location. Keep moving towards it.",
+      "agent_position": {
+        "x": 0.5,
+        "y": 0.9069997072219849,
+        "z": 0.5
+      },
+      "target_visible": false,
+      "target_distance": 1.5612952709197998,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Mirror at distance 0.79 m near position x=1.50, z=0.50."
+      ],
+      "conversation_log": [
+        "LEADER: I don't see the Mirror. I'm rotating right to scan the room. You can also rotate.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: I'm moving ahead towards the Mirror's location. Keep moving towards it.",
+        "HANDICAPPED: I see the Mirror nearby and am moving closer."
+      ]
+    },
+    {
+      "step": 1,
+      "task_id": 67,
+      "scene": "FloorPlan304",
+      "room_type": "bedroom",
+      "target_type": "Mirror",
+      "goal_text": "Cooperatively navigate to the Mirror.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "I see the Mirror nearby and am moving closer.",
+      "agent_position": {
+        "x": 1.5,
+        "y": 0.9069997072219849,
+        "z": 0.5
+      },
+      "target_visible": true,
+      "target_distance": 0.7884433269500732,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Mirror at distance 0.79 m near position x=1.50, z=0.50."
+      ],
+      "conversation_log": [
+        "LEADER: I don't see the Mirror. I'm rotating right to scan the room. You can also rotate.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: I'm moving ahead towards the Mirror's location. Keep moving towards it.",
+        "HANDICAPPED: I see the Mirror nearby and am moving closer."
+      ]
+    },
+    {
+      "step": 2,
+      "task_id": 67,
+      "scene": "FloorPlan304",
+      "room_type": "bedroom",
+      "target_type": "Mirror",
+      "goal_text": "Cooperatively navigate to the Mirror.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "Great! I'm still moving ahead to join you at the Mirror.",
+      "agent_position": {
+        "x": 0.5,
+        "y": 0.9069997072219849,
+        "z": 0.75
+      },
+      "target_visible": false,
+      "target_distance": 1.5044575929641724,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Mirror at distance 0.79 m near position x=1.50, z=0.50.",
+        "Handicapped saw Mirror at distance 0.67 m near position x=1.50, z=0.75."
+      ],
+      "conversation_log": [
+        "LEADER: I don't see the Mirror. I'm rotating right to scan the room. You can also rotate.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: I'm moving ahead towards the Mirror's location. Keep moving towards it.",
+        "HANDICAPPED: I see the Mirror nearby and am moving closer.",
+        "LEADER: Great! I'm still moving ahead to join you at the Mirror.",
+        "HANDICAPPED: I've reached the Mirror."
+      ]
+    },
+    {
+      "step": 2,
+      "task_id": 67,
+      "scene": "FloorPlan304",
+      "room_type": "bedroom",
+      "target_type": "Mirror",
+      "goal_text": "Cooperatively navigate to the Mirror.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "Done",
+      "message": "I've reached the Mirror.",
+      "agent_position": {
+        "x": 1.5,
+        "y": 0.9069997072219849,
+        "z": 0.75
+      },
+      "target_visible": true,
+      "target_distance": 0.6688743233680725,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Mirror at distance 0.79 m near position x=1.50, z=0.50.",
+        "Handicapped saw Mirror at distance 0.67 m near position x=1.50, z=0.75."
+      ],
+      "conversation_log": [
+        "LEADER: I don't see the Mirror. I'm rotating right to scan the room. You can also rotate.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: I'm moving ahead towards the Mirror's location. Keep moving towards it.",
+        "HANDICAPPED: I see the Mirror nearby and am moving closer.",
+        "LEADER: Great! I'm still moving ahead to join you at the Mirror.",
+        "HANDICAPPED: I've reached the Mirror."
+      ]
+    },
+    {
+      "step": 3,
+      "task_id": 67,
+      "scene": "FloorPlan304",
+      "room_type": "bedroom",
+      "target_type": "Mirror",
+      "goal_text": "Cooperatively navigate to the Mirror.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "I am still moving ahead to reach your location at the Mirror.",
+      "agent_position": {
+        "x": 0.5,
+        "y": 0.9069997072219849,
+        "z": 1.0
+      },
+      "target_visible": false,
+      "target_distance": 1.4879995584487915,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Mirror at distance 0.79 m near position x=1.50, z=0.50.",
+        "Handicapped saw Mirror at distance 0.67 m near position x=1.50, z=0.75.",
+        "Handicapped saw Mirror at distance 0.67 m near position x=1.50, z=0.75."
+      ],
+      "conversation_log": [
+        "LEADER: I don't see the Mirror. I'm rotating right to scan the room. You can also rotate.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: I'm moving ahead towards the Mirror's location. Keep moving towards it.",
+        "HANDICAPPED: I see the Mirror nearby and am moving closer.",
+        "LEADER: Great! I'm still moving ahead to join you at the Mirror.",
+        "HANDICAPPED: I've reached the Mirror.",
+        "LEADER: I am still moving ahead to reach your location at the Mirror.",
+        "HANDICAPPED: I have arrived at the Mirror."
+      ]
+    },
+    {
+      "step": 3,
+      "task_id": 67,
+      "scene": "FloorPlan304",
+      "room_type": "bedroom",
+      "target_type": "Mirror",
+      "goal_text": "Cooperatively navigate to the Mirror.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "Done",
+      "message": "I have arrived at the Mirror.",
+      "agent_position": {
+        "x": 1.5,
+        "y": 0.9069997072219849,
+        "z": 0.75
+      },
+      "target_visible": true,
+      "target_distance": 0.6688743233680725,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Mirror at distance 0.79 m near position x=1.50, z=0.50.",
+        "Handicapped saw Mirror at distance 0.67 m near position x=1.50, z=0.75.",
+        "Handicapped saw Mirror at distance 0.67 m near position x=1.50, z=0.75."
+      ],
+      "conversation_log": [
+        "LEADER: I don't see the Mirror. I'm rotating right to scan the room. You can also rotate.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: I'm moving ahead towards the Mirror's location. Keep moving towards it.",
+        "HANDICAPPED: I see the Mirror nearby and am moving closer.",
+        "LEADER: Great! I'm still moving ahead to join you at the Mirror.",
+        "HANDICAPPED: I've reached the Mirror.",
+        "LEADER: I am still moving ahead to reach your location at the Mirror.",
+        "HANDICAPPED: I have arrived at the Mirror."
+      ]
+    },
+    {
+      "step": 4,
+      "task_id": 67,
+      "scene": "FloorPlan304",
+      "room_type": "bedroom",
+      "target_type": "Mirror",
+      "goal_text": "Cooperatively navigate to the Mirror.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveRight",
+      "message": "I'm moving right to get closer to your location at the Mirror.",
+      "agent_position": {
+        "x": 0.5,
+        "y": 0.9069997072219849,
+        "z": 1.25
+      },
+      "target_visible": false,
+      "target_distance": 1.5132391452789307,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Mirror at distance 0.79 m near position x=1.50, z=0.50.",
+        "Handicapped saw Mirror at distance 0.67 m near position x=1.50, z=0.75.",
+        "Handicapped saw Mirror at distance 0.67 m near position x=1.50, z=0.75.",
+        "Handicapped saw Mirror at distance 0.67 m near position x=1.50, z=0.75."
+      ],
+      "conversation_log": [
+        "LEADER: I don't see the Mirror. I'm rotating right to scan the room. You can also rotate.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: I'm moving ahead towards the Mirror's location. Keep moving towards it.",
+        "HANDICAPPED: I see the Mirror nearby and am moving closer.",
+        "LEADER: Great! I'm still moving ahead to join you at the Mirror.",
+        "HANDICAPPED: I've reached the Mirror.",
+        "LEADER: I am still moving ahead to reach your location at the Mirror.",
+        "HANDICAPPED: I have arrived at the Mirror.",
+        "LEADER: I'm moving right to get closer to your location at the Mirror.",
+        "HANDICAPPED: I am at the Mirror and waiting for you."
+      ]
+    },
+    {
+      "step": 4,
+      "task_id": 67,
+      "scene": "FloorPlan304",
+      "room_type": "bedroom",
+      "target_type": "Mirror",
+      "goal_text": "Cooperatively navigate to the Mirror.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "Done",
+      "message": "I am at the Mirror and waiting for you.",
+      "agent_position": {
+        "x": 1.5,
+        "y": 0.9069997072219849,
+        "z": 0.75
+      },
+      "target_visible": true,
+      "target_distance": 0.6688743233680725,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Mirror at distance 0.79 m near position x=1.50, z=0.50.",
+        "Handicapped saw Mirror at distance 0.67 m near position x=1.50, z=0.75.",
+        "Handicapped saw Mirror at distance 0.67 m near position x=1.50, z=0.75.",
+        "Handicapped saw Mirror at distance 0.67 m near position x=1.50, z=0.75."
+      ],
+      "conversation_log": [
+        "LEADER: I don't see the Mirror. I'm rotating right to scan the room. You can also rotate.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: I'm moving ahead towards the Mirror's location. Keep moving towards it.",
+        "HANDICAPPED: I see the Mirror nearby and am moving closer.",
+        "LEADER: Great! I'm still moving ahead to join you at the Mirror.",
+        "HANDICAPPED: I've reached the Mirror.",
+        "LEADER: I am still moving ahead to reach your location at the Mirror.",
+        "HANDICAPPED: I have arrived at the Mirror.",
+        "LEADER: I'm moving right to get closer to your location at the Mirror.",
+        "HANDICAPPED: I am at the Mirror and waiting for you."
+      ]
+    },
+    {
+      "step": 5,
+      "task_id": 67,
+      "scene": "FloorPlan304",
+      "room_type": "bedroom",
+      "target_type": "Mirror",
+      "goal_text": "Cooperatively navigate to the Mirror.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "LookUp",
+      "message": "I am close to your location, starting a detailed scan to find the Mirror.",
+      "agent_position": {
+        "x": 0.75,
+        "y": 0.9069997072219849,
+        "z": 1.25
+      },
+      "target_visible": false,
+      "target_distance": 1.2838975191116333,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Mirror at distance 0.79 m near position x=1.50, z=0.50.",
+        "Handicapped saw Mirror at distance 0.67 m near position x=1.50, z=0.75.",
+        "Handicapped saw Mirror at distance 0.67 m near position x=1.50, z=0.75.",
+        "Handicapped saw Mirror at distance 0.67 m near position x=1.50, z=0.75.",
+        "Handicapped saw Mirror at distance 0.67 m near position x=1.50, z=0.75."
+      ],
+      "conversation_log": [
+        "LEADER: I don't see the Mirror. I'm rotating right to scan the room. You can also rotate.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: I'm moving ahead towards the Mirror's location. Keep moving towards it.",
+        "HANDICAPPED: I see the Mirror nearby and am moving closer.",
+        "LEADER: Great! I'm still moving ahead to join you at the Mirror.",
+        "HANDICAPPED: I've reached the Mirror.",
+        "LEADER: I am still moving ahead to reach your location at the Mirror.",
+        "HANDICAPPED: I have arrived at the Mirror.",
+        "LEADER: I'm moving right to get closer to your location at the Mirror.",
+        "HANDICAPPED: I am at the Mirror and waiting for you.",
+        "LEADER: I am close to your location, starting a detailed scan to find the Mirror.",
+        "HANDICAPPED: I am done at the Mirror."
+      ]
+    },
+    {
+      "step": 5,
+      "task_id": 67,
+      "scene": "FloorPlan304",
+      "room_type": "bedroom",
+      "target_type": "Mirror",
+      "goal_text": "Cooperatively navigate to the Mirror.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "Done",
+      "message": "I am done at the Mirror.",
+      "agent_position": {
+        "x": 1.5,
+        "y": 0.9069997072219849,
+        "z": 0.75
+      },
+      "target_visible": true,
+      "target_distance": 0.6688743233680725,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Mirror at distance 0.79 m near position x=1.50, z=0.50.",
+        "Handicapped saw Mirror at distance 0.67 m near position x=1.50, z=0.75.",
+        "Handicapped saw Mirror at distance 0.67 m near position x=1.50, z=0.75.",
+        "Handicapped saw Mirror at distance 0.67 m near position x=1.50, z=0.75.",
+        "Handicapped saw Mirror at distance 0.67 m near position x=1.50, z=0.75."
+      ],
+      "conversation_log": [
+        "LEADER: I don't see the Mirror. I'm rotating right to scan the room. You can also rotate.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: I'm moving ahead towards the Mirror's location. Keep moving towards it.",
+        "HANDICAPPED: I see the Mirror nearby and am moving closer.",
+        "LEADER: Great! I'm still moving ahead to join you at the Mirror.",
+        "HANDICAPPED: I've reached the Mirror.",
+        "LEADER: I am still moving ahead to reach your location at the Mirror.",
+        "HANDICAPPED: I have arrived at the Mirror.",
+        "LEADER: I'm moving right to get closer to your location at the Mirror.",
+        "HANDICAPPED: I am at the Mirror and waiting for you.",
+        "LEADER: I am close to your location, starting a detailed scan to find the Mirror.",
+        "HANDICAPPED: I am done at the Mirror."
+      ]
+    },
+    {
+      "step": 6,
+      "task_id": 67,
+      "scene": "FloorPlan304",
+      "room_type": "bedroom",
+      "target_type": "Mirror",
+      "goal_text": "Cooperatively navigate to the Mirror.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "I see the Mirror clearly now, moving ahead to join you.",
+      "agent_position": {
+        "x": 0.75,
+        "y": 0.9069997072219849,
+        "z": 1.25
+      },
+      "target_visible": true,
+      "target_distance": 1.2838975191116333,
+      "leader_memory_snapshot": [
+        "Leader saw Mirror at distance 1.28 m near position x=0.75, z=1.25."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Mirror at distance 0.79 m near position x=1.50, z=0.50.",
+        "Handicapped saw Mirror at distance 0.67 m near position x=1.50, z=0.75.",
+        "Handicapped saw Mirror at distance 0.67 m near position x=1.50, z=0.75.",
+        "Handicapped saw Mirror at distance 0.67 m near position x=1.50, z=0.75.",
+        "Handicapped saw Mirror at distance 0.67 m near position x=1.50, z=0.75.",
+        "Handicapped saw Mirror at distance 0.67 m near position x=1.50, z=0.75."
+      ],
+      "conversation_log": [
+        "LEADER: I don't see the Mirror. I'm rotating right to scan the room. You can also rotate.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: I'm moving ahead towards the Mirror's location. Keep moving towards it.",
+        "HANDICAPPED: I see the Mirror nearby and am moving closer.",
+        "LEADER: Great! I'm still moving ahead to join you at the Mirror.",
+        "HANDICAPPED: I've reached the Mirror.",
+        "LEADER: I am still moving ahead to reach your location at the Mirror.",
+        "HANDICAPPED: I have arrived at the Mirror.",
+        "LEADER: I'm moving right to get closer to your location at the Mirror.",
+        "HANDICAPPED: I am at the Mirror and waiting for you.",
+        "LEADER: I am close to your location, starting a detailed scan to find the Mirror.",
+        "HANDICAPPED: I am done at the Mirror.",
+        "LEADER: I see the Mirror clearly now, moving ahead to join you.",
+        "HANDICAPPED: I am still done at the Mirror."
+      ]
+    },
+    {
+      "step": 6,
+      "task_id": 67,
+      "scene": "FloorPlan304",
+      "room_type": "bedroom",
+      "target_type": "Mirror",
+      "goal_text": "Cooperatively navigate to the Mirror.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "Done",
+      "message": "I am still done at the Mirror.",
+      "agent_position": {
+        "x": 1.5,
+        "y": 0.9069997072219849,
+        "z": 0.75
+      },
+      "target_visible": true,
+      "target_distance": 0.6688743233680725,
+      "leader_memory_snapshot": [
+        "Leader saw Mirror at distance 1.28 m near position x=0.75, z=1.25."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Mirror at distance 0.79 m near position x=1.50, z=0.50.",
+        "Handicapped saw Mirror at distance 0.67 m near position x=1.50, z=0.75.",
+        "Handicapped saw Mirror at distance 0.67 m near position x=1.50, z=0.75.",
+        "Handicapped saw Mirror at distance 0.67 m near position x=1.50, z=0.75.",
+        "Handicapped saw Mirror at distance 0.67 m near position x=1.50, z=0.75.",
+        "Handicapped saw Mirror at distance 0.67 m near position x=1.50, z=0.75."
+      ],
+      "conversation_log": [
+        "LEADER: I don't see the Mirror. I'm rotating right to scan the room. You can also rotate.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: I'm moving ahead towards the Mirror's location. Keep moving towards it.",
+        "HANDICAPPED: I see the Mirror nearby and am moving closer.",
+        "LEADER: Great! I'm still moving ahead to join you at the Mirror.",
+        "HANDICAPPED: I've reached the Mirror.",
+        "LEADER: I am still moving ahead to reach your location at the Mirror.",
+        "HANDICAPPED: I have arrived at the Mirror.",
+        "LEADER: I'm moving right to get closer to your location at the Mirror.",
+        "HANDICAPPED: I am at the Mirror and waiting for you.",
+        "LEADER: I am close to your location, starting a detailed scan to find the Mirror.",
+        "HANDICAPPED: I am done at the Mirror.",
+        "LEADER: I see the Mirror clearly now, moving ahead to join you.",
+        "HANDICAPPED: I am still done at the Mirror."
+      ]
+    },
+    {
+      "step": 7,
+      "task_id": 67,
+      "scene": "FloorPlan304",
+      "room_type": "bedroom",
+      "target_type": "Mirror",
+      "goal_text": "Cooperatively navigate to the Mirror.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "I am moving ahead to reach the Mirror.",
+      "agent_position": {
+        "x": 1.0,
+        "y": 0.9069997072219849,
+        "z": 1.25
+      },
+      "target_visible": true,
+      "target_distance": 1.0639045238494873,
+      "leader_memory_snapshot": [
+        "Leader saw Mirror at distance 1.28 m near position x=0.75, z=1.25.",
+        "Leader saw Mirror at distance 1.06 m near position x=1.00, z=1.25."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Mirror at distance 0.79 m near position x=1.50, z=0.50.",
+        "Handicapped saw Mirror at distance 0.67 m near position x=1.50, z=0.75.",
+        "Handicapped saw Mirror at distance 0.67 m near position x=1.50, z=0.75.",
+        "Handicapped saw Mirror at distance 0.67 m near position x=1.50, z=0.75.",
+        "Handicapped saw Mirror at distance 0.67 m near position x=1.50, z=0.75.",
+        "Handicapped saw Mirror at distance 0.67 m near position x=1.50, z=0.75.",
+        "Handicapped saw Mirror at distance 0.67 m near position x=1.50, z=0.75."
+      ],
+      "conversation_log": [
+        "LEADER: I don't see the Mirror. I'm rotating right to scan the room. You can also rotate.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: I'm moving ahead towards the Mirror's location. Keep moving towards it.",
+        "HANDICAPPED: I see the Mirror nearby and am moving closer.",
+        "LEADER: Great! I'm still moving ahead to join you at the Mirror.",
+        "HANDICAPPED: I've reached the Mirror.",
+        "LEADER: I am still moving ahead to reach your location at the Mirror.",
+        "HANDICAPPED: I have arrived at the Mirror.",
+        "LEADER: I'm moving right to get closer to your location at the Mirror.",
+        "HANDICAPPED: I am at the Mirror and waiting for you.",
+        "LEADER: I am close to your location, starting a detailed scan to find the Mirror.",
+        "HANDICAPPED: I am done at the Mirror.",
+        "LEADER: I see the Mirror clearly now, moving ahead to join you.",
+        "HANDICAPPED: I am still done at the Mirror.",
+        "LEADER: I am moving ahead to reach the Mirror.",
+        "HANDICAPPED: I am at the Mirror and waiting for you."
+      ]
+    },
+    {
+      "step": 7,
+      "task_id": 67,
+      "scene": "FloorPlan304",
+      "room_type": "bedroom",
+      "target_type": "Mirror",
+      "goal_text": "Cooperatively navigate to the Mirror.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "Done",
+      "message": "I am at the Mirror and waiting for you.",
+      "agent_position": {
+        "x": 1.5,
+        "y": 0.9069997072219849,
+        "z": 0.75
+      },
+      "target_visible": true,
+      "target_distance": 0.6688743233680725,
+      "leader_memory_snapshot": [
+        "Leader saw Mirror at distance 1.28 m near position x=0.75, z=1.25.",
+        "Leader saw Mirror at distance 1.06 m near position x=1.00, z=1.25."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Mirror at distance 0.79 m near position x=1.50, z=0.50.",
+        "Handicapped saw Mirror at distance 0.67 m near position x=1.50, z=0.75.",
+        "Handicapped saw Mirror at distance 0.67 m near position x=1.50, z=0.75.",
+        "Handicapped saw Mirror at distance 0.67 m near position x=1.50, z=0.75.",
+        "Handicapped saw Mirror at distance 0.67 m near position x=1.50, z=0.75.",
+        "Handicapped saw Mirror at distance 0.67 m near position x=1.50, z=0.75.",
+        "Handicapped saw Mirror at distance 0.67 m near position x=1.50, z=0.75."
+      ],
+      "conversation_log": [
+        "LEADER: I don't see the Mirror. I'm rotating right to scan the room. You can also rotate.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: I'm moving ahead towards the Mirror's location. Keep moving towards it.",
+        "HANDICAPPED: I see the Mirror nearby and am moving closer.",
+        "LEADER: Great! I'm still moving ahead to join you at the Mirror.",
+        "HANDICAPPED: I've reached the Mirror.",
+        "LEADER: I am still moving ahead to reach your location at the Mirror.",
+        "HANDICAPPED: I have arrived at the Mirror.",
+        "LEADER: I'm moving right to get closer to your location at the Mirror.",
+        "HANDICAPPED: I am at the Mirror and waiting for you.",
+        "LEADER: I am close to your location, starting a detailed scan to find the Mirror.",
+        "HANDICAPPED: I am done at the Mirror.",
+        "LEADER: I see the Mirror clearly now, moving ahead to join you.",
+        "HANDICAPPED: I am still done at the Mirror.",
+        "LEADER: I am moving ahead to reach the Mirror.",
+        "HANDICAPPED: I am at the Mirror and waiting for you."
+      ]
+    },
+    {
+      "step": 8,
+      "task_id": 67,
+      "scene": "FloorPlan304",
+      "room_type": "bedroom",
+      "target_type": "Mirror",
+      "goal_text": "Cooperatively navigate to the Mirror.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "Done",
+      "message": "I have reached the Mirror and am done.",
+      "agent_position": {
+        "x": 1.25,
+        "y": 0.9069997072219849,
+        "z": 1.25
+      },
+      "target_visible": true,
+      "target_distance": 0.8604608178138733,
+      "leader_memory_snapshot": [
+        "Leader saw Mirror at distance 1.28 m near position x=0.75, z=1.25.",
+        "Leader saw Mirror at distance 1.06 m near position x=1.00, z=1.25.",
+        "Leader saw Mirror at distance 0.86 m near position x=1.25, z=1.25."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Mirror at distance 0.79 m near position x=1.50, z=0.50.",
+        "Handicapped saw Mirror at distance 0.67 m near position x=1.50, z=0.75.",
+        "Handicapped saw Mirror at distance 0.67 m near position x=1.50, z=0.75.",
+        "Handicapped saw Mirror at distance 0.67 m near position x=1.50, z=0.75.",
+        "Handicapped saw Mirror at distance 0.67 m near position x=1.50, z=0.75.",
+        "Handicapped saw Mirror at distance 0.67 m near position x=1.50, z=0.75.",
+        "Handicapped saw Mirror at distance 0.67 m near position x=1.50, z=0.75.",
+        "Handicapped saw Mirror at distance 0.67 m near position x=1.50, z=0.75."
+      ],
+      "conversation_log": [
+        "LEADER: I don't see the Mirror. I'm rotating right to scan the room. You can also rotate.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: I'm moving ahead towards the Mirror's location. Keep moving towards it.",
+        "HANDICAPPED: I see the Mirror nearby and am moving closer.",
+        "LEADER: Great! I'm still moving ahead to join you at the Mirror.",
+        "HANDICAPPED: I've reached the Mirror.",
+        "LEADER: I am still moving ahead to reach your location at the Mirror.",
+        "HANDICAPPED: I have arrived at the Mirror.",
+        "LEADER: I'm moving right to get closer to your location at the Mirror.",
+        "HANDICAPPED: I am at the Mirror and waiting for you.",
+        "LEADER: I am close to your location, starting a detailed scan to find the Mirror.",
+        "HANDICAPPED: I am done at the Mirror.",
+        "LEADER: I see the Mirror clearly now, moving ahead to join you.",
+        "HANDICAPPED: I am still done at the Mirror.",
+        "LEADER: I am moving ahead to reach the Mirror.",
+        "HANDICAPPED: I am at the Mirror and waiting for you.",
+        "LEADER: I have reached the Mirror and am done.",
+        "HANDICAPPED: I am also done at the Mirror."
+      ]
+    },
+    {
+      "step": 8,
+      "task_id": 67,
+      "scene": "FloorPlan304",
+      "room_type": "bedroom",
+      "target_type": "Mirror",
+      "goal_text": "Cooperatively navigate to the Mirror.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "Done",
+      "message": "I am also done at the Mirror.",
+      "agent_position": {
+        "x": 1.5,
+        "y": 0.9069997072219849,
+        "z": 0.75
+      },
+      "target_visible": true,
+      "target_distance": 0.6688743233680725,
+      "leader_memory_snapshot": [
+        "Leader saw Mirror at distance 1.28 m near position x=0.75, z=1.25.",
+        "Leader saw Mirror at distance 1.06 m near position x=1.00, z=1.25.",
+        "Leader saw Mirror at distance 0.86 m near position x=1.25, z=1.25."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw Mirror at distance 0.79 m near position x=1.50, z=0.50.",
+        "Handicapped saw Mirror at distance 0.67 m near position x=1.50, z=0.75.",
+        "Handicapped saw Mirror at distance 0.67 m near position x=1.50, z=0.75.",
+        "Handicapped saw Mirror at distance 0.67 m near position x=1.50, z=0.75.",
+        "Handicapped saw Mirror at distance 0.67 m near position x=1.50, z=0.75.",
+        "Handicapped saw Mirror at distance 0.67 m near position x=1.50, z=0.75.",
+        "Handicapped saw Mirror at distance 0.67 m near position x=1.50, z=0.75.",
+        "Handicapped saw Mirror at distance 0.67 m near position x=1.50, z=0.75."
+      ],
+      "conversation_log": [
+        "LEADER: I don't see the Mirror. I'm rotating right to scan the room. You can also rotate.",
+        "HANDICAPPED: Okay, rotating right.",
+        "LEADER: I'm moving ahead towards the Mirror's location. Keep moving towards it.",
+        "HANDICAPPED: I see the Mirror nearby and am moving closer.",
+        "LEADER: Great! I'm still moving ahead to join you at the Mirror.",
+        "HANDICAPPED: I've reached the Mirror.",
+        "LEADER: I am still moving ahead to reach your location at the Mirror.",
+        "HANDICAPPED: I have arrived at the Mirror.",
+        "LEADER: I'm moving right to get closer to your location at the Mirror.",
+        "HANDICAPPED: I am at the Mirror and waiting for you.",
+        "LEADER: I am close to your location, starting a detailed scan to find the Mirror.",
+        "HANDICAPPED: I am done at the Mirror.",
+        "LEADER: I see the Mirror clearly now, moving ahead to join you.",
+        "HANDICAPPED: I am still done at the Mirror.",
+        "LEADER: I am moving ahead to reach the Mirror.",
+        "HANDICAPPED: I am at the Mirror and waiting for you.",
+        "LEADER: I have reached the Mirror and am done.",
+        "HANDICAPPED: I am also done at the Mirror."
+      ]
+    }
+  ]
+}

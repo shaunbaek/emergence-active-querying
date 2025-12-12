@@ -1,0 +1,840 @@
+{
+  "task_meta": {
+    "task_id": 74,
+    "scene": "FloorPlan13",
+    "room_type": "kitchen",
+    "target_type": "StoveBurner",
+    "goal_text": "Navigate to the StoveBurner."
+  },
+  "episode_time_sec": 90.25234433298465,
+  "steps": [
+    {
+      "step": 0,
+      "task_id": 74,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "StoveBurner",
+      "goal_text": "Cooperatively navigate to the StoveBurner.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "RotateRight",
+      "message": "Thanks, Handicapped. I am turning to face that direction. Let's move east.",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.8995019197463989,
+        "z": 3.75
+      },
+      "target_visible": false,
+      "target_distance": 1.9677125215530396,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw StoveBurner at distance 2.59 m near position x=-1.00, z=3.75."
+      ],
+      "conversation_log": [
+        "LEADER: Thanks, Handicapped. I am turning to face that direction. Let's move east.",
+        "HANDICAPPED: Leader, I remember the StoveBurner was near x=-1.00, z=3.75."
+      ]
+    },
+    {
+      "step": 0,
+      "task_id": 74,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "StoveBurner",
+      "goal_text": "Cooperatively navigate to the StoveBurner.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "RotateRight",
+      "message": "Leader, I remember the StoveBurner was near x=-1.00, z=3.75.",
+      "agent_position": {
+        "x": -1.0,
+        "y": 0.8995019197463989,
+        "z": 3.75
+      },
+      "target_visible": true,
+      "target_distance": 2.592275619506836,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw StoveBurner at distance 2.59 m near position x=-1.00, z=3.75."
+      ],
+      "conversation_log": [
+        "LEADER: Thanks, Handicapped. I am turning to face that direction. Let's move east.",
+        "HANDICAPPED: Leader, I remember the StoveBurner was near x=-1.00, z=3.75."
+      ]
+    },
+    {
+      "step": 1,
+      "task_id": 74,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "StoveBurner",
+      "goal_text": "Cooperatively navigate to the StoveBurner.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "LookUp",
+      "message": "I am initiating a search sequence for the StoveBurner as we are close. I'm looking up first.",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.8995019197463989,
+        "z": 3.75
+      },
+      "target_visible": false,
+      "target_distance": 1.9677125215530396,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw StoveBurner at distance 2.59 m near position x=-1.00, z=3.75.",
+        "Handicapped saw StoveBurner at distance 2.59 m near position x=-1.00, z=3.75."
+      ],
+      "conversation_log": [
+        "LEADER: Thanks, Handicapped. I am turning to face that direction. Let's move east.",
+        "HANDICAPPED: Leader, I remember the StoveBurner was near x=-1.00, z=3.75.",
+        "LEADER: I am initiating a search sequence for the StoveBurner as we are close. I'm looking up first.",
+        "HANDICAPPED: Acknowledged. I am moving east."
+      ]
+    },
+    {
+      "step": 1,
+      "task_id": 74,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "StoveBurner",
+      "goal_text": "Cooperatively navigate to the StoveBurner.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Acknowledged. I am moving east.",
+      "agent_position": {
+        "x": -1.0,
+        "y": 0.8995019197463989,
+        "z": 3.75
+      },
+      "target_visible": true,
+      "target_distance": 2.592275619506836,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw StoveBurner at distance 2.59 m near position x=-1.00, z=3.75.",
+        "Handicapped saw StoveBurner at distance 2.59 m near position x=-1.00, z=3.75."
+      ],
+      "conversation_log": [
+        "LEADER: Thanks, Handicapped. I am turning to face that direction. Let's move east.",
+        "HANDICAPPED: Leader, I remember the StoveBurner was near x=-1.00, z=3.75.",
+        "LEADER: I am initiating a search sequence for the StoveBurner as we are close. I'm looking up first.",
+        "HANDICAPPED: Acknowledged. I am moving east."
+      ]
+    },
+    {
+      "step": 2,
+      "task_id": 74,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "StoveBurner",
+      "goal_text": "Cooperatively navigate to the StoveBurner.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "RotateLeft",
+      "message": "I am continuing the search sequence, rotating left after looking up.",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.8995019197463989,
+        "z": 3.75
+      },
+      "target_visible": false,
+      "target_distance": 1.9677125215530396,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw StoveBurner at distance 2.59 m near position x=-1.00, z=3.75.",
+        "Handicapped saw StoveBurner at distance 2.59 m near position x=-1.00, z=3.75.",
+        "Handicapped saw StoveBurner at distance 2.41 m near position x=-1.25, z=3.75."
+      ],
+      "conversation_log": [
+        "LEADER: Thanks, Handicapped. I am turning to face that direction. Let's move east.",
+        "HANDICAPPED: Leader, I remember the StoveBurner was near x=-1.00, z=3.75.",
+        "LEADER: I am initiating a search sequence for the StoveBurner as we are close. I'm looking up first.",
+        "HANDICAPPED: Acknowledged. I am moving east.",
+        "LEADER: I am continuing the search sequence, rotating left after looking up.",
+        "HANDICAPPED: I am still moving east, Leader."
+      ]
+    },
+    {
+      "step": 2,
+      "task_id": 74,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "StoveBurner",
+      "goal_text": "Cooperatively navigate to the StoveBurner.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "I am still moving east, Leader.",
+      "agent_position": {
+        "x": -1.25,
+        "y": 0.8995019197463989,
+        "z": 3.75
+      },
+      "target_visible": true,
+      "target_distance": 2.4125490188598633,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw StoveBurner at distance 2.59 m near position x=-1.00, z=3.75.",
+        "Handicapped saw StoveBurner at distance 2.59 m near position x=-1.00, z=3.75.",
+        "Handicapped saw StoveBurner at distance 2.41 m near position x=-1.25, z=3.75."
+      ],
+      "conversation_log": [
+        "LEADER: Thanks, Handicapped. I am turning to face that direction. Let's move east.",
+        "HANDICAPPED: Leader, I remember the StoveBurner was near x=-1.00, z=3.75.",
+        "LEADER: I am initiating a search sequence for the StoveBurner as we are close. I'm looking up first.",
+        "HANDICAPPED: Acknowledged. I am moving east.",
+        "LEADER: I am continuing the search sequence, rotating left after looking up.",
+        "HANDICAPPED: I am still moving east, Leader."
+      ]
+    },
+    {
+      "step": 3,
+      "task_id": 74,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "StoveBurner",
+      "goal_text": "Cooperatively navigate to the StoveBurner.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "RotateLeft",
+      "message": "I am continuing the search, rotating left as per the search sequence.",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.8995019197463989,
+        "z": 3.75
+      },
+      "target_visible": false,
+      "target_distance": 1.9677125215530396,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw StoveBurner at distance 2.59 m near position x=-1.00, z=3.75.",
+        "Handicapped saw StoveBurner at distance 2.59 m near position x=-1.00, z=3.75.",
+        "Handicapped saw StoveBurner at distance 2.41 m near position x=-1.25, z=3.75.",
+        "Handicapped saw StoveBurner at distance 2.25 m near position x=-1.50, z=3.75."
+      ],
+      "conversation_log": [
+        "LEADER: Thanks, Handicapped. I am turning to face that direction. Let's move east.",
+        "HANDICAPPED: Leader, I remember the StoveBurner was near x=-1.00, z=3.75.",
+        "LEADER: I am initiating a search sequence for the StoveBurner as we are close. I'm looking up first.",
+        "HANDICAPPED: Acknowledged. I am moving east.",
+        "LEADER: I am continuing the search sequence, rotating left after looking up.",
+        "HANDICAPPED: I am still moving east, Leader.",
+        "LEADER: I am continuing the search, rotating left as per the search sequence.",
+        "HANDICAPPED: I am still moving east, Leader."
+      ]
+    },
+    {
+      "step": 3,
+      "task_id": 74,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "StoveBurner",
+      "goal_text": "Cooperatively navigate to the StoveBurner.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "I am still moving east, Leader.",
+      "agent_position": {
+        "x": -1.5,
+        "y": 0.8995019197463989,
+        "z": 3.75
+      },
+      "target_visible": true,
+      "target_distance": 2.2463064193725586,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw StoveBurner at distance 2.59 m near position x=-1.00, z=3.75.",
+        "Handicapped saw StoveBurner at distance 2.59 m near position x=-1.00, z=3.75.",
+        "Handicapped saw StoveBurner at distance 2.41 m near position x=-1.25, z=3.75.",
+        "Handicapped saw StoveBurner at distance 2.25 m near position x=-1.50, z=3.75."
+      ],
+      "conversation_log": [
+        "LEADER: Thanks, Handicapped. I am turning to face that direction. Let's move east.",
+        "HANDICAPPED: Leader, I remember the StoveBurner was near x=-1.00, z=3.75.",
+        "LEADER: I am initiating a search sequence for the StoveBurner as we are close. I'm looking up first.",
+        "HANDICAPPED: Acknowledged. I am moving east.",
+        "LEADER: I am continuing the search sequence, rotating left after looking up.",
+        "HANDICAPPED: I am still moving east, Leader.",
+        "LEADER: I am continuing the search, rotating left as per the search sequence.",
+        "HANDICAPPED: I am still moving east, Leader."
+      ]
+    },
+    {
+      "step": 4,
+      "task_id": 74,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "StoveBurner",
+      "goal_text": "Cooperatively navigate to the StoveBurner.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "RotateLeft",
+      "message": "I am performing the last rotation in this phase of the search.",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.8995019197463989,
+        "z": 3.75
+      },
+      "target_visible": false,
+      "target_distance": 1.9677125215530396,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw StoveBurner at distance 2.59 m near position x=-1.00, z=3.75.",
+        "Handicapped saw StoveBurner at distance 2.59 m near position x=-1.00, z=3.75.",
+        "Handicapped saw StoveBurner at distance 2.41 m near position x=-1.25, z=3.75.",
+        "Handicapped saw StoveBurner at distance 2.25 m near position x=-1.50, z=3.75."
+      ],
+      "conversation_log": [
+        "LEADER: Thanks, Handicapped. I am turning to face that direction. Let's move east.",
+        "HANDICAPPED: Leader, I remember the StoveBurner was near x=-1.00, z=3.75.",
+        "LEADER: I am initiating a search sequence for the StoveBurner as we are close. I'm looking up first.",
+        "HANDICAPPED: Acknowledged. I am moving east.",
+        "LEADER: I am continuing the search sequence, rotating left after looking up.",
+        "HANDICAPPED: I am still moving east, Leader.",
+        "LEADER: I am continuing the search, rotating left as per the search sequence.",
+        "HANDICAPPED: I am still moving east, Leader.",
+        "LEADER: I am performing the last rotation in this phase of the search.",
+        "HANDICAPPED: Acknowledged, Leader. I am continuing to move east."
+      ]
+    },
+    {
+      "step": 4,
+      "task_id": 74,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "StoveBurner",
+      "goal_text": "Cooperatively navigate to the StoveBurner.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Acknowledged, Leader. I am continuing to move east.",
+      "agent_position": {
+        "x": -1.75,
+        "y": 0.8995019197463989,
+        "z": 3.75
+      },
+      "target_visible": false,
+      "target_distance": 2.096757650375366,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw StoveBurner at distance 2.59 m near position x=-1.00, z=3.75.",
+        "Handicapped saw StoveBurner at distance 2.59 m near position x=-1.00, z=3.75.",
+        "Handicapped saw StoveBurner at distance 2.41 m near position x=-1.25, z=3.75.",
+        "Handicapped saw StoveBurner at distance 2.25 m near position x=-1.50, z=3.75."
+      ],
+      "conversation_log": [
+        "LEADER: Thanks, Handicapped. I am turning to face that direction. Let's move east.",
+        "HANDICAPPED: Leader, I remember the StoveBurner was near x=-1.00, z=3.75.",
+        "LEADER: I am initiating a search sequence for the StoveBurner as we are close. I'm looking up first.",
+        "HANDICAPPED: Acknowledged. I am moving east.",
+        "LEADER: I am continuing the search sequence, rotating left after looking up.",
+        "HANDICAPPED: I am still moving east, Leader.",
+        "LEADER: I am continuing the search, rotating left as per the search sequence.",
+        "HANDICAPPED: I am still moving east, Leader.",
+        "LEADER: I am performing the last rotation in this phase of the search.",
+        "HANDICAPPED: Acknowledged, Leader. I am continuing to move east."
+      ]
+    },
+    {
+      "step": 5,
+      "task_id": 74,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "StoveBurner",
+      "goal_text": "Cooperatively navigate to the StoveBurner.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "I see the StoveBurner directly ahead, I am moving towards it.",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.8995019197463989,
+        "z": 3.75
+      },
+      "target_visible": true,
+      "target_distance": 1.9677125215530396,
+      "leader_memory_snapshot": [
+        "Leader saw StoveBurner at distance 1.97 m near position x=-2.00, z=3.75."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw StoveBurner at distance 2.59 m near position x=-1.00, z=3.75.",
+        "Handicapped saw StoveBurner at distance 2.59 m near position x=-1.00, z=3.75.",
+        "Handicapped saw StoveBurner at distance 2.41 m near position x=-1.25, z=3.75.",
+        "Handicapped saw StoveBurner at distance 2.25 m near position x=-1.50, z=3.75."
+      ],
+      "conversation_log": [
+        "LEADER: Thanks, Handicapped. I am turning to face that direction. Let's move east.",
+        "HANDICAPPED: Leader, I remember the StoveBurner was near x=-1.00, z=3.75.",
+        "LEADER: I am initiating a search sequence for the StoveBurner as we are close. I'm looking up first.",
+        "HANDICAPPED: Acknowledged. I am moving east.",
+        "LEADER: I am continuing the search sequence, rotating left after looking up.",
+        "HANDICAPPED: I am still moving east, Leader.",
+        "LEADER: I am continuing the search, rotating left as per the search sequence.",
+        "HANDICAPPED: I am still moving east, Leader.",
+        "LEADER: I am performing the last rotation in this phase of the search.",
+        "HANDICAPPED: Acknowledged, Leader. I am continuing to move east.",
+        "LEADER: I see the StoveBurner directly ahead, I am moving towards it.",
+        "HANDICAPPED: Acknowledged, Leader. I am moving ahead as well."
+      ]
+    },
+    {
+      "step": 5,
+      "task_id": 74,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "StoveBurner",
+      "goal_text": "Cooperatively navigate to the StoveBurner.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Acknowledged, Leader. I am moving ahead as well.",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.8995019197463989,
+        "z": 3.75
+      },
+      "target_visible": false,
+      "target_distance": 1.9677125215530396,
+      "leader_memory_snapshot": [
+        "Leader saw StoveBurner at distance 1.97 m near position x=-2.00, z=3.75."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw StoveBurner at distance 2.59 m near position x=-1.00, z=3.75.",
+        "Handicapped saw StoveBurner at distance 2.59 m near position x=-1.00, z=3.75.",
+        "Handicapped saw StoveBurner at distance 2.41 m near position x=-1.25, z=3.75.",
+        "Handicapped saw StoveBurner at distance 2.25 m near position x=-1.50, z=3.75."
+      ],
+      "conversation_log": [
+        "LEADER: Thanks, Handicapped. I am turning to face that direction. Let's move east.",
+        "HANDICAPPED: Leader, I remember the StoveBurner was near x=-1.00, z=3.75.",
+        "LEADER: I am initiating a search sequence for the StoveBurner as we are close. I'm looking up first.",
+        "HANDICAPPED: Acknowledged. I am moving east.",
+        "LEADER: I am continuing the search sequence, rotating left after looking up.",
+        "HANDICAPPED: I am still moving east, Leader.",
+        "LEADER: I am continuing the search, rotating left as per the search sequence.",
+        "HANDICAPPED: I am still moving east, Leader.",
+        "LEADER: I am performing the last rotation in this phase of the search.",
+        "HANDICAPPED: Acknowledged, Leader. I am continuing to move east.",
+        "LEADER: I see the StoveBurner directly ahead, I am moving towards it.",
+        "HANDICAPPED: Acknowledged, Leader. I am moving ahead as well."
+      ]
+    },
+    {
+      "step": 6,
+      "task_id": 74,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "StoveBurner",
+      "goal_text": "Cooperatively navigate to the StoveBurner.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "I am still moving ahead, getting closer to the StoveBurner.",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.8995019197463989,
+        "z": 3.5
+      },
+      "target_visible": true,
+      "target_distance": 1.7509547472000122,
+      "leader_memory_snapshot": [
+        "Leader saw StoveBurner at distance 1.97 m near position x=-2.00, z=3.75.",
+        "Leader saw StoveBurner at distance 1.75 m near position x=-2.00, z=3.50."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw StoveBurner at distance 2.59 m near position x=-1.00, z=3.75.",
+        "Handicapped saw StoveBurner at distance 2.59 m near position x=-1.00, z=3.75.",
+        "Handicapped saw StoveBurner at distance 2.41 m near position x=-1.25, z=3.75.",
+        "Handicapped saw StoveBurner at distance 2.25 m near position x=-1.50, z=3.75."
+      ],
+      "conversation_log": [
+        "LEADER: Thanks, Handicapped. I am turning to face that direction. Let's move east.",
+        "HANDICAPPED: Leader, I remember the StoveBurner was near x=-1.00, z=3.75.",
+        "LEADER: I am initiating a search sequence for the StoveBurner as we are close. I'm looking up first.",
+        "HANDICAPPED: Acknowledged. I am moving east.",
+        "LEADER: I am continuing the search sequence, rotating left after looking up.",
+        "HANDICAPPED: I am still moving east, Leader.",
+        "LEADER: I am continuing the search, rotating left as per the search sequence.",
+        "HANDICAPPED: I am still moving east, Leader.",
+        "LEADER: I am performing the last rotation in this phase of the search.",
+        "HANDICAPPED: Acknowledged, Leader. I am continuing to move east.",
+        "LEADER: I see the StoveBurner directly ahead, I am moving towards it.",
+        "HANDICAPPED: Acknowledged, Leader. I am moving ahead as well.",
+        "LEADER: I am still moving ahead, getting closer to the StoveBurner.",
+        "HANDICAPPED: Acknowledged, Leader. I am also moving ahead."
+      ]
+    },
+    {
+      "step": 6,
+      "task_id": 74,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "StoveBurner",
+      "goal_text": "Cooperatively navigate to the StoveBurner.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Acknowledged, Leader. I am also moving ahead.",
+      "agent_position": {
+        "x": -2.25,
+        "y": 0.8995019197463989,
+        "z": 3.75
+      },
+      "target_visible": false,
+      "target_distance": 1.8634356260299683,
+      "leader_memory_snapshot": [
+        "Leader saw StoveBurner at distance 1.97 m near position x=-2.00, z=3.75.",
+        "Leader saw StoveBurner at distance 1.75 m near position x=-2.00, z=3.50."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw StoveBurner at distance 2.59 m near position x=-1.00, z=3.75.",
+        "Handicapped saw StoveBurner at distance 2.59 m near position x=-1.00, z=3.75.",
+        "Handicapped saw StoveBurner at distance 2.41 m near position x=-1.25, z=3.75.",
+        "Handicapped saw StoveBurner at distance 2.25 m near position x=-1.50, z=3.75."
+      ],
+      "conversation_log": [
+        "LEADER: Thanks, Handicapped. I am turning to face that direction. Let's move east.",
+        "HANDICAPPED: Leader, I remember the StoveBurner was near x=-1.00, z=3.75.",
+        "LEADER: I am initiating a search sequence for the StoveBurner as we are close. I'm looking up first.",
+        "HANDICAPPED: Acknowledged. I am moving east.",
+        "LEADER: I am continuing the search sequence, rotating left after looking up.",
+        "HANDICAPPED: I am still moving east, Leader.",
+        "LEADER: I am continuing the search, rotating left as per the search sequence.",
+        "HANDICAPPED: I am still moving east, Leader.",
+        "LEADER: I am performing the last rotation in this phase of the search.",
+        "HANDICAPPED: Acknowledged, Leader. I am continuing to move east.",
+        "LEADER: I see the StoveBurner directly ahead, I am moving towards it.",
+        "HANDICAPPED: Acknowledged, Leader. I am moving ahead as well.",
+        "LEADER: I am still moving ahead, getting closer to the StoveBurner.",
+        "HANDICAPPED: Acknowledged, Leader. I am also moving ahead."
+      ]
+    },
+    {
+      "step": 7,
+      "task_id": 74,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "StoveBurner",
+      "goal_text": "Cooperatively navigate to the StoveBurner.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "I am still moving ahead, almost there.",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.8995019197463989,
+        "z": 3.25
+      },
+      "target_visible": true,
+      "target_distance": 1.5442774295806885,
+      "leader_memory_snapshot": [
+        "Leader saw StoveBurner at distance 1.97 m near position x=-2.00, z=3.75.",
+        "Leader saw StoveBurner at distance 1.75 m near position x=-2.00, z=3.50.",
+        "Leader saw StoveBurner at distance 1.54 m near position x=-2.00, z=3.25."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw StoveBurner at distance 2.59 m near position x=-1.00, z=3.75.",
+        "Handicapped saw StoveBurner at distance 2.59 m near position x=-1.00, z=3.75.",
+        "Handicapped saw StoveBurner at distance 2.41 m near position x=-1.25, z=3.75.",
+        "Handicapped saw StoveBurner at distance 2.25 m near position x=-1.50, z=3.75."
+      ],
+      "conversation_log": [
+        "LEADER: Thanks, Handicapped. I am turning to face that direction. Let's move east.",
+        "HANDICAPPED: Leader, I remember the StoveBurner was near x=-1.00, z=3.75.",
+        "LEADER: I am initiating a search sequence for the StoveBurner as we are close. I'm looking up first.",
+        "HANDICAPPED: Acknowledged. I am moving east.",
+        "LEADER: I am continuing the search sequence, rotating left after looking up.",
+        "HANDICAPPED: I am still moving east, Leader.",
+        "LEADER: I am continuing the search, rotating left as per the search sequence.",
+        "HANDICAPPED: I am still moving east, Leader.",
+        "LEADER: I am performing the last rotation in this phase of the search.",
+        "HANDICAPPED: Acknowledged, Leader. I am continuing to move east.",
+        "LEADER: I see the StoveBurner directly ahead, I am moving towards it.",
+        "HANDICAPPED: Acknowledged, Leader. I am moving ahead as well.",
+        "LEADER: I am still moving ahead, getting closer to the StoveBurner.",
+        "HANDICAPPED: Acknowledged, Leader. I am also moving ahead.",
+        "LEADER: I am still moving ahead, almost there.",
+        "HANDICAPPED: Acknowledged, Leader. I am moving ahead."
+      ]
+    },
+    {
+      "step": 7,
+      "task_id": 74,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "StoveBurner",
+      "goal_text": "Cooperatively navigate to the StoveBurner.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Acknowledged, Leader. I am moving ahead.",
+      "agent_position": {
+        "x": -2.5,
+        "y": 0.8995019197463989,
+        "z": 3.75
+      },
+      "target_visible": false,
+      "target_distance": 1.7882652282714844,
+      "leader_memory_snapshot": [
+        "Leader saw StoveBurner at distance 1.97 m near position x=-2.00, z=3.75.",
+        "Leader saw StoveBurner at distance 1.75 m near position x=-2.00, z=3.50.",
+        "Leader saw StoveBurner at distance 1.54 m near position x=-2.00, z=3.25."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw StoveBurner at distance 2.59 m near position x=-1.00, z=3.75.",
+        "Handicapped saw StoveBurner at distance 2.59 m near position x=-1.00, z=3.75.",
+        "Handicapped saw StoveBurner at distance 2.41 m near position x=-1.25, z=3.75.",
+        "Handicapped saw StoveBurner at distance 2.25 m near position x=-1.50, z=3.75."
+      ],
+      "conversation_log": [
+        "LEADER: Thanks, Handicapped. I am turning to face that direction. Let's move east.",
+        "HANDICAPPED: Leader, I remember the StoveBurner was near x=-1.00, z=3.75.",
+        "LEADER: I am initiating a search sequence for the StoveBurner as we are close. I'm looking up first.",
+        "HANDICAPPED: Acknowledged. I am moving east.",
+        "LEADER: I am continuing the search sequence, rotating left after looking up.",
+        "HANDICAPPED: I am still moving east, Leader.",
+        "LEADER: I am continuing the search, rotating left as per the search sequence.",
+        "HANDICAPPED: I am still moving east, Leader.",
+        "LEADER: I am performing the last rotation in this phase of the search.",
+        "HANDICAPPED: Acknowledged, Leader. I am continuing to move east.",
+        "LEADER: I see the StoveBurner directly ahead, I am moving towards it.",
+        "HANDICAPPED: Acknowledged, Leader. I am moving ahead as well.",
+        "LEADER: I am still moving ahead, getting closer to the StoveBurner.",
+        "HANDICAPPED: Acknowledged, Leader. I am also moving ahead.",
+        "LEADER: I am still moving ahead, almost there.",
+        "HANDICAPPED: Acknowledged, Leader. I am moving ahead."
+      ]
+    },
+    {
+      "step": 8,
+      "task_id": 74,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "StoveBurner",
+      "goal_text": "Cooperatively navigate to the StoveBurner.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "I am making a final move ahead to reach the StoveBurner.",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.8995019197463989,
+        "z": 3.0
+      },
+      "target_visible": true,
+      "target_distance": 1.3523101806640625,
+      "leader_memory_snapshot": [
+        "Leader saw StoveBurner at distance 1.97 m near position x=-2.00, z=3.75.",
+        "Leader saw StoveBurner at distance 1.75 m near position x=-2.00, z=3.50.",
+        "Leader saw StoveBurner at distance 1.54 m near position x=-2.00, z=3.25.",
+        "Leader saw StoveBurner at distance 1.35 m near position x=-2.00, z=3.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw StoveBurner at distance 2.59 m near position x=-1.00, z=3.75.",
+        "Handicapped saw StoveBurner at distance 2.59 m near position x=-1.00, z=3.75.",
+        "Handicapped saw StoveBurner at distance 2.41 m near position x=-1.25, z=3.75.",
+        "Handicapped saw StoveBurner at distance 2.25 m near position x=-1.50, z=3.75."
+      ],
+      "conversation_log": [
+        "LEADER: Thanks, Handicapped. I am turning to face that direction. Let's move east.",
+        "HANDICAPPED: Leader, I remember the StoveBurner was near x=-1.00, z=3.75.",
+        "LEADER: I am initiating a search sequence for the StoveBurner as we are close. I'm looking up first.",
+        "HANDICAPPED: Acknowledged. I am moving east.",
+        "LEADER: I am continuing the search sequence, rotating left after looking up.",
+        "HANDICAPPED: I am still moving east, Leader.",
+        "LEADER: I am continuing the search, rotating left as per the search sequence.",
+        "HANDICAPPED: I am still moving east, Leader.",
+        "LEADER: I am performing the last rotation in this phase of the search.",
+        "HANDICAPPED: Acknowledged, Leader. I am continuing to move east.",
+        "LEADER: I see the StoveBurner directly ahead, I am moving towards it.",
+        "HANDICAPPED: Acknowledged, Leader. I am moving ahead as well.",
+        "LEADER: I am still moving ahead, getting closer to the StoveBurner.",
+        "HANDICAPPED: Acknowledged, Leader. I am also moving ahead.",
+        "LEADER: I am still moving ahead, almost there.",
+        "HANDICAPPED: Acknowledged, Leader. I am moving ahead.",
+        "LEADER: I am making a final move ahead to reach the StoveBurner.",
+        "HANDICAPPED: Acknowledged, Leader. I am moving ahead with you."
+      ]
+    },
+    {
+      "step": 8,
+      "task_id": 74,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "StoveBurner",
+      "goal_text": "Cooperatively navigate to the StoveBurner.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Acknowledged, Leader. I am moving ahead with you.",
+      "agent_position": {
+        "x": -2.75,
+        "y": 0.8995019197463989,
+        "z": 3.75
+      },
+      "target_visible": false,
+      "target_distance": 1.745964527130127,
+      "leader_memory_snapshot": [
+        "Leader saw StoveBurner at distance 1.97 m near position x=-2.00, z=3.75.",
+        "Leader saw StoveBurner at distance 1.75 m near position x=-2.00, z=3.50.",
+        "Leader saw StoveBurner at distance 1.54 m near position x=-2.00, z=3.25.",
+        "Leader saw StoveBurner at distance 1.35 m near position x=-2.00, z=3.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw StoveBurner at distance 2.59 m near position x=-1.00, z=3.75.",
+        "Handicapped saw StoveBurner at distance 2.59 m near position x=-1.00, z=3.75.",
+        "Handicapped saw StoveBurner at distance 2.41 m near position x=-1.25, z=3.75.",
+        "Handicapped saw StoveBurner at distance 2.25 m near position x=-1.50, z=3.75."
+      ],
+      "conversation_log": [
+        "LEADER: Thanks, Handicapped. I am turning to face that direction. Let's move east.",
+        "HANDICAPPED: Leader, I remember the StoveBurner was near x=-1.00, z=3.75.",
+        "LEADER: I am initiating a search sequence for the StoveBurner as we are close. I'm looking up first.",
+        "HANDICAPPED: Acknowledged. I am moving east.",
+        "LEADER: I am continuing the search sequence, rotating left after looking up.",
+        "HANDICAPPED: I am still moving east, Leader.",
+        "LEADER: I am continuing the search, rotating left as per the search sequence.",
+        "HANDICAPPED: I am still moving east, Leader.",
+        "LEADER: I am performing the last rotation in this phase of the search.",
+        "HANDICAPPED: Acknowledged, Leader. I am continuing to move east.",
+        "LEADER: I see the StoveBurner directly ahead, I am moving towards it.",
+        "HANDICAPPED: Acknowledged, Leader. I am moving ahead as well.",
+        "LEADER: I am still moving ahead, getting closer to the StoveBurner.",
+        "HANDICAPPED: Acknowledged, Leader. I am also moving ahead.",
+        "LEADER: I am still moving ahead, almost there.",
+        "HANDICAPPED: Acknowledged, Leader. I am moving ahead.",
+        "LEADER: I am making a final move ahead to reach the StoveBurner.",
+        "HANDICAPPED: Acknowledged, Leader. I am moving ahead with you."
+      ]
+    },
+    {
+      "step": 9,
+      "task_id": 74,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "StoveBurner",
+      "goal_text": "Cooperatively navigate to the StoveBurner.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "Done",
+      "message": "I have reached the StoveBurner. We are done.",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.8995019197463989,
+        "z": 2.75
+      },
+      "target_visible": true,
+      "target_distance": 1.182240605354309,
+      "leader_memory_snapshot": [
+        "Leader saw StoveBurner at distance 1.97 m near position x=-2.00, z=3.75.",
+        "Leader saw StoveBurner at distance 1.75 m near position x=-2.00, z=3.50.",
+        "Leader saw StoveBurner at distance 1.54 m near position x=-2.00, z=3.25.",
+        "Leader saw StoveBurner at distance 1.35 m near position x=-2.00, z=3.00.",
+        "Leader saw StoveBurner at distance 1.18 m near position x=-2.00, z=2.75."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw StoveBurner at distance 2.59 m near position x=-1.00, z=3.75.",
+        "Handicapped saw StoveBurner at distance 2.59 m near position x=-1.00, z=3.75.",
+        "Handicapped saw StoveBurner at distance 2.41 m near position x=-1.25, z=3.75.",
+        "Handicapped saw StoveBurner at distance 2.25 m near position x=-1.50, z=3.75."
+      ],
+      "conversation_log": [
+        "LEADER: Thanks, Handicapped. I am turning to face that direction. Let's move east.",
+        "HANDICAPPED: Leader, I remember the StoveBurner was near x=-1.00, z=3.75.",
+        "LEADER: I am initiating a search sequence for the StoveBurner as we are close. I'm looking up first.",
+        "HANDICAPPED: Acknowledged. I am moving east.",
+        "LEADER: I am continuing the search sequence, rotating left after looking up.",
+        "HANDICAPPED: I am still moving east, Leader.",
+        "LEADER: I am continuing the search, rotating left as per the search sequence.",
+        "HANDICAPPED: I am still moving east, Leader.",
+        "LEADER: I am performing the last rotation in this phase of the search.",
+        "HANDICAPPED: Acknowledged, Leader. I am continuing to move east.",
+        "LEADER: I see the StoveBurner directly ahead, I am moving towards it.",
+        "HANDICAPPED: Acknowledged, Leader. I am moving ahead as well.",
+        "LEADER: I am still moving ahead, getting closer to the StoveBurner.",
+        "HANDICAPPED: Acknowledged, Leader. I am also moving ahead.",
+        "LEADER: I am still moving ahead, almost there.",
+        "HANDICAPPED: Acknowledged, Leader. I am moving ahead.",
+        "LEADER: I am making a final move ahead to reach the StoveBurner.",
+        "HANDICAPPED: Acknowledged, Leader. I am moving ahead with you.",
+        "LEADER: I have reached the StoveBurner. We are done.",
+        "HANDICAPPED: Acknowledged, Leader. I am also stopping."
+      ]
+    },
+    {
+      "step": 9,
+      "task_id": 74,
+      "scene": "FloorPlan13",
+      "room_type": "kitchen",
+      "target_type": "StoveBurner",
+      "goal_text": "Cooperatively navigate to the StoveBurner.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "Done",
+      "message": "Acknowledged, Leader. I am also stopping.",
+      "agent_position": {
+        "x": -3.0,
+        "y": 0.8995019197463989,
+        "z": 3.75
+      },
+      "target_visible": false,
+      "target_distance": 1.7389341592788696,
+      "leader_memory_snapshot": [
+        "Leader saw StoveBurner at distance 1.97 m near position x=-2.00, z=3.75.",
+        "Leader saw StoveBurner at distance 1.75 m near position x=-2.00, z=3.50.",
+        "Leader saw StoveBurner at distance 1.54 m near position x=-2.00, z=3.25.",
+        "Leader saw StoveBurner at distance 1.35 m near position x=-2.00, z=3.00.",
+        "Leader saw StoveBurner at distance 1.18 m near position x=-2.00, z=2.75."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw StoveBurner at distance 2.59 m near position x=-1.00, z=3.75.",
+        "Handicapped saw StoveBurner at distance 2.59 m near position x=-1.00, z=3.75.",
+        "Handicapped saw StoveBurner at distance 2.41 m near position x=-1.25, z=3.75.",
+        "Handicapped saw StoveBurner at distance 2.25 m near position x=-1.50, z=3.75."
+      ],
+      "conversation_log": [
+        "LEADER: Thanks, Handicapped. I am turning to face that direction. Let's move east.",
+        "HANDICAPPED: Leader, I remember the StoveBurner was near x=-1.00, z=3.75.",
+        "LEADER: I am initiating a search sequence for the StoveBurner as we are close. I'm looking up first.",
+        "HANDICAPPED: Acknowledged. I am moving east.",
+        "LEADER: I am continuing the search sequence, rotating left after looking up.",
+        "HANDICAPPED: I am still moving east, Leader.",
+        "LEADER: I am continuing the search, rotating left as per the search sequence.",
+        "HANDICAPPED: I am still moving east, Leader.",
+        "LEADER: I am performing the last rotation in this phase of the search.",
+        "HANDICAPPED: Acknowledged, Leader. I am continuing to move east.",
+        "LEADER: I see the StoveBurner directly ahead, I am moving towards it.",
+        "HANDICAPPED: Acknowledged, Leader. I am moving ahead as well.",
+        "LEADER: I am still moving ahead, getting closer to the StoveBurner.",
+        "HANDICAPPED: Acknowledged, Leader. I am also moving ahead.",
+        "LEADER: I am still moving ahead, almost there.",
+        "HANDICAPPED: Acknowledged, Leader. I am moving ahead.",
+        "LEADER: I am making a final move ahead to reach the StoveBurner.",
+        "HANDICAPPED: Acknowledged, Leader. I am moving ahead with you.",
+        "LEADER: I have reached the StoveBurner. We are done.",
+        "HANDICAPPED: Acknowledged, Leader. I am also stopping."
+      ]
+    }
+  ]
+}

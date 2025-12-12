@@ -143,13 +143,11 @@ Examples:
             skipped += 1
             continue
         
-        print(f"\n[RUN] TWO_AGENT → Task {task_id}: {task['scene']} → {task['target_object']}")
+        print(f"\n[RUN] TWO_AGENT → Task {task_id}: {task['scene']} → {task['target_type']}")
         
         try:
             run_two_agent_llm(
                 max_steps=args.max_steps,
-                scene=task['scene'],
-                target_object=task['target_object'],
                 task_meta=task
             )
             completed += 1

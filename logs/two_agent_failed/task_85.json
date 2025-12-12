@@ -1,0 +1,492 @@
+{
+  "task_meta": {
+    "task_id": 85,
+    "scene": "FloorPlan28",
+    "room_type": "kitchen",
+    "target_type": "PepperShaker",
+    "goal_text": "Navigate to the PepperShaker."
+  },
+  "episode_time_sec": 23.11488320794888,
+  "steps": [
+    {
+      "step": 0,
+      "task_id": 85,
+      "scene": "FloorPlan28",
+      "room_type": "kitchen",
+      "target_type": "PepperShaker",
+      "goal_text": "Cooperatively navigate to the PepperShaker.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "Move ahead. The PepperShaker is straight ahead, 2.21 meters away.",
+      "agent_position": {
+        "x": -1.5,
+        "y": 0.9009982347488403,
+        "z": -1.5
+      },
+      "target_visible": true,
+      "target_distance": 2.214768648147583,
+      "leader_memory_snapshot": [
+        "Leader saw PepperShaker at distance 2.21 m near position x=-1.50, z=-1.50."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw PepperShaker at distance 2.79 m near position x=-1.00, z=-1.00."
+      ],
+      "conversation_log": [
+        "LEADER: Move ahead. The PepperShaker is straight ahead, 2.21 meters away.",
+        "HANDICAPPED: Moving ahead. I don't see it yet."
+      ]
+    },
+    {
+      "step": 0,
+      "task_id": 85,
+      "scene": "FloorPlan28",
+      "room_type": "kitchen",
+      "target_type": "PepperShaker",
+      "goal_text": "Cooperatively navigate to the PepperShaker.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Moving ahead. I don't see it yet.",
+      "agent_position": {
+        "x": -1.0,
+        "y": 0.9009982347488403,
+        "z": -1.0
+      },
+      "target_visible": true,
+      "target_distance": 2.785043716430664,
+      "leader_memory_snapshot": [
+        "Leader saw PepperShaker at distance 2.21 m near position x=-1.50, z=-1.50."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw PepperShaker at distance 2.79 m near position x=-1.00, z=-1.00."
+      ],
+      "conversation_log": [
+        "LEADER: Move ahead. The PepperShaker is straight ahead, 2.21 meters away.",
+        "HANDICAPPED: Moving ahead. I don't see it yet."
+      ]
+    },
+    {
+      "step": 1,
+      "task_id": 85,
+      "scene": "FloorPlan28",
+      "room_type": "kitchen",
+      "target_type": "PepperShaker",
+      "goal_text": "Cooperatively navigate to the PepperShaker.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "Keep moving ahead. The PepperShaker is now 1.97 meters away, directly in front of us.",
+      "agent_position": {
+        "x": -1.5,
+        "y": 0.9009982347488403,
+        "z": -1.75
+      },
+      "target_visible": true,
+      "target_distance": 1.965367078781128,
+      "leader_memory_snapshot": [
+        "Leader saw PepperShaker at distance 2.21 m near position x=-1.50, z=-1.50.",
+        "Leader saw PepperShaker at distance 1.97 m near position x=-1.50, z=-1.75."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw PepperShaker at distance 2.79 m near position x=-1.00, z=-1.00.",
+        "Handicapped saw PepperShaker at distance 2.54 m near position x=-1.00, z=-1.25."
+      ],
+      "conversation_log": [
+        "LEADER: Move ahead. The PepperShaker is straight ahead, 2.21 meters away.",
+        "HANDICAPPED: Moving ahead. I don't see it yet.",
+        "LEADER: Keep moving ahead. The PepperShaker is now 1.97 meters away, directly in front of us.",
+        "HANDICAPPED: Moving ahead. I still don't see the PepperShaker."
+      ]
+    },
+    {
+      "step": 1,
+      "task_id": 85,
+      "scene": "FloorPlan28",
+      "room_type": "kitchen",
+      "target_type": "PepperShaker",
+      "goal_text": "Cooperatively navigate to the PepperShaker.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Moving ahead. I still don't see the PepperShaker.",
+      "agent_position": {
+        "x": -1.0,
+        "y": 0.9009982347488403,
+        "z": -1.25
+      },
+      "target_visible": true,
+      "target_distance": 2.5424273014068604,
+      "leader_memory_snapshot": [
+        "Leader saw PepperShaker at distance 2.21 m near position x=-1.50, z=-1.50.",
+        "Leader saw PepperShaker at distance 1.97 m near position x=-1.50, z=-1.75."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw PepperShaker at distance 2.79 m near position x=-1.00, z=-1.00.",
+        "Handicapped saw PepperShaker at distance 2.54 m near position x=-1.00, z=-1.25."
+      ],
+      "conversation_log": [
+        "LEADER: Move ahead. The PepperShaker is straight ahead, 2.21 meters away.",
+        "HANDICAPPED: Moving ahead. I don't see it yet.",
+        "LEADER: Keep moving ahead. The PepperShaker is now 1.97 meters away, directly in front of us.",
+        "HANDICAPPED: Moving ahead. I still don't see the PepperShaker."
+      ]
+    },
+    {
+      "step": 2,
+      "task_id": 85,
+      "scene": "FloorPlan28",
+      "room_type": "kitchen",
+      "target_type": "PepperShaker",
+      "goal_text": "Cooperatively navigate to the PepperShaker.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "Move ahead. The PepperShaker is still straight ahead, now 1.47 meters away.",
+      "agent_position": {
+        "x": -1.5,
+        "y": 0.9009982347488403,
+        "z": -2.0
+      },
+      "target_visible": true,
+      "target_distance": 1.716139316558838,
+      "leader_memory_snapshot": [
+        "Leader saw PepperShaker at distance 2.21 m near position x=-1.50, z=-1.50.",
+        "Leader saw PepperShaker at distance 1.97 m near position x=-1.50, z=-1.75.",
+        "Leader saw PepperShaker at distance 1.72 m near position x=-1.50, z=-2.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw PepperShaker at distance 2.79 m near position x=-1.00, z=-1.00.",
+        "Handicapped saw PepperShaker at distance 2.54 m near position x=-1.00, z=-1.25.",
+        "Handicapped saw PepperShaker at distance 2.30 m near position x=-1.00, z=-1.50."
+      ],
+      "conversation_log": [
+        "LEADER: Move ahead. The PepperShaker is straight ahead, 2.21 meters away.",
+        "HANDICAPPED: Moving ahead. I don't see it yet.",
+        "LEADER: Keep moving ahead. The PepperShaker is now 1.97 meters away, directly in front of us.",
+        "HANDICAPPED: Moving ahead. I still don't see the PepperShaker.",
+        "LEADER: Move ahead. The PepperShaker is still straight ahead, now 1.47 meters away.",
+        "HANDICAPPED: Moving ahead. Still no sight of it."
+      ]
+    },
+    {
+      "step": 2,
+      "task_id": 85,
+      "scene": "FloorPlan28",
+      "room_type": "kitchen",
+      "target_type": "PepperShaker",
+      "goal_text": "Cooperatively navigate to the PepperShaker.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Moving ahead. Still no sight of it.",
+      "agent_position": {
+        "x": -1.0,
+        "y": 0.9009982347488403,
+        "z": -1.5
+      },
+      "target_visible": true,
+      "target_distance": 2.301391363143921,
+      "leader_memory_snapshot": [
+        "Leader saw PepperShaker at distance 2.21 m near position x=-1.50, z=-1.50.",
+        "Leader saw PepperShaker at distance 1.97 m near position x=-1.50, z=-1.75.",
+        "Leader saw PepperShaker at distance 1.72 m near position x=-1.50, z=-2.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw PepperShaker at distance 2.79 m near position x=-1.00, z=-1.00.",
+        "Handicapped saw PepperShaker at distance 2.54 m near position x=-1.00, z=-1.25.",
+        "Handicapped saw PepperShaker at distance 2.30 m near position x=-1.00, z=-1.50."
+      ],
+      "conversation_log": [
+        "LEADER: Move ahead. The PepperShaker is straight ahead, 2.21 meters away.",
+        "HANDICAPPED: Moving ahead. I don't see it yet.",
+        "LEADER: Keep moving ahead. The PepperShaker is now 1.97 meters away, directly in front of us.",
+        "HANDICAPPED: Moving ahead. I still don't see the PepperShaker.",
+        "LEADER: Move ahead. The PepperShaker is still straight ahead, now 1.47 meters away.",
+        "HANDICAPPED: Moving ahead. Still no sight of it."
+      ]
+    },
+    {
+      "step": 3,
+      "task_id": 85,
+      "scene": "FloorPlan28",
+      "room_type": "kitchen",
+      "target_type": "PepperShaker",
+      "goal_text": "Cooperatively navigate to the PepperShaker.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "Keep moving ahead. The PepperShaker is now 1.22 meters away, still straight in front.",
+      "agent_position": {
+        "x": -1.5,
+        "y": 0.9009982347488403,
+        "z": -2.25
+      },
+      "target_visible": true,
+      "target_distance": 1.4671744108200073,
+      "leader_memory_snapshot": [
+        "Leader saw PepperShaker at distance 2.21 m near position x=-1.50, z=-1.50.",
+        "Leader saw PepperShaker at distance 1.97 m near position x=-1.50, z=-1.75.",
+        "Leader saw PepperShaker at distance 1.72 m near position x=-1.50, z=-2.00.",
+        "Leader saw PepperShaker at distance 1.47 m near position x=-1.50, z=-2.25."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw PepperShaker at distance 2.79 m near position x=-1.00, z=-1.00.",
+        "Handicapped saw PepperShaker at distance 2.54 m near position x=-1.00, z=-1.25.",
+        "Handicapped saw PepperShaker at distance 2.30 m near position x=-1.00, z=-1.50.",
+        "Handicapped saw PepperShaker at distance 2.06 m near position x=-1.00, z=-1.75."
+      ],
+      "conversation_log": [
+        "LEADER: Move ahead. The PepperShaker is straight ahead, 2.21 meters away.",
+        "HANDICAPPED: Moving ahead. I don't see it yet.",
+        "LEADER: Keep moving ahead. The PepperShaker is now 1.97 meters away, directly in front of us.",
+        "HANDICAPPED: Moving ahead. I still don't see the PepperShaker.",
+        "LEADER: Move ahead. The PepperShaker is still straight ahead, now 1.47 meters away.",
+        "HANDICAPPED: Moving ahead. Still no sight of it.",
+        "LEADER: Keep moving ahead. The PepperShaker is now 1.22 meters away, still straight in front.",
+        "HANDICAPPED: Moving ahead. I don't see it yet."
+      ]
+    },
+    {
+      "step": 3,
+      "task_id": 85,
+      "scene": "FloorPlan28",
+      "room_type": "kitchen",
+      "target_type": "PepperShaker",
+      "goal_text": "Cooperatively navigate to the PepperShaker.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Moving ahead. I don't see it yet.",
+      "agent_position": {
+        "x": -1.0,
+        "y": 0.9009982347488403,
+        "z": -1.75
+      },
+      "target_visible": true,
+      "target_distance": 2.062490940093994,
+      "leader_memory_snapshot": [
+        "Leader saw PepperShaker at distance 2.21 m near position x=-1.50, z=-1.50.",
+        "Leader saw PepperShaker at distance 1.97 m near position x=-1.50, z=-1.75.",
+        "Leader saw PepperShaker at distance 1.72 m near position x=-1.50, z=-2.00.",
+        "Leader saw PepperShaker at distance 1.47 m near position x=-1.50, z=-2.25."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw PepperShaker at distance 2.79 m near position x=-1.00, z=-1.00.",
+        "Handicapped saw PepperShaker at distance 2.54 m near position x=-1.00, z=-1.25.",
+        "Handicapped saw PepperShaker at distance 2.30 m near position x=-1.00, z=-1.50.",
+        "Handicapped saw PepperShaker at distance 2.06 m near position x=-1.00, z=-1.75."
+      ],
+      "conversation_log": [
+        "LEADER: Move ahead. The PepperShaker is straight ahead, 2.21 meters away.",
+        "HANDICAPPED: Moving ahead. I don't see it yet.",
+        "LEADER: Keep moving ahead. The PepperShaker is now 1.97 meters away, directly in front of us.",
+        "HANDICAPPED: Moving ahead. I still don't see the PepperShaker.",
+        "LEADER: Move ahead. The PepperShaker is still straight ahead, now 1.47 meters away.",
+        "HANDICAPPED: Moving ahead. Still no sight of it.",
+        "LEADER: Keep moving ahead. The PepperShaker is now 1.22 meters away, still straight in front.",
+        "HANDICAPPED: Moving ahead. I don't see it yet."
+      ]
+    },
+    {
+      "step": 4,
+      "task_id": 85,
+      "scene": "FloorPlan28",
+      "room_type": "kitchen",
+      "target_type": "PepperShaker",
+      "goal_text": "Cooperatively navigate to the PepperShaker.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "Move ahead. We are very close, 1.22 meters away.",
+      "agent_position": {
+        "x": -1.5,
+        "y": 0.9009982347488403,
+        "z": -2.5
+      },
+      "target_visible": true,
+      "target_distance": 1.2186332941055298,
+      "leader_memory_snapshot": [
+        "Leader saw PepperShaker at distance 2.21 m near position x=-1.50, z=-1.50.",
+        "Leader saw PepperShaker at distance 1.97 m near position x=-1.50, z=-1.75.",
+        "Leader saw PepperShaker at distance 1.72 m near position x=-1.50, z=-2.00.",
+        "Leader saw PepperShaker at distance 1.47 m near position x=-1.50, z=-2.25.",
+        "Leader saw PepperShaker at distance 1.22 m near position x=-1.50, z=-2.50."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw PepperShaker at distance 2.79 m near position x=-1.00, z=-1.00.",
+        "Handicapped saw PepperShaker at distance 2.54 m near position x=-1.00, z=-1.25.",
+        "Handicapped saw PepperShaker at distance 2.30 m near position x=-1.00, z=-1.50.",
+        "Handicapped saw PepperShaker at distance 2.06 m near position x=-1.00, z=-1.75.",
+        "Handicapped saw PepperShaker at distance 1.83 m near position x=-1.00, z=-2.00."
+      ],
+      "conversation_log": [
+        "LEADER: Move ahead. The PepperShaker is straight ahead, 2.21 meters away.",
+        "HANDICAPPED: Moving ahead. I don't see it yet.",
+        "LEADER: Keep moving ahead. The PepperShaker is now 1.97 meters away, directly in front of us.",
+        "HANDICAPPED: Moving ahead. I still don't see the PepperShaker.",
+        "LEADER: Move ahead. The PepperShaker is still straight ahead, now 1.47 meters away.",
+        "HANDICAPPED: Moving ahead. Still no sight of it.",
+        "LEADER: Keep moving ahead. The PepperShaker is now 1.22 meters away, still straight in front.",
+        "HANDICAPPED: Moving ahead. I don't see it yet.",
+        "LEADER: Move ahead. We are very close, 1.22 meters away.",
+        "HANDICAPPED: Moving ahead. I still see the PepperShaker a bit farther away."
+      ]
+    },
+    {
+      "step": 4,
+      "task_id": 85,
+      "scene": "FloorPlan28",
+      "room_type": "kitchen",
+      "target_type": "PepperShaker",
+      "goal_text": "Cooperatively navigate to the PepperShaker.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Moving ahead. I still see the PepperShaker a bit farther away.",
+      "agent_position": {
+        "x": -1.0,
+        "y": 0.9009982347488403,
+        "z": -2.0
+      },
+      "target_visible": true,
+      "target_distance": 1.826563835144043,
+      "leader_memory_snapshot": [
+        "Leader saw PepperShaker at distance 2.21 m near position x=-1.50, z=-1.50.",
+        "Leader saw PepperShaker at distance 1.97 m near position x=-1.50, z=-1.75.",
+        "Leader saw PepperShaker at distance 1.72 m near position x=-1.50, z=-2.00.",
+        "Leader saw PepperShaker at distance 1.47 m near position x=-1.50, z=-2.25.",
+        "Leader saw PepperShaker at distance 1.22 m near position x=-1.50, z=-2.50."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw PepperShaker at distance 2.79 m near position x=-1.00, z=-1.00.",
+        "Handicapped saw PepperShaker at distance 2.54 m near position x=-1.00, z=-1.25.",
+        "Handicapped saw PepperShaker at distance 2.30 m near position x=-1.00, z=-1.50.",
+        "Handicapped saw PepperShaker at distance 2.06 m near position x=-1.00, z=-1.75.",
+        "Handicapped saw PepperShaker at distance 1.83 m near position x=-1.00, z=-2.00."
+      ],
+      "conversation_log": [
+        "LEADER: Move ahead. The PepperShaker is straight ahead, 2.21 meters away.",
+        "HANDICAPPED: Moving ahead. I don't see it yet.",
+        "LEADER: Keep moving ahead. The PepperShaker is now 1.97 meters away, directly in front of us.",
+        "HANDICAPPED: Moving ahead. I still don't see the PepperShaker.",
+        "LEADER: Move ahead. The PepperShaker is still straight ahead, now 1.47 meters away.",
+        "HANDICAPPED: Moving ahead. Still no sight of it.",
+        "LEADER: Keep moving ahead. The PepperShaker is now 1.22 meters away, still straight in front.",
+        "HANDICAPPED: Moving ahead. I don't see it yet.",
+        "LEADER: Move ahead. We are very close, 1.22 meters away.",
+        "HANDICAPPED: Moving ahead. I still see the PepperShaker a bit farther away."
+      ]
+    },
+    {
+      "step": 5,
+      "task_id": 85,
+      "scene": "FloorPlan28",
+      "room_type": "kitchen",
+      "target_type": "PepperShaker",
+      "goal_text": "Cooperatively navigate to the PepperShaker.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "Done",
+      "message": "We have reached the PepperShaker.",
+      "agent_position": {
+        "x": -1.5,
+        "y": 0.9009982347488403,
+        "z": -2.75
+      },
+      "target_visible": true,
+      "target_distance": 0.9708417057991028,
+      "leader_memory_snapshot": [
+        "Leader saw PepperShaker at distance 2.21 m near position x=-1.50, z=-1.50.",
+        "Leader saw PepperShaker at distance 1.97 m near position x=-1.50, z=-1.75.",
+        "Leader saw PepperShaker at distance 1.72 m near position x=-1.50, z=-2.00.",
+        "Leader saw PepperShaker at distance 1.47 m near position x=-1.50, z=-2.25.",
+        "Leader saw PepperShaker at distance 1.22 m near position x=-1.50, z=-2.50.",
+        "Leader saw PepperShaker at distance 0.97 m near position x=-1.50, z=-2.75."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw PepperShaker at distance 2.79 m near position x=-1.00, z=-1.00.",
+        "Handicapped saw PepperShaker at distance 2.54 m near position x=-1.00, z=-1.25.",
+        "Handicapped saw PepperShaker at distance 2.30 m near position x=-1.00, z=-1.50.",
+        "Handicapped saw PepperShaker at distance 2.06 m near position x=-1.00, z=-1.75.",
+        "Handicapped saw PepperShaker at distance 1.83 m near position x=-1.00, z=-2.00.",
+        "Handicapped saw PepperShaker at distance 1.59 m near position x=-1.00, z=-2.25."
+      ],
+      "conversation_log": [
+        "LEADER: Move ahead. The PepperShaker is straight ahead, 2.21 meters away.",
+        "HANDICAPPED: Moving ahead. I don't see it yet.",
+        "LEADER: Keep moving ahead. The PepperShaker is now 1.97 meters away, directly in front of us.",
+        "HANDICAPPED: Moving ahead. I still don't see the PepperShaker.",
+        "LEADER: Move ahead. The PepperShaker is still straight ahead, now 1.47 meters away.",
+        "HANDICAPPED: Moving ahead. Still no sight of it.",
+        "LEADER: Keep moving ahead. The PepperShaker is now 1.22 meters away, still straight in front.",
+        "HANDICAPPED: Moving ahead. I don't see it yet.",
+        "LEADER: Move ahead. We are very close, 1.22 meters away.",
+        "HANDICAPPED: Moving ahead. I still see the PepperShaker a bit farther away.",
+        "LEADER: We have reached the PepperShaker.",
+        "HANDICAPPED: Stopping, I assume we are there."
+      ]
+    },
+    {
+      "step": 5,
+      "task_id": 85,
+      "scene": "FloorPlan28",
+      "room_type": "kitchen",
+      "target_type": "PepperShaker",
+      "goal_text": "Cooperatively navigate to the PepperShaker.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "Done",
+      "message": "Stopping, I assume we are there.",
+      "agent_position": {
+        "x": -1.0,
+        "y": 0.9009982347488403,
+        "z": -2.25
+      },
+      "target_visible": true,
+      "target_distance": 1.5949300527572632,
+      "leader_memory_snapshot": [
+        "Leader saw PepperShaker at distance 2.21 m near position x=-1.50, z=-1.50.",
+        "Leader saw PepperShaker at distance 1.97 m near position x=-1.50, z=-1.75.",
+        "Leader saw PepperShaker at distance 1.72 m near position x=-1.50, z=-2.00.",
+        "Leader saw PepperShaker at distance 1.47 m near position x=-1.50, z=-2.25.",
+        "Leader saw PepperShaker at distance 1.22 m near position x=-1.50, z=-2.50.",
+        "Leader saw PepperShaker at distance 0.97 m near position x=-1.50, z=-2.75."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw PepperShaker at distance 2.79 m near position x=-1.00, z=-1.00.",
+        "Handicapped saw PepperShaker at distance 2.54 m near position x=-1.00, z=-1.25.",
+        "Handicapped saw PepperShaker at distance 2.30 m near position x=-1.00, z=-1.50.",
+        "Handicapped saw PepperShaker at distance 2.06 m near position x=-1.00, z=-1.75.",
+        "Handicapped saw PepperShaker at distance 1.83 m near position x=-1.00, z=-2.00.",
+        "Handicapped saw PepperShaker at distance 1.59 m near position x=-1.00, z=-2.25."
+      ],
+      "conversation_log": [
+        "LEADER: Move ahead. The PepperShaker is straight ahead, 2.21 meters away.",
+        "HANDICAPPED: Moving ahead. I don't see it yet.",
+        "LEADER: Keep moving ahead. The PepperShaker is now 1.97 meters away, directly in front of us.",
+        "HANDICAPPED: Moving ahead. I still don't see the PepperShaker.",
+        "LEADER: Move ahead. The PepperShaker is still straight ahead, now 1.47 meters away.",
+        "HANDICAPPED: Moving ahead. Still no sight of it.",
+        "LEADER: Keep moving ahead. The PepperShaker is now 1.22 meters away, still straight in front.",
+        "HANDICAPPED: Moving ahead. I don't see it yet.",
+        "LEADER: Move ahead. We are very close, 1.22 meters away.",
+        "HANDICAPPED: Moving ahead. I still see the PepperShaker a bit farther away.",
+        "LEADER: We have reached the PepperShaker.",
+        "HANDICAPPED: Stopping, I assume we are there."
+      ]
+    }
+  ]
+}

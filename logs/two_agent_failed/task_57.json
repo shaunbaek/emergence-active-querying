@@ -1,0 +1,198 @@
+{
+  "task_meta": {
+    "task_id": 57,
+    "scene": "FloorPlan11",
+    "room_type": "kitchen",
+    "target_type": "CounterTop",
+    "goal_text": "Navigate to the CounterTop."
+  },
+  "episode_time_sec": 10.019342291983776,
+  "steps": [
+    {
+      "step": 0,
+      "task_id": 57,
+      "scene": "FloorPlan11",
+      "room_type": "kitchen",
+      "target_type": "CounterTop",
+      "goal_text": "Cooperatively navigate to the CounterTop.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "CounterTop is directly in front of us, let's move ahead.",
+      "agent_position": {
+        "x": 0.0,
+        "y": 0.9009991884231567,
+        "z": -0.75
+      },
+      "target_visible": false,
+      "target_distance": 2.1487059593200684,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw CounterTop at distance 1.46 m near position x=0.50, z=-0.25."
+      ],
+      "conversation_log": [
+        "LEADER: CounterTop is directly in front of us, let's move ahead.",
+        "HANDICAPPED: Moving ahead."
+      ]
+    },
+    {
+      "step": 0,
+      "task_id": 57,
+      "scene": "FloorPlan11",
+      "room_type": "kitchen",
+      "target_type": "CounterTop",
+      "goal_text": "Cooperatively navigate to the CounterTop.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Moving ahead.",
+      "agent_position": {
+        "x": 0.5,
+        "y": 0.9009991884231567,
+        "z": -0.25
+      },
+      "target_visible": true,
+      "target_distance": 1.4603209495544434,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw CounterTop at distance 1.46 m near position x=0.50, z=-0.25."
+      ],
+      "conversation_log": [
+        "LEADER: CounterTop is directly in front of us, let's move ahead.",
+        "HANDICAPPED: Moving ahead."
+      ]
+    },
+    {
+      "step": 1,
+      "task_id": 57,
+      "scene": "FloorPlan11",
+      "room_type": "kitchen",
+      "target_type": "CounterTop",
+      "goal_text": "Cooperatively navigate to the CounterTop.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "We are very close to the CounterTop now, keep moving ahead.",
+      "agent_position": {
+        "x": 0.0,
+        "y": 0.9009991884231567,
+        "z": -0.5
+      },
+      "target_visible": false,
+      "target_distance": 2.018758773803711,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw CounterTop at distance 1.46 m near position x=0.50, z=-0.25.",
+        "Handicapped saw CounterTop at distance 1.46 m near position x=0.50, z=-0.25."
+      ],
+      "conversation_log": [
+        "LEADER: CounterTop is directly in front of us, let's move ahead.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: We are very close to the CounterTop now, keep moving ahead.",
+        "HANDICAPPED: Affirmative, continuing to move ahead."
+      ]
+    },
+    {
+      "step": 1,
+      "task_id": 57,
+      "scene": "FloorPlan11",
+      "room_type": "kitchen",
+      "target_type": "CounterTop",
+      "goal_text": "Cooperatively navigate to the CounterTop.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Affirmative, continuing to move ahead.",
+      "agent_position": {
+        "x": 0.5,
+        "y": 0.9009991884231567,
+        "z": -0.25
+      },
+      "target_visible": true,
+      "target_distance": 1.4603209495544434,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw CounterTop at distance 1.46 m near position x=0.50, z=-0.25.",
+        "Handicapped saw CounterTop at distance 1.46 m near position x=0.50, z=-0.25."
+      ],
+      "conversation_log": [
+        "LEADER: CounterTop is directly in front of us, let's move ahead.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: We are very close to the CounterTop now, keep moving ahead.",
+        "HANDICAPPED: Affirmative, continuing to move ahead."
+      ]
+    },
+    {
+      "step": 2,
+      "task_id": 57,
+      "scene": "FloorPlan11",
+      "room_type": "kitchen",
+      "target_type": "CounterTop",
+      "goal_text": "Cooperatively navigate to the CounterTop.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "Done",
+      "message": "We have reached the CounterTop. You can stop now.",
+      "agent_position": {
+        "x": 0.0,
+        "y": 0.9009991884231567,
+        "z": -0.5
+      },
+      "target_visible": false,
+      "target_distance": 2.018758773803711,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw CounterTop at distance 1.46 m near position x=0.50, z=-0.25.",
+        "Handicapped saw CounterTop at distance 1.46 m near position x=0.50, z=-0.25.",
+        "Handicapped saw CounterTop at distance 1.46 m near position x=0.50, z=-0.25."
+      ],
+      "conversation_log": [
+        "LEADER: CounterTop is directly in front of us, let's move ahead.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: We are very close to the CounterTop now, keep moving ahead.",
+        "HANDICAPPED: Affirmative, continuing to move ahead.",
+        "LEADER: We have reached the CounterTop. You can stop now.",
+        "HANDICAPPED: Understood, stopping."
+      ]
+    },
+    {
+      "step": 2,
+      "task_id": 57,
+      "scene": "FloorPlan11",
+      "room_type": "kitchen",
+      "target_type": "CounterTop",
+      "goal_text": "Cooperatively navigate to the CounterTop.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "Done",
+      "message": "Understood, stopping.",
+      "agent_position": {
+        "x": 0.5,
+        "y": 0.9009991884231567,
+        "z": -0.25
+      },
+      "target_visible": true,
+      "target_distance": 1.4603209495544434,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw CounterTop at distance 1.46 m near position x=0.50, z=-0.25.",
+        "Handicapped saw CounterTop at distance 1.46 m near position x=0.50, z=-0.25.",
+        "Handicapped saw CounterTop at distance 1.46 m near position x=0.50, z=-0.25."
+      ],
+      "conversation_log": [
+        "LEADER: CounterTop is directly in front of us, let's move ahead.",
+        "HANDICAPPED: Moving ahead.",
+        "LEADER: We are very close to the CounterTop now, keep moving ahead.",
+        "HANDICAPPED: Affirmative, continuing to move ahead.",
+        "LEADER: We have reached the CounterTop. You can stop now.",
+        "HANDICAPPED: Understood, stopping."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1246 @@
+{
+  "task_meta": {
+    "task_id": 100,
+    "scene": "FloorPlan322",
+    "room_type": "bedroom",
+    "target_type": "CellPhone",
+    "goal_text": "Navigate to the CellPhone."
+  },
+  "episode_time_sec": 198.89302941702772,
+  "steps": [
+    {
+      "step": 0,
+      "task_id": 100,
+      "scene": "FloorPlan322",
+      "room_type": "bedroom",
+      "target_type": "CellPhone",
+      "goal_text": "Cooperatively navigate to the CellPhone.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveRight",
+      "message": "Handicapped, I calculate the CellPhone is to our front-right. I will move right. Please move ahead.",
+      "agent_position": {
+        "x": 0.75,
+        "y": 0.9017602801322937,
+        "z": 0.0
+      },
+      "target_visible": false,
+      "target_distance": 2.2307472229003906,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw CellPhone at distance 1.55 m near position x=1.25, z=0.50."
+      ],
+      "conversation_log": [
+        "LEADER: Handicapped, I calculate the CellPhone is to our front-right. I will move right. Please move ahead.",
+        "HANDICAPPED: I see the CellPhone a bit farther ahead and am moving towards it."
+      ]
+    },
+    {
+      "step": 0,
+      "task_id": 100,
+      "scene": "FloorPlan322",
+      "room_type": "bedroom",
+      "target_type": "CellPhone",
+      "goal_text": "Cooperatively navigate to the CellPhone.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "I see the CellPhone a bit farther ahead and am moving towards it.",
+      "agent_position": {
+        "x": 1.25,
+        "y": 0.9017602801322937,
+        "z": 0.5
+      },
+      "target_visible": true,
+      "target_distance": 1.552344799041748,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw CellPhone at distance 1.55 m near position x=1.25, z=0.50."
+      ],
+      "conversation_log": [
+        "LEADER: Handicapped, I calculate the CellPhone is to our front-right. I will move right. Please move ahead.",
+        "HANDICAPPED: I see the CellPhone a bit farther ahead and am moving towards it."
+      ]
+    },
+    {
+      "step": 1,
+      "task_id": 100,
+      "scene": "FloorPlan322",
+      "room_type": "bedroom",
+      "target_type": "CellPhone",
+      "goal_text": "Cooperatively navigate to the CellPhone.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "Handicapped, the CellPhone is still ahead and to our right. I will move ahead. Please continue moving ahead.",
+      "agent_position": {
+        "x": 0.75,
+        "y": 0.9017602801322937,
+        "z": -0.2500000298023224
+      },
+      "target_visible": true,
+      "target_distance": 2.371159791946411,
+      "leader_memory_snapshot": [
+        "Leader saw CellPhone at distance 2.37 m near position x=0.75, z=-0.25."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw CellPhone at distance 1.55 m near position x=1.25, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.33 m near position x=1.50, z=0.50."
+      ],
+      "conversation_log": [
+        "LEADER: Handicapped, I calculate the CellPhone is to our front-right. I will move right. Please move ahead.",
+        "HANDICAPPED: I see the CellPhone a bit farther ahead and am moving towards it.",
+        "LEADER: Handicapped, the CellPhone is still ahead and to our right. I will move ahead. Please continue moving ahead.",
+        "HANDICAPPED: I am continuing to move ahead as the CellPhone is still nearby."
+      ]
+    },
+    {
+      "step": 1,
+      "task_id": 100,
+      "scene": "FloorPlan322",
+      "room_type": "bedroom",
+      "target_type": "CellPhone",
+      "goal_text": "Cooperatively navigate to the CellPhone.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "I am continuing to move ahead as the CellPhone is still nearby.",
+      "agent_position": {
+        "x": 1.5,
+        "y": 0.9017602801322937,
+        "z": 0.4999999701976776
+      },
+      "target_visible": true,
+      "target_distance": 1.3314086198806763,
+      "leader_memory_snapshot": [
+        "Leader saw CellPhone at distance 2.37 m near position x=0.75, z=-0.25."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw CellPhone at distance 1.55 m near position x=1.25, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.33 m near position x=1.50, z=0.50."
+      ],
+      "conversation_log": [
+        "LEADER: Handicapped, I calculate the CellPhone is to our front-right. I will move right. Please move ahead.",
+        "HANDICAPPED: I see the CellPhone a bit farther ahead and am moving towards it.",
+        "LEADER: Handicapped, the CellPhone is still ahead and to our right. I will move ahead. Please continue moving ahead.",
+        "HANDICAPPED: I am continuing to move ahead as the CellPhone is still nearby."
+      ]
+    },
+    {
+      "step": 2,
+      "task_id": 100,
+      "scene": "FloorPlan322",
+      "room_type": "bedroom",
+      "target_type": "CellPhone",
+      "goal_text": "Cooperatively navigate to the CellPhone.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveRight",
+      "message": "Handicapped, I am moving right to align myself. You are very close, please take another step ahead.",
+      "agent_position": {
+        "x": 1.0,
+        "y": 0.9017602801322937,
+        "z": -0.2500000596046448
+      },
+      "target_visible": true,
+      "target_distance": 2.1760425567626953,
+      "leader_memory_snapshot": [
+        "Leader saw CellPhone at distance 2.37 m near position x=0.75, z=-0.25.",
+        "Leader saw CellPhone at distance 2.18 m near position x=1.00, z=-0.25."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw CellPhone at distance 1.55 m near position x=1.25, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.33 m near position x=1.50, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.12 m near position x=1.75, z=0.50."
+      ],
+      "conversation_log": [
+        "LEADER: Handicapped, I calculate the CellPhone is to our front-right. I will move right. Please move ahead.",
+        "HANDICAPPED: I see the CellPhone a bit farther ahead and am moving towards it.",
+        "LEADER: Handicapped, the CellPhone is still ahead and to our right. I will move ahead. Please continue moving ahead.",
+        "HANDICAPPED: I am continuing to move ahead as the CellPhone is still nearby.",
+        "LEADER: Handicapped, I am moving right to align myself. You are very close, please take another step ahead.",
+        "HANDICAPPED: Okay, moving ahead. The CellPhone is now very close."
+      ]
+    },
+    {
+      "step": 2,
+      "task_id": 100,
+      "scene": "FloorPlan322",
+      "room_type": "bedroom",
+      "target_type": "CellPhone",
+      "goal_text": "Cooperatively navigate to the CellPhone.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Okay, moving ahead. The CellPhone is now very close.",
+      "agent_position": {
+        "x": 1.75,
+        "y": 0.9017602801322937,
+        "z": 0.4999999403953552
+      },
+      "target_visible": true,
+      "target_distance": 1.1226805448532104,
+      "leader_memory_snapshot": [
+        "Leader saw CellPhone at distance 2.37 m near position x=0.75, z=-0.25.",
+        "Leader saw CellPhone at distance 2.18 m near position x=1.00, z=-0.25."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw CellPhone at distance 1.55 m near position x=1.25, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.33 m near position x=1.50, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.12 m near position x=1.75, z=0.50."
+      ],
+      "conversation_log": [
+        "LEADER: Handicapped, I calculate the CellPhone is to our front-right. I will move right. Please move ahead.",
+        "HANDICAPPED: I see the CellPhone a bit farther ahead and am moving towards it.",
+        "LEADER: Handicapped, the CellPhone is still ahead and to our right. I will move ahead. Please continue moving ahead.",
+        "HANDICAPPED: I am continuing to move ahead as the CellPhone is still nearby.",
+        "LEADER: Handicapped, I am moving right to align myself. You are very close, please take another step ahead.",
+        "HANDICAPPED: Okay, moving ahead. The CellPhone is now very close."
+      ]
+    },
+    {
+      "step": 3,
+      "task_id": 100,
+      "scene": "FloorPlan322",
+      "room_type": "bedroom",
+      "target_type": "CellPhone",
+      "goal_text": "Cooperatively navigate to the CellPhone.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveLeft",
+      "message": "Handicapped, you are very close, likely within 1 meter. Please begin your search pattern. I am moving left to align.",
+      "agent_position": {
+        "x": 1.0,
+        "y": 0.9017602801322937,
+        "z": -0.5000001192092896
+      },
+      "target_visible": true,
+      "target_distance": 2.3465240001678467,
+      "leader_memory_snapshot": [
+        "Leader saw CellPhone at distance 2.37 m near position x=0.75, z=-0.25.",
+        "Leader saw CellPhone at distance 2.18 m near position x=1.00, z=-0.25.",
+        "Leader saw CellPhone at distance 2.35 m near position x=1.00, z=-0.50."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw CellPhone at distance 1.55 m near position x=1.25, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.33 m near position x=1.50, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.12 m near position x=1.75, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.12 m near position x=1.75, z=0.50."
+      ],
+      "conversation_log": [
+        "LEADER: Handicapped, I calculate the CellPhone is to our front-right. I will move right. Please move ahead.",
+        "HANDICAPPED: I see the CellPhone a bit farther ahead and am moving towards it.",
+        "LEADER: Handicapped, the CellPhone is still ahead and to our right. I will move ahead. Please continue moving ahead.",
+        "HANDICAPPED: I am continuing to move ahead as the CellPhone is still nearby.",
+        "LEADER: Handicapped, I am moving right to align myself. You are very close, please take another step ahead.",
+        "HANDICAPPED: Okay, moving ahead. The CellPhone is now very close.",
+        "LEADER: Handicapped, you are very close, likely within 1 meter. Please begin your search pattern. I am moving left to align.",
+        "HANDICAPPED: Okay, I am beginning the search pattern now."
+      ]
+    },
+    {
+      "step": 3,
+      "task_id": 100,
+      "scene": "FloorPlan322",
+      "room_type": "bedroom",
+      "target_type": "CellPhone",
+      "goal_text": "Cooperatively navigate to the CellPhone.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "LookUp",
+      "message": "Okay, I am beginning the search pattern now.",
+      "agent_position": {
+        "x": 1.75,
+        "y": 0.9017602801322937,
+        "z": 0.4999999403953552
+      },
+      "target_visible": true,
+      "target_distance": 1.122692584991455,
+      "leader_memory_snapshot": [
+        "Leader saw CellPhone at distance 2.37 m near position x=0.75, z=-0.25.",
+        "Leader saw CellPhone at distance 2.18 m near position x=1.00, z=-0.25.",
+        "Leader saw CellPhone at distance 2.35 m near position x=1.00, z=-0.50."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw CellPhone at distance 1.55 m near position x=1.25, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.33 m near position x=1.50, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.12 m near position x=1.75, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.12 m near position x=1.75, z=0.50."
+      ],
+      "conversation_log": [
+        "LEADER: Handicapped, I calculate the CellPhone is to our front-right. I will move right. Please move ahead.",
+        "HANDICAPPED: I see the CellPhone a bit farther ahead and am moving towards it.",
+        "LEADER: Handicapped, the CellPhone is still ahead and to our right. I will move ahead. Please continue moving ahead.",
+        "HANDICAPPED: I am continuing to move ahead as the CellPhone is still nearby.",
+        "LEADER: Handicapped, I am moving right to align myself. You are very close, please take another step ahead.",
+        "HANDICAPPED: Okay, moving ahead. The CellPhone is now very close.",
+        "LEADER: Handicapped, you are very close, likely within 1 meter. Please begin your search pattern. I am moving left to align.",
+        "HANDICAPPED: Okay, I am beginning the search pattern now."
+      ]
+    },
+    {
+      "step": 4,
+      "task_id": 100,
+      "scene": "FloorPlan322",
+      "room_type": "bedroom",
+      "target_type": "CellPhone",
+      "goal_text": "Cooperatively navigate to the CellPhone.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "RotateRight",
+      "message": "Handicapped, good. Continue with your search pattern. I will rotate to scan this nearby area.",
+      "agent_position": {
+        "x": 1.0,
+        "y": 0.9017602801322937,
+        "z": -0.25000008940696716
+      },
+      "target_visible": false,
+      "target_distance": 2.17606520652771,
+      "leader_memory_snapshot": [
+        "Leader saw CellPhone at distance 2.37 m near position x=0.75, z=-0.25.",
+        "Leader saw CellPhone at distance 2.18 m near position x=1.00, z=-0.25.",
+        "Leader saw CellPhone at distance 2.35 m near position x=1.00, z=-0.50."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw CellPhone at distance 1.55 m near position x=1.25, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.33 m near position x=1.50, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.12 m near position x=1.75, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.12 m near position x=1.75, z=0.50."
+      ],
+      "conversation_log": [
+        "LEADER: Handicapped, I calculate the CellPhone is to our front-right. I will move right. Please move ahead.",
+        "HANDICAPPED: I see the CellPhone a bit farther ahead and am moving towards it.",
+        "LEADER: Handicapped, the CellPhone is still ahead and to our right. I will move ahead. Please continue moving ahead.",
+        "HANDICAPPED: I am continuing to move ahead as the CellPhone is still nearby.",
+        "LEADER: Handicapped, I am moving right to align myself. You are very close, please take another step ahead.",
+        "HANDICAPPED: Okay, moving ahead. The CellPhone is now very close.",
+        "LEADER: Handicapped, you are very close, likely within 1 meter. Please begin your search pattern. I am moving left to align.",
+        "HANDICAPPED: Okay, I am beginning the search pattern now.",
+        "LEADER: Handicapped, good. Continue with your search pattern. I will rotate to scan this nearby area.",
+        "HANDICAPPED: I am performing the first step of my search pattern and looking up."
+      ]
+    },
+    {
+      "step": 4,
+      "task_id": 100,
+      "scene": "FloorPlan322",
+      "room_type": "bedroom",
+      "target_type": "CellPhone",
+      "goal_text": "Cooperatively navigate to the CellPhone.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "LookUp",
+      "message": "I am performing the first step of my search pattern and looking up.",
+      "agent_position": {
+        "x": 1.75,
+        "y": 0.9017602801322937,
+        "z": 0.4999999403953552
+      },
+      "target_visible": false,
+      "target_distance": 1.1227043867111206,
+      "leader_memory_snapshot": [
+        "Leader saw CellPhone at distance 2.37 m near position x=0.75, z=-0.25.",
+        "Leader saw CellPhone at distance 2.18 m near position x=1.00, z=-0.25.",
+        "Leader saw CellPhone at distance 2.35 m near position x=1.00, z=-0.50."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw CellPhone at distance 1.55 m near position x=1.25, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.33 m near position x=1.50, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.12 m near position x=1.75, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.12 m near position x=1.75, z=0.50."
+      ],
+      "conversation_log": [
+        "LEADER: Handicapped, I calculate the CellPhone is to our front-right. I will move right. Please move ahead.",
+        "HANDICAPPED: I see the CellPhone a bit farther ahead and am moving towards it.",
+        "LEADER: Handicapped, the CellPhone is still ahead and to our right. I will move ahead. Please continue moving ahead.",
+        "HANDICAPPED: I am continuing to move ahead as the CellPhone is still nearby.",
+        "LEADER: Handicapped, I am moving right to align myself. You are very close, please take another step ahead.",
+        "HANDICAPPED: Okay, moving ahead. The CellPhone is now very close.",
+        "LEADER: Handicapped, you are very close, likely within 1 meter. Please begin your search pattern. I am moving left to align.",
+        "HANDICAPPED: Okay, I am beginning the search pattern now.",
+        "LEADER: Handicapped, good. Continue with your search pattern. I will rotate to scan this nearby area.",
+        "HANDICAPPED: I am performing the first step of my search pattern and looking up."
+      ]
+    },
+    {
+      "step": 5,
+      "task_id": 100,
+      "scene": "FloorPlan322",
+      "room_type": "bedroom",
+      "target_type": "CellPhone",
+      "goal_text": "Cooperatively navigate to the CellPhone.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "Handicapped, I am moving ahead, as my memory indicates the CellPhone is in this direction. Continue your search pattern.",
+      "agent_position": {
+        "x": 1.0,
+        "y": 0.9017602801322937,
+        "z": -0.25000008940696716
+      },
+      "target_visible": false,
+      "target_distance": 2.17606520652771,
+      "leader_memory_snapshot": [
+        "Leader saw CellPhone at distance 2.37 m near position x=0.75, z=-0.25.",
+        "Leader saw CellPhone at distance 2.18 m near position x=1.00, z=-0.25.",
+        "Leader saw CellPhone at distance 2.35 m near position x=1.00, z=-0.50."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw CellPhone at distance 1.55 m near position x=1.25, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.33 m near position x=1.50, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.12 m near position x=1.75, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.12 m near position x=1.75, z=0.50."
+      ],
+      "conversation_log": [
+        "LEADER: Handicapped, I calculate the CellPhone is to our front-right. I will move right. Please move ahead.",
+        "HANDICAPPED: I see the CellPhone a bit farther ahead and am moving towards it.",
+        "LEADER: Handicapped, the CellPhone is still ahead and to our right. I will move ahead. Please continue moving ahead.",
+        "HANDICAPPED: I am continuing to move ahead as the CellPhone is still nearby.",
+        "LEADER: Handicapped, I am moving right to align myself. You are very close, please take another step ahead.",
+        "HANDICAPPED: Okay, moving ahead. The CellPhone is now very close.",
+        "LEADER: Handicapped, you are very close, likely within 1 meter. Please begin your search pattern. I am moving left to align.",
+        "HANDICAPPED: Okay, I am beginning the search pattern now.",
+        "LEADER: Handicapped, good. Continue with your search pattern. I will rotate to scan this nearby area.",
+        "HANDICAPPED: I am performing the first step of my search pattern and looking up.",
+        "LEADER: Handicapped, I am moving ahead, as my memory indicates the CellPhone is in this direction. Continue your search pattern.",
+        "HANDICAPPED: I am rotating right, continuing my search pattern after looking up."
+      ]
+    },
+    {
+      "step": 5,
+      "task_id": 100,
+      "scene": "FloorPlan322",
+      "room_type": "bedroom",
+      "target_type": "CellPhone",
+      "goal_text": "Cooperatively navigate to the CellPhone.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "RotateRight",
+      "message": "I am rotating right, continuing my search pattern after looking up.",
+      "agent_position": {
+        "x": 1.75,
+        "y": 0.9017602801322937,
+        "z": 0.4999999403953552
+      },
+      "target_visible": false,
+      "target_distance": 1.1227043867111206,
+      "leader_memory_snapshot": [
+        "Leader saw CellPhone at distance 2.37 m near position x=0.75, z=-0.25.",
+        "Leader saw CellPhone at distance 2.18 m near position x=1.00, z=-0.25.",
+        "Leader saw CellPhone at distance 2.35 m near position x=1.00, z=-0.50."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw CellPhone at distance 1.55 m near position x=1.25, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.33 m near position x=1.50, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.12 m near position x=1.75, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.12 m near position x=1.75, z=0.50."
+      ],
+      "conversation_log": [
+        "LEADER: Handicapped, I calculate the CellPhone is to our front-right. I will move right. Please move ahead.",
+        "HANDICAPPED: I see the CellPhone a bit farther ahead and am moving towards it.",
+        "LEADER: Handicapped, the CellPhone is still ahead and to our right. I will move ahead. Please continue moving ahead.",
+        "HANDICAPPED: I am continuing to move ahead as the CellPhone is still nearby.",
+        "LEADER: Handicapped, I am moving right to align myself. You are very close, please take another step ahead.",
+        "HANDICAPPED: Okay, moving ahead. The CellPhone is now very close.",
+        "LEADER: Handicapped, you are very close, likely within 1 meter. Please begin your search pattern. I am moving left to align.",
+        "HANDICAPPED: Okay, I am beginning the search pattern now.",
+        "LEADER: Handicapped, good. Continue with your search pattern. I will rotate to scan this nearby area.",
+        "HANDICAPPED: I am performing the first step of my search pattern and looking up.",
+        "LEADER: Handicapped, I am moving ahead, as my memory indicates the CellPhone is in this direction. Continue your search pattern.",
+        "HANDICAPPED: I am rotating right, continuing my search pattern after looking up."
+      ]
+    },
+    {
+      "step": 6,
+      "task_id": 100,
+      "scene": "FloorPlan322",
+      "room_type": "bedroom",
+      "target_type": "CellPhone",
+      "goal_text": "Cooperatively navigate to the CellPhone.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "RotateRight",
+      "message": "Handicapped, you see the CellPhone now, please stop the search pattern and move ahead.",
+      "agent_position": {
+        "x": 1.0,
+        "y": 0.9017602801322937,
+        "z": -0.5000001192092896
+      },
+      "target_visible": false,
+      "target_distance": 2.3465449810028076,
+      "leader_memory_snapshot": [
+        "Leader saw CellPhone at distance 2.37 m near position x=0.75, z=-0.25.",
+        "Leader saw CellPhone at distance 2.18 m near position x=1.00, z=-0.25.",
+        "Leader saw CellPhone at distance 2.35 m near position x=1.00, z=-0.50."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw CellPhone at distance 1.55 m near position x=1.25, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.33 m near position x=1.50, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.12 m near position x=1.75, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.12 m near position x=1.75, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.12 m near position x=1.75, z=0.50."
+      ],
+      "conversation_log": [
+        "LEADER: Handicapped, I calculate the CellPhone is to our front-right. I will move right. Please move ahead.",
+        "HANDICAPPED: I see the CellPhone a bit farther ahead and am moving towards it.",
+        "LEADER: Handicapped, the CellPhone is still ahead and to our right. I will move ahead. Please continue moving ahead.",
+        "HANDICAPPED: I am continuing to move ahead as the CellPhone is still nearby.",
+        "LEADER: Handicapped, I am moving right to align myself. You are very close, please take another step ahead.",
+        "HANDICAPPED: Okay, moving ahead. The CellPhone is now very close.",
+        "LEADER: Handicapped, you are very close, likely within 1 meter. Please begin your search pattern. I am moving left to align.",
+        "HANDICAPPED: Okay, I am beginning the search pattern now.",
+        "LEADER: Handicapped, good. Continue with your search pattern. I will rotate to scan this nearby area.",
+        "HANDICAPPED: I am performing the first step of my search pattern and looking up.",
+        "LEADER: Handicapped, I am moving ahead, as my memory indicates the CellPhone is in this direction. Continue your search pattern.",
+        "HANDICAPPED: I am rotating right, continuing my search pattern after looking up.",
+        "LEADER: Handicapped, you see the CellPhone now, please stop the search pattern and move ahead.",
+        "HANDICAPPED: Okay, I see the CellPhone nearby and will move ahead to it, stopping my search."
+      ]
+    },
+    {
+      "step": 6,
+      "task_id": 100,
+      "scene": "FloorPlan322",
+      "room_type": "bedroom",
+      "target_type": "CellPhone",
+      "goal_text": "Cooperatively navigate to the CellPhone.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Okay, I see the CellPhone nearby and will move ahead to it, stopping my search.",
+      "agent_position": {
+        "x": 1.75,
+        "y": 0.9017602801322937,
+        "z": 0.4999999403953552
+      },
+      "target_visible": true,
+      "target_distance": 1.1227043867111206,
+      "leader_memory_snapshot": [
+        "Leader saw CellPhone at distance 2.37 m near position x=0.75, z=-0.25.",
+        "Leader saw CellPhone at distance 2.18 m near position x=1.00, z=-0.25.",
+        "Leader saw CellPhone at distance 2.35 m near position x=1.00, z=-0.50."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw CellPhone at distance 1.55 m near position x=1.25, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.33 m near position x=1.50, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.12 m near position x=1.75, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.12 m near position x=1.75, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.12 m near position x=1.75, z=0.50."
+      ],
+      "conversation_log": [
+        "LEADER: Handicapped, I calculate the CellPhone is to our front-right. I will move right. Please move ahead.",
+        "HANDICAPPED: I see the CellPhone a bit farther ahead and am moving towards it.",
+        "LEADER: Handicapped, the CellPhone is still ahead and to our right. I will move ahead. Please continue moving ahead.",
+        "HANDICAPPED: I am continuing to move ahead as the CellPhone is still nearby.",
+        "LEADER: Handicapped, I am moving right to align myself. You are very close, please take another step ahead.",
+        "HANDICAPPED: Okay, moving ahead. The CellPhone is now very close.",
+        "LEADER: Handicapped, you are very close, likely within 1 meter. Please begin your search pattern. I am moving left to align.",
+        "HANDICAPPED: Okay, I am beginning the search pattern now.",
+        "LEADER: Handicapped, good. Continue with your search pattern. I will rotate to scan this nearby area.",
+        "HANDICAPPED: I am performing the first step of my search pattern and looking up.",
+        "LEADER: Handicapped, I am moving ahead, as my memory indicates the CellPhone is in this direction. Continue your search pattern.",
+        "HANDICAPPED: I am rotating right, continuing my search pattern after looking up.",
+        "LEADER: Handicapped, you see the CellPhone now, please stop the search pattern and move ahead.",
+        "HANDICAPPED: Okay, I see the CellPhone nearby and will move ahead to it, stopping my search."
+      ]
+    },
+    {
+      "step": 7,
+      "task_id": 100,
+      "scene": "FloorPlan322",
+      "room_type": "bedroom",
+      "target_type": "CellPhone",
+      "goal_text": "Cooperatively navigate to the CellPhone.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "LookUp",
+      "message": "Handicapped, since I am horizontally aligned with the CellPhone, I am looking up to locate it.",
+      "agent_position": {
+        "x": 1.0,
+        "y": 0.9017602801322937,
+        "z": -0.5000001192092896
+      },
+      "target_visible": false,
+      "target_distance": 2.3465449810028076,
+      "leader_memory_snapshot": [
+        "Leader saw CellPhone at distance 2.37 m near position x=0.75, z=-0.25.",
+        "Leader saw CellPhone at distance 2.18 m near position x=1.00, z=-0.25.",
+        "Leader saw CellPhone at distance 2.35 m near position x=1.00, z=-0.50."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw CellPhone at distance 1.55 m near position x=1.25, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.33 m near position x=1.50, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.12 m near position x=1.75, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.12 m near position x=1.75, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.12 m near position x=1.75, z=0.50."
+      ],
+      "conversation_log": [
+        "LEADER: Handicapped, I calculate the CellPhone is to our front-right. I will move right. Please move ahead.",
+        "HANDICAPPED: I see the CellPhone a bit farther ahead and am moving towards it.",
+        "LEADER: Handicapped, the CellPhone is still ahead and to our right. I will move ahead. Please continue moving ahead.",
+        "HANDICAPPED: I am continuing to move ahead as the CellPhone is still nearby.",
+        "LEADER: Handicapped, I am moving right to align myself. You are very close, please take another step ahead.",
+        "HANDICAPPED: Okay, moving ahead. The CellPhone is now very close.",
+        "LEADER: Handicapped, you are very close, likely within 1 meter. Please begin your search pattern. I am moving left to align.",
+        "HANDICAPPED: Okay, I am beginning the search pattern now.",
+        "LEADER: Handicapped, good. Continue with your search pattern. I will rotate to scan this nearby area.",
+        "HANDICAPPED: I am performing the first step of my search pattern and looking up.",
+        "LEADER: Handicapped, I am moving ahead, as my memory indicates the CellPhone is in this direction. Continue your search pattern.",
+        "HANDICAPPED: I am rotating right, continuing my search pattern after looking up.",
+        "LEADER: Handicapped, you see the CellPhone now, please stop the search pattern and move ahead.",
+        "HANDICAPPED: Okay, I see the CellPhone nearby and will move ahead to it, stopping my search.",
+        "LEADER: Handicapped, since I am horizontally aligned with the CellPhone, I am looking up to locate it.",
+        "HANDICAPPED: I am continuing to move ahead, as the CellPhone is very close now."
+      ]
+    },
+    {
+      "step": 7,
+      "task_id": 100,
+      "scene": "FloorPlan322",
+      "room_type": "bedroom",
+      "target_type": "CellPhone",
+      "goal_text": "Cooperatively navigate to the CellPhone.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "I am continuing to move ahead, as the CellPhone is very close now.",
+      "agent_position": {
+        "x": 1.75,
+        "y": 0.9017602801322937,
+        "z": 0.7499999403953552
+      },
+      "target_visible": false,
+      "target_distance": 0.9947119951248169,
+      "leader_memory_snapshot": [
+        "Leader saw CellPhone at distance 2.37 m near position x=0.75, z=-0.25.",
+        "Leader saw CellPhone at distance 2.18 m near position x=1.00, z=-0.25.",
+        "Leader saw CellPhone at distance 2.35 m near position x=1.00, z=-0.50."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw CellPhone at distance 1.55 m near position x=1.25, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.33 m near position x=1.50, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.12 m near position x=1.75, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.12 m near position x=1.75, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.12 m near position x=1.75, z=0.50."
+      ],
+      "conversation_log": [
+        "LEADER: Handicapped, I calculate the CellPhone is to our front-right. I will move right. Please move ahead.",
+        "HANDICAPPED: I see the CellPhone a bit farther ahead and am moving towards it.",
+        "LEADER: Handicapped, the CellPhone is still ahead and to our right. I will move ahead. Please continue moving ahead.",
+        "HANDICAPPED: I am continuing to move ahead as the CellPhone is still nearby.",
+        "LEADER: Handicapped, I am moving right to align myself. You are very close, please take another step ahead.",
+        "HANDICAPPED: Okay, moving ahead. The CellPhone is now very close.",
+        "LEADER: Handicapped, you are very close, likely within 1 meter. Please begin your search pattern. I am moving left to align.",
+        "HANDICAPPED: Okay, I am beginning the search pattern now.",
+        "LEADER: Handicapped, good. Continue with your search pattern. I will rotate to scan this nearby area.",
+        "HANDICAPPED: I am performing the first step of my search pattern and looking up.",
+        "LEADER: Handicapped, I am moving ahead, as my memory indicates the CellPhone is in this direction. Continue your search pattern.",
+        "HANDICAPPED: I am rotating right, continuing my search pattern after looking up.",
+        "LEADER: Handicapped, you see the CellPhone now, please stop the search pattern and move ahead.",
+        "HANDICAPPED: Okay, I see the CellPhone nearby and will move ahead to it, stopping my search.",
+        "LEADER: Handicapped, since I am horizontally aligned with the CellPhone, I am looking up to locate it.",
+        "HANDICAPPED: I am continuing to move ahead, as the CellPhone is very close now."
+      ]
+    },
+    {
+      "step": 8,
+      "task_id": 100,
+      "scene": "FloorPlan322",
+      "room_type": "bedroom",
+      "target_type": "CellPhone",
+      "goal_text": "Cooperatively navigate to the CellPhone.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "Handicapped, I am moving ahead as the CellPhone is still visible. Please continue moving towards it.",
+      "agent_position": {
+        "x": 1.0,
+        "y": 0.9017602801322937,
+        "z": -0.5000001192092896
+      },
+      "target_visible": true,
+      "target_distance": 2.3465449810028076,
+      "leader_memory_snapshot": [
+        "Leader saw CellPhone at distance 2.37 m near position x=0.75, z=-0.25.",
+        "Leader saw CellPhone at distance 2.18 m near position x=1.00, z=-0.25.",
+        "Leader saw CellPhone at distance 2.35 m near position x=1.00, z=-0.50.",
+        "Leader saw CellPhone at distance 2.35 m near position x=1.00, z=-0.50."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw CellPhone at distance 1.55 m near position x=1.25, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.33 m near position x=1.50, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.12 m near position x=1.75, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.12 m near position x=1.75, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.12 m near position x=1.75, z=0.50."
+      ],
+      "conversation_log": [
+        "LEADER: Handicapped, I calculate the CellPhone is to our front-right. I will move right. Please move ahead.",
+        "HANDICAPPED: I see the CellPhone a bit farther ahead and am moving towards it.",
+        "LEADER: Handicapped, the CellPhone is still ahead and to our right. I will move ahead. Please continue moving ahead.",
+        "HANDICAPPED: I am continuing to move ahead as the CellPhone is still nearby.",
+        "LEADER: Handicapped, I am moving right to align myself. You are very close, please take another step ahead.",
+        "HANDICAPPED: Okay, moving ahead. The CellPhone is now very close.",
+        "LEADER: Handicapped, you are very close, likely within 1 meter. Please begin your search pattern. I am moving left to align.",
+        "HANDICAPPED: Okay, I am beginning the search pattern now.",
+        "LEADER: Handicapped, good. Continue with your search pattern. I will rotate to scan this nearby area.",
+        "HANDICAPPED: I am performing the first step of my search pattern and looking up.",
+        "LEADER: Handicapped, I am moving ahead, as my memory indicates the CellPhone is in this direction. Continue your search pattern.",
+        "HANDICAPPED: I am rotating right, continuing my search pattern after looking up.",
+        "LEADER: Handicapped, you see the CellPhone now, please stop the search pattern and move ahead.",
+        "HANDICAPPED: Okay, I see the CellPhone nearby and will move ahead to it, stopping my search.",
+        "LEADER: Handicapped, since I am horizontally aligned with the CellPhone, I am looking up to locate it.",
+        "HANDICAPPED: I am continuing to move ahead, as the CellPhone is very close now.",
+        "LEADER: Handicapped, I am moving ahead as the CellPhone is still visible. Please continue moving towards it.",
+        "HANDICAPPED: I am moving ahead again, the CellPhone is still visible and very close."
+      ]
+    },
+    {
+      "step": 8,
+      "task_id": 100,
+      "scene": "FloorPlan322",
+      "room_type": "bedroom",
+      "target_type": "CellPhone",
+      "goal_text": "Cooperatively navigate to the CellPhone.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "I am moving ahead again, the CellPhone is still visible and very close.",
+      "agent_position": {
+        "x": 1.75,
+        "y": 0.9017602801322937,
+        "z": 0.9999999403953552
+      },
+      "target_visible": false,
+      "target_distance": 0.9183892011642456,
+      "leader_memory_snapshot": [
+        "Leader saw CellPhone at distance 2.37 m near position x=0.75, z=-0.25.",
+        "Leader saw CellPhone at distance 2.18 m near position x=1.00, z=-0.25.",
+        "Leader saw CellPhone at distance 2.35 m near position x=1.00, z=-0.50.",
+        "Leader saw CellPhone at distance 2.35 m near position x=1.00, z=-0.50."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw CellPhone at distance 1.55 m near position x=1.25, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.33 m near position x=1.50, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.12 m near position x=1.75, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.12 m near position x=1.75, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.12 m near position x=1.75, z=0.50."
+      ],
+      "conversation_log": [
+        "LEADER: Handicapped, I calculate the CellPhone is to our front-right. I will move right. Please move ahead.",
+        "HANDICAPPED: I see the CellPhone a bit farther ahead and am moving towards it.",
+        "LEADER: Handicapped, the CellPhone is still ahead and to our right. I will move ahead. Please continue moving ahead.",
+        "HANDICAPPED: I am continuing to move ahead as the CellPhone is still nearby.",
+        "LEADER: Handicapped, I am moving right to align myself. You are very close, please take another step ahead.",
+        "HANDICAPPED: Okay, moving ahead. The CellPhone is now very close.",
+        "LEADER: Handicapped, you are very close, likely within 1 meter. Please begin your search pattern. I am moving left to align.",
+        "HANDICAPPED: Okay, I am beginning the search pattern now.",
+        "LEADER: Handicapped, good. Continue with your search pattern. I will rotate to scan this nearby area.",
+        "HANDICAPPED: I am performing the first step of my search pattern and looking up.",
+        "LEADER: Handicapped, I am moving ahead, as my memory indicates the CellPhone is in this direction. Continue your search pattern.",
+        "HANDICAPPED: I am rotating right, continuing my search pattern after looking up.",
+        "LEADER: Handicapped, you see the CellPhone now, please stop the search pattern and move ahead.",
+        "HANDICAPPED: Okay, I see the CellPhone nearby and will move ahead to it, stopping my search.",
+        "LEADER: Handicapped, since I am horizontally aligned with the CellPhone, I am looking up to locate it.",
+        "HANDICAPPED: I am continuing to move ahead, as the CellPhone is very close now.",
+        "LEADER: Handicapped, I am moving ahead as the CellPhone is still visible. Please continue moving towards it.",
+        "HANDICAPPED: I am moving ahead again, the CellPhone is still visible and very close."
+      ]
+    },
+    {
+      "step": 9,
+      "task_id": 100,
+      "scene": "FloorPlan322",
+      "room_type": "bedroom",
+      "target_type": "CellPhone",
+      "goal_text": "Cooperatively navigate to the CellPhone.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "Handicapped, I am moving ahead to close the distance. Please continue moving ahead, you are very close.",
+      "agent_position": {
+        "x": 1.0,
+        "y": 0.9017602801322937,
+        "z": -0.25000011920928955
+      },
+      "target_visible": true,
+      "target_distance": 2.17606520652771,
+      "leader_memory_snapshot": [
+        "Leader saw CellPhone at distance 2.37 m near position x=0.75, z=-0.25.",
+        "Leader saw CellPhone at distance 2.18 m near position x=1.00, z=-0.25.",
+        "Leader saw CellPhone at distance 2.35 m near position x=1.00, z=-0.50.",
+        "Leader saw CellPhone at distance 2.35 m near position x=1.00, z=-0.50.",
+        "Leader saw CellPhone at distance 2.18 m near position x=1.00, z=-0.25."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw CellPhone at distance 1.55 m near position x=1.25, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.33 m near position x=1.50, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.12 m near position x=1.75, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.12 m near position x=1.75, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.12 m near position x=1.75, z=0.50."
+      ],
+      "conversation_log": [
+        "LEADER: Handicapped, I calculate the CellPhone is to our front-right. I will move right. Please move ahead.",
+        "HANDICAPPED: I see the CellPhone a bit farther ahead and am moving towards it.",
+        "LEADER: Handicapped, the CellPhone is still ahead and to our right. I will move ahead. Please continue moving ahead.",
+        "HANDICAPPED: I am continuing to move ahead as the CellPhone is still nearby.",
+        "LEADER: Handicapped, I am moving right to align myself. You are very close, please take another step ahead.",
+        "HANDICAPPED: Okay, moving ahead. The CellPhone is now very close.",
+        "LEADER: Handicapped, you are very close, likely within 1 meter. Please begin your search pattern. I am moving left to align.",
+        "HANDICAPPED: Okay, I am beginning the search pattern now.",
+        "LEADER: Handicapped, good. Continue with your search pattern. I will rotate to scan this nearby area.",
+        "HANDICAPPED: I am performing the first step of my search pattern and looking up.",
+        "LEADER: Handicapped, I am moving ahead, as my memory indicates the CellPhone is in this direction. Continue your search pattern.",
+        "HANDICAPPED: I am rotating right, continuing my search pattern after looking up.",
+        "LEADER: Handicapped, you see the CellPhone now, please stop the search pattern and move ahead.",
+        "HANDICAPPED: Okay, I see the CellPhone nearby and will move ahead to it, stopping my search.",
+        "LEADER: Handicapped, since I am horizontally aligned with the CellPhone, I am looking up to locate it.",
+        "HANDICAPPED: I am continuing to move ahead, as the CellPhone is very close now.",
+        "LEADER: Handicapped, I am moving ahead as the CellPhone is still visible. Please continue moving towards it.",
+        "HANDICAPPED: I am moving ahead again, the CellPhone is still visible and very close.",
+        "LEADER: Handicapped, I am moving ahead to close the distance. Please continue moving ahead, you are very close.",
+        "HANDICAPPED: Okay, I am moving ahead again. The CellPhone is now extremely close."
+      ]
+    },
+    {
+      "step": 9,
+      "task_id": 100,
+      "scene": "FloorPlan322",
+      "room_type": "bedroom",
+      "target_type": "CellPhone",
+      "goal_text": "Cooperatively navigate to the CellPhone.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Okay, I am moving ahead again. The CellPhone is now extremely close.",
+      "agent_position": {
+        "x": 1.75,
+        "y": 0.9017602801322937,
+        "z": 1.25
+      },
+      "target_visible": false,
+      "target_distance": 0.906876802444458,
+      "leader_memory_snapshot": [
+        "Leader saw CellPhone at distance 2.37 m near position x=0.75, z=-0.25.",
+        "Leader saw CellPhone at distance 2.18 m near position x=1.00, z=-0.25.",
+        "Leader saw CellPhone at distance 2.35 m near position x=1.00, z=-0.50.",
+        "Leader saw CellPhone at distance 2.35 m near position x=1.00, z=-0.50.",
+        "Leader saw CellPhone at distance 2.18 m near position x=1.00, z=-0.25."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw CellPhone at distance 1.55 m near position x=1.25, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.33 m near position x=1.50, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.12 m near position x=1.75, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.12 m near position x=1.75, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.12 m near position x=1.75, z=0.50."
+      ],
+      "conversation_log": [
+        "LEADER: Handicapped, I calculate the CellPhone is to our front-right. I will move right. Please move ahead.",
+        "HANDICAPPED: I see the CellPhone a bit farther ahead and am moving towards it.",
+        "LEADER: Handicapped, the CellPhone is still ahead and to our right. I will move ahead. Please continue moving ahead.",
+        "HANDICAPPED: I am continuing to move ahead as the CellPhone is still nearby.",
+        "LEADER: Handicapped, I am moving right to align myself. You are very close, please take another step ahead.",
+        "HANDICAPPED: Okay, moving ahead. The CellPhone is now very close.",
+        "LEADER: Handicapped, you are very close, likely within 1 meter. Please begin your search pattern. I am moving left to align.",
+        "HANDICAPPED: Okay, I am beginning the search pattern now.",
+        "LEADER: Handicapped, good. Continue with your search pattern. I will rotate to scan this nearby area.",
+        "HANDICAPPED: I am performing the first step of my search pattern and looking up.",
+        "LEADER: Handicapped, I am moving ahead, as my memory indicates the CellPhone is in this direction. Continue your search pattern.",
+        "HANDICAPPED: I am rotating right, continuing my search pattern after looking up.",
+        "LEADER: Handicapped, you see the CellPhone now, please stop the search pattern and move ahead.",
+        "HANDICAPPED: Okay, I see the CellPhone nearby and will move ahead to it, stopping my search.",
+        "LEADER: Handicapped, since I am horizontally aligned with the CellPhone, I am looking up to locate it.",
+        "HANDICAPPED: I am continuing to move ahead, as the CellPhone is very close now.",
+        "LEADER: Handicapped, I am moving ahead as the CellPhone is still visible. Please continue moving towards it.",
+        "HANDICAPPED: I am moving ahead again, the CellPhone is still visible and very close.",
+        "LEADER: Handicapped, I am moving ahead to close the distance. Please continue moving ahead, you are very close.",
+        "HANDICAPPED: Okay, I am moving ahead again. The CellPhone is now extremely close."
+      ]
+    },
+    {
+      "step": 10,
+      "task_id": 100,
+      "scene": "FloorPlan322",
+      "room_type": "bedroom",
+      "target_type": "CellPhone",
+      "goal_text": "Cooperatively navigate to the CellPhone.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "Handicapped, you are extremely close now. Take one more step ahead to reach the CellPhone.",
+      "agent_position": {
+        "x": 1.0,
+        "y": 0.9017602801322937,
+        "z": -1.1920928955078125e-07
+      },
+      "target_visible": true,
+      "target_distance": 2.022188663482666,
+      "leader_memory_snapshot": [
+        "Leader saw CellPhone at distance 2.37 m near position x=0.75, z=-0.25.",
+        "Leader saw CellPhone at distance 2.18 m near position x=1.00, z=-0.25.",
+        "Leader saw CellPhone at distance 2.35 m near position x=1.00, z=-0.50.",
+        "Leader saw CellPhone at distance 2.35 m near position x=1.00, z=-0.50.",
+        "Leader saw CellPhone at distance 2.18 m near position x=1.00, z=-0.25.",
+        "Leader saw CellPhone at distance 2.02 m near position x=1.00, z=-0.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw CellPhone at distance 1.55 m near position x=1.25, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.33 m near position x=1.50, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.12 m near position x=1.75, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.12 m near position x=1.75, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.12 m near position x=1.75, z=0.50."
+      ],
+      "conversation_log": [
+        "LEADER: Handicapped, I calculate the CellPhone is to our front-right. I will move right. Please move ahead.",
+        "HANDICAPPED: I see the CellPhone a bit farther ahead and am moving towards it.",
+        "LEADER: Handicapped, the CellPhone is still ahead and to our right. I will move ahead. Please continue moving ahead.",
+        "HANDICAPPED: I am continuing to move ahead as the CellPhone is still nearby.",
+        "LEADER: Handicapped, I am moving right to align myself. You are very close, please take another step ahead.",
+        "HANDICAPPED: Okay, moving ahead. The CellPhone is now very close.",
+        "LEADER: Handicapped, you are very close, likely within 1 meter. Please begin your search pattern. I am moving left to align.",
+        "HANDICAPPED: Okay, I am beginning the search pattern now.",
+        "LEADER: Handicapped, good. Continue with your search pattern. I will rotate to scan this nearby area.",
+        "HANDICAPPED: I am performing the first step of my search pattern and looking up.",
+        "LEADER: Handicapped, I am moving ahead, as my memory indicates the CellPhone is in this direction. Continue your search pattern.",
+        "HANDICAPPED: I am rotating right, continuing my search pattern after looking up.",
+        "LEADER: Handicapped, you see the CellPhone now, please stop the search pattern and move ahead.",
+        "HANDICAPPED: Okay, I see the CellPhone nearby and will move ahead to it, stopping my search.",
+        "LEADER: Handicapped, since I am horizontally aligned with the CellPhone, I am looking up to locate it.",
+        "HANDICAPPED: I am continuing to move ahead, as the CellPhone is very close now.",
+        "LEADER: Handicapped, I am moving ahead as the CellPhone is still visible. Please continue moving towards it.",
+        "HANDICAPPED: I am moving ahead again, the CellPhone is still visible and very close.",
+        "LEADER: Handicapped, I am moving ahead to close the distance. Please continue moving ahead, you are very close.",
+        "HANDICAPPED: Okay, I am moving ahead again. The CellPhone is now extremely close.",
+        "LEADER: Handicapped, you are extremely close now. Take one more step ahead to reach the CellPhone.",
+        "HANDICAPPED: Okay, I am taking another step ahead to reach the CellPhone."
+      ]
+    },
+    {
+      "step": 10,
+      "task_id": 100,
+      "scene": "FloorPlan322",
+      "room_type": "bedroom",
+      "target_type": "CellPhone",
+      "goal_text": "Cooperatively navigate to the CellPhone.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Okay, I am taking another step ahead to reach the CellPhone.",
+      "agent_position": {
+        "x": 1.75,
+        "y": 0.9017602801322937,
+        "z": 1.5
+      },
+      "target_visible": false,
+      "target_distance": 0.9625031352043152,
+      "leader_memory_snapshot": [
+        "Leader saw CellPhone at distance 2.37 m near position x=0.75, z=-0.25.",
+        "Leader saw CellPhone at distance 2.18 m near position x=1.00, z=-0.25.",
+        "Leader saw CellPhone at distance 2.35 m near position x=1.00, z=-0.50.",
+        "Leader saw CellPhone at distance 2.35 m near position x=1.00, z=-0.50.",
+        "Leader saw CellPhone at distance 2.18 m near position x=1.00, z=-0.25.",
+        "Leader saw CellPhone at distance 2.02 m near position x=1.00, z=-0.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw CellPhone at distance 1.55 m near position x=1.25, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.33 m near position x=1.50, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.12 m near position x=1.75, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.12 m near position x=1.75, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.12 m near position x=1.75, z=0.50."
+      ],
+      "conversation_log": [
+        "LEADER: Handicapped, I calculate the CellPhone is to our front-right. I will move right. Please move ahead.",
+        "HANDICAPPED: I see the CellPhone a bit farther ahead and am moving towards it.",
+        "LEADER: Handicapped, the CellPhone is still ahead and to our right. I will move ahead. Please continue moving ahead.",
+        "HANDICAPPED: I am continuing to move ahead as the CellPhone is still nearby.",
+        "LEADER: Handicapped, I am moving right to align myself. You are very close, please take another step ahead.",
+        "HANDICAPPED: Okay, moving ahead. The CellPhone is now very close.",
+        "LEADER: Handicapped, you are very close, likely within 1 meter. Please begin your search pattern. I am moving left to align.",
+        "HANDICAPPED: Okay, I am beginning the search pattern now.",
+        "LEADER: Handicapped, good. Continue with your search pattern. I will rotate to scan this nearby area.",
+        "HANDICAPPED: I am performing the first step of my search pattern and looking up.",
+        "LEADER: Handicapped, I am moving ahead, as my memory indicates the CellPhone is in this direction. Continue your search pattern.",
+        "HANDICAPPED: I am rotating right, continuing my search pattern after looking up.",
+        "LEADER: Handicapped, you see the CellPhone now, please stop the search pattern and move ahead.",
+        "HANDICAPPED: Okay, I see the CellPhone nearby and will move ahead to it, stopping my search.",
+        "LEADER: Handicapped, since I am horizontally aligned with the CellPhone, I am looking up to locate it.",
+        "HANDICAPPED: I am continuing to move ahead, as the CellPhone is very close now.",
+        "LEADER: Handicapped, I am moving ahead as the CellPhone is still visible. Please continue moving towards it.",
+        "HANDICAPPED: I am moving ahead again, the CellPhone is still visible and very close.",
+        "LEADER: Handicapped, I am moving ahead to close the distance. Please continue moving ahead, you are very close.",
+        "HANDICAPPED: Okay, I am moving ahead again. The CellPhone is now extremely close.",
+        "LEADER: Handicapped, you are extremely close now. Take one more step ahead to reach the CellPhone.",
+        "HANDICAPPED: Okay, I am taking another step ahead to reach the CellPhone."
+      ]
+    },
+    {
+      "step": 11,
+      "task_id": 100,
+      "scene": "FloorPlan322",
+      "room_type": "bedroom",
+      "target_type": "CellPhone",
+      "goal_text": "Cooperatively navigate to the CellPhone.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "Handicapped, did you reach the CellPhone? Please confirm if you are done. I am continuing to move ahead.",
+      "agent_position": {
+        "x": 1.0,
+        "y": 0.9017602801322937,
+        "z": 0.24999988079071045
+      },
+      "target_visible": false,
+      "target_distance": 1.8889769315719604,
+      "leader_memory_snapshot": [
+        "Leader saw CellPhone at distance 2.37 m near position x=0.75, z=-0.25.",
+        "Leader saw CellPhone at distance 2.18 m near position x=1.00, z=-0.25.",
+        "Leader saw CellPhone at distance 2.35 m near position x=1.00, z=-0.50.",
+        "Leader saw CellPhone at distance 2.35 m near position x=1.00, z=-0.50.",
+        "Leader saw CellPhone at distance 2.18 m near position x=1.00, z=-0.25.",
+        "Leader saw CellPhone at distance 2.02 m near position x=1.00, z=-0.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw CellPhone at distance 1.55 m near position x=1.25, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.33 m near position x=1.50, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.12 m near position x=1.75, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.12 m near position x=1.75, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.12 m near position x=1.75, z=0.50."
+      ],
+      "conversation_log": [
+        "LEADER: Handicapped, I calculate the CellPhone is to our front-right. I will move right. Please move ahead.",
+        "HANDICAPPED: I see the CellPhone a bit farther ahead and am moving towards it.",
+        "LEADER: Handicapped, the CellPhone is still ahead and to our right. I will move ahead. Please continue moving ahead.",
+        "HANDICAPPED: I am continuing to move ahead as the CellPhone is still nearby.",
+        "LEADER: Handicapped, I am moving right to align myself. You are very close, please take another step ahead.",
+        "HANDICAPPED: Okay, moving ahead. The CellPhone is now very close.",
+        "LEADER: Handicapped, you are very close, likely within 1 meter. Please begin your search pattern. I am moving left to align.",
+        "HANDICAPPED: Okay, I am beginning the search pattern now.",
+        "LEADER: Handicapped, good. Continue with your search pattern. I will rotate to scan this nearby area.",
+        "HANDICAPPED: I am performing the first step of my search pattern and looking up.",
+        "LEADER: Handicapped, I am moving ahead, as my memory indicates the CellPhone is in this direction. Continue your search pattern.",
+        "HANDICAPPED: I am rotating right, continuing my search pattern after looking up.",
+        "LEADER: Handicapped, you see the CellPhone now, please stop the search pattern and move ahead.",
+        "HANDICAPPED: Okay, I see the CellPhone nearby and will move ahead to it, stopping my search.",
+        "LEADER: Handicapped, since I am horizontally aligned with the CellPhone, I am looking up to locate it.",
+        "HANDICAPPED: I am continuing to move ahead, as the CellPhone is very close now.",
+        "LEADER: Handicapped, I am moving ahead as the CellPhone is still visible. Please continue moving towards it.",
+        "HANDICAPPED: I am moving ahead again, the CellPhone is still visible and very close.",
+        "LEADER: Handicapped, I am moving ahead to close the distance. Please continue moving ahead, you are very close.",
+        "HANDICAPPED: Okay, I am moving ahead again. The CellPhone is now extremely close.",
+        "LEADER: Handicapped, you are extremely close now. Take one more step ahead to reach the CellPhone.",
+        "HANDICAPPED: Okay, I am taking another step ahead to reach the CellPhone.",
+        "LEADER: Handicapped, did you reach the CellPhone? Please confirm if you are done. I am continuing to move ahead.",
+        "HANDICAPPED: Yes, Leader, I have reached the CellPhone and am done."
+      ]
+    },
+    {
+      "step": 11,
+      "task_id": 100,
+      "scene": "FloorPlan322",
+      "room_type": "bedroom",
+      "target_type": "CellPhone",
+      "goal_text": "Cooperatively navigate to the CellPhone.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "Done",
+      "message": "Yes, Leader, I have reached the CellPhone and am done.",
+      "agent_position": {
+        "x": 1.75,
+        "y": 0.9017602801322937,
+        "z": 1.5
+      },
+      "target_visible": false,
+      "target_distance": 0.9625031352043152,
+      "leader_memory_snapshot": [
+        "Leader saw CellPhone at distance 2.37 m near position x=0.75, z=-0.25.",
+        "Leader saw CellPhone at distance 2.18 m near position x=1.00, z=-0.25.",
+        "Leader saw CellPhone at distance 2.35 m near position x=1.00, z=-0.50.",
+        "Leader saw CellPhone at distance 2.35 m near position x=1.00, z=-0.50.",
+        "Leader saw CellPhone at distance 2.18 m near position x=1.00, z=-0.25.",
+        "Leader saw CellPhone at distance 2.02 m near position x=1.00, z=-0.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw CellPhone at distance 1.55 m near position x=1.25, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.33 m near position x=1.50, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.12 m near position x=1.75, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.12 m near position x=1.75, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.12 m near position x=1.75, z=0.50."
+      ],
+      "conversation_log": [
+        "LEADER: Handicapped, I calculate the CellPhone is to our front-right. I will move right. Please move ahead.",
+        "HANDICAPPED: I see the CellPhone a bit farther ahead and am moving towards it.",
+        "LEADER: Handicapped, the CellPhone is still ahead and to our right. I will move ahead. Please continue moving ahead.",
+        "HANDICAPPED: I am continuing to move ahead as the CellPhone is still nearby.",
+        "LEADER: Handicapped, I am moving right to align myself. You are very close, please take another step ahead.",
+        "HANDICAPPED: Okay, moving ahead. The CellPhone is now very close.",
+        "LEADER: Handicapped, you are very close, likely within 1 meter. Please begin your search pattern. I am moving left to align.",
+        "HANDICAPPED: Okay, I am beginning the search pattern now.",
+        "LEADER: Handicapped, good. Continue with your search pattern. I will rotate to scan this nearby area.",
+        "HANDICAPPED: I am performing the first step of my search pattern and looking up.",
+        "LEADER: Handicapped, I am moving ahead, as my memory indicates the CellPhone is in this direction. Continue your search pattern.",
+        "HANDICAPPED: I am rotating right, continuing my search pattern after looking up.",
+        "LEADER: Handicapped, you see the CellPhone now, please stop the search pattern and move ahead.",
+        "HANDICAPPED: Okay, I see the CellPhone nearby and will move ahead to it, stopping my search.",
+        "LEADER: Handicapped, since I am horizontally aligned with the CellPhone, I am looking up to locate it.",
+        "HANDICAPPED: I am continuing to move ahead, as the CellPhone is very close now.",
+        "LEADER: Handicapped, I am moving ahead as the CellPhone is still visible. Please continue moving towards it.",
+        "HANDICAPPED: I am moving ahead again, the CellPhone is still visible and very close.",
+        "LEADER: Handicapped, I am moving ahead to close the distance. Please continue moving ahead, you are very close.",
+        "HANDICAPPED: Okay, I am moving ahead again. The CellPhone is now extremely close.",
+        "LEADER: Handicapped, you are extremely close now. Take one more step ahead to reach the CellPhone.",
+        "HANDICAPPED: Okay, I am taking another step ahead to reach the CellPhone.",
+        "LEADER: Handicapped, did you reach the CellPhone? Please confirm if you are done. I am continuing to move ahead.",
+        "HANDICAPPED: Yes, Leader, I have reached the CellPhone and am done."
+      ]
+    },
+    {
+      "step": 12,
+      "task_id": 100,
+      "scene": "FloorPlan322",
+      "room_type": "bedroom",
+      "target_type": "CellPhone",
+      "goal_text": "Cooperatively navigate to the CellPhone.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "Done",
+      "message": "Excellent, Handicapped! I will also mark the task as done.",
+      "agent_position": {
+        "x": 1.0,
+        "y": 0.9017602801322937,
+        "z": 0.49999988079071045
+      },
+      "target_visible": false,
+      "target_distance": 1.7810728549957275,
+      "leader_memory_snapshot": [
+        "Leader saw CellPhone at distance 2.37 m near position x=0.75, z=-0.25.",
+        "Leader saw CellPhone at distance 2.18 m near position x=1.00, z=-0.25.",
+        "Leader saw CellPhone at distance 2.35 m near position x=1.00, z=-0.50.",
+        "Leader saw CellPhone at distance 2.35 m near position x=1.00, z=-0.50.",
+        "Leader saw CellPhone at distance 2.18 m near position x=1.00, z=-0.25.",
+        "Leader saw CellPhone at distance 2.02 m near position x=1.00, z=-0.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw CellPhone at distance 1.55 m near position x=1.25, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.33 m near position x=1.50, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.12 m near position x=1.75, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.12 m near position x=1.75, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.12 m near position x=1.75, z=0.50."
+      ],
+      "conversation_log": [
+        "LEADER: Handicapped, I calculate the CellPhone is to our front-right. I will move right. Please move ahead.",
+        "HANDICAPPED: I see the CellPhone a bit farther ahead and am moving towards it.",
+        "LEADER: Handicapped, the CellPhone is still ahead and to our right. I will move ahead. Please continue moving ahead.",
+        "HANDICAPPED: I am continuing to move ahead as the CellPhone is still nearby.",
+        "LEADER: Handicapped, I am moving right to align myself. You are very close, please take another step ahead.",
+        "HANDICAPPED: Okay, moving ahead. The CellPhone is now very close.",
+        "LEADER: Handicapped, you are very close, likely within 1 meter. Please begin your search pattern. I am moving left to align.",
+        "HANDICAPPED: Okay, I am beginning the search pattern now.",
+        "LEADER: Handicapped, good. Continue with your search pattern. I will rotate to scan this nearby area.",
+        "HANDICAPPED: I am performing the first step of my search pattern and looking up.",
+        "LEADER: Handicapped, I am moving ahead, as my memory indicates the CellPhone is in this direction. Continue your search pattern.",
+        "HANDICAPPED: I am rotating right, continuing my search pattern after looking up.",
+        "LEADER: Handicapped, you see the CellPhone now, please stop the search pattern and move ahead.",
+        "HANDICAPPED: Okay, I see the CellPhone nearby and will move ahead to it, stopping my search.",
+        "LEADER: Handicapped, since I am horizontally aligned with the CellPhone, I am looking up to locate it.",
+        "HANDICAPPED: I am continuing to move ahead, as the CellPhone is very close now.",
+        "LEADER: Handicapped, I am moving ahead as the CellPhone is still visible. Please continue moving towards it.",
+        "HANDICAPPED: I am moving ahead again, the CellPhone is still visible and very close.",
+        "LEADER: Handicapped, I am moving ahead to close the distance. Please continue moving ahead, you are very close.",
+        "HANDICAPPED: Okay, I am moving ahead again. The CellPhone is now extremely close.",
+        "LEADER: Handicapped, you are extremely close now. Take one more step ahead to reach the CellPhone.",
+        "HANDICAPPED: Okay, I am taking another step ahead to reach the CellPhone.",
+        "LEADER: Handicapped, did you reach the CellPhone? Please confirm if you are done. I am continuing to move ahead.",
+        "HANDICAPPED: Yes, Leader, I have reached the CellPhone and am done.",
+        "LEADER: Excellent, Handicapped! I will also mark the task as done.",
+        "HANDICAPPED: Affirmative, Leader. I am done."
+      ]
+    },
+    {
+      "step": 12,
+      "task_id": 100,
+      "scene": "FloorPlan322",
+      "room_type": "bedroom",
+      "target_type": "CellPhone",
+      "goal_text": "Cooperatively navigate to the CellPhone.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "Done",
+      "message": "Affirmative, Leader. I am done.",
+      "agent_position": {
+        "x": 1.75,
+        "y": 0.9017602801322937,
+        "z": 1.5
+      },
+      "target_visible": false,
+      "target_distance": 0.9625031352043152,
+      "leader_memory_snapshot": [
+        "Leader saw CellPhone at distance 2.37 m near position x=0.75, z=-0.25.",
+        "Leader saw CellPhone at distance 2.18 m near position x=1.00, z=-0.25.",
+        "Leader saw CellPhone at distance 2.35 m near position x=1.00, z=-0.50.",
+        "Leader saw CellPhone at distance 2.35 m near position x=1.00, z=-0.50.",
+        "Leader saw CellPhone at distance 2.18 m near position x=1.00, z=-0.25.",
+        "Leader saw CellPhone at distance 2.02 m near position x=1.00, z=-0.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw CellPhone at distance 1.55 m near position x=1.25, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.33 m near position x=1.50, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.12 m near position x=1.75, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.12 m near position x=1.75, z=0.50.",
+        "Handicapped saw CellPhone at distance 1.12 m near position x=1.75, z=0.50."
+      ],
+      "conversation_log": [
+        "LEADER: Handicapped, I calculate the CellPhone is to our front-right. I will move right. Please move ahead.",
+        "HANDICAPPED: I see the CellPhone a bit farther ahead and am moving towards it.",
+        "LEADER: Handicapped, the CellPhone is still ahead and to our right. I will move ahead. Please continue moving ahead.",
+        "HANDICAPPED: I am continuing to move ahead as the CellPhone is still nearby.",
+        "LEADER: Handicapped, I am moving right to align myself. You are very close, please take another step ahead.",
+        "HANDICAPPED: Okay, moving ahead. The CellPhone is now very close.",
+        "LEADER: Handicapped, you are very close, likely within 1 meter. Please begin your search pattern. I am moving left to align.",
+        "HANDICAPPED: Okay, I am beginning the search pattern now.",
+        "LEADER: Handicapped, good. Continue with your search pattern. I will rotate to scan this nearby area.",
+        "HANDICAPPED: I am performing the first step of my search pattern and looking up.",
+        "LEADER: Handicapped, I am moving ahead, as my memory indicates the CellPhone is in this direction. Continue your search pattern.",
+        "HANDICAPPED: I am rotating right, continuing my search pattern after looking up.",
+        "LEADER: Handicapped, you see the CellPhone now, please stop the search pattern and move ahead.",
+        "HANDICAPPED: Okay, I see the CellPhone nearby and will move ahead to it, stopping my search.",
+        "LEADER: Handicapped, since I am horizontally aligned with the CellPhone, I am looking up to locate it.",
+        "HANDICAPPED: I am continuing to move ahead, as the CellPhone is very close now.",
+        "LEADER: Handicapped, I am moving ahead as the CellPhone is still visible. Please continue moving towards it.",
+        "HANDICAPPED: I am moving ahead again, the CellPhone is still visible and very close.",
+        "LEADER: Handicapped, I am moving ahead to close the distance. Please continue moving ahead, you are very close.",
+        "HANDICAPPED: Okay, I am moving ahead again. The CellPhone is now extremely close.",
+        "LEADER: Handicapped, you are extremely close now. Take one more step ahead to reach the CellPhone.",
+        "HANDICAPPED: Okay, I am taking another step ahead to reach the CellPhone.",
+        "LEADER: Handicapped, did you reach the CellPhone? Please confirm if you are done. I am continuing to move ahead.",
+        "HANDICAPPED: Yes, Leader, I have reached the CellPhone and am done.",
+        "LEADER: Excellent, Handicapped! I will also mark the task as done.",
+        "HANDICAPPED: Affirmative, Leader. I am done."
+      ]
+    }
+  ]
+}

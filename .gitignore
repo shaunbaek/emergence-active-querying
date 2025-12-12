@@ -29,3 +29,51 @@ build/
 # OS
 .DS_Store
 Thumbs.db
+
+# ============================================================================
+# ANALYSIS CODE AND PROCESSED RESULTS (NOT PUBLISHED)
+# ============================================================================
+
+# Analysis scripts (not needed to run experiments)
+compute_paper_metrics.py
+compute_ablation_metrics.py
+policy_analysis.py
+combine_logs.py
+run_partial_two_agent.py
+run_failed_two_agent.py
+analyze_failed_tasks.py
+tasks_custom_100.py
+
+# Combined/processed logs (not raw data)
+logs/combined_*.json
+
+# Analysis results
+failed_task_ids.json
+ablation_study_results.json
+ABLATION_STUDY_SUMMARY.md
+
+# Unused task definitions (different task set not used in experiments)
+tasks_baseline_100.json
+tasks_custom_100.json
+
+# Old/duplicate baseline directory (different task set)
+logs/baseline-baseline100/
+
+# ============================================================================
+# PUBLISHED WITH PAPER:
+# ============================================================================
+# Core experiment code:
+#   - env.py, policy.py, loop.py, tasks_utils.py
+#   - run_all_experiments.sh
+#   - requirements.txt, .env.example, README.md
+#
+# Task definition (used for all experiments):
+#   - tasks_full_100.json
+#
+# Raw results (300 individual task logs):
+#   - logs/baseline/task_*.json (100 files)
+#   - logs/handicapped/task_*.json (100 files)
+#   - logs/two_agent/task_*.json (100 files)
+#
+# Note: logs/two_agent_failed/ contains ablation study (91 files)
+# which can be optionally included or excluded based on paper scope

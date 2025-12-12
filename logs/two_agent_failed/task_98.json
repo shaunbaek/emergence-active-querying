@@ -1,0 +1,600 @@
+{
+  "task_meta": {
+    "task_id": 98,
+    "scene": "FloorPlan405",
+    "room_type": "bathroom",
+    "target_type": "TowelHolder",
+    "goal_text": "Navigate to the TowelHolder."
+  },
+  "episode_time_sec": 70.74817695899401,
+  "steps": [
+    {
+      "step": 0,
+      "task_id": 98,
+      "scene": "FloorPlan405",
+      "room_type": "bathroom",
+      "target_type": "TowelHolder",
+      "goal_text": "Cooperatively navigate to the TowelHolder.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "Move ahead. I see the TowelHolder directly in front of me at 2 meters.",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.9048510789871216,
+        "z": 0.0
+      },
+      "target_visible": true,
+      "target_distance": 2.0041232109069824,
+      "leader_memory_snapshot": [
+        "Leader saw TowelHolder at distance 2.00 m near position x=-2.00, z=0.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw TowelHolder at distance 2.46 m near position x=-1.50, z=-0.50."
+      ],
+      "conversation_log": [
+        "LEADER: Move ahead. I see the TowelHolder directly in front of me at 2 meters.",
+        "HANDICAPPED: Moving ahead. I don't see the TowelHolder, but I will follow your lead."
+      ]
+    },
+    {
+      "step": 0,
+      "task_id": 98,
+      "scene": "FloorPlan405",
+      "room_type": "bathroom",
+      "target_type": "TowelHolder",
+      "goal_text": "Cooperatively navigate to the TowelHolder.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Moving ahead. I don't see the TowelHolder, but I will follow your lead.",
+      "agent_position": {
+        "x": -1.5,
+        "y": 0.9048510789871216,
+        "z": -0.5
+      },
+      "target_visible": true,
+      "target_distance": 2.4574472904205322,
+      "leader_memory_snapshot": [
+        "Leader saw TowelHolder at distance 2.00 m near position x=-2.00, z=0.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw TowelHolder at distance 2.46 m near position x=-1.50, z=-0.50."
+      ],
+      "conversation_log": [
+        "LEADER: Move ahead. I see the TowelHolder directly in front of me at 2 meters.",
+        "HANDICAPPED: Moving ahead. I don't see the TowelHolder, but I will follow your lead."
+      ]
+    },
+    {
+      "step": 1,
+      "task_id": 98,
+      "scene": "FloorPlan405",
+      "room_type": "bathroom",
+      "target_type": "TowelHolder",
+      "goal_text": "Cooperatively navigate to the TowelHolder.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "Continue moving ahead. The TowelHolder is now at 1.77 meters.",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.9048510789871216,
+        "z": 0.25
+      },
+      "target_visible": true,
+      "target_distance": 1.7678351402282715,
+      "leader_memory_snapshot": [
+        "Leader saw TowelHolder at distance 2.00 m near position x=-2.00, z=0.00.",
+        "Leader saw TowelHolder at distance 1.77 m near position x=-2.00, z=0.25."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw TowelHolder at distance 2.46 m near position x=-1.50, z=-0.50.",
+        "Handicapped saw TowelHolder at distance 2.46 m near position x=-1.50, z=-0.50."
+      ],
+      "conversation_log": [
+        "LEADER: Move ahead. I see the TowelHolder directly in front of me at 2 meters.",
+        "HANDICAPPED: Moving ahead. I don't see the TowelHolder, but I will follow your lead.",
+        "LEADER: Continue moving ahead. The TowelHolder is now at 1.77 meters.",
+        "HANDICAPPED: Moving ahead with you."
+      ]
+    },
+    {
+      "step": 1,
+      "task_id": 98,
+      "scene": "FloorPlan405",
+      "room_type": "bathroom",
+      "target_type": "TowelHolder",
+      "goal_text": "Cooperatively navigate to the TowelHolder.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Moving ahead with you.",
+      "agent_position": {
+        "x": -1.5,
+        "y": 0.9048510789871216,
+        "z": -0.5
+      },
+      "target_visible": true,
+      "target_distance": 2.4574472904205322,
+      "leader_memory_snapshot": [
+        "Leader saw TowelHolder at distance 2.00 m near position x=-2.00, z=0.00.",
+        "Leader saw TowelHolder at distance 1.77 m near position x=-2.00, z=0.25."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw TowelHolder at distance 2.46 m near position x=-1.50, z=-0.50.",
+        "Handicapped saw TowelHolder at distance 2.46 m near position x=-1.50, z=-0.50."
+      ],
+      "conversation_log": [
+        "LEADER: Move ahead. I see the TowelHolder directly in front of me at 2 meters.",
+        "HANDICAPPED: Moving ahead. I don't see the TowelHolder, but I will follow your lead.",
+        "LEADER: Continue moving ahead. The TowelHolder is now at 1.77 meters.",
+        "HANDICAPPED: Moving ahead with you."
+      ]
+    },
+    {
+      "step": 2,
+      "task_id": 98,
+      "scene": "FloorPlan405",
+      "room_type": "bathroom",
+      "target_type": "TowelHolder",
+      "goal_text": "Cooperatively navigate to the TowelHolder.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "Keep moving ahead. The TowelHolder is now at 1.29 meters.",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.9048510789871216,
+        "z": 0.5
+      },
+      "target_visible": true,
+      "target_distance": 1.535894513130188,
+      "leader_memory_snapshot": [
+        "Leader saw TowelHolder at distance 2.00 m near position x=-2.00, z=0.00.",
+        "Leader saw TowelHolder at distance 1.77 m near position x=-2.00, z=0.25.",
+        "Leader saw TowelHolder at distance 1.54 m near position x=-2.00, z=0.50."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw TowelHolder at distance 2.46 m near position x=-1.50, z=-0.50.",
+        "Handicapped saw TowelHolder at distance 2.46 m near position x=-1.50, z=-0.50.",
+        "Handicapped saw TowelHolder at distance 2.46 m near position x=-1.50, z=-0.50."
+      ],
+      "conversation_log": [
+        "LEADER: Move ahead. I see the TowelHolder directly in front of me at 2 meters.",
+        "HANDICAPPED: Moving ahead. I don't see the TowelHolder, but I will follow your lead.",
+        "LEADER: Continue moving ahead. The TowelHolder is now at 1.77 meters.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Keep moving ahead. The TowelHolder is now at 1.29 meters.",
+        "HANDICAPPED: Moving ahead with you. I still don't see it."
+      ]
+    },
+    {
+      "step": 2,
+      "task_id": 98,
+      "scene": "FloorPlan405",
+      "room_type": "bathroom",
+      "target_type": "TowelHolder",
+      "goal_text": "Cooperatively navigate to the TowelHolder.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Moving ahead with you. I still don't see it.",
+      "agent_position": {
+        "x": -1.5,
+        "y": 0.9048510789871216,
+        "z": -0.5
+      },
+      "target_visible": true,
+      "target_distance": 2.4574472904205322,
+      "leader_memory_snapshot": [
+        "Leader saw TowelHolder at distance 2.00 m near position x=-2.00, z=0.00.",
+        "Leader saw TowelHolder at distance 1.77 m near position x=-2.00, z=0.25.",
+        "Leader saw TowelHolder at distance 1.54 m near position x=-2.00, z=0.50."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw TowelHolder at distance 2.46 m near position x=-1.50, z=-0.50.",
+        "Handicapped saw TowelHolder at distance 2.46 m near position x=-1.50, z=-0.50.",
+        "Handicapped saw TowelHolder at distance 2.46 m near position x=-1.50, z=-0.50."
+      ],
+      "conversation_log": [
+        "LEADER: Move ahead. I see the TowelHolder directly in front of me at 2 meters.",
+        "HANDICAPPED: Moving ahead. I don't see the TowelHolder, but I will follow your lead.",
+        "LEADER: Continue moving ahead. The TowelHolder is now at 1.77 meters.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Keep moving ahead. The TowelHolder is now at 1.29 meters.",
+        "HANDICAPPED: Moving ahead with you. I still don't see it."
+      ]
+    },
+    {
+      "step": 3,
+      "task_id": 98,
+      "scene": "FloorPlan405",
+      "room_type": "bathroom",
+      "target_type": "TowelHolder",
+      "goal_text": "Cooperatively navigate to the TowelHolder.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "Keep moving ahead. The TowelHolder is now at 1.06 meters.",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.9048510789871216,
+        "z": 0.75
+      },
+      "target_visible": true,
+      "target_distance": 1.3106117248535156,
+      "leader_memory_snapshot": [
+        "Leader saw TowelHolder at distance 2.00 m near position x=-2.00, z=0.00.",
+        "Leader saw TowelHolder at distance 1.77 m near position x=-2.00, z=0.25.",
+        "Leader saw TowelHolder at distance 1.54 m near position x=-2.00, z=0.50.",
+        "Leader saw TowelHolder at distance 1.31 m near position x=-2.00, z=0.75."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw TowelHolder at distance 2.46 m near position x=-1.50, z=-0.50.",
+        "Handicapped saw TowelHolder at distance 2.46 m near position x=-1.50, z=-0.50.",
+        "Handicapped saw TowelHolder at distance 2.46 m near position x=-1.50, z=-0.50.",
+        "Handicapped saw TowelHolder at distance 2.46 m near position x=-1.50, z=-0.50."
+      ],
+      "conversation_log": [
+        "LEADER: Move ahead. I see the TowelHolder directly in front of me at 2 meters.",
+        "HANDICAPPED: Moving ahead. I don't see the TowelHolder, but I will follow your lead.",
+        "LEADER: Continue moving ahead. The TowelHolder is now at 1.77 meters.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Keep moving ahead. The TowelHolder is now at 1.29 meters.",
+        "HANDICAPPED: Moving ahead with you. I still don't see it.",
+        "LEADER: Keep moving ahead. The TowelHolder is now at 1.06 meters.",
+        "HANDICAPPED: Moving ahead with you. I still don't see it."
+      ]
+    },
+    {
+      "step": 3,
+      "task_id": 98,
+      "scene": "FloorPlan405",
+      "room_type": "bathroom",
+      "target_type": "TowelHolder",
+      "goal_text": "Cooperatively navigate to the TowelHolder.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Moving ahead with you. I still don't see it.",
+      "agent_position": {
+        "x": -1.5,
+        "y": 0.9048510789871216,
+        "z": -0.5
+      },
+      "target_visible": true,
+      "target_distance": 2.4574472904205322,
+      "leader_memory_snapshot": [
+        "Leader saw TowelHolder at distance 2.00 m near position x=-2.00, z=0.00.",
+        "Leader saw TowelHolder at distance 1.77 m near position x=-2.00, z=0.25.",
+        "Leader saw TowelHolder at distance 1.54 m near position x=-2.00, z=0.50.",
+        "Leader saw TowelHolder at distance 1.31 m near position x=-2.00, z=0.75."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw TowelHolder at distance 2.46 m near position x=-1.50, z=-0.50.",
+        "Handicapped saw TowelHolder at distance 2.46 m near position x=-1.50, z=-0.50.",
+        "Handicapped saw TowelHolder at distance 2.46 m near position x=-1.50, z=-0.50.",
+        "Handicapped saw TowelHolder at distance 2.46 m near position x=-1.50, z=-0.50."
+      ],
+      "conversation_log": [
+        "LEADER: Move ahead. I see the TowelHolder directly in front of me at 2 meters.",
+        "HANDICAPPED: Moving ahead. I don't see the TowelHolder, but I will follow your lead.",
+        "LEADER: Continue moving ahead. The TowelHolder is now at 1.77 meters.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Keep moving ahead. The TowelHolder is now at 1.29 meters.",
+        "HANDICAPPED: Moving ahead with you. I still don't see it.",
+        "LEADER: Keep moving ahead. The TowelHolder is now at 1.06 meters.",
+        "HANDICAPPED: Moving ahead with you. I still don't see it."
+      ]
+    },
+    {
+      "step": 4,
+      "task_id": 98,
+      "scene": "FloorPlan405",
+      "room_type": "bathroom",
+      "target_type": "TowelHolder",
+      "goal_text": "Cooperatively navigate to the TowelHolder.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveRight",
+      "message": "MoveRight. We overshot the TowelHolder a bit with the last step. It is 1.10 meters away, I'm adjusting our position.",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.9048510789871216,
+        "z": 1.0
+      },
+      "target_visible": true,
+      "target_distance": 1.0960993766784668,
+      "leader_memory_snapshot": [
+        "Leader saw TowelHolder at distance 2.00 m near position x=-2.00, z=0.00.",
+        "Leader saw TowelHolder at distance 1.77 m near position x=-2.00, z=0.25.",
+        "Leader saw TowelHolder at distance 1.54 m near position x=-2.00, z=0.50.",
+        "Leader saw TowelHolder at distance 1.31 m near position x=-2.00, z=0.75.",
+        "Leader saw TowelHolder at distance 1.10 m near position x=-2.00, z=1.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw TowelHolder at distance 2.46 m near position x=-1.50, z=-0.50.",
+        "Handicapped saw TowelHolder at distance 2.46 m near position x=-1.50, z=-0.50.",
+        "Handicapped saw TowelHolder at distance 2.46 m near position x=-1.50, z=-0.50.",
+        "Handicapped saw TowelHolder at distance 2.46 m near position x=-1.50, z=-0.50.",
+        "Handicapped saw TowelHolder at distance 2.46 m near position x=-1.50, z=-0.50."
+      ],
+      "conversation_log": [
+        "LEADER: Move ahead. I see the TowelHolder directly in front of me at 2 meters.",
+        "HANDICAPPED: Moving ahead. I don't see the TowelHolder, but I will follow your lead.",
+        "LEADER: Continue moving ahead. The TowelHolder is now at 1.77 meters.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Keep moving ahead. The TowelHolder is now at 1.29 meters.",
+        "HANDICAPPED: Moving ahead with you. I still don't see it.",
+        "LEADER: Keep moving ahead. The TowelHolder is now at 1.06 meters.",
+        "HANDICAPPED: Moving ahead with you. I still don't see it.",
+        "LEADER: MoveRight. We overshot the TowelHolder a bit with the last step. It is 1.10 meters away, I'm adjusting our position.",
+        "HANDICAPPED: Moving right with you."
+      ]
+    },
+    {
+      "step": 4,
+      "task_id": 98,
+      "scene": "FloorPlan405",
+      "room_type": "bathroom",
+      "target_type": "TowelHolder",
+      "goal_text": "Cooperatively navigate to the TowelHolder.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveRight",
+      "message": "Moving right with you.",
+      "agent_position": {
+        "x": -1.5,
+        "y": 0.9048510789871216,
+        "z": -0.5
+      },
+      "target_visible": true,
+      "target_distance": 2.4574472904205322,
+      "leader_memory_snapshot": [
+        "Leader saw TowelHolder at distance 2.00 m near position x=-2.00, z=0.00.",
+        "Leader saw TowelHolder at distance 1.77 m near position x=-2.00, z=0.25.",
+        "Leader saw TowelHolder at distance 1.54 m near position x=-2.00, z=0.50.",
+        "Leader saw TowelHolder at distance 1.31 m near position x=-2.00, z=0.75.",
+        "Leader saw TowelHolder at distance 1.10 m near position x=-2.00, z=1.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw TowelHolder at distance 2.46 m near position x=-1.50, z=-0.50.",
+        "Handicapped saw TowelHolder at distance 2.46 m near position x=-1.50, z=-0.50.",
+        "Handicapped saw TowelHolder at distance 2.46 m near position x=-1.50, z=-0.50.",
+        "Handicapped saw TowelHolder at distance 2.46 m near position x=-1.50, z=-0.50.",
+        "Handicapped saw TowelHolder at distance 2.46 m near position x=-1.50, z=-0.50."
+      ],
+      "conversation_log": [
+        "LEADER: Move ahead. I see the TowelHolder directly in front of me at 2 meters.",
+        "HANDICAPPED: Moving ahead. I don't see the TowelHolder, but I will follow your lead.",
+        "LEADER: Continue moving ahead. The TowelHolder is now at 1.77 meters.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Keep moving ahead. The TowelHolder is now at 1.29 meters.",
+        "HANDICAPPED: Moving ahead with you. I still don't see it.",
+        "LEADER: Keep moving ahead. The TowelHolder is now at 1.06 meters.",
+        "HANDICAPPED: Moving ahead with you. I still don't see it.",
+        "LEADER: MoveRight. We overshot the TowelHolder a bit with the last step. It is 1.10 meters away, I'm adjusting our position.",
+        "HANDICAPPED: Moving right with you."
+      ]
+    },
+    {
+      "step": 5,
+      "task_id": 98,
+      "scene": "FloorPlan405",
+      "room_type": "bathroom",
+      "target_type": "TowelHolder",
+      "goal_text": "Cooperatively navigate to the TowelHolder.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveRight",
+      "message": "Continue moving right. The TowelHolder is 1.04 meters away, let's get closer.",
+      "agent_position": {
+        "x": -1.75,
+        "y": 0.9048510789871216,
+        "z": 1.0
+      },
+      "target_visible": true,
+      "target_distance": 1.0351009368896484,
+      "leader_memory_snapshot": [
+        "Leader saw TowelHolder at distance 2.00 m near position x=-2.00, z=0.00.",
+        "Leader saw TowelHolder at distance 1.77 m near position x=-2.00, z=0.25.",
+        "Leader saw TowelHolder at distance 1.54 m near position x=-2.00, z=0.50.",
+        "Leader saw TowelHolder at distance 1.31 m near position x=-2.00, z=0.75.",
+        "Leader saw TowelHolder at distance 1.10 m near position x=-2.00, z=1.00.",
+        "Leader saw TowelHolder at distance 1.04 m near position x=-1.75, z=1.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw TowelHolder at distance 2.46 m near position x=-1.50, z=-0.50.",
+        "Handicapped saw TowelHolder at distance 2.46 m near position x=-1.50, z=-0.50.",
+        "Handicapped saw TowelHolder at distance 2.46 m near position x=-1.50, z=-0.50.",
+        "Handicapped saw TowelHolder at distance 2.46 m near position x=-1.50, z=-0.50.",
+        "Handicapped saw TowelHolder at distance 2.46 m near position x=-1.50, z=-0.50.",
+        "Handicapped saw TowelHolder at distance 2.46 m near position x=-1.50, z=-0.50."
+      ],
+      "conversation_log": [
+        "LEADER: Move ahead. I see the TowelHolder directly in front of me at 2 meters.",
+        "HANDICAPPED: Moving ahead. I don't see the TowelHolder, but I will follow your lead.",
+        "LEADER: Continue moving ahead. The TowelHolder is now at 1.77 meters.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Keep moving ahead. The TowelHolder is now at 1.29 meters.",
+        "HANDICAPPED: Moving ahead with you. I still don't see it.",
+        "LEADER: Keep moving ahead. The TowelHolder is now at 1.06 meters.",
+        "HANDICAPPED: Moving ahead with you. I still don't see it.",
+        "LEADER: MoveRight. We overshot the TowelHolder a bit with the last step. It is 1.10 meters away, I'm adjusting our position.",
+        "HANDICAPPED: Moving right with you.",
+        "LEADER: Continue moving right. The TowelHolder is 1.04 meters away, let's get closer.",
+        "HANDICAPPED: Moving right with you. I still don't see it."
+      ]
+    },
+    {
+      "step": 5,
+      "task_id": 98,
+      "scene": "FloorPlan405",
+      "room_type": "bathroom",
+      "target_type": "TowelHolder",
+      "goal_text": "Cooperatively navigate to the TowelHolder.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveRight",
+      "message": "Moving right with you. I still don't see it.",
+      "agent_position": {
+        "x": -1.5,
+        "y": 0.9048510789871216,
+        "z": -0.5
+      },
+      "target_visible": true,
+      "target_distance": 2.4574472904205322,
+      "leader_memory_snapshot": [
+        "Leader saw TowelHolder at distance 2.00 m near position x=-2.00, z=0.00.",
+        "Leader saw TowelHolder at distance 1.77 m near position x=-2.00, z=0.25.",
+        "Leader saw TowelHolder at distance 1.54 m near position x=-2.00, z=0.50.",
+        "Leader saw TowelHolder at distance 1.31 m near position x=-2.00, z=0.75.",
+        "Leader saw TowelHolder at distance 1.10 m near position x=-2.00, z=1.00.",
+        "Leader saw TowelHolder at distance 1.04 m near position x=-1.75, z=1.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw TowelHolder at distance 2.46 m near position x=-1.50, z=-0.50.",
+        "Handicapped saw TowelHolder at distance 2.46 m near position x=-1.50, z=-0.50.",
+        "Handicapped saw TowelHolder at distance 2.46 m near position x=-1.50, z=-0.50.",
+        "Handicapped saw TowelHolder at distance 2.46 m near position x=-1.50, z=-0.50.",
+        "Handicapped saw TowelHolder at distance 2.46 m near position x=-1.50, z=-0.50.",
+        "Handicapped saw TowelHolder at distance 2.46 m near position x=-1.50, z=-0.50."
+      ],
+      "conversation_log": [
+        "LEADER: Move ahead. I see the TowelHolder directly in front of me at 2 meters.",
+        "HANDICAPPED: Moving ahead. I don't see the TowelHolder, but I will follow your lead.",
+        "LEADER: Continue moving ahead. The TowelHolder is now at 1.77 meters.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Keep moving ahead. The TowelHolder is now at 1.29 meters.",
+        "HANDICAPPED: Moving ahead with you. I still don't see it.",
+        "LEADER: Keep moving ahead. The TowelHolder is now at 1.06 meters.",
+        "HANDICAPPED: Moving ahead with you. I still don't see it.",
+        "LEADER: MoveRight. We overshot the TowelHolder a bit with the last step. It is 1.10 meters away, I'm adjusting our position.",
+        "HANDICAPPED: Moving right with you.",
+        "LEADER: Continue moving right. The TowelHolder is 1.04 meters away, let's get closer.",
+        "HANDICAPPED: Moving right with you. I still don't see it."
+      ]
+    },
+    {
+      "step": 6,
+      "task_id": 98,
+      "scene": "FloorPlan405",
+      "room_type": "bathroom",
+      "target_type": "TowelHolder",
+      "goal_text": "Cooperatively navigate to the TowelHolder.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "Done",
+      "message": "I have found the TowelHolder, it is 1.03 meters away and right in front of me. We are done.",
+      "agent_position": {
+        "x": -1.5,
+        "y": 0.9048510789871216,
+        "z": 1.0
+      },
+      "target_visible": true,
+      "target_distance": 1.0326828956604004,
+      "leader_memory_snapshot": [
+        "Leader saw TowelHolder at distance 2.00 m near position x=-2.00, z=0.00.",
+        "Leader saw TowelHolder at distance 1.77 m near position x=-2.00, z=0.25.",
+        "Leader saw TowelHolder at distance 1.54 m near position x=-2.00, z=0.50.",
+        "Leader saw TowelHolder at distance 1.31 m near position x=-2.00, z=0.75.",
+        "Leader saw TowelHolder at distance 1.10 m near position x=-2.00, z=1.00.",
+        "Leader saw TowelHolder at distance 1.04 m near position x=-1.75, z=1.00.",
+        "Leader saw TowelHolder at distance 1.03 m near position x=-1.50, z=1.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw TowelHolder at distance 2.46 m near position x=-1.50, z=-0.50.",
+        "Handicapped saw TowelHolder at distance 2.46 m near position x=-1.50, z=-0.50.",
+        "Handicapped saw TowelHolder at distance 2.46 m near position x=-1.50, z=-0.50.",
+        "Handicapped saw TowelHolder at distance 2.46 m near position x=-1.50, z=-0.50.",
+        "Handicapped saw TowelHolder at distance 2.46 m near position x=-1.50, z=-0.50.",
+        "Handicapped saw TowelHolder at distance 2.46 m near position x=-1.50, z=-0.50.",
+        "Handicapped saw TowelHolder at distance 2.46 m near position x=-1.50, z=-0.50."
+      ],
+      "conversation_log": [
+        "LEADER: Move ahead. I see the TowelHolder directly in front of me at 2 meters.",
+        "HANDICAPPED: Moving ahead. I don't see the TowelHolder, but I will follow your lead.",
+        "LEADER: Continue moving ahead. The TowelHolder is now at 1.77 meters.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Keep moving ahead. The TowelHolder is now at 1.29 meters.",
+        "HANDICAPPED: Moving ahead with you. I still don't see it.",
+        "LEADER: Keep moving ahead. The TowelHolder is now at 1.06 meters.",
+        "HANDICAPPED: Moving ahead with you. I still don't see it.",
+        "LEADER: MoveRight. We overshot the TowelHolder a bit with the last step. It is 1.10 meters away, I'm adjusting our position.",
+        "HANDICAPPED: Moving right with you.",
+        "LEADER: Continue moving right. The TowelHolder is 1.04 meters away, let's get closer.",
+        "HANDICAPPED: Moving right with you. I still don't see it.",
+        "LEADER: I have found the TowelHolder, it is 1.03 meters away and right in front of me. We are done.",
+        "HANDICAPPED: Understood, stopping now. I trust your perception."
+      ]
+    },
+    {
+      "step": 6,
+      "task_id": 98,
+      "scene": "FloorPlan405",
+      "room_type": "bathroom",
+      "target_type": "TowelHolder",
+      "goal_text": "Cooperatively navigate to the TowelHolder.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "Done",
+      "message": "Understood, stopping now. I trust your perception.",
+      "agent_position": {
+        "x": -1.5,
+        "y": 0.9048510789871216,
+        "z": -0.5
+      },
+      "target_visible": true,
+      "target_distance": 2.4574472904205322,
+      "leader_memory_snapshot": [
+        "Leader saw TowelHolder at distance 2.00 m near position x=-2.00, z=0.00.",
+        "Leader saw TowelHolder at distance 1.77 m near position x=-2.00, z=0.25.",
+        "Leader saw TowelHolder at distance 1.54 m near position x=-2.00, z=0.50.",
+        "Leader saw TowelHolder at distance 1.31 m near position x=-2.00, z=0.75.",
+        "Leader saw TowelHolder at distance 1.10 m near position x=-2.00, z=1.00.",
+        "Leader saw TowelHolder at distance 1.04 m near position x=-1.75, z=1.00.",
+        "Leader saw TowelHolder at distance 1.03 m near position x=-1.50, z=1.00."
+      ],
+      "handicapped_memory_snapshot": [
+        "Handicapped saw TowelHolder at distance 2.46 m near position x=-1.50, z=-0.50.",
+        "Handicapped saw TowelHolder at distance 2.46 m near position x=-1.50, z=-0.50.",
+        "Handicapped saw TowelHolder at distance 2.46 m near position x=-1.50, z=-0.50.",
+        "Handicapped saw TowelHolder at distance 2.46 m near position x=-1.50, z=-0.50.",
+        "Handicapped saw TowelHolder at distance 2.46 m near position x=-1.50, z=-0.50.",
+        "Handicapped saw TowelHolder at distance 2.46 m near position x=-1.50, z=-0.50.",
+        "Handicapped saw TowelHolder at distance 2.46 m near position x=-1.50, z=-0.50."
+      ],
+      "conversation_log": [
+        "LEADER: Move ahead. I see the TowelHolder directly in front of me at 2 meters.",
+        "HANDICAPPED: Moving ahead. I don't see the TowelHolder, but I will follow your lead.",
+        "LEADER: Continue moving ahead. The TowelHolder is now at 1.77 meters.",
+        "HANDICAPPED: Moving ahead with you.",
+        "LEADER: Keep moving ahead. The TowelHolder is now at 1.29 meters.",
+        "HANDICAPPED: Moving ahead with you. I still don't see it.",
+        "LEADER: Keep moving ahead. The TowelHolder is now at 1.06 meters.",
+        "HANDICAPPED: Moving ahead with you. I still don't see it.",
+        "LEADER: MoveRight. We overshot the TowelHolder a bit with the last step. It is 1.10 meters away, I'm adjusting our position.",
+        "HANDICAPPED: Moving right with you.",
+        "LEADER: Continue moving right. The TowelHolder is 1.04 meters away, let's get closer.",
+        "HANDICAPPED: Moving right with you. I still don't see it.",
+        "LEADER: I have found the TowelHolder, it is 1.03 meters away and right in front of me. We are done.",
+        "HANDICAPPED: Understood, stopping now. I trust your perception."
+      ]
+    }
+  ]
+}

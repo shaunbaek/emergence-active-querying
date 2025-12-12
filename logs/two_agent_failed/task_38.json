@@ -1,0 +1,120 @@
+{
+  "task_meta": {
+    "task_id": 38,
+    "scene": "FloorPlan418",
+    "room_type": "bathroom",
+    "target_type": "HandTowel",
+    "goal_text": "Navigate to the HandTowel."
+  },
+  "episode_time_sec": 20.280916291987523,
+  "steps": [
+    {
+      "step": 0,
+      "task_id": 38,
+      "scene": "FloorPlan418",
+      "room_type": "bathroom",
+      "target_type": "HandTowel",
+      "goal_text": "Cooperatively navigate to the HandTowel.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "I see a towel ahead at 1.14 meters. I am moving closer. You are very close to the towel, so you can stop if you have reached it.",
+      "agent_position": {
+        "x": -2.25,
+        "y": 0.9016419649124146,
+        "z": -1.0
+      },
+      "target_visible": false,
+      "target_distance": 2.7350099086761475,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: I see a towel ahead at 1.14 meters. I am moving closer. You are very close to the towel, so you can stop if you have reached it.",
+        "HANDICAPPED: I am very close to the towel, within arm's reach. I believe I have reached the HandTowel and am stopping."
+      ]
+    },
+    {
+      "step": 0,
+      "task_id": 38,
+      "scene": "FloorPlan418",
+      "room_type": "bathroom",
+      "target_type": "HandTowel",
+      "goal_text": "Cooperatively navigate to the HandTowel.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "Done",
+      "message": "I am very close to the towel, within arm's reach. I believe I have reached the HandTowel and am stopping.",
+      "agent_position": {
+        "x": -1.75,
+        "y": 0.9016419649124146,
+        "z": -0.5
+      },
+      "target_visible": false,
+      "target_distance": 3.3531129360198975,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: I see a towel ahead at 1.14 meters. I am moving closer. You are very close to the towel, so you can stop if you have reached it.",
+        "HANDICAPPED: I am very close to the towel, within arm's reach. I believe I have reached the HandTowel and am stopping."
+      ]
+    },
+    {
+      "step": 1,
+      "task_id": 38,
+      "scene": "FloorPlan418",
+      "room_type": "bathroom",
+      "target_type": "HandTowel",
+      "goal_text": "Cooperatively navigate to the HandTowel.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "Done",
+      "message": "I have also reached the HandTowel. We are both done.",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.9016419649124146,
+        "z": -1.0
+      },
+      "target_visible": false,
+      "target_distance": 2.8104844093322754,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: I see a towel ahead at 1.14 meters. I am moving closer. You are very close to the towel, so you can stop if you have reached it.",
+        "HANDICAPPED: I am very close to the towel, within arm's reach. I believe I have reached the HandTowel and am stopping.",
+        "LEADER: I have also reached the HandTowel. We are both done.",
+        "HANDICAPPED: Understood, I am done."
+      ]
+    },
+    {
+      "step": 1,
+      "task_id": 38,
+      "scene": "FloorPlan418",
+      "room_type": "bathroom",
+      "target_type": "HandTowel",
+      "goal_text": "Cooperatively navigate to the HandTowel.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "Done",
+      "message": "Understood, I am done.",
+      "agent_position": {
+        "x": -1.75,
+        "y": 0.9016419649124146,
+        "z": -0.5
+      },
+      "target_visible": false,
+      "target_distance": 3.3531129360198975,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: I see a towel ahead at 1.14 meters. I am moving closer. You are very close to the towel, so you can stop if you have reached it.",
+        "HANDICAPPED: I am very close to the towel, within arm's reach. I believe I have reached the HandTowel and am stopping.",
+        "LEADER: I have also reached the HandTowel. We are both done.",
+        "HANDICAPPED: Understood, I am done."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "task_meta": {
+    "task_id": 84,
+    "scene": "FloorPlan27",
+    "room_type": "kitchen",
+    "target_type": "Pot",
+    "goal_text": "Navigate to the Pot."
+  },
+  "episode_time_sec": 11.46634629194159,
+  "steps": [
+    {
+      "step": 0,
+      "task_id": 84,
+      "scene": "FloorPlan27",
+      "room_type": "kitchen",
+      "target_type": "Pot",
+      "goal_text": "Cooperatively navigate to the Pot.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "RotateRight",
+      "message": "I'm rotating right to scan the area for the Pot. You should do the same.",
+      "agent_position": {
+        "x": 1.0,
+        "y": 0.9010001420974731,
+        "z": 1.0
+      },
+      "target_visible": false,
+      "target_distance": 0.9890249371528625,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: I'm rotating right to scan the area for the Pot. You should do the same.",
+        "HANDICAPPED: Understood. Rotating right."
+      ]
+    },
+    {
+      "step": 0,
+      "task_id": 84,
+      "scene": "FloorPlan27",
+      "room_type": "kitchen",
+      "target_type": "Pot",
+      "goal_text": "Cooperatively navigate to the Pot.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "RotateRight",
+      "message": "Understood. Rotating right.",
+      "agent_position": {
+        "x": 0.5,
+        "y": 0.9010001420974731,
+        "z": 1.5
+      },
+      "target_visible": false,
+      "target_distance": 1.3548599481582642,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: I'm rotating right to scan the area for the Pot. You should do the same.",
+        "HANDICAPPED: Understood. Rotating right."
+      ]
+    },
+    {
+      "step": 1,
+      "task_id": 84,
+      "scene": "FloorPlan27",
+      "room_type": "kitchen",
+      "target_type": "Pot",
+      "goal_text": "Cooperatively navigate to the Pot.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "Done",
+      "message": "I have found the Pot, it's right in front of me. We can stop now.",
+      "agent_position": {
+        "x": 1.0,
+        "y": 0.9010001420974731,
+        "z": 1.0
+      },
+      "target_visible": true,
+      "target_distance": 0.9890284538269043,
+      "leader_memory_snapshot": [
+        "Leader saw Pot at distance 0.99 m near position x=1.00, z=1.00."
+      ],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: I'm rotating right to scan the area for the Pot. You should do the same.",
+        "HANDICAPPED: Understood. Rotating right.",
+        "LEADER: I have found the Pot, it's right in front of me. We can stop now.",
+        "HANDICAPPED: Understood, stopping."
+      ]
+    },
+    {
+      "step": 1,
+      "task_id": 84,
+      "scene": "FloorPlan27",
+      "room_type": "kitchen",
+      "target_type": "Pot",
+      "goal_text": "Cooperatively navigate to the Pot.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "Done",
+      "message": "Understood, stopping.",
+      "agent_position": {
+        "x": 0.5,
+        "y": 0.9010001420974731,
+        "z": 1.5
+      },
+      "target_visible": false,
+      "target_distance": 1.3548600673675537,
+      "leader_memory_snapshot": [
+        "Leader saw Pot at distance 0.99 m near position x=1.00, z=1.00."
+      ],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: I'm rotating right to scan the area for the Pot. You should do the same.",
+        "HANDICAPPED: Understood. Rotating right.",
+        "LEADER: I have found the Pot, it's right in front of me. We can stop now.",
+        "HANDICAPPED: Understood, stopping."
+      ]
+    }
+  ]
+}

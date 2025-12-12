@@ -1,0 +1,568 @@
+{
+  "task_meta": {
+    "task_id": 88,
+    "scene": "FloorPlan25",
+    "room_type": "kitchen",
+    "target_type": "StoveBurner",
+    "goal_text": "Navigate to the StoveBurner."
+  },
+  "episode_time_sec": 60.34067445900291,
+  "steps": [
+    {
+      "step": 0,
+      "task_id": 88,
+      "scene": "FloorPlan25",
+      "room_type": "kitchen",
+      "target_type": "StoveBurner",
+      "goal_text": "Cooperatively navigate to the StoveBurner.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "I see a CounterTop and Microwave ahead. Let's move forward together.",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.9009992480278015,
+        "z": 1.0
+      },
+      "target_visible": false,
+      "target_distance": 1.6336910724639893,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: I see a CounterTop and Microwave ahead. Let's move forward together.",
+        "HANDICAPPED: Moving ahead, Leader."
+      ]
+    },
+    {
+      "step": 0,
+      "task_id": 88,
+      "scene": "FloorPlan25",
+      "room_type": "kitchen",
+      "target_type": "StoveBurner",
+      "goal_text": "Cooperatively navigate to the StoveBurner.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Moving ahead, Leader.",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.9009992480278015,
+        "z": 2.0
+      },
+      "target_visible": false,
+      "target_distance": 1.5168871879577637,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: I see a CounterTop and Microwave ahead. Let's move forward together.",
+        "HANDICAPPED: Moving ahead, Leader."
+      ]
+    },
+    {
+      "step": 1,
+      "task_id": 88,
+      "scene": "FloorPlan25",
+      "room_type": "kitchen",
+      "target_type": "StoveBurner",
+      "goal_text": "Cooperatively navigate to the StoveBurner.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "LookUp",
+      "message": "I think the StoveBurner is very close. Let's start by looking up to find it.",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.9009992480278015,
+        "z": 1.0
+      },
+      "target_visible": false,
+      "target_distance": 1.6336910724639893,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: I see a CounterTop and Microwave ahead. Let's move forward together.",
+        "HANDICAPPED: Moving ahead, Leader.",
+        "LEADER: I think the StoveBurner is very close. Let's start by looking up to find it.",
+        "HANDICAPPED: Looking up now, Leader."
+      ]
+    },
+    {
+      "step": 1,
+      "task_id": 88,
+      "scene": "FloorPlan25",
+      "room_type": "kitchen",
+      "target_type": "StoveBurner",
+      "goal_text": "Cooperatively navigate to the StoveBurner.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "LookUp",
+      "message": "Looking up now, Leader.",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.9009992480278015,
+        "z": 2.0
+      },
+      "target_visible": false,
+      "target_distance": 1.5168871879577637,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: I see a CounterTop and Microwave ahead. Let's move forward together.",
+        "HANDICAPPED: Moving ahead, Leader.",
+        "LEADER: I think the StoveBurner is very close. Let's start by looking up to find it.",
+        "HANDICAPPED: Looking up now, Leader."
+      ]
+    },
+    {
+      "step": 2,
+      "task_id": 88,
+      "scene": "FloorPlan25",
+      "room_type": "kitchen",
+      "target_type": "StoveBurner",
+      "goal_text": "Cooperatively navigate to the StoveBurner.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "I see the StoveBurner ahead now. Let's move forward to reach it.",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.9009992480278015,
+        "z": 1.0
+      },
+      "target_visible": false,
+      "target_distance": 1.6336910724639893,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: I see a CounterTop and Microwave ahead. Let's move forward together.",
+        "HANDICAPPED: Moving ahead, Leader.",
+        "LEADER: I think the StoveBurner is very close. Let's start by looking up to find it.",
+        "HANDICAPPED: Looking up now, Leader.",
+        "LEADER: I see the StoveBurner ahead now. Let's move forward to reach it.",
+        "HANDICAPPED: Moving ahead, Leader."
+      ]
+    },
+    {
+      "step": 2,
+      "task_id": 88,
+      "scene": "FloorPlan25",
+      "room_type": "kitchen",
+      "target_type": "StoveBurner",
+      "goal_text": "Cooperatively navigate to the StoveBurner.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Moving ahead, Leader.",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.9009992480278015,
+        "z": 2.0
+      },
+      "target_visible": false,
+      "target_distance": 1.5168871879577637,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: I see a CounterTop and Microwave ahead. Let's move forward together.",
+        "HANDICAPPED: Moving ahead, Leader.",
+        "LEADER: I think the StoveBurner is very close. Let's start by looking up to find it.",
+        "HANDICAPPED: Looking up now, Leader.",
+        "LEADER: I see the StoveBurner ahead now. Let's move forward to reach it.",
+        "HANDICAPPED: Moving ahead, Leader."
+      ]
+    },
+    {
+      "step": 3,
+      "task_id": 88,
+      "scene": "FloorPlan25",
+      "room_type": "kitchen",
+      "target_type": "StoveBurner",
+      "goal_text": "Cooperatively navigate to the StoveBurner.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "LookUp",
+      "message": "I don't see the StoveBurner after moving ahead. Since I believed it was very close, let's start a thorough search by looking up.",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.9009992480278015,
+        "z": 1.25
+      },
+      "target_visible": false,
+      "target_distance": 1.545783519744873,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: I see a CounterTop and Microwave ahead. Let's move forward together.",
+        "HANDICAPPED: Moving ahead, Leader.",
+        "LEADER: I think the StoveBurner is very close. Let's start by looking up to find it.",
+        "HANDICAPPED: Looking up now, Leader.",
+        "LEADER: I see the StoveBurner ahead now. Let's move forward to reach it.",
+        "HANDICAPPED: Moving ahead, Leader.",
+        "LEADER: I don't see the StoveBurner after moving ahead. Since I believed it was very close, let's start a thorough search by looking up.",
+        "HANDICAPPED: Understood, looking up now to help find it."
+      ]
+    },
+    {
+      "step": 3,
+      "task_id": 88,
+      "scene": "FloorPlan25",
+      "room_type": "kitchen",
+      "target_type": "StoveBurner",
+      "goal_text": "Cooperatively navigate to the StoveBurner.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "LookUp",
+      "message": "Understood, looking up now to help find it.",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.9009992480278015,
+        "z": 2.0
+      },
+      "target_visible": false,
+      "target_distance": 1.5168871879577637,
+      "leader_memory_snapshot": [],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: I see a CounterTop and Microwave ahead. Let's move forward together.",
+        "HANDICAPPED: Moving ahead, Leader.",
+        "LEADER: I think the StoveBurner is very close. Let's start by looking up to find it.",
+        "HANDICAPPED: Looking up now, Leader.",
+        "LEADER: I see the StoveBurner ahead now. Let's move forward to reach it.",
+        "HANDICAPPED: Moving ahead, Leader.",
+        "LEADER: I don't see the StoveBurner after moving ahead. Since I believed it was very close, let's start a thorough search by looking up.",
+        "HANDICAPPED: Understood, looking up now to help find it."
+      ]
+    },
+    {
+      "step": 4,
+      "task_id": 88,
+      "scene": "FloorPlan25",
+      "room_type": "kitchen",
+      "target_type": "StoveBurner",
+      "goal_text": "Cooperatively navigate to the StoveBurner.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "I see the StoveBurner again, ahead of us at 1.55 meters. Let's move ahead to get closer.",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.9009992480278015,
+        "z": 1.25
+      },
+      "target_visible": true,
+      "target_distance": 1.545783519744873,
+      "leader_memory_snapshot": [
+        "Leader saw StoveBurner at distance 1.55 m near position x=-2.00, z=1.25."
+      ],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: I see a CounterTop and Microwave ahead. Let's move forward together.",
+        "HANDICAPPED: Moving ahead, Leader.",
+        "LEADER: I think the StoveBurner is very close. Let's start by looking up to find it.",
+        "HANDICAPPED: Looking up now, Leader.",
+        "LEADER: I see the StoveBurner ahead now. Let's move forward to reach it.",
+        "HANDICAPPED: Moving ahead, Leader.",
+        "LEADER: I don't see the StoveBurner after moving ahead. Since I believed it was very close, let's start a thorough search by looking up.",
+        "HANDICAPPED: Understood, looking up now to help find it.",
+        "LEADER: I see the StoveBurner again, ahead of us at 1.55 meters. Let's move ahead to get closer.",
+        "HANDICAPPED: Moving ahead, Leader, following your guidance."
+      ]
+    },
+    {
+      "step": 4,
+      "task_id": 88,
+      "scene": "FloorPlan25",
+      "room_type": "kitchen",
+      "target_type": "StoveBurner",
+      "goal_text": "Cooperatively navigate to the StoveBurner.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Moving ahead, Leader, following your guidance.",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.9009992480278015,
+        "z": 2.0
+      },
+      "target_visible": false,
+      "target_distance": 1.5168871879577637,
+      "leader_memory_snapshot": [
+        "Leader saw StoveBurner at distance 1.55 m near position x=-2.00, z=1.25."
+      ],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: I see a CounterTop and Microwave ahead. Let's move forward together.",
+        "HANDICAPPED: Moving ahead, Leader.",
+        "LEADER: I think the StoveBurner is very close. Let's start by looking up to find it.",
+        "HANDICAPPED: Looking up now, Leader.",
+        "LEADER: I see the StoveBurner ahead now. Let's move forward to reach it.",
+        "HANDICAPPED: Moving ahead, Leader.",
+        "LEADER: I don't see the StoveBurner after moving ahead. Since I believed it was very close, let's start a thorough search by looking up.",
+        "HANDICAPPED: Understood, looking up now to help find it.",
+        "LEADER: I see the StoveBurner again, ahead of us at 1.55 meters. Let's move ahead to get closer.",
+        "HANDICAPPED: Moving ahead, Leader, following your guidance."
+      ]
+    },
+    {
+      "step": 5,
+      "task_id": 88,
+      "scene": "FloorPlan25",
+      "room_type": "kitchen",
+      "target_type": "StoveBurner",
+      "goal_text": "Cooperatively navigate to the StoveBurner.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "I see the StoveBurner at 1.31 meters ahead. Let's move ahead again to get closer.",
+      "agent_position": {
+        "x": -1.75,
+        "y": 0.9009992480278015,
+        "z": 1.25
+      },
+      "target_visible": true,
+      "target_distance": 1.3081462383270264,
+      "leader_memory_snapshot": [
+        "Leader saw StoveBurner at distance 1.55 m near position x=-2.00, z=1.25.",
+        "Leader saw StoveBurner at distance 1.31 m near position x=-1.75, z=1.25."
+      ],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: I see a CounterTop and Microwave ahead. Let's move forward together.",
+        "HANDICAPPED: Moving ahead, Leader.",
+        "LEADER: I think the StoveBurner is very close. Let's start by looking up to find it.",
+        "HANDICAPPED: Looking up now, Leader.",
+        "LEADER: I see the StoveBurner ahead now. Let's move forward to reach it.",
+        "HANDICAPPED: Moving ahead, Leader.",
+        "LEADER: I don't see the StoveBurner after moving ahead. Since I believed it was very close, let's start a thorough search by looking up.",
+        "HANDICAPPED: Understood, looking up now to help find it.",
+        "LEADER: I see the StoveBurner again, ahead of us at 1.55 meters. Let's move ahead to get closer.",
+        "HANDICAPPED: Moving ahead, Leader, following your guidance.",
+        "LEADER: I see the StoveBurner at 1.31 meters ahead. Let's move ahead again to get closer.",
+        "HANDICAPPED: Moving ahead, Leader, following your instruction."
+      ]
+    },
+    {
+      "step": 5,
+      "task_id": 88,
+      "scene": "FloorPlan25",
+      "room_type": "kitchen",
+      "target_type": "StoveBurner",
+      "goal_text": "Cooperatively navigate to the StoveBurner.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Moving ahead, Leader, following your instruction.",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.9009992480278015,
+        "z": 2.0
+      },
+      "target_visible": false,
+      "target_distance": 1.5168871879577637,
+      "leader_memory_snapshot": [
+        "Leader saw StoveBurner at distance 1.55 m near position x=-2.00, z=1.25.",
+        "Leader saw StoveBurner at distance 1.31 m near position x=-1.75, z=1.25."
+      ],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: I see a CounterTop and Microwave ahead. Let's move forward together.",
+        "HANDICAPPED: Moving ahead, Leader.",
+        "LEADER: I think the StoveBurner is very close. Let's start by looking up to find it.",
+        "HANDICAPPED: Looking up now, Leader.",
+        "LEADER: I see the StoveBurner ahead now. Let's move forward to reach it.",
+        "HANDICAPPED: Moving ahead, Leader.",
+        "LEADER: I don't see the StoveBurner after moving ahead. Since I believed it was very close, let's start a thorough search by looking up.",
+        "HANDICAPPED: Understood, looking up now to help find it.",
+        "LEADER: I see the StoveBurner again, ahead of us at 1.55 meters. Let's move ahead to get closer.",
+        "HANDICAPPED: Moving ahead, Leader, following your guidance.",
+        "LEADER: I see the StoveBurner at 1.31 meters ahead. Let's move ahead again to get closer.",
+        "HANDICAPPED: Moving ahead, Leader, following your instruction."
+      ]
+    },
+    {
+      "step": 6,
+      "task_id": 88,
+      "scene": "FloorPlan25",
+      "room_type": "kitchen",
+      "target_type": "StoveBurner",
+      "goal_text": "Cooperatively navigate to the StoveBurner.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "MoveAhead",
+      "message": "We are very close to the StoveBurner, let's move ahead one final step.",
+      "agent_position": {
+        "x": -1.5,
+        "y": 0.9009992480278015,
+        "z": 1.25
+      },
+      "target_visible": true,
+      "target_distance": 1.0761257410049438,
+      "leader_memory_snapshot": [
+        "Leader saw StoveBurner at distance 1.55 m near position x=-2.00, z=1.25.",
+        "Leader saw StoveBurner at distance 1.31 m near position x=-1.75, z=1.25.",
+        "Leader saw StoveBurner at distance 1.08 m near position x=-1.50, z=1.25."
+      ],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: I see a CounterTop and Microwave ahead. Let's move forward together.",
+        "HANDICAPPED: Moving ahead, Leader.",
+        "LEADER: I think the StoveBurner is very close. Let's start by looking up to find it.",
+        "HANDICAPPED: Looking up now, Leader.",
+        "LEADER: I see the StoveBurner ahead now. Let's move forward to reach it.",
+        "HANDICAPPED: Moving ahead, Leader.",
+        "LEADER: I don't see the StoveBurner after moving ahead. Since I believed it was very close, let's start a thorough search by looking up.",
+        "HANDICAPPED: Understood, looking up now to help find it.",
+        "LEADER: I see the StoveBurner again, ahead of us at 1.55 meters. Let's move ahead to get closer.",
+        "HANDICAPPED: Moving ahead, Leader, following your guidance.",
+        "LEADER: I see the StoveBurner at 1.31 meters ahead. Let's move ahead again to get closer.",
+        "HANDICAPPED: Moving ahead, Leader, following your instruction.",
+        "LEADER: We are very close to the StoveBurner, let's move ahead one final step.",
+        "HANDICAPPED: Moving ahead with you, Leader."
+      ]
+    },
+    {
+      "step": 6,
+      "task_id": 88,
+      "scene": "FloorPlan25",
+      "room_type": "kitchen",
+      "target_type": "StoveBurner",
+      "goal_text": "Cooperatively navigate to the StoveBurner.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "MoveAhead",
+      "message": "Moving ahead with you, Leader.",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.9009992480278015,
+        "z": 2.0
+      },
+      "target_visible": false,
+      "target_distance": 1.5168871879577637,
+      "leader_memory_snapshot": [
+        "Leader saw StoveBurner at distance 1.55 m near position x=-2.00, z=1.25.",
+        "Leader saw StoveBurner at distance 1.31 m near position x=-1.75, z=1.25.",
+        "Leader saw StoveBurner at distance 1.08 m near position x=-1.50, z=1.25."
+      ],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: I see a CounterTop and Microwave ahead. Let's move forward together.",
+        "HANDICAPPED: Moving ahead, Leader.",
+        "LEADER: I think the StoveBurner is very close. Let's start by looking up to find it.",
+        "HANDICAPPED: Looking up now, Leader.",
+        "LEADER: I see the StoveBurner ahead now. Let's move forward to reach it.",
+        "HANDICAPPED: Moving ahead, Leader.",
+        "LEADER: I don't see the StoveBurner after moving ahead. Since I believed it was very close, let's start a thorough search by looking up.",
+        "HANDICAPPED: Understood, looking up now to help find it.",
+        "LEADER: I see the StoveBurner again, ahead of us at 1.55 meters. Let's move ahead to get closer.",
+        "HANDICAPPED: Moving ahead, Leader, following your guidance.",
+        "LEADER: I see the StoveBurner at 1.31 meters ahead. Let's move ahead again to get closer.",
+        "HANDICAPPED: Moving ahead, Leader, following your instruction.",
+        "LEADER: We are very close to the StoveBurner, let's move ahead one final step.",
+        "HANDICAPPED: Moving ahead with you, Leader."
+      ]
+    },
+    {
+      "step": 7,
+      "task_id": 88,
+      "scene": "FloorPlan25",
+      "room_type": "kitchen",
+      "target_type": "StoveBurner",
+      "goal_text": "Cooperatively navigate to the StoveBurner.",
+      "policy": "two_agent",
+      "agent_id": 0,
+      "role": "leader",
+      "action": "Done",
+      "message": "We have successfully reached the StoveBurner, great work team!",
+      "agent_position": {
+        "x": -1.25,
+        "y": 0.9009992480278015,
+        "z": 1.25
+      },
+      "target_visible": true,
+      "target_distance": 0.8543106317520142,
+      "leader_memory_snapshot": [
+        "Leader saw StoveBurner at distance 1.55 m near position x=-2.00, z=1.25.",
+        "Leader saw StoveBurner at distance 1.31 m near position x=-1.75, z=1.25.",
+        "Leader saw StoveBurner at distance 1.08 m near position x=-1.50, z=1.25.",
+        "Leader saw StoveBurner at distance 0.85 m near position x=-1.25, z=1.25."
+      ],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: I see a CounterTop and Microwave ahead. Let's move forward together.",
+        "HANDICAPPED: Moving ahead, Leader.",
+        "LEADER: I think the StoveBurner is very close. Let's start by looking up to find it.",
+        "HANDICAPPED: Looking up now, Leader.",
+        "LEADER: I see the StoveBurner ahead now. Let's move forward to reach it.",
+        "HANDICAPPED: Moving ahead, Leader.",
+        "LEADER: I don't see the StoveBurner after moving ahead. Since I believed it was very close, let's start a thorough search by looking up.",
+        "HANDICAPPED: Understood, looking up now to help find it.",
+        "LEADER: I see the StoveBurner again, ahead of us at 1.55 meters. Let's move ahead to get closer.",
+        "HANDICAPPED: Moving ahead, Leader, following your guidance.",
+        "LEADER: I see the StoveBurner at 1.31 meters ahead. Let's move ahead again to get closer.",
+        "HANDICAPPED: Moving ahead, Leader, following your instruction.",
+        "LEADER: We are very close to the StoveBurner, let's move ahead one final step.",
+        "HANDICAPPED: Moving ahead with you, Leader.",
+        "LEADER: We have successfully reached the StoveBurner, great work team!",
+        "HANDICAPPED: Understood, Leader. I am also done."
+      ]
+    },
+    {
+      "step": 7,
+      "task_id": 88,
+      "scene": "FloorPlan25",
+      "room_type": "kitchen",
+      "target_type": "StoveBurner",
+      "goal_text": "Cooperatively navigate to the StoveBurner.",
+      "policy": "two_agent",
+      "agent_id": 1,
+      "role": "handicapped",
+      "action": "Done",
+      "message": "Understood, Leader. I am also done.",
+      "agent_position": {
+        "x": -2.0,
+        "y": 0.9009992480278015,
+        "z": 2.0
+      },
+      "target_visible": false,
+      "target_distance": 1.5168871879577637,
+      "leader_memory_snapshot": [
+        "Leader saw StoveBurner at distance 1.55 m near position x=-2.00, z=1.25.",
+        "Leader saw StoveBurner at distance 1.31 m near position x=-1.75, z=1.25.",
+        "Leader saw StoveBurner at distance 1.08 m near position x=-1.50, z=1.25.",
+        "Leader saw StoveBurner at distance 0.85 m near position x=-1.25, z=1.25."
+      ],
+      "handicapped_memory_snapshot": [],
+      "conversation_log": [
+        "LEADER: I see a CounterTop and Microwave ahead. Let's move forward together.",
+        "HANDICAPPED: Moving ahead, Leader.",
+        "LEADER: I think the StoveBurner is very close. Let's start by looking up to find it.",
+        "HANDICAPPED: Looking up now, Leader.",
+        "LEADER: I see the StoveBurner ahead now. Let's move forward to reach it.",
+        "HANDICAPPED: Moving ahead, Leader.",
+        "LEADER: I don't see the StoveBurner after moving ahead. Since I believed it was very close, let's start a thorough search by looking up.",
+        "HANDICAPPED: Understood, looking up now to help find it.",
+        "LEADER: I see the StoveBurner again, ahead of us at 1.55 meters. Let's move ahead to get closer.",
+        "HANDICAPPED: Moving ahead, Leader, following your guidance.",
+        "LEADER: I see the StoveBurner at 1.31 meters ahead. Let's move ahead again to get closer.",
+        "HANDICAPPED: Moving ahead, Leader, following your instruction.",
+        "LEADER: We are very close to the StoveBurner, let's move ahead one final step.",
+        "HANDICAPPED: Moving ahead with you, Leader.",
+        "LEADER: We have successfully reached the StoveBurner, great work team!",
+        "HANDICAPPED: Understood, Leader. I am also done."
+      ]
+    }
+  ]
+}
