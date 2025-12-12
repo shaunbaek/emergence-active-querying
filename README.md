@@ -189,8 +189,6 @@ This script will:
 5. Run two-agent policy (100 tasks)
 6. Report completion status
 
-**Note**: Running all experiments takes approximately 3-7.5 hours total.
-
 ### Run Partial Tasks for Two-Agent Policy
 
 For testing or running specific subsets of tasks with the two-agent policy, use the partial task runner:
