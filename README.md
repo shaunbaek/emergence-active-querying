@@ -1,7 +1,5 @@
 # Emergence: Overcoming Privileged Information Bias in Asymmetric Embodied Agents via Active Querying
 
-**Research Artifact for Paper Submission**
-
 ## Abstract
 
 Large Language Models (LLMs) suffer from "symbol grounding" failures in embodied environments, particularly where information is asymmetrically distributed. We investigate the "Privileged Information Bias" (or Curse of Knowledge), where a knowledgeable "Leader" agent fails to guide a sensor-limited "Follower" due to a lack of Theory of Mind. We propose a novel Asymmetric Assistive Reasoning framework within AI2-THOR to quantify this phenomenon. Our experiments reveal a significant "Success Gap": while the Leader agent successfully perceives the target in 35.0% of episodes, the collaborative team succeeds only 17.0% of the time. This implies that nearly half of all feasible plans fail during communication. We demonstrate that a "Pull-based" communication protocol (active querying by the follower) is significantly more robust than "Push-based" instruction, with successful episodes featuring 2x the frequency of clarification requests. This research contributes to the broader fields of assistive robotics, autonomous systems and collaborative human-AI and AI-AI systems.
